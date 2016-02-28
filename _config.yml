@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         kramdown
+highlighter:        rouge
+gems: [jekyll-paginate]
+
+# Permalinks
+permalink:        /:year/:month/:day/:slug.html
+
+# Setup
+title:            Why &amp; How
+tagline:          '回炉夜话'
+description:      '以生之有涯随知之无涯，殆矣，然何为，为何为。'
+url:              https://whyhow.github.io
+
+author:
+  name:           'YiZi &amp; YiYin'
+  url:            https://whyhow.github.io
+
+paginate:         10
+
+# Custom vars
+
+github:
+  repo:           https://github.com/whyhow
