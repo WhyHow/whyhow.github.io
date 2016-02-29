@@ -48,7 +48,9 @@ table {
 	border-spacing: 0;
 }
 
-
+strong {
+  font-weight:bold;
+}
 
 #categories {
     /* background image block */
@@ -116,11 +118,24 @@ p{
 	text-align: center;
 }
 
+.logo {
+  margin: 2rem auto;
+  display: block;
+  width: 8rem;
+}
+
 p.author {
-	margin: 4rem auto;
+	margin: 2rem auto;
 }
 
 p.copyright {
 	color:#999;
 	margin-bottom: 2rem;
+  font-size: 0.85rem;
+}
+
+p.platform {
+  color:#666;
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
 }
