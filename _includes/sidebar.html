@@ -2,11 +2,11 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1><a href="/">{{ site.title }}</a></h1>
-      <h2><a href="/">{{ site.tagline }}</a></h2>
-      <p class="lead">{{ site.description }}</p>
+      <h2 class="mobilehidden"><a href="/">{{ site.tagline }}</a></h2>
+      <p class="lead mobilehidden">{{ site.description }}</p>
     </div>
 
-    <ul class="sidebar-nav">
+    <ul class="sidebar-nav mobilehidden">
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
@@ -23,6 +23,6 @@
         {% endif %}
       {% endfor %}
     </ul>
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class="mobilehidden">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
