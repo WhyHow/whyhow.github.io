@@ -4,7 +4,7 @@ title: 思：学而不思则罔
 slug: Think
 ---
 <div class="prelude">
-我思故我在。点点思考勾出生命的迹线，期待与您的相交。
+我思故我在。点滴思考勾勒出生命的迹线，期待与您的相交。
 </div>
 <hr/>
 <div class="posts">
