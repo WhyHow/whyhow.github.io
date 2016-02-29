@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 说：巧言令色，鲜矣仁
+title: 说：其言也讱
 slug: Speak
 ---
 <div class="prelude">
-	孔子说：学而不思则罔。
+有事长、无事短。虎啸虫鸣，皆为心声。此乃乙回庐之树洞也。
 </div>
 <hr/>
 <div class="posts">

@@ -110,6 +110,11 @@ h1 {
 	text-align: center;
 }
 
+h1.title-eng {
+  font-family: "Cooper","Cooper Black","Cooper Std",san-serif;
+  font-weight: normal;
+}
+
 #info {
 	margin-top: 2rem;
 }
@@ -130,7 +135,7 @@ p.author {
 
 p.copyright {
 	color:#999;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
   font-size: 0.85rem;
 }
 

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 听：听其言而观其行
+title: 听：敏而好学
 slug: Listen
 ---
 <div class="prelude">
-	孔子说：学而不思则罔。
+风应四时，起于八方。树随风动，树动风改。听风辨声，集叶知秋。
 </div>
 <hr/>
 <div class="posts">

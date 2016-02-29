@@ -72,6 +72,12 @@ jQuery(function($) {
     }
     $('html').css('font-size',width/38+'px');
 
+    var forts = ['苟富贵莫相忘','贫穷而有品位','威武不能屈','开源节流','贫而乐'];
+
+    var displayfort = Math.floor(Math.random()*forts.length);
+
+    $('#fort').html(forts[displayfort]);
+
     $(window).resize(function() {
         'use strict',
         height = $(window).height();

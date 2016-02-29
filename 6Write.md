@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 写：君子以文会友，以友辅仁
+title: 写：贫而乐
 slug: Write
 ---
 <div class="prelude">
-	孔子说：学而不思则罔。
+手拙不能画，也能以照片留住心头感动。乙回庐之画廊，不为专业，只为感恩这世界的温柔。
 </div>
 <hr/>
 <div class="posts">

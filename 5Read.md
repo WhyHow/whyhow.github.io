@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 读：思而不学则殆
+title: 读：行有余力，则以学文
 slug: Read
 ---
 <div class="prelude">
-	孔子说：学而不思则罔。
+世事洞明皆学问，人情练达即文章。读文章，知百态。乙回庐的剪报集，奇文共欣赏，疑义相与析。
 </div>
 <hr/>
 <div class="posts">
