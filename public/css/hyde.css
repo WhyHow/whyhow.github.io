@@ -65,6 +65,12 @@ html {
     display:none;
 }
 
+.mobiletitle {
+  font-size:2rem;
+  padding: 0.4rem;
+  margin-top:0rem;
+}
+
 @media (min-width: 48rem) {
   .sidebar {
     visiability:visible;
@@ -79,6 +85,9 @@ html {
   }
   .mobilehidden {
     display:block;
+  }
+  .mobiletitle {
+    margin-top: 1rem;
   }
 }
 
