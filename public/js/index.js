@@ -70,6 +70,7 @@ jQuery(function($) {
         $('#Write').css('margin-left', width / 3 * 2.1)
         $('#Write').css('margin-top', width / 3 * 1.1)
     }
+    $('html').css('font-size',width/38+'px');
 
     $(window).resize(function() {
         'use strict',
@@ -136,5 +137,6 @@ jQuery(function($) {
             $('#Write').css('margin-left', width / 3 * 2.1)
             $('#Write').css('margin-top', width / 3 * 1.1)
         }
+        $('html').css('font-size',width/38+'px');
     });
 });
