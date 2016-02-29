@@ -85,8 +85,5 @@ jQuery(function($) {
 
     if (width != $(window).width()) Resize();
 
-    $(window).resize(Resize);
-    if("onorientationchange" in window){
-        $(window).onorientationchange = Resize;
-    }
+    $(window).on('resize orientationchange webkitfullscreenchange mozfullscreenchange fullscreenchange',Resize);
 });
