@@ -1,0 +1,13 @@
+---
+author: YiZi
+comments: true
+date: 2016-02-29 15:16:44 +0800
+layout: post
+slug: Phoenix
+title: 凤凰的诞生
+categories: [写]
+tags:
+-  壁画
+-  相片
+---
+![](/public/images/gallery/Phoenix.jpg)
