@@ -1,0 +1,13 @@
+---
+author: YiZi
+comments: true
+date: 2016-02-29 14:26:33 +0800
+layout: post
+slug: Climb
+title: 攀登
+categories: [写]
+tags:
+-  梯子
+-  相片
+---
+![](/public/images/gallery/Climb.jpg)

@@ -8,7 +8,7 @@ layout: default
   &emsp;   {% assign tags = page.tags %}
   {% for tag in tags %}
     {{ tag }}
-  {% endfor %} &emsp; <a href="{{ post.url }}#comments"> 添加评论 </a> </span>
+  {% endfor %} &emsp; <a href="{{ page.url }}#comments"> 添加评论 </a> </span>
   {{ content }}
 </div>
 
