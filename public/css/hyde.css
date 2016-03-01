@@ -273,8 +273,7 @@ a.sidebar-nav-item:focus {
 #back-top {
   position: fixed;
   bottom: 0.5rem;
-  margin-right: 0.5rem;
-  margin-left: 90%;
+  right: 0.5rem;
 }
 #back-top a {
   width: 64px;
