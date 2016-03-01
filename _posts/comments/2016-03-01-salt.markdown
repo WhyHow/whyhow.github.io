@@ -1,0 +1,30 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-01 21:41:06 +0800
+layout: post
+slug: SaltWP
+title: 科学家对于盐对身体的影响反映不一
+categories: [听]
+tags:
+-  华盛顿邮报
+---
+![](//img.washingtonpost.com/wp-apps/imrs.php?src=https://img.washingtonpost.com/blogs/wonkblog/files/2016/02/trinquart.png&w=800)
+
+
+<div class="quote"> <blockquote>
+    	来自<a href="http://www.solidot.org/story?sid=47199">奇客网</a>的消息评论到
+    </blockquote>
+</div>
+
+## 科学家在盐摄入量上的立场呈两极分化
+一部分科学家警告，我们正在被盐杀死——每天饮食中摄入的盐过量；另一部分科学家则认为我们的盐摄入量并没有高到危及健康。到底摄入多少盐对人体是健康的？科学家对此呈两极分化。对数百篇论文的分析显示，两组立场不同的科学家生活在不同的平行科学宇宙内。一部分科学家写论文谈论摄入盐过量的危险性，通常引用支持他们结论的论文；一部分科学家写论文驳斥或淡化危险性，通常引用支持他们立场的论文。这一现象显示了在盐的消耗上科学界的两极分化。
+
+相关文章来自华盛顿邮报的文章：[Scientists can’t agree whether salt is killing us. Here’s why.](https://www.washingtonpost.com/news/wonk/wp/2016/02/17/scientists-cant-agree-whether-salt-is-killing-us-heres-why/)
+<hr/>
+<div class="commentsonquote">
+<div class="yizi">
+乙子曰：科学界对于同一问题表现出不同的反应是正常情况，但是媒体和科普工作者片面地听信部分研究成果，即便是发表在顶级期刊上的研究成果，就进行对民众的科普则是有害的。像华盛顿邮报这样将这个问题的研究现状通过简单易懂的图片和文字解释给大众无疑对于民众比较公正的理解科学界对问题的理解程度是大有裨益的。在网络上，另外一种类似的现象则更为有害，也即根据一篇文章的相关性结果就宣称科学研究表明两事物有关，诸如宣称“空气污染或可导致肥胖”。这样的论断虽然严格意义上并不算错误，不管怎么讲说法中“或可”似乎可以当作作者的免罪牌，然而这样的文章给人的印象无疑是科学研究证明了这两者之间存在因果关系，而这一点在逻辑上也是完全错误的。基于相关性的研究是无法获得归因性的结果，实际上在学术界发表归因性的文章需要的证据和努力远远超过相关性研究。我希望以后在引述相关性研究时最好能够提供更为广泛的信息，这篇邮报文章无疑是一个很好的范例，或者有更客观的描述，不要做标题党或者误导生产者。</div>
+<div class="yiyin">
+乙寅曰：</div>
+</div>
