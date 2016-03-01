@@ -11,7 +11,7 @@ slug: Listen
 <div class="load">
 </div>
 </div>
-<a id="next">加载更多内容</a>
+<a id="next">加载更多内容中，请稍候……</a>
 
 
 <script type="text/javascript" src="/public/js/jquery.min.js"></script>
