@@ -6,13 +6,13 @@ slug: Listen
 <div class="prelude">
 风应四时，起于八方。树随风动，树动风改。听风辨声，集叶知秋。
 </div>
-<hr/>
+<a id="next">加载更多内容中，请稍候……</a>
+<div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
 </div>
 </div>
-<a id="next">加载更多内容中，请稍候……</a>
-
+<a id="getlist" href="/indexes/bycategories/3">载入本类文章列表</a>
 
 <script type="text/javascript" src="/public/js/jquery.min.js"></script>
 <script type="text/javascript" src="/public/js/whyhow.js"></script>
@@ -32,7 +32,13 @@ slug: Listen
 
    fetchingContent = false;    
    window.onscroll = yHandler;
-   $(document).ready(yHandler);
+   $(document).ready(function(){
+    yHandler();
+    $('#getlist').on('click', function(e){
+      e.preventDefault();
+      $('#indexcontainer').load($(this).attr('href'));
+    })
+   });
 </script>
 
 

@@ -6,7 +6,8 @@ slug: Behave
 <div class="prelude">
 实践方出真知。粮草短缺不是借口。竹杖芒鞋轻胜马，谁怕？一起行动起来吧。
 </div>
-<hr/>
+<a id="getlist" href="/indexes/bycategories/2">载入本类文章列表</a>
+<div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
 </div>
@@ -32,7 +33,13 @@ if(urls.length>0){
 
    fetchingContent = false;    
    window.onscroll = yHandler;
-   $(document).ready(yHandler);
+   $(document).ready(function(){
+    yHandler();
+    $('#getlist').on('click', function(e){
+      e.preventDefault();
+      $('#indexcontainer').load($(this).attr('href'));
+    })
+   });
 </script>
 
 

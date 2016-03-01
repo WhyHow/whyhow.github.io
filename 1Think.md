@@ -6,7 +6,8 @@ slug: Think
 <div class="prelude">
 我思故我在。点滴思考勾勒出生命的迹线，期待与您的相交。
 </div>
-<hr/>
+<a id="getlist" href="/indexes/bycategories/1">载入本类文章列表</a>
+<div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
 </div>
@@ -32,7 +33,13 @@ if(urls.length>0){
 
    fetchingContent = false;    
    window.onscroll = yHandler;
-   $(document).ready(yHandler);
+   $(document).ready(function(){
+    yHandler();
+    $('#getlist').on('click', function(e){
+      e.preventDefault();
+      $('#indexcontainer').load($(this).attr('href'));
+    })
+   });
 </script>
 
 

@@ -6,13 +6,13 @@ slug: Speak
 <div class="prelude">
 有事长、无事短。虎啸虫鸣，皆为心声。此乃乙回庐之树洞也。
 </div>
-<hr/>
+<a id="getlist" href="/indexes/bycategories/4">载入本类文章列表</a>
+<div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
 </div>
 </div>
 <a id="next">加载更多内容中，请稍候……</a>
-
 
 <script type="text/javascript" src="/public/js/jquery.min.js"></script>
 <script type="text/javascript" src="/public/js/whyhow.js"></script>
@@ -32,7 +32,12 @@ slug: Speak
 
    fetchingContent = false;    
    window.onscroll = yHandler;
-   $(document).ready(yHandler);
-</script>
+   $(document).ready(function(){
+    yHandler();
+    $('#getlist').on('click', function(e){
+      e.preventDefault();
+      $('#indexcontainer').load($(this).attr('href'));
+    })
+   });</script>
 
 

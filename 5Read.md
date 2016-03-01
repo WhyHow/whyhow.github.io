@@ -6,7 +6,8 @@ slug: Read
 <div class="prelude">
 世事洞明皆学问，人情练达即文章。读文章，知百态。乙回庐的剪报集，奇文共欣赏，疑义相与析。
 </div>
-<hr/>
+<a id="getlist" href="/indexes/bycategories/5">载入本类文章列表</a>
+<div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
 </div>
@@ -31,7 +32,13 @@ if(urls.length>0){
 }
    fetchingContent = false;    
    window.onscroll = yHandler;
-   $(document).ready(yHandler);
+   $(document).ready(function(){
+    yHandler();
+    $('#getlist').on('click', function(e){
+      e.preventDefault();
+      $('#indexcontainer').load($(this).attr('href'));
+    })
+   });
 </script>
 
 
