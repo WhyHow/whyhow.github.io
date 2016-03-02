@@ -271,27 +271,4 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-#back-top {
-  position: fixed;
-  bottom: 0.5rem;
-  right: 0.5rem;
-}
-#back-top a {
-  width: 64px;
-  height: 76px;
-  display: block;
-  background: url(/public/images/backtotop.png) no-repeat center center;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  transition: 1s;
-}
-#back-top a:hover {
-  background-color: #aaa;
-}
-.more {
-  text-align: right;
-  font-size: 0.9rem;
-}
+

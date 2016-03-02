@@ -34,10 +34,7 @@ if(urls.length>0){
    window.onscroll = yHandler;
    $(document).ready(function(){
     yHandler();
-    $('#getlist').on('click', function(e){
-      e.preventDefault();
-      $('#indexcontainer').load($(this).attr('href'));
-    })
+    getIndex();
    });
 </script>
 
