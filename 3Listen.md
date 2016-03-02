@@ -12,8 +12,8 @@ slug: Listen
 <div class="posts">
 <div class="load">
 </div>
-<a id="next">加载更多内容中，请稍候……</a>
 </div>
+<a id="next">加载更多内容中，请稍候……</a>
 
 <script type="text/javascript" src="/public/js/jquery.min.js"></script>
 <script type="text/javascript" src="/public/js/whyhow.js"></script>
