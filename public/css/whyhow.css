@@ -42,7 +42,7 @@
   transition: 1s;
 }
 #back-top a:hover {
-  background-color: #f30;
+  background-color: rgba(200, 50, 0, 0.5);
 }
 .more {
   text-align: right;
