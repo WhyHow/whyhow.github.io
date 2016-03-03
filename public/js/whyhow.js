@@ -44,7 +44,7 @@ function handleSaying() {
                 $('.sayings').append('<div class="load"/>');
                 $('#next').attr('href', urls[index]);
             }
-            yHandler(); //这里不递归不科学
+            handleSaying(); //这里不递归不科学
         });
     }
 }

@@ -6,8 +6,7 @@ slug: Speak
 <div class="prelude">
 有事长、无事短。虎啸虫鸣，皆为心声。此乃乙回庐之树洞也。
 </div>
-<a id="getlist" href="/indexes/bycategories/4">载入本类文章列表</a>
-<div id="indexcontainer"></div><hr/>
+<hr/>
 <div class="sayings">
 <div class="load">
 </div>
@@ -34,7 +33,6 @@ slug: Speak
    window.onscroll = handleSaying;
    $(document).ready(function(){
     handleSaying();
-    getIndex();
    });</script>
 
 
