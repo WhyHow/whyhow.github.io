@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-03 18:22:07 +0800
 layout: post
 slug: jingyanZZGXS
-title: 道德松弛是文明腐败的先兆吗？
+title: 研究中经验的作用和地位
 categories: [读]
 tags:
 -  中国哲学史
