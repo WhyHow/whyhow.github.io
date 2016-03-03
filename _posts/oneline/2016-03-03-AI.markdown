@@ -9,6 +9,7 @@ categories: [说]
 tags:
 -  点滴
 ---
+<div class="timestamp">{{ page.date | date: "%Y年%月%d年 %H:%M:%S" }}</div>
 <div class="saying">
 最近围棋大战真是火热到不行了。但是以现在人工智能的发展水平，我想起了一个故事，一个很老很老的故事，老到找起来都花了点时间（引自《列子——说符第八》）：
 <blockquote>

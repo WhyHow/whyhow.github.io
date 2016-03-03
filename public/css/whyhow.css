@@ -86,3 +86,10 @@ div.sayings>div>div.saying{
   line-height: 1.5rem;
 }
 
+.timestamp{
+  text-align:right;
+  font-size:0.8rem;
+  color:#888;
+  margin-right:2rem;
+}
+
