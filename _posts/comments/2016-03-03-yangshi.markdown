@@ -27,4 +27,6 @@ tags:
 <div class="commentsonquote">
 <div class="yiyin">看到新闻，脑子的第一反应是“神仙打架，……”。我这是被迫害妄想了吧。
 </div>
+<div class="yizi">操守何在？
+</div>
 </div>
