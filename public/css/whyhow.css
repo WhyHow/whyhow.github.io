@@ -61,3 +61,29 @@
   text-align: right;
   font-size: 0.9rem;
 }
+.sayings{
+  line-height:1.5rem;
+}
+div.sayings>div>div.saying{
+  text-indent:2rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.writecomments{
+    text-align: right;
+    margin-right: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.writecomments::before{
+  content:"> ";
+}
+
+.readreview{
+  background:#fff8dc;
+  padding: 1rem;
+  margin: -0.5rem;
+  line-height: 1.5rem;
+}
+

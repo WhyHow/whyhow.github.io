@@ -8,7 +8,7 @@ slug: Speak
 </div>
 <a id="getlist" href="/indexes/bycategories/4">载入本类文章列表</a>
 <div id="indexcontainer"></div><hr/>
-<div class="posts">
+<div class="sayings">
 <div class="load">
 </div>
 </div>
@@ -31,9 +31,9 @@ slug: Speak
    }
 
    fetchingContent = false;    
-   window.onscroll = yHandler;
+   window.onscroll = handleSaying;
    $(document).ready(function(){
-    yHandler();
+    handleSaying();
     getIndex();
    });</script>
 

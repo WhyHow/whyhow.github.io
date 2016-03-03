@@ -5,7 +5,7 @@ date: 2016-02-27 00:02:22
 layout: post
 slug: NewAuthor
 title: 重大消息：网站升级了！
-categories: [说]
+categories: [行]
 tags:
 -  网站相关
 ---
