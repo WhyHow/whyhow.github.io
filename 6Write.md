@@ -7,7 +7,7 @@ slug: Write
 手拙不能画，也能以照片留住心头感动。乙回庐之画廊，不为专业，只为感恩这世界的温柔。
 </div>
 <a id="getlist" href="/indexes/bycategories/6">载入本类文章列表</a>
-<div id="indexcontainer"> </div><hr/>
+<div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
 </div>
