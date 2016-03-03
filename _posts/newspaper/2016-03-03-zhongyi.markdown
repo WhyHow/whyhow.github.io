@@ -11,11 +11,12 @@ tags:
 -  中医
 ---
 <img src="/public/images/newspaper/zhongyi.jpg" width="300px">
- <div class="readreview">
-很喜欢这篇小文章。看完后老想着这作者是粉是黑呢？其实作者什么也没多说，只是客观记述了一件事。
-</div>
 
 <div class="quote"> <blockquote>
     	以上内容翻拍自：新民晚报 2016年2月26日</a>
     </blockquote>
+</div>
+
+<div class="readreview">
+很喜欢这篇小文章。看完后老想着这作者是粉是黑呢？其实作者什么也没多说，只是客观记述了一件事。
 </div>

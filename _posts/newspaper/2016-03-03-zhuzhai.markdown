@@ -12,11 +12,10 @@ tags:
 ---
 ![](/public/images/newspaper/zhuzhai.jpg)
 
-<div class="readreview">
-而今中国，住宅是战胜贫困的证明。
-</div>
-
 <div class="quote"> <blockquote>
     	以上内容翻拍自：新民晚报 2016年2月27日</a>
     </blockquote>
+</div>
+<div class="readreview">
+而今中国，住宅是战胜贫困的证明。
 </div>
