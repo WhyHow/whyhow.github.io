@@ -86,3 +86,11 @@ $(document).ready(function() {
     });
 
 });
+
+var cat2ind = new Array();
+cat2ind['思']=1;
+cat2ind['行']=2;
+cat2ind['听']=3;
+cat2ind['说']=4;
+cat2ind['读']=5;
+cat2ind['写']=6;
