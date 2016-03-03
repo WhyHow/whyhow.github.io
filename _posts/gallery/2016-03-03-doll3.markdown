@@ -1,0 +1,13 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-03 13:12:28 +0800
+layout: post
+slug: Doll3
+title: 别睡了，起来玩
+categories: [写]
+tags:
+-  泥人张
+-  相片
+---
+![](/public/images/gallery/doll/3.jpg)
