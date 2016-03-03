@@ -3,8 +3,14 @@ layout: page
 title: 关于
 slug: About
 ---
-<img src="/public/logo.svg" align="center" alt="Logo"/>
-<h2>Why & How  回炉夜话</h2>
+<style>
+    .rotatinglogo { position: absolute; width: 16rem; height: 16rem; margin: 2rem auto; -webkit-animation:spin 2.5s linear infinite; -moz-animation:spin 2.5s linear infinite; animation:spin 2.5s linear infinite; } @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } } @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } } @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+</style>
+
+<h2>Why &amp; How  回炉夜话</h2>
+
+<div style="height:20rem;">
+<a href='/'><img class="rotatinglogo" src="/public/logo.svg" alt="Logo" /></a></div>
 
 ### 古语有云
 
