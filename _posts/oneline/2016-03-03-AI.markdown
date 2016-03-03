@@ -3,8 +3,8 @@ author: YiZi
 comments: true
 date: 2016-03-03 11:16:36 +0800
 layout: post
-slug: Say030302
-title: Say030302
+slug: Say0303AI
+title: Say0303AI
 categories: [说]
 tags:
 -  点滴
