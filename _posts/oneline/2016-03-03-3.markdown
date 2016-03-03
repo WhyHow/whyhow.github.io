@@ -11,5 +11,5 @@ tags:
 ---
 <div class="saying">
 真的一夜之间，柳树就绿了。<br/>
-<img src="https://github.com/WhyHow/whyhow.github.io/tree/master/public/images/liushu.jpg"/>
+<img src="/public/images/liushu.jpg"/>
 </div>
