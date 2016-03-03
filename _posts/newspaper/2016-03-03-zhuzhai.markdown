@@ -1,0 +1,22 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-03 09:53:06 +0800
+layout: post
+slug: zhuzhaiXMWB
+title: 住宅与贫困
+categories: [读]
+tags:
+-  新民晚报
+-  住房
+---
+![](/public/images/newspaper/zhuzhai.jpg)
+
+<div class="readreview">
+而今中国，住宅是战胜贫困的证明。
+</div>
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：新民晚报 2016年2月27日</a>
+    </blockquote>
+</div>

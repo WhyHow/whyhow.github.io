@@ -1,0 +1,30 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-03 10:34:49 +0800
+layout: post
+slug: 央视
+title: 央视曝光工行融e购商城
+categories: [听]
+tags:
+-  新浪微博
+-  财经网
+---
+<div class="quote"> <blockquote>
+    	来自<a href="http://industry.caijing.com.cn/20160302/4078947.shtml">财经网</a>（<a herf="http://weibo.com/1642088277/DkqPBkUXH?type=repost#_rnd1456971458924">微博</a>）的消息提到  
+    </blockquote>
+</div>
+
+<div class="WB_editor_iframe" node-type="contentBody" style="opacity: 1; zoom: 1;">
+
+央视财经频道的《315在行动》特别节目报道了消费者在工行网购商城买到假货的消息：
+
+<div class="quote"><blockquote>
+<h3>央视曝光工商银行融e购商城：白银冒充铂金</h3> 消费者吴先生在中国工商银行的融e购商城给老婆买了吊坠。疑心质量的他将吊坠送到检测机构却发现：宣传说吊坠托是18K白金，检测报告说全都是925银；所谓的金镶钻，说是天然金镶钻，检测出来是合成立方氧化锆。</blockquote></div>
+
+
+<hr/>
+<div class="commentsonquote">
+<div class="yiyin">看到新闻，脑子的第一反应是“神仙打架，……”。我这是被迫害妄想了吧。
+</div>
+</div>
