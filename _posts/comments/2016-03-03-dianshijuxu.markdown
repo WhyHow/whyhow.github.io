@@ -20,6 +20,6 @@ tags:
 <div class="commentsonquote">
 <div class="yiyin">原来是民间机构在展现积极主动呀。不知道我想看一部满意的推理剧的梦想能不能实现。
 </div>
-<div class="yizi">
+<div class="yizi">一般而言，行业组织规范行业行为是好的，有利于提高行业内从业组织和个人的业务水平。不过也希望这些组织制定规范的时候稍微走心一点。
 </div>
 </div>
