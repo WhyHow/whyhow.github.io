@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-04 20:40:11
 layout: post
 slug: shichengquanjingtong
-title: 狮城全景通：怎么用，最划算
+title: 狮城全景通：怎样用，最划算
 categories: [行]
 tags:
 - 旅行
