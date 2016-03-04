@@ -73,7 +73,7 @@ div.sayings>div>div.saying{
     text-align: right;
     margin-right: 2rem;
     font-weight: bold;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 .writecomments::before{
   content:"> ";
