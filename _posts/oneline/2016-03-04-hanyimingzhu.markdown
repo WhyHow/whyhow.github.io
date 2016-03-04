@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-04 20:11:02 +0800
 layout: post
 slug: Say030402
-title: Say030402
+title: Say0304汉译名著
 categories: [说]
 tags:
 -  点滴
