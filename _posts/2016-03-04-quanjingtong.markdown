@@ -22,5 +22,5 @@ tags:
 哦对了，大家在看门票价格的时候，千万别看官方定价呀。新加坡主要景点，比价都得跟某宝价比。
 
 ![](/public/images/Singapore1.jpg)  
-![](/public/images/Singapore2.jpg)  
-![](/public/images/Singapore4.jpg)
+![](/public/images/Singapore4.jpg)  
+![](/public/images/Singapore2.jpg)
