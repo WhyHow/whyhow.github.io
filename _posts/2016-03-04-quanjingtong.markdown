@@ -8,6 +8,9 @@ title: 狮城全景通：怎样用，最划算
 categories: [行]
 tags:
 -  旅行
+-  新加坡
+-  省钱大法
+-  攻略
 ---
 ![](/public/images/Singapore2.jpg)
 
