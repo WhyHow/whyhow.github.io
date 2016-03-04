@@ -23,5 +23,4 @@ tags:
 
 ![](/public/images/Singapore1.jpg)  
 ![](/public/images/Singapore2.jpg)  
-![](/public/images/Singapore3.jpg)  
 ![](/public/images/Singapore4.jpg)
