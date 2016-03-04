@@ -11,7 +11,7 @@ tags:
 ---
 <h3>一个我也瞎想过的问题</h3>
 <div class="quote"> <blockquote>
-    	来自<a href="http://www.nfcmag.com/article/6296.html">南风窗</a>的《经济下行，如何保卫中国人的“饭碗”？》一文提到了上世纪九十年代大学扩招的原因：  
+    	来自<a href="http://www.nfcmag.com">南风窗</a>的<a href="http://www.nfcmag.com/article/6296.html">《经济下行，如何保卫中国人的“饭碗”？》</a>一文提到了上世纪九十年代大学扩招的原因：  
     </blockquote>
 </div>
 
