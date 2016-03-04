@@ -11,5 +11,5 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-最近的一条新闻，让我想到了 <q>千秋臣子心，一朝日月天</q> 以及 <q>一把心肠论浊清</q> 的故事。<br/>
+又到了来重温 <q>千秋臣子心，一朝日月天</q> 以及 <q>一把心肠论浊清</q> 的当口了。<br/>
 </div>

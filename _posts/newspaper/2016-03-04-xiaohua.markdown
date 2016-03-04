@@ -1,0 +1,21 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-04 18:32:39 +0800
+layout: post
+slug: xiaohua
+title: 一则认真的笑话
+categories: [读]
+tags:
+-  老年报
+-  笑话
+---
+<img src="/public/images/newspaper/xiaohua.jpg"/>
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：老年报 2016年3月4日
+    </blockquote>
+</div>
+
+<div class="readreview">在新加坡旅游的时候自己也深有同感：一个天气贯穿全年，裤衩穿四季。不用买春、秋、冬衣，不用买取暖器，这该能省多少钱啊。
+</div>
