@@ -1,0 +1,15 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-04 18:02:12 +0800
+layout: post
+slug: Say030401
+title: Say030401
+categories: [说]
+tags:
+-  点滴
+---
+<div class="saying">
+上了发条的车就是牛，直接从左侧直行道跨越两条车道右转了。<br/>
+<img src="/public/images/niuche.jpg"/>
+</div>
