@@ -9,6 +9,8 @@ categories: [行]
 tags:
 -  旅行
 ---
+![](/public/images/Singapore2.jpg)
+
 最近几次被人问道：去新加坡旅游，购买[狮城全景通](http://www.siaholidays.com.cn/card/)划不划算？对于我这样贫而乐的人，出去旅行一次，还是希望能把账算算清的。下面就来谈谈狮城全景通，怎么用才值（以下内容也曾发表于某自由行网站）。
 
 首先，狮城全景通是[新航假期](http://www.siaholidays.com.cn/)产品，必须搭配新航机票。[购买渠道](http://www.siaholidays.com.cn/proxy/)为新航假期各代理旅行社。
@@ -23,4 +25,3 @@ tags:
 
 ![](/public/images/Singapore1.jpg)  
 ![](/public/images/Singapore4.jpg)  
-![](/public/images/Singapore2.jpg)
