@@ -25,5 +25,5 @@ tags:
 <div class="commentsonquote">
 <div class="yiyin">我曾经想，让大家都上大学可能是为了暂缓人口增长。一上大学，三代人就变两代人了。
 </div>
-<div class="yiyin">难怪这是饲养场的工作人员下得一盘大棋啊！</div>
+<div class="yizi">难怪这是饲养场的工作人员下得一盘大棋啊！</div>
 </div>
