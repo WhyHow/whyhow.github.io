@@ -1,13 +1,13 @@
 ---
 author: YiYin
 comments: true
-date: 2016-03-04 20:40:11
+date: 2016-03-04 20:40:11 +0800
 layout: post
-slug: shichengquanjingtong
+slug:  shichengquanjingtong
 title: 狮城全景通：怎样用，最划算
 categories: [行]
 tags:
-- 旅行
+-  旅行
 ---
 最近几次被人问道：去新加坡旅游，购买[狮城全景通](http://www.siaholidays.com.cn/card/)划不划算？对于我这样贫而乐的人，出去旅行一次，还是希望能把账算算清的。下面就来谈谈狮城全景通，怎么用才值（以下内容也曾发表于某自由行网站）。
 
