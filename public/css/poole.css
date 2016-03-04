@@ -403,20 +403,4 @@ a.pagination-item:hover {
   }
 }
 
-.arpost{
-  line-height: 2rem;
-  list-style-image: url("/public/css/list1.png");
-  margin-top: 1rem;
-  font-weight: normal;
-  font-size: medium;
-}
 
-.arcat{
-  text-transform:capitalize;
-  list-style-image: url("/public/css/cat1.png");
-  margin-left: 3rem;
-  margin-top: 2rem;
-  padding-left: 0.5rem;
-  font-weight:bold;
-  font-size:150%;
-}

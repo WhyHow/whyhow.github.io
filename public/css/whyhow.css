@@ -94,3 +94,41 @@ div.sayings>div>div.saying{
   padding-bottom:0.5rem;
 }
 
+
+.postitem{
+  line-height: 1.5rem;
+  list-style-image: url("/public/css/list1.png");
+  margin-top: 0.5rem;
+  font-weight: normal;
+  font-size: medium;
+  margin-left: -5em;
+}
+
+.listhead{
+  text-transform:capitalize;
+  list-style-image: url("/public/css/cat1.png");
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding-left: 0.5rem;
+  font-weight:bold;
+  font-size:150%;
+}
+
+.思 {
+  list-style-image: url("/public/small/1.png");
+}
+.行 {
+  list-style-image: url("/public/small/2.png");
+}
+.听 {
+  list-style-image: url("/public/small/3.png");
+}
+.说 {
+  list-style-image: url("/public/small/4.png");
+}
+.读 {
+  list-style-image: url("/public/small/5.png");
+}
+.写 {
+  list-style-image: url("/public/small/6.png");
+}
