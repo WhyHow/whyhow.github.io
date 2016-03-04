@@ -10,7 +10,7 @@ tags:
 -  点滴
 ---
 <div class="saying">
-<div class="timestamp">{{ page.date | date: "%Y年%m月%d年 %H:%M:%S" }}</div>
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
 真的一夜之间，柳树就绿了。<br/>
 <img src="/public/images/liushu.jpg"/>
 </div>
