@@ -4,11 +4,12 @@ comments: true
 date: 2016-03-03 16:40:42 +0800
 layout: post
 slug: Say030302
-title: Say030302
+title: Say0303不能说
 categories: [说]
 tags:
 -  点滴
 ---
 <div class="saying">
-最近的一条新闻，让我想到了 <q>千秋臣子心，一朝日月天</q> 以及 <q>一把心肠论浊清</q> 的故事。<br/>
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+又到了来重温 <q>千秋臣子心，一朝日月天</q> 以及 <q>一把心肠论浊清</q> 的当口了。<br/>
 </div>

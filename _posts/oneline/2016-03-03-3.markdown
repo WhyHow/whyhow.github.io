@@ -4,12 +4,13 @@ comments: true
 date: 2016-03-03 08:40:42 +0800
 layout: post
 slug: Say030303
-title: Say030303
+title: Say0303一夜柳新
 categories: [说]
 tags:
 -  点滴
 ---
 <div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
 真的一夜之间，柳树就绿了。<br/>
 <img src="/public/images/liushu.jpg"/>
 </div>

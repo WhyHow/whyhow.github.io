@@ -10,6 +10,7 @@ function yHandler() {
         fetchingContent = true;
         $(".load:last").load(urls[index] + " div.post", function() {
             index += 1;
+            $(this).append('<div class="writecomments"><a href="'+urls[index-1]+'#comments">不吐不快？添加评论吧！</a></div>');
             if (index >= urls.length) {
                 fetchingContent = true;
                 $('#next').removeAttr('href');

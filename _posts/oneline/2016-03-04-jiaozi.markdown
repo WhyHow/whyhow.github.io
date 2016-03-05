@@ -1,0 +1,16 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-04 15:24:19 +0800
+layout: post
+slug: Say0303JZ
+title: Say0303饺子
+categories: [说]
+tags:
+-  感慨
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+难怪很久没听到“天之骄子”这个词汇了，因为现在的大学生并不是，而那些真正的“天之骄子”们很少需要这个名头了，呵呵。
+<blockquote>1998年入学的大学生被称为最后的天之骄子。当年，全国普通高校招生108万，但在1999年，这个数字达到了近160万人，增幅达48%。此后，普通高校招生一路狂奔。2015年，全国高校招生700万，而大学毕业生是749万。 ——引自《南风窗》</blockquote>
+</div>
