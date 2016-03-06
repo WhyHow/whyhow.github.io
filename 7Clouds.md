@@ -7,14 +7,6 @@ slug: Clouds
 
 {% include tagcloud.html %}
 
-## [分类文章统计](/indexes/categories)
-<ul class="postList categories">
-{% for category in site.categories %}
-	<li class="{{ category | first}}"><a href="/indexes/categories.html#{{ category | first | cgi_escape}}">{{ category | first }} <span>({{ category | last | size }})</span></a></li>			
-{% endfor %}
-</ul>
-
-
 ## [网站的时间线](/indexes/date)
 网站的时间线较长，在单独网页中提供，请[点此查看](/indexes/date)。
 
