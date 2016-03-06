@@ -35,4 +35,6 @@ tags:
 <div class="commentsonquote">
 <div class="yizi">所以如果不考虑紫外线的问题下可以完全使用玉蜀黍淀粉作为爽身粉，完全没有必要使用滑石粉。新技能get，呵呵。
 </div>
+<div class="yiyin">想问问有多少人和我一样不知道“玉蜀黍”其实就是“玉米”的。
+</div>
 </div>
