@@ -1,0 +1,17 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-06 11:24:28 +0800
+layout: post
+slug: skyway1
+title: 哟，那个摩天轮
+categories: [写]
+tags:
+-  相片
+-  Skyway
+---
+![](/public/images/gallery/skyway/1.jpg)
+
+![](/public/images/gallery/skyway/4.jpg)
+
+![](/public/images/gallery/skyway/5.jpg)
