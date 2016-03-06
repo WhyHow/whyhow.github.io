@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: 索引
-slug: Archive
+slug: TagCloud
 ---
 # 索引云
 
