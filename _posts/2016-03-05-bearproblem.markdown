@@ -83,7 +83,8 @@ Out[5]= {{100, 0, 0, 0}, {0, 50, 50, 50}, {0, 39, 37, 87}, {0, 30, 28,
 {% raw %}
 
 Plot[Last@FixedPoint[Bear, {x, 0, 0, 0}], {x, 0, 30}, 
- PlotPoints -> 200, PlotTheme -> "Web"]
+ PlotPoints -> 200, GridLines -> Automatic, 
+ GridLinesStyle -> Directive[Red, Dashed], PlotTheme -> "Web"]
 
 {% endraw %}
 {% endhighlight %}
@@ -103,8 +104,9 @@ Plot[Last@FixedPoint[Bear, {x, 0, 0, 0}], {x, 0, 30},
 {% highlight mma %}
 {% raw %}
 
-Plot[Length@FixedPointList[Bear, {x, 0, 0, 0}] - 1, {x, 0, 10}, 
- PlotPoints -> 200, PlotTheme -> "Web"]
+Plot[Length@FixedPointList[Bear, {x, 0, 0, 0}] - 2, {x, 0, 10000}, 
+ PlotPoints -> 200, GridLines -> Automatic, 
+ GridLinesStyle -> Directive[Red, Dashed], PlotTheme -> "Web"]
 
 {% endraw %}
 {% endhighlight %}
@@ -123,7 +125,8 @@ BTW，文章头上的图像是这个代码生成的：
 
 Plot[{{Last@FixedPoint[Bear, {x, 0, 0, 0}], 
    Length@FixedPointList[Bear, {x, 0, 0, 0}] - 1}}, {x, 0, 10}, 
- PlotPoints -> 200, PlotTheme -> "Web"]
+ PlotPoints -> 200, GridLines -> Automatic, 
+ GridLinesStyle -> Directive[Red, Dashed], PlotTheme -> "Web"]
 
 {% endraw %}
 {% endhighlight %}
