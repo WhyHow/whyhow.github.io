@@ -6,12 +6,12 @@ slug: Archive
 ### 这是网站上现有的文章列表
 <ul>
 {% for category in site.categories %}
-  <li class="arcat"><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul class="arpost">
+  <li class="listhead"><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
     {% for posts in category %}
       {% for post in posts %}
       	{% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li class="postitem"><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
       {% endfor %}
     {% endfor %}
