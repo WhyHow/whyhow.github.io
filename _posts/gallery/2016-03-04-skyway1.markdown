@@ -10,8 +10,7 @@ tags:
 -  相片
 -  Skyway
 ---
-![](/public/images/gallery/skyway/1.jpg)
-
-![](/public/images/gallery/skyway/4.jpg)
-
-![](/public/images/gallery/skyway/5.jpg)
+<a href="/public/images/gallery/skyway/1.jpg" data-lightbox="MTL" data-title="摩天轮">
+<img src="/public/images/gallery/skyway/4.jpg"></a>
+<a href="/public/images/gallery/skyway/4.jpg" data-lightbox="MTL" data-title="摩天轮"></a>
+<a href="/public/images/gallery/skyway/5.jpg" data-lightbox="MTL" data-title="摩天轮"></a>

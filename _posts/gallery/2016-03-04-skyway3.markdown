@@ -10,7 +10,7 @@ tags:
 -  相片
 -  Skyway
 ---
-![](/public/images/gallery/skyway/7.jpg)
-
-![](/public/images/gallery/skyway/8.jpg)
+<a href="/public/images/gallery/skyway/7.jpg" data-lightbox="FanChuan" data-title="虚化帆船">
+<img src="/public/images/gallery/skyway/7.jpg"></a>
+<a href="/public/images/gallery/skyway/8.jpg" data-lightbox="FanChuan" data-title="帆船酒店"></a>
 

@@ -10,10 +10,8 @@ tags:
 -  相片
 -  GardenByTheBay
 ---
-![](/public/images/gallery/bythebay/3.jpg)
-
-![](/public/images/gallery/bythebay/4.jpg)
-
-![](/public/images/gallery/bythebay/7.jpg)
-
-![](/public/images/gallery/bythebay/8.jpg)
+<a href="/public/images/gallery/bythebay/8.jpg" data-lightbox="LightTree" data-title="紫色的树">
+<img src="/public/images/gallery/bythebay/8.jpg"></a>
+<a href="/public/images/gallery/bythebay/3.jpg" data-lightbox="LightTree" data-title="看什么"></a>
+<a href="/public/images/gallery/bythebay/4.jpg" data-lightbox="LightTree" data-title="给我消失"></a>
+<a href="/public/images/gallery/bythebay/7.jpg" data-lightbox="LightTree" data-title="橘黄的树"></a>
