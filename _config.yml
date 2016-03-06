@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:        rouge
+highlighter:        pygment
 gems: [jekyll-paginate]
 timezone: Asia/Hong_Kong
 

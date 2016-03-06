@@ -1,0 +1,17 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-06 11:10:46 +0800
+layout: post
+slug: bythebay1
+title: 看，那树上的灯
+categories: [写]
+tags:
+-  相片
+-  GardenByTheBay
+---
+![](/public/images/gallery/bythebay/1.jpg)
+
+![](/public/images/gallery/bythebay/2.jpg)
+
+![](/public/images/gallery/bythebay/5.jpg)

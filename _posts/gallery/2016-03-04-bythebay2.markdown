@@ -1,0 +1,19 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-06 11:10:46 +0800
+layout: post
+slug: bythebay2
+title: 看，那个有灯的树
+categories: [写]
+tags:
+-  相片
+-  GardenByTheBay
+---
+![](/public/images/gallery/bythebay/3.jpg)
+
+![](/public/images/gallery/bythebay/4.jpg)
+
+![](/public/images/gallery/bythebay/7.jpg)
+
+![](/public/images/gallery/bythebay/8.jpg)
