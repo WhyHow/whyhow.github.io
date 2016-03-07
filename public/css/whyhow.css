@@ -96,7 +96,7 @@ div.sayings>div>div.saying{
 
 
 .postitem{
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   list-style-image: url("/public/css/list1.png");
   margin-top: 0.5rem;
   font-weight: normal;
@@ -115,22 +115,40 @@ div.sayings>div>div.saying{
 }
 
 .思 {
-  list-style-image: url("/public/small/1.png");
+     background:url("/public/small/1.png") no-repeat left center; 
+     padding-left: 40px;
+     list-style: none;
+     margin-left:-5rem;
 }
 .行 {
-  list-style-image: url("/public/small/2.png");
+     background:url("/public/small/2.png") no-repeat left center; 
+     padding-left: 40px;
+     list-style: none;
+     margin-left:-5rem;
 }
 .听 {
-  list-style-image: url("/public/small/3.png");
+     background:url("/public/small/3.png") no-repeat left center; 
+     padding-left: 40px;
+     list-style: none;
+     margin-left:-5rem;
 }
 .说 {
-  list-style-image: url("/public/small/4.png");
+     background:url("/public/small/4.png") no-repeat left center; 
+     padding-left: 40px;
+     list-style: none;
+     margin-left:-5rem;
 }
 .读 {
-  list-style-image: url("/public/small/5.png");
+     background:url("/public/small/5.png") no-repeat left center; 
+     padding-left: 40px;
+     list-style: none;
+     margin-left:-5rem;
 }
 .写 {
-  list-style-image: url("/public/small/6.png");
+     background:url("/public/small/6.png") no-repeat left center; 
+     padding-left: 40px;
+     list-style: none;
+     margin-left:-5rem;
 }
 
 /* Code */
