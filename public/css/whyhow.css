@@ -172,3 +172,7 @@ pre code {
 .highlight pre {
   margin-bottom: 0;
 }
+
+div.floatimg > a > img{
+  display:initial;
+}
