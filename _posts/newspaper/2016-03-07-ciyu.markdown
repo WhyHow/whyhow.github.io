@@ -1,0 +1,22 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-07 13:06:06 +0800
+layout: post
+slug: ciyuXMWB
+title: 用词规范
+categories: [读]
+tags:
+-  新民晚报
+-  汉语
+---
+![](/public/images/newspaper/ciyu.jpg)
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：新民晚报 2016年3月6日</a>
+    </blockquote>
+</div>
+
+<div class="readreview">
+这位作者举的几个例子都不错。“乔迁”原指鸟儿迁移到更高大的树木，确实是恭贺别人搬家或者升迁的用语。但是，语言文字是在不断嬗变中的，词义时有延拓和更新。现在，若是回答餐厅服务员“您几位”的提问，不说“两位”而说“两个”、“两人”，总有点怪怪的吧。处在词义交变节点上的我们，既要对文字的本来含义有清醒的认识，也要宽容地看待正在发生的变革。
+</div>
