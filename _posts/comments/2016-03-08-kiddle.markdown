@@ -5,6 +5,7 @@ date: 2016-03-07 23:30:40 +0800
 layout: post
 slug: kiddle
 title:  苗苗专用搜索引擎
+categories: [听]
 tags:
 -  译言
 -  新浪微博
