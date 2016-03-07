@@ -1,0 +1,18 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-07 09:00:15 +0800
+layout: post
+slug: Say0307guanggao
+title: Say0307谐音广告
+categories: [说]
+tags:
+-  点滴
+-  生活
+-  社会
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+之前似乎多地出台了法规禁止广告中使用汉字成语谐音。不过今早坐地铁就见到了两个谐音广告，虽然不是成语。一是地铁车厢电视的麦某某广告：“一碗鸡粥‘谷’励你”，另一是站台灯箱的某猫广告“新年大‘集’”。成语或许还好说，但词语本就无定法，确实是个难以界定的问题呢。<br/>
+<img src="/public/images/guanggao.jpg"/>
+</div>
