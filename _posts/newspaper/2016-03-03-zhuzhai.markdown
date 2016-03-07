@@ -10,7 +10,8 @@ tags:
 -  新民晚报
 -  住房
 ---
-![](/public/images/newspaper/zhuzhai.jpg)
+<a href="/public/images/newspaper/zhuzhai.jpg" data-lightbox="ZhuZhaiXMWB" data-title="新民晚报: 住房">
+<img src="/public/images/newspaper/preview/zhuzhai.jpg"></a>
 
 <div class="quote"> <blockquote>
     	以上内容翻拍自：新民晚报 2016年2月27日</a>

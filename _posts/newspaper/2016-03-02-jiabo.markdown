@@ -9,7 +9,8 @@ categories: [读]
 tags:
 -  新民晚报
 ---
-![](/public/images/newspaper/jiabao.jpg)
+<a href="/public/images/newspaper/jiabao.jpg" data-lightbox="JiabaoXMWB" data-title="新民晚报: 家暴">
+<img src="/public/images/newspaper/preview/jiabao.jpg"></a>
  
 <div class="quote"> <blockquote>
     	以上内容翻拍自：新民晚报 2016年3月2日</a>

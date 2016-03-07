@@ -11,7 +11,8 @@ tags:
 -  新闻
 -  旅行
 ---
-<img src="/public/images/newspaper/qianzheng.jpg"/>
+<a href="/public/images/newspaper/qianzheng.jpg" data-lightbox="Visa" data-title="解放日报: 美签新规">
+<img src="/public/images/newspaper/preview/qianzheng.jpg"></a>
 
 <div class="quote"> <blockquote>
     	以上内容翻拍自：解放日报 2016年3月6日
