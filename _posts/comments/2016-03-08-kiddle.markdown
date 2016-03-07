@@ -1,0 +1,32 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-07 23:30:40 +0800
+layout: post
+slug: kiddle
+title:  苗苗专用搜索引擎
+tags:
+-  译言
+-  新浪微博
+-  MSN
+---
+
+<div class="quote"> <blockquote>
+    	原载于<a href="http://www.msn.com/en-us/news/technology/child-friendly-search-engine-kiddle-launched/ar-BBqbODf">MSN</a>并由<a href="http://article.yeeyan.org/view/154424/487158">译言</a>  <a href="http://weibo.com/1642294753/Dlbboxp37?from=singleweibo&mod=recommand_weibo&type=comment#_rnd1457363882202">新浪微博</a>转载并翻译的消息：
+    </blockquote>
+</div>
+
+A child-friendly search engine which bears a remarkable resemblance to Google has been launched. Kiddle features a logo similar to that of the search giant, but it is not affiliated with it. Instead it uses a Google Custom Search bar, which is embedded in the site, to filter out adult content.The site says: "Sites appearing in Kiddle search results satisfy family friendly requirements, as we filter sites with explicit or deceptive content."
+
+一个与谷歌非常相似的儿童友好的搜索引擎已经推出。Kiddle的特征标志和搜索巨人的很像，但并不隶属于它。而是应用了谷歌的自定义搜索栏，嵌入其网站中以过滤成人内容。网站称：“Kiddle显示的网站是为了满足家庭友好的需求，同时过滤掉直率的或骗人的内容。” 
+
+![](http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBq8uJ0.img?h=351&w=624&m=6&q=60&o=f&l=f&x=803&y=501)
+
+
+<hr/>
+<div class="commentsonquote">
+<div class="yiyin">原文都没给出kiddle网址。不是com，不是org，而是http://www.kiddle.co/。大家可以去测试一下。<br/>
+另外这篇翻译实在……，好吧，我get了“直率”的新用法。<br/>
+关于带过滤的搜索引擎本身，真的是个好的发明吗？
+</div>
+</div>
