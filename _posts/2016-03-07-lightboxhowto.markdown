@@ -12,7 +12,7 @@ tags:
 ---
 <a href="/public/images/gallery/TwoBears.jpg" data-lightbox="Lightbox1" data-title="两只熊">
 <img src="/public/images/gallery/TwoBears.pv.jpg"></a>
-往网站安装[Lightbox.js](http://lokeshdhakar.com/projects/lightbox2/)插件并不困难，8k的大小也比较能够忍受。安装时唯一需要注意的是Lightbox的Javascript脚本要放到页面底部加载，而且Jquery必须在之前先加载。否则Lightbox没有机会处理HTML里相关的图片。这个是给那些向往自己网站加Lightbox的人的一点提示。下面是如何插入带Lightbox效果的图片（基本引用自文档）：
+往网站安装[Lightbox.js](http://lokeshdhakar.com/projects/lightbox2/)插件并不困难，8k的大小也比较能够忍受。安装时唯一需要注意的是Lightbox的Javascript脚本要放到页面底部加载，而且Jquery必须在之前先加载。否则Lightbox没有机会处理HTML里相关的图片。这个是给那些想往自己网站加Lightbox的读者的一点提示，对于单单的Lightbox的用户，你只需要下面的内容。下面是如何插入带Lightbox效果的图片（基本引用自文档）：
 
 一. 单张图片
 
