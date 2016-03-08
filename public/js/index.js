@@ -87,3 +87,12 @@ jQuery(function($) {
 
     $(window).on('resize orientationchange webkitfullscreenchange mozfullscreenchange fullscreenchange',Resize);
 });
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cdb8c3e4e886ddc87606dda05cb18e7a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
