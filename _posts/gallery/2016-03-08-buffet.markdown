@@ -1,0 +1,15 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-08 17:30:13 +0800
+layout: post
+slug:  Buffet0308
+title: 自助餐
+categories: [写]
+tags:
+-  校庆
+-  相片
+---
+<a href="/public/images/gallery/buffet.jpg" data-lightbox="bf0308" data-title="自助餐">
+<img src="/public/images/gallery/buffet.pv.jpg"></a>
+
