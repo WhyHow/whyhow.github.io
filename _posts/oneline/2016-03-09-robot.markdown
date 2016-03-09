@@ -1,0 +1,17 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-09 12:48:32 +0800
+layout: post
+slug: Say0309robot
+title: Say0309新玩具
+categories: [说]
+tags:
+-  科技
+-  生活
+-  点滴
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+根据<a href="http://www.looooker.com/archives/24621">北大新媒体</a>的消息，索尼大法将于今夏推出教育机器人套件。如果价钱合适，我可以考虑购入新玩具了。
+</div>
