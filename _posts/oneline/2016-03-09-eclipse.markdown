@@ -1,0 +1,17 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-09 08:23:41 +0800
+layout: post
+slug: Say0307eclipse
+title: Say0307说好的日食呢
+categories: [说]
+tags:
+-  日食
+-  天文
+-  牢骚
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+说好的日食呢，说好的天再旦呢，什么都没有看到啊，就差那么一点点，完全看到的就不是一个感觉。好伤心，好伤心，为啥这里没有日全食？
+</div>
