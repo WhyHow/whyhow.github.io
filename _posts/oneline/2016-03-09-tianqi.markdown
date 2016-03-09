@@ -1,0 +1,20 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-09 10:23:32 +0800
+layout: post
+slug: Say0309temperature
+title: Say0309诡异的天气
+categories: [说]
+tags:
+-  自然
+-  生活
+-  点滴
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+已经数不清这周的气温转折是今冬上海（当然不止上海一地）气温的第几次急上急下了。这开过山车似的温度变化在记忆中似还从未有过。偶然？必然？<br/>
+做了一幅上海从2015-12-1到2016-3-10的每日最高气温变化图给大家感受一下。数据来自<a href="http://www.tianqi.com">天气网</a>。<br/>
+
+<img src="/public/images/temp.png"/>
+</div>
