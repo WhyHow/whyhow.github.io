@@ -30,4 +30,5 @@ tags:
 <hr/>
 <div class="commentsonquote">
 <div class="yizi">这样去产能会不会变成<strong>大龄职工</strong>的<strong>专属</strong>？</div>
+<div class="yiyin">又一波下岗潮要来了吗？然后与此同时还要<strong>延迟退休</strong>呢。</div>
 </div>
