@@ -91,6 +91,7 @@ Mathematica中的表达式都可以表达为形如`f[x,y,...]`的形式，`f`是
 除了不同的表示法，表达式还有不同的显示方式，比如`StardardForm`, `FullForm`, `TreeForm`, `TeXForm`, `CForm`，`Postfix`,`Infix`,`Prefix`等等等等。有些显示方式是可以完整转换的，比如`StardardForm`和`FullForm`，有些则不能完整的转换，比如`FullForm`和`TeXForm`。这些显示方式也有比较复杂的内涵，我们下次再说吧！
 
 注一：`x`的Mathematica完整写法应该是`Symbol@"x"`，类似地，`Sin`的写法是`Symbol@"Sin"`。
+
 注二：Flat属性是指：
 
 	Flat is an attribute that can be assigned to a symbol f to indicate that all expressions involving nested functions f should be flattened out. This property is accounted for in pattern matching. 
