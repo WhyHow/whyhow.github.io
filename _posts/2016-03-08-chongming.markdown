@@ -8,6 +8,7 @@ title: 崇明行记
 categories: [行]
 tags:
 -  旅行
+-  游记
 -  崇明
 -  照片
 -  民俗
