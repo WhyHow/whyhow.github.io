@@ -12,7 +12,7 @@ tags:
 -  笔记
 
 ---
-![](/public/logo.svg)
+![](/public/images/logoxiao.png)
 
 **回炉夜话**是现代设计理论的反面教材。所有能犯的错误我们都犯了；不能犯的错误——
 
