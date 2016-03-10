@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  <h1 class="post-title" id="{{ page.title }}"><a href="{{ page.url }}">{{ page.title }}</a></h1>
   <span class="post-date">{{ page.date | date: "%Y年%m月%d日" }}
   &emsp;   {% assign tags = page.tags %}
   {% for tag in tags %}
