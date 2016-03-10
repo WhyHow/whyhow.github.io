@@ -40,23 +40,28 @@ Mathematica中的表达式都可以表达为形如`f[x,y,...]`的形式，`f`是
 
 	Out[3]= Integer
 
-	In[4]:= Head[Head]	(* 注释：Head的头是Symbol *)
+	(* 注释：Head的头是Symbol *)
+	In[4]:= Head[Head]	
 
 	Out[4]= Symbol
 
-	In[5]:= Head[Symbol]		(* 注释：Symbol的头和其他函数一样也是Symbol *)
+	(* 注释：Symbol的头和其他函数一样也是Symbol *)
+	In[5]:= Head[Symbol]		
 
 	Out[5]= Symbol
 
-	In[6]:= Head[Head[1]]		(* 注释：Head[1]的头还是Symbol *)
+	(* 注释：Head[1]的头还是Symbol *)
+	In[6]:= Head[Head[1]]		
 
 	Out[6]= Symbol
 
-	In[7]:= Head[x + y]		(* 注释：x+y的头是啥呢？这个为啥后面说 *)
+	(* 注释：x+y的头是啥呢？这个为啥后面说 *)
+	In[7]:= Head[x + y]		
 
 	Out[7]= Plus
 
-	In[8]:= Head[(* 注释 *)] (* 注释：注释的头是啥呢？不合法，所以注释没有头，也就不是表达式！ *)
+	(* 注释：注释的头是啥呢？不合法，所以注释没有头，也就不是表达式！ *)
+	In[8]:= Head[(* 注释 *)] 
 
 	During evaluation of In[8]:= Head::argx: Head called with 0 arguments; 1 argument is expected. >>
 
