@@ -79,7 +79,6 @@ strong {
     position: absolute;
 }
 
-
 html {
   font-family: 微软雅黑,Libian SC,san-serif;
   background: #eee;
@@ -143,4 +142,17 @@ p.platform {
   color:#666;
   font-size: 0.75rem;
   margin-bottom: 2rem;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  background-color: rgba(153, 204, 153, 0.3);
+}
+a:visited{
+  color: #333;
 }
