@@ -79,7 +79,6 @@ strong {
     position: absolute;
 }
 
-
 html {
   font-family: 微软雅黑,Libian SC,san-serif;
   background: #eee;
@@ -152,6 +151,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: underline;
+  background-color: rgba(153, 204, 153, 0.3);
 }
 a:visited{
   color: #333;
