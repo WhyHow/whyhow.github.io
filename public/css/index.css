@@ -144,3 +144,15 @@ p.platform {
   font-size: 0.75rem;
   margin-bottom: 2rem;
 }
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+a:visited{
+  color: #333;
+}
