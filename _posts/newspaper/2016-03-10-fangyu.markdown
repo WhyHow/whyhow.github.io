@@ -1,0 +1,27 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-10 18:55:55 +0800
+layout: post
+slug: defend
+title: 过度？一厢？
+categories: [读]
+tags:
+-  新民晚报
+-  实事
+-  世界
+---
+
+<a href="/public/images/newspaper/defend1.jpg" data-lightbox="defend" data-title="新民晚报 专家发言">
+<img src="/public/images/newspaper/preview/defend1xiao.jpg"></a><br/>
+
+<img src="/public/images/newspaper/defend2.jpg">
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：新民晚报 2016年3月10日
+    </blockquote>
+</div>
+
+<div class="readreview">政治和军事从来是乙回庐不愿也不能置喙的领域。不过这则评论属于诚心请教学术问题。专家的文章我认真学习了，可惜脑子笨还是不太懂。<br/>
+人家都说了要“实行先发制人的核打击”了，部署一个导弹防御系统怎么就算“过度”防御了？而且您也说了是“反应”，那就自然不是“一厢”情愿了。
+</div>
