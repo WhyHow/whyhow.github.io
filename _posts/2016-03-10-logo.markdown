@@ -31,9 +31,7 @@ Logo的线条是各种圆和正方形交成的。没有精巧的黄金分割也�
 
 至于颜色，不知怎的脑子里就冒出了使用  (c,m,k,y=100,0,0,0)  和  (c,m,k,y=0,100,0,0)   的念头。尝试之后所有现代潮流配色便都惨遭抛弃，眼里再也容不下其他色彩了。马未都总结中国人的审美境界依次为“艳俗”、“含蓄”、“矫情”和“病态”。成长于诗的沃土和礼的春风中的文人骚客或许诚然如是，但从混凝土里发芽的我却越来越喜欢简单、直接、明亮和鲜艳。
 
-Logo上线后的一天，在超市里看到了新装的“雀巢”瓶装水，心中一阵激动。这配色，看来也并不那么离经叛道。
-
-<a href="http://www.nestle-waters.cn/Content/images/new_detail01.jpg" data-lightbox="guanggao">免费广告</a>
+Logo上线后的一天，在超市里看到了<a href="http://www.nestle-waters.cn/Content/images/new_detail01.jpg" data-lightbox="guanggao">新装的</a>“雀巢”瓶装水，心中一阵激动。这配色，看来也并不那么离经叛道。
 
 [Logo转起来](http://whyhow.github.io/8About)的地方，或许正在挖掘通往真正怪异的隧道？
 
