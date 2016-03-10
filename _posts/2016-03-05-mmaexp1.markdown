@@ -32,7 +32,7 @@ Mathematica中的表达式都可以表达为形如`f[x,y,...]`的形式，`f`是
 
 	Out[1]= Sin
 
-	In[2]:= Head[x]		(* 注释：默认的变量时Symbol *)
+	In[2]:= Head[x]		(* 注释：默认的变量是Symbol【见注一】 *)
 
 	Out[2]= Symbol
 
@@ -40,15 +40,15 @@ Mathematica中的表达式都可以表达为形如`f[x,y,...]`的形式，`f`是
 
 	Out[3]= Integer
 
-	In[4]:= Head[Head]		(* 注释：Head的头是啥呢？和其他函数一样是Symbol *)
+	In[4]:= Head[Head]	(* 注释：Head的头是Symbol *)
 
 	Out[4]= Symbol
 
-	In[5]:= Head[Symbol]		(* 注释：Symbol的头是啥呢？和其他函数一样是Symbol *)
+	In[5]:= Head[Symbol]		(* 注释：Symbol的头和其他函数一样也是Symbol *)
 
 	Out[5]= Symbol
 
-	In[6]:= Head[Head[1]]		(* 注释：Head[1]的头是啥呢？和其他函数一样是Symbol *)
+	In[6]:= Head[Head[1]]		(* 注释：Head[1]的头还是Symbol *)
 
 	Out[6]= Symbol
 
@@ -71,7 +71,9 @@ Mathematica中的表达式都可以表达为形如`f[x,y,...]`的形式，`f`是
 
 2. 中置表达法 `x ~f~ y`，对于参数为2的函数中置表达似乎很明显，`x+y`就可以看做一种中置表达，它和`x ~Plus~ y`是一样的。
 	
-	对于参数不等于2的情况，使用就比较不直观了。下面一句话，如果你不懂什么意思直接忽略即可。这里需要提及的是`Infix`返回的中置表达法是不正确的，准确的讲是仅对具有`Flat`属性的函数是正确的。对于三个参数的函数中置表达如果直接输入：`x ~f~ y ~f~ z`运行后直接返回的不是`f[x,y,z]`，而是`f[f[x, y], z]`。所以吸取前面前置表达法对于多个变量的表示方法，中置表达的多变量打开方式是`x ~f~ Sequence[y,...]`或者其他各种分割方法。对于只有一个参数的情况，留给读者思考，如果不能解决可以在留言中提问。
+	对于参数不等于2的情况，使用就比较不直观了。吸取前面前置表达法对于多个变量的表示方法，中置表达的多变量打开方式是`x ~f~ Sequence[y,...]`或者其他各种分割方法。对于只有一个参数的情况，留给读者思考，如果不能解决可以在留言中提问。
+
+	另外提一句，`Infix`函数可以用来返回的表达式的中置表达，比如`Infix@f[x, y]`会返回`x ~f~ y`。但是，`Infix@f[x,y,z]`的返回是`x ~f~ y ~f~ z`，这并不是正确的表达方法，如果直接输入：`x ~f~ y ~f~ z`运行后直接返回的不是`f[x,y,z]`，而是`f[f[x, y], z]`。准确的讲是仅对具有`Flat`属性的函数（见注二），这两个表达是一样的。
 
 3. 后置表达法 `Sequence[x, y, ...] // f`，参数只有一个时可以用`x//f`的形式表示。例如：
 
@@ -82,5 +84,12 @@ Mathematica中的表达式都可以表达为形如`f[x,y,...]`的形式，`f`是
 `Simplify[f[x]]`很常用，但是多加一层中括号，不仅不方便，而且随着括号层次增多就很难读。如果变成`f[x]//Simplify`就好多了，读法大概就是先计算`f[x]`然后化简。有时候前置表达可能更加易读，比如`Last[f[x]]`可以写成`Last@f[x]`，可以大致读成最后一个元素@`f[x]`的计算值。中置运算符对于连接运算一类比较易读，比如`Join[{1, 2}, {3, 4}]`可以写成`{1, 2} ~Join~ {3, 4}`是不是好读很多。对于这三类表达方法，前置和后置一般用在单一参数的情况，中置一般用在两个参数的情况。其他情况，笔者建议最好使用标准的表示方法，也就所谓的`StardardForm`。这就引出了表达式的显示方式问题。
 
 除了不同的表示法，表达式还有不同的显示方式，比如`StardardForm`, `FullForm`, `TreeForm`, `TeXForm`, `CForm`，`Postfix`,`Infix`,`Prefix`等等等等。有些显示方式是可以完整转换的，比如`StardardForm`和`FullForm`，有些则不能完整的转换，比如`FullForm`和`TeXForm`。这些显示方式也有比较复杂的内涵，我们下次再说吧！
+
+注一：`x`的Mathematica完整写法应该是`Symbol@"x"`，类似地，`Sin`的写法是`Symbol@"Sin"`。
+注二：Flat属性是指：
+
+	Flat is an attribute that can be assigned to a symbol f to indicate that all expressions involving nested functions f should be flattened out. This property is accounted for in pattern matching. 
+
+也就是说`f[f[x, y], z]`和`f[x, y, z]`是一样的。
 
 
