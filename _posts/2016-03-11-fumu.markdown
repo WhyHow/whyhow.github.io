@@ -3,7 +3,7 @@ author: YiYin
 comments: true
 date: 2016-03-11 09:11:09 +0800
 layout: post
-slug: logo
+slug: parents
 title: 孩子，爸妈最爱你
 categories: [思]
 tags:
@@ -27,7 +27,7 @@ tags:
 孩子你再说一遍！<br/>
 <br/>
 孩子，十个兴趣班<br/>
-你就选三个吧<br/>
+你选仨就够<br/>
 太多咱也消化不了<br/>
 三个还不能好好上？<br/>
 你同学可都上六个！<br/>
