@@ -23,4 +23,6 @@ tags:
 <div class="commentsonquote">
 <div class="yiyin">好吧，那就来次公平的对战。接下去三局中，让全世界人类都来给李世石出主意吧！
 </div>
+<div class="yiyin">刚才自我反省了一下，程序正义也是必须的。所以向韩国媒体致敬！
+</div>
 </div>
