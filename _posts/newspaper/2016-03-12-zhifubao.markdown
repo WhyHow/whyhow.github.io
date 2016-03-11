@@ -1,0 +1,29 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-12 00:11:11 +0800
+layout: post
+slug: zhifubao
+title: 一则社会新闻里的三家混战
+categories: [读]
+tags:
+-  新民晚报
+-  社会
+-  科技
+---
+
+<a href="/public/images/newspaper/zhifubao.jpg" data-lightbox="zhifubao" data-title="伪支付宝">
+<img src="/public/images/newspaper/preview/zhifubaoxiao.jpg"></a><br/>
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：新民晚报 2016年3月11日
+    </blockquote>
+</div>
+
+<div class="readreview">这新闻槽点满格了：<br/>
+文章的内容是说有假冒支付宝红包的微信链接、插件、APP。然而这个标题……支付宝是不是可以起诉名誉损失了？双引号是可以表示强调的啊。<br/>
+这文章是堂堂正正的“社会新闻”版面的哪，收360钱了？<br/>
+还有这假冒支付宝的微信链接……<br/>
+360揭秘骗术？揭秘支付宝？揭秘微信？……<br/>
+停，脑洞不能再开了，上面最后两条纯属娱乐。
+</div>
