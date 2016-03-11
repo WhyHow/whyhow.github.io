@@ -3,8 +3,8 @@ author: YiZi
 comments: true
 date: 2016-03-09 08:23:41 +0800
 layout: post
-slug: Say0307eclipse
-title: Say0307说好的日食呢
+slug: Say0309eclipse
+title: Say0309说好的日食呢
 categories: [说]
 tags:
 -  日食
