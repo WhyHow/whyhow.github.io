@@ -21,4 +21,5 @@ tags:
 <hr/>
 <div class="commentsonquote">
 <div class="yizi">看看国际象棋的情况吧！感觉很有借鉴价值。</div>
+<div class="yiyin">以后就应该跟电脑下飞行棋，运气总是公平的吧，还是说AI将可以选择运气？</div>
 </div>
