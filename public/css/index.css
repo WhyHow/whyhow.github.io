@@ -151,7 +151,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: underline;
-  background-color: rgba(153, 204, 153, 0.3);
+  background-color: rgba(229, 242, 229, 0.3);
 }
 a:visited{
   color: #333;
