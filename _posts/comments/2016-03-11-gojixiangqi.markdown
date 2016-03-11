@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-11 20:47:59 +0800
 layout: post
 slug: xiangqi
-title:  来一次公平的对战
+title:  也来一次公平的对战吧！
 categories: [听]
 tags:
 -  奇客网
