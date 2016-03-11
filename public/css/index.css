@@ -147,7 +147,7 @@ p.platform {
 a {
   color: #222;
   text-decoration: none;
-  background-color: rgba(242, 242, 242, 0.5);
+  background-color: rgba(242, 242, 242, 0.25);
 }
 a:hover,
 a:focus {
