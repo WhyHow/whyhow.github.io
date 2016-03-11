@@ -16,5 +16,5 @@ tags:
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
 <img src="/public/images/yanliang.jpg"/>
-世界同此凉热，个人冷暖自知。
+世界同此凉热，人间冷暖自知。
 </div>
