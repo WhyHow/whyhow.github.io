@@ -1,0 +1,26 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-11 17:55:55 +0800
+layout: post
+slug: igo
+title:  来一次公平的对战
+categories: [听]
+tags:
+-  新浪微博
+-  财经网
+---
+
+<div class="quote"> <blockquote>
+    	来自<a href="http://overseas.caijing.com.cn/20160311/4086179.shtml">财经网</a>、<a href="http://weibo.com/1642088277/DlLW1A300?ref=collection&type=comment#_rnd1457690069962">新浪微博</a>的消息：
+    </blockquote>
+</div>
+
+【韩国IT专家：对战不公 谷歌应该对李世石道歉】据韩媒报道，对李世石连输两局一事，韩国IT专家田石镇批评称，谷歌需要对李世石和整个围棋界道歉，因为此次博弈本身就不公平。他表示，“阿尔法围棋(AlphaGo)”通过网络可随时无限收集利用相关信息，这意味着它有无数“指教者”。
+
+
+<hr/>
+<div class="commentsonquote">
+<div class="yiyin">好吧，那就来此公平的对战。接下去三局中，让全世界人类都来给李世石出主意吧！
+</div>
+</div>
