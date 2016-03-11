@@ -147,11 +147,12 @@ p.platform {
 a {
   color: #222;
   text-decoration: none;
+  background-color: rgba(242, 242, 242, 0.5);
 }
 a:hover,
 a:focus {
   text-decoration: underline;
-  background-color: rgba(229, 242, 229, 0.3);
+  background-color: rgba(242, 242, 242, 0);
 }
 a:visited{
   color: #333;
