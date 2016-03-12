@@ -13,7 +13,7 @@ tags:
 ---
 
 <a href="/public/images/newspaper/zhifubao.jpg" data-lightbox="zhifubao" data-title="伪支付宝">
-<img src="/public/images/newspaper/preview/zhifubaoxiao.jpg"></a><br/>
+<img src="/public/images/newspaper/preview/zhifubao.jpgxiao.jpg"></a><br/>
 
 <div class="quote"> <blockquote>
     	以上内容翻拍自：新民晚报 2016年3月11日
