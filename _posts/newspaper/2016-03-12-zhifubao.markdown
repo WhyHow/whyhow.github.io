@@ -3,7 +3,7 @@ author: YiYin
 comments: true
 date: 2016-03-12 01:11:11 +0800
 layout: post
-slug: zhifubao
+slug: weizhifubao
 title: 一则社会新闻里的三家混战
 categories: [读]
 tags:
