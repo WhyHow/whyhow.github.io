@@ -21,7 +21,7 @@ tags:
 
 其实企业高层对此也是心知肚明。我曾经就职的一家车企，老总把仿真组叫做“算命组”；我现在的领导，也有意无意透出过“仿真么，只不过是给别人看看”的观点。没有一家企业不设测试部门而只设仿真部门。
 
-但是在工程界，仿真仍然繁荣，原因很简单，因为仿真能出图，漂亮，还会动。所以仿真的辉煌只是这个越发强调可视化的世界的低俗需求。
+但是在工程界，仿真仍然繁荣，原因很简单，因为仿真能出图，漂亮，还会动。仿真的辉煌只不过是在迎合这个越发强调可视化的世界的低俗需求。
 
 我也喜欢好看的图，美感与创意都让人心醉，有的甚至还能散发悠远的哲学韵味。但是当学术论文只有依靠外包的专业美工的绘图才能冲上顶级期刊，当学术期刊需要依靠<a href="http://www.mbsj.jp/gtc/TOC/cover/21_01_large.jpg" data-lightbox="cover" data-title="Genes to Cells, Vol.21 No.1, 2016">花俏的封面</a><a href="http://www.mbsj.jp/gtc/TOC/cover/19_08_large.jpg" data-lightbox="cover" data-title="Genes to Cells, Vol.19 No.8, 2014"></a><a href="http://www.mbsj.jp/gtc/TOC/cover/17_08_large.jpg" data-lightbox="cover" data-title="Genes to Cells, Vol.17 No.8, 2012"></a>才能吸引读者，这本身已经是本末倒置。
 
