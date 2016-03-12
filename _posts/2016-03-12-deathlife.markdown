@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-03-12 10:29:29 +0800
+date: 2016-03-12 10:29:00 +0800
 layout: post
 slug: lifedeath
 title: 人生是行走出来的
