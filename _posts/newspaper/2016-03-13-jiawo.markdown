@@ -1,0 +1,31 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-13 18:30:32 +0800
+layout: post
+slug: jiawo
+title: 写“假我”怎么了？
+categories: [读]
+tags:
+-  新民晚报
+-  社会
+-  读书
+-  写作
+---
+
+<a href="/public/images/newspaper/jiawo.jpg" data-lightbox="jiawo">
+<img src="/public/images/newspaper/preview/jiawoxiao.jpg"></a><br/>
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：新民晚报 2016年3月13日
+    </blockquote>
+</div>
+
+<div class="readreview">
+这个新闻的逻辑我真不懂了，作文里出现“假我”难道不是最正常的事情？<br/>
+作家多克特罗说：<br/>
+<blockquote>写作是社会可以接受的精神分裂的一种形式。</blockquote><br/>
+蒋勋都讲过：<br/>
+<blockquote>文学使我们发现了两个自我，一个自我在世俗里追求成功，另一个不妥协的自我，在文学中得到完成。</blockquote>
+</div>
+
