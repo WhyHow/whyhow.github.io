@@ -8,7 +8,6 @@ title: 仿真结果共享在Mathematica中的实现
 categories: [行]
 tags:
 - 仿真
-- 数值
 - Mathematica
 ---
 该文不包含实现过程，仅介绍Mathematica中的仿真结果共享的方案，作为[这篇文章]({% post_url 2016-03-12-mech313 %})的一个辅助材料。
