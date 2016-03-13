@@ -95,7 +95,7 @@ div.sayings>div>div.saying{
 }
 
 
-.postitem{
+.postitem, .posttitle{
   line-height: 1.75rem;
   list-style-image: url("/public/css/list1.png");
   margin-top: 0.5rem;
@@ -103,7 +103,9 @@ div.sayings>div>div.saying{
   font-size: medium;
   margin-left: -3em;
 }
-
+.posttitle{
+  margin-left: 2em;
+}
 .listhead{
   text-transform:capitalize;
   list-style-image: url("/public/css/cat1.png");
