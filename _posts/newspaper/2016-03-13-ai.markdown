@@ -18,6 +18,11 @@ tags:
     </blockquote>
 </div>
 
-<div class="readreview">
+<div class="commentsonquote">
+<div class="yizi">
 其实实际情况恰好相反，人工智能最难替换的就是体力劳动和低级岗位。那些机械式可以完成的工作早就由机器人完成了，那些机器人基本不需要什么人工智能。而现在没有被机器人替代的体力劳动和所谓的“低级岗位”，都涉及到高可变性、复杂的装配和精细的操作，这些方向正是现在人工智能的短板。相反，那些什么自认为的高智商活动，倒是人工智能可以发挥大作用的领域，比如撰写新闻稿件，分析各类局面，做出交易决策等等。
+</div>
+<div class="yiyin">
+这个编辑和这些受访者似乎没有理解什么叫人工智能，或许连什么叫智能都没理解。关于AI，我还是很推荐Tim Urban的<a href="http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"这篇文章</a>。目前的围棋，应该仍只属于弱人工智能，还并没有什么实质性突破。
+</div>
 </div>
