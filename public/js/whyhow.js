@@ -23,6 +23,7 @@ function yHandler() {
             yHandler(); //这里不递归不科学
         });
     }
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }
 
 function handleSaying() {
@@ -48,6 +49,7 @@ function handleSaying() {
             handleSaying(); //这里不递归不科学
         });
     }
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }
 
 var getIndex = function() {
