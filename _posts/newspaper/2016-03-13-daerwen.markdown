@@ -11,7 +11,7 @@ tags:
 -  社会
 ---
 
-![](/public/images/newspaper/daerwen.jpg)<br/>
+![](/public/images/daerwen.jpg)<br/>
 
 <div class="quote"> <blockquote>
     	以上内容翻拍自：解放日报 2016年3月14日
