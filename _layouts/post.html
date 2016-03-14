@@ -13,6 +13,7 @@ layout: default
   {{ content }}
 </div>
 
+<small>此文文长{{ content | strip_html | strip_newlines | size }}字，君不评论一二？</small>
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
