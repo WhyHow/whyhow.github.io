@@ -17,10 +17,7 @@ slug: Think
 
 <script>
 var urls=new Array();
-{% for post in site.categories['思']  %}
- {% if post.url %}
-	urls[urls.length]="{{ post.url }}";
- {% endif %}
+{% for post in site.categories['思']  %} {% if post.url %}urls[urls.length]="{{ post.url }}"; {% endif %}
 {% endfor %}
 var index = 0;
 if(urls.length>0){
