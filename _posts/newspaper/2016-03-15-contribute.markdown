@@ -25,6 +25,9 @@ Fork 我们的[源码库](https://github.com/WhyHow/whyhow.github.io)，一般�
 最后，您需要做的是将您的拷贝以Pull request的方式提交到我们的源码库，具体的操作是点击您的代码库的左上角的New pull request，如下图中的那个绿色按钮。
 ![](/public/images/contribute/3.png)
 
+如果您新建了Branch会直接在您提交Commit后提示你提交Pull request.（注意到一个Branch的PR不需要重复提交，你之后的Commit会自动更新。）
+![](/public/images/contribute/4.png)
+
 然后填写一下内容描述，提交Pull request就可以了。
 
 注意： Fork源码库只需要做一次，你下一次投稿仅需要新建一个Branch，然后新开一个Pull Request就可以了。（你可能会想先同步一下我们新的源码库，这个网上教程很多，大家可以搜索学习一下Github的标准代码管理流程）
