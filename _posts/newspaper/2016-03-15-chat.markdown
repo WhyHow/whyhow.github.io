@@ -1,0 +1,20 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-15 17:05:26 +0800
+layout: post
+slug: chat0315
+title: 站点聊天室
+categories: [行]
+tags:
+-  聊天室
+-  网站相关
+---
+很多Github项目都有一个聊天室，供代码贡献者之间快速交流一些关于项目的想法，而不需要非常正式的邮件，或者Pull Request。这个东西对于我们这样的站点是不是有用我也不清楚，不过既然Github提供了这个功能，我们不妨测试一下。今天新建了两个聊天室，一个是对所有人开放的，如果对我们有什么要说的可以到上面留言，这个聊天室的地址是这个：
+[![Gitter](https://badges.gitter.im/WhyHow/whyhow.github.io.svg)](https://gitter.im/WhyHow/回炉夜话?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
+另外一个聊天室不对所有人开放，主要是为了项目内作者之间沟通建立的，这个聊天室的地址是这个：
+[![Gitter](https://badges.gitter.im/WhyHow/whyhow.github.io.svg)](https://gitter.im/WhyHow/乙回庐?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
+登录这两个聊天室都需要Github账号，所以如果你想加入聊天的话，赶快去申请一个吧！
+
