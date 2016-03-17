@@ -10,7 +10,6 @@ slug: Think
 <div id="indexcontainer"></div><hr/>
 <div class="posts">
 <div class="load">
-<div class="posts">
     {% for post in site.categories['思'] %} {% if post.url %}
     <div class="post">
         <h1 class="post-title" id="{{ post.title }}"><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -25,10 +24,10 @@ slug: Think
     <div class="writecomments"><a href="{{ post.url }}#comments">不吐不快？添加评论吧！</a></div>
     {% break %} {% endif %} {% endfor %}
 </div>
-</div>
 <div class="load">
 </div>
 </div>
+
 <a id="next">加载更多内容中，请稍候……</a>
 
 
