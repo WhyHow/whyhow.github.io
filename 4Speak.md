@@ -15,10 +15,7 @@ slug: Speak
 
 <script>
     var urls=new Array();
-    {% for post in site.categories['说']  %}
-    {% if post.url %}
-    urls[urls.length]="{{ post.url }}";
-    {% endif %}
+    {% for post in site.categories['说']  %}    {% if post.url %}    urls[urls.length]="{{ post.url }}";    {% endif %}
     {% endfor %}
     var index = 0;
     if(urls.length>0){
@@ -27,7 +24,7 @@ slug: Speak
        $('#next').html('未发现更多内容');
    }
 
-   fetchingContent = false;    
+   fetchingContent = false;
    window.onscroll = handleSaying;
    $(document).ready(function(){
     handleSaying();

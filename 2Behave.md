@@ -13,14 +13,9 @@ slug: Behave
 </div>
 </div>
 <a id="next">加载更多内容中，请稍候……</a>
-
-
 <script>
 var urls=new Array();
-{% for post in site.categories['行']  %}
- {% if post.url %}
-	urls[urls.length]="{{ post.url }}";
- {% endif %}
+{% for post in site.categories['行']  %} {% if post.url %}	urls[urls.length]="{{ post.url }}"; {% endif %}
 {% endfor %}
 var index = 0;
 if(urls.length>0){
@@ -29,7 +24,7 @@ if(urls.length>0){
 	$('#next').html('未发现更多内容');
 }
 
-   fetchingContent = false;    
+   fetchingContent = false;
    window.onscroll = yHandler;
    $(document).ready(function(){
     yHandler();

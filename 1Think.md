@@ -25,8 +25,7 @@ if(urls.length>0){
 }else{
 	$('#next').html('未发现更多内容');
 }
-
-   fetchingContent = false;    
+   fetchingContent = false;
    window.onscroll = yHandler;
    $(document).ready(function(){
     yHandler();
