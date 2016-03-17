@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-17 12:20:30 +0800
 layout: post
 slug: accident
-title: 最近的一起新闻
+title: 最近的一起交通事故
 categories: [思]
 tags:
 - 杂谈
