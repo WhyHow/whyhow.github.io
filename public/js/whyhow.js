@@ -52,16 +52,6 @@ function handleSaying() {
     MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }
 
-var getIndex = function() {
-    $('#getlist').on('click', function(e) {
-        e.preventDefault();
-        if ($('#indexcontainer').html().length > 0) {
-            $('#indexcontainer').html("");
-        } else {
-            $('#indexcontainer').load($(this).attr('href'));
-        }
-    })
-}
 
 
 $(document).ready(function() {
@@ -87,6 +77,16 @@ $(document).ready(function() {
             return false;
         });
     });
+
+    $('#getlist').on('click', function(e) {
+        e.preventDefault();
+        if ($('#indexcontainer').html().length > 0) {
+            $('#indexcontainer').html("");
+        } else {
+            $('#indexcontainer').load($(this).attr('href'));
+        }
+    })
+
 
 });
 
