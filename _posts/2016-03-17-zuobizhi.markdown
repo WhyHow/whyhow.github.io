@@ -1,0 +1,242 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-18 14:47:30 +0800
+layout: post
+slug: ZuoBiZhi
+title: Jekyll和Liquid的作弊纸
+categories: [行]
+tags:
+-  Jekyll
+-  参考手册
+---
+
+以下内容间接翻译自https://gist.github.com/smutnyleszek/9803727.
+
+以下是大部分Jekyll(Liquid)的常用功能。您可以在[GitHub Pages](https://pages.github.com/)使用[Jekyll](http://jekyllrb.com/)，但是请确认您使用的[软件版本](https://pages.github.com/versions/)是正确的。
+
+{% raw %}
+## 运行
+
+运行一个测试用的本地服务器
+
+```
+jekyll serve
+jekyll serve --watch --baseurl ''
+```
+
+产生静态网页的输出：
+
+```
+jekyll build
+jekyll build -w
+```
+
+`-w` 或 `--watch` 会激活自动重输出，`--baseurl ''` 对于服务器测试是有用的。
+
+
+### 调试
+
+在Windows上如果你返回如下错误：
+
+```
+Liquid Exception: incompatible character encodings: UTF-8 and IBM437 in index.html
+```
+
+你需要修改code page：
+
+```
+chcp 65001
+```
+
+
+## Liquid
+
+
+### 输出
+
+简单的输出样例：
+
+``` liquid
+Hello {{name}}
+Hello {{user.name}}
+Hello {{ 'leszek' }}
+```
+
+过滤输出
+
+``` liquid
+Word hello has {{ 'hello' | size }} letters!
+Todat is {{ 'now' | date: "%Y %h" }}
+```
+
+有用的 `where` 过滤器的例子：用于获取 `_data` 的一个条目：
+
+```
+{% assign currentItem = site.data.foo | where:"slug","bar" %}
+{{ newArray[0].name }}
+```
+
+常见的过滤器：
+
+- `where` -- 从数组中选择属性为特定值的元素: `{{ site.posts | where:"category","foo" }}`
+- `group_by` -- 按照某属性分组数组: `{{ site.posts | group_by:"category" }}`
+- `markdownify` -- 转换Markdown为HTMl
+- `jsonify` -- 转换数据为JSON: `{{ site.data.dinosaurs | jsonify }}`
+- `date` -- 格式化日期 (syntax reference)
+- `capitalize` -- 转换成首字母大写
+- `downcase` -- 转换成小写字母
+- `upcase` -- 转换成大写字母
+- `first` -- 获取数组的第一个元素
+- `last` -- 获取数组的最后一个元素
+- `join` -- 使用特定的字符链接数组元素
+- `sort` -- 按照属性排序数组的元素: `{{ site.posts | sort: 'author' }}`
+- `size` -- 返回数组或字符串的大小
+- `strip_newlines` -- 删除字符串中的所有换行符 (`\n`)
+- `replace` -- 替换所有的子字符串: `{{ 'foofoo' | replace:'foo','bar' }}`
+- `replace_first` -- 替换第一次出现的子字符串: `{{ 'barbar' | replace_first:'bar','foo' }}`
+- `remove` -- 删除所有子字符串: `{{ 'foobarfoobar' | remove:'foo' }}`
+- `remove_first` -- 删除第一个子字符串: `{{ 'barbar' | remove_first:'bar' }}`
+- `truncate` -- 截断字符串至x个字符
+- `truncatewords` -- 截断字符串至x个词
+- `prepend` -- 在字符串前添加: `{{ 'bar' | prepend:'foo' }}`
+- `append` -- 在字符串后添加: `{{ 'foo' | append:'bar' }}`
+- `minus`, `plus`, `times`, `divided_by`, `modulo` -- 处理数字: `{{ 4 | plus:2 }}`
+- `split` -- 按照模板分割字符串: `{{ "a~b" | split:~ }}`
+
+
+### 标签
+
+标签用来控制你的模板的逻辑。
+
+#### 注释
+
+用来删除内容
+
+```
+We made 1 million dollars {% comment %} in losses {% endcomment %} this year
+```
+
+#### If / Else
+
+简单的选择表达式 ，if/unless, elsif [sic!] and else.
+
+```
+{% if user %}
+    Hello {{ user.name }}
+{% elsif user.name == "The Dude" %}
+    Are you employed, sir?
+{% else %}
+    Who are you?
+{% endif %}
+```
+
+```
+{% unless user.name == "leszek" and user.race == "human" %}
+    Hello non-human non-leszek
+{% endunless %}
+```
+
+```
+# array: [1,2,3]
+{% if array contains 2 %}
+    array includes 2
+{% endif %}
+```
+
+
+#### Case
+
+简单的多分枝选择表达式：
+
+```
+{% case condition %}
+    {% when 1 %}
+        hit 1
+    {% when 2 or 3 %}
+        hit 2 or 3
+    {% else %}
+        don't hit
+{% endcase %}
+```
+
+
+#### For loop
+
+简单的对于集合的循环：
+
+```
+{% for item in array %}
+    {{ item }}
+{% endfor %}
+```
+
+简单的迭代型循环：
+
+```
+{% for i in (1..10) %}
+    {{ i }}
+{% endfor %}
+```
+
+一些辅助变量用来处理循环特殊情况：
+
+- `forloop.length` -- 整个循环的循环次数
+- `forloop.index` -- 当前循环的次数
+- `forloop.index0` -- 当前循环的次数 (从零开始)
+- `forloop.rindex` -- 剩余的循环次数
+- `forloop.rindex0` -- 剩余的循环次数 (从零开始)
+- `forloop.first` -- 第一次循环
+- `forloop.last` -- 最后一次循环
+
+限制与偏移集合：
+
+```
+# array: [1,2,3,4,5,6]
+{% for item in array limit:2 offset:2 %}
+    {{ item }}
+{% endfor %}
+```
+
+反向循环（注：集合是有序的）
+
+```
+{% for item in array reversed %}
+...
+```
+
+#### 储存变量
+
+储存数据在变量中：
+
+```
+{% assign name = 'leszek' %}
+```
+
+合并多个字符串到一个变量
+
+```
+{% capture full-name %}{{ name }} {{ surname }}{% endcapture %}
+```
+
+
+### 永久链接
+
+永久链接由一个模板生成：
+
+```
+/:categories/:year/:month/:day/:title.html
+```
+
+以下是可用的变量：
+
+- `year` -- 文件名的年份
+- `short_year` -- 文件名的年份后两位
+- `month` -- 文件名的月份
+- `i_month` -- 文件名的月份（去除开头的0）
+- `day` -- 文件名的日期
+- `i_day` -- 文件名的日期（去除开头的0）
+- `title` -- 文件名的标题
+- `categories`-- 文章的分类
+
+{% endraw %}
