@@ -11,7 +11,7 @@ tags:
 -  参考手册
 ---
 
-以下内容间接翻译自https://gist.github.com/smutnyleszek/9803727.
+以下内容间接翻译自[smutnyleszek的Gist页面](https://gist.github.com/smutnyleszek/9803727)。
 
 以下是大部分Jekyll(Liquid)的常用功能。您可以在[GitHub Pages](https://pages.github.com/)使用[Jekyll](http://jekyllrb.com/)，但是请确认您使用的[软件版本](https://pages.github.com/versions/)是正确的。
 
