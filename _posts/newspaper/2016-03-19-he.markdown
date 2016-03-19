@@ -1,0 +1,26 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-19 09:30:30 +0800
+layout: post
+slug: hexie
+title: 何为“和”
+categories: [读]
+tags:
+-  新民晚报
+-  社会
+-  汉语
+---
+
+<img src="/public/images/newspaper/he.jpg">
+
+<div class="quote"> <blockquote>
+    	以上内容翻拍自：新民晚报 2016年3月18日
+    </blockquote>
+</div>
+
+<div class="readreview">
+又是一篇文尽而意不止的小文章。作者甚至在文末用了省略号。<br/>
+要和谐首先要让大家说话。至于作者提出的最后一个问题“如何巧妙地整合在同一个主题之下”，如果主题够大够有容量，就本不是问题不是么？<br/>
+</div>
+
