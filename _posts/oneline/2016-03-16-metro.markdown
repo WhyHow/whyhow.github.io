@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-16 19:33:42 +0800
 layout: post
 slug: Say0316metro
-title: Say0316地铁进站倒计时
+title: 地铁进站倒计时
 categories: [说]
 tags:
 -  点滴
