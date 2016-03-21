@@ -213,3 +213,151 @@ div.floatimg > a > img{
 .PageNavigation .next {
   text-align: right;
 }
+
+
+/*
+ * Sidebar
+ *
+ * The sidebar is the drawer, the item we are toggling with our handy hamburger
+ * button in the corner of the page.
+ *
+ * This particular sidebar implementation was inspired by Chris Coyier's
+ * "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
+ * comments by a reader. It modifies both implementations to continue using the
+ * checkbox (no change in URL means no polluted browser history), but this uses
+ * `position` for the menu to avoid some potential content reflow issues.
+ *
+ * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
+ */
+
+/* Style and "hide" the sidebar */
+.news {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -18rem;
+  width: 18rem;
+  visibility: hidden;
+  overflow-y: auto;
+  font-size: .875rem; /* 15px */
+  background-color: #eee;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+@media (min-width: 30em) {
+  .news {
+    font-size: .75rem; /* 14px */
+  }
+}
+
+.news a{
+  color: #6a9fb5;
+}
+
+/* Hide the sidebar checkbox that we toggle with `.news-toggle` */
+.news-checkbox {
+  position: absolute;
+  opacity: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/* Style the `label` that we use to target the `.news-checkbox` */
+.news-toggle {
+  position: absolute;
+  top:  .8rem;
+  right: 1rem;
+  display: block;
+  padding: .25rem .75rem;
+  color: #505050;
+  background-color: #fff;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.news-toggle:before {
+  display: inline-block;
+  width: 1rem;
+  height: .75rem;
+  content: "";
+  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+}
+
+.news-toggle:active,
+#news-checkbox:focus ~ .news-toggle,
+#news-checkbox:checked ~ .news-toggle {
+  color: #fff;
+  background-color: #555;
+}
+
+.news-toggle:active:before,
+#news-checkbox:focus ~ .news-toggle:before,
+#news-checkbox:checked ~ .news-toggle:before {
+  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+}
+
+@media (min-width: 30.1em) {
+  .news-toggle {
+    position: fixed;
+  }
+}
+
+@media print {
+  .news-toggle {
+    display: none;
+  }
+}
+
+/* Slide effect
+ *
+ * Handle the sliding effects of the sidebar and content in one spot, seperate
+ * from the default styles.
+ *
+ * As an a heads up, we don't use `transform: translate3d()` here because when
+ * mixed with `position: fixed;` for the sidebar toggle, it creates a new
+ * containing block. Put simply, the fixed sidebar toggle behaves like
+ * `position: absolute;` when transformed.
+ *
+ * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
+ */
+
+.wrap,
+.news,
+.news-toggle {
+  -webkit-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.wrap,
+.news-toggle {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+          transition: transform .3s ease-in-out;
+}
+
+#news-checkbox:checked + .news {
+  visibility: visible;
+}
+#news-checkbox:checked ~ .news,
+#news-checkbox:checked ~ .wrap,
+#news-checkbox:checked ~ .news-toggle {
+  -webkit-transform: translateX(-18rem);
+      -ms-transform: translateX(-18rem);
+          transform: translateX(-18rem);
+}
+
+
+.news-title{
+  margin-top:4rem;
+  margin-left:0.5rem;
+}
+.news-wrap{
+  margin-top:2rem;
+  margin-left:1rem;
+}
