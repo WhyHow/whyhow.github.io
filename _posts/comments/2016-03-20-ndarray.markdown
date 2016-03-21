@@ -1,0 +1,164 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-20 23:16:15 +0800
+layout: post
+slug: ndarray0320
+title: Numpy中ndarray信息存在什么地方
+categories: [行]
+tags:
+-  Numpy
+-  Python
+---
+人的记忆力真的是不可靠的，题目那个简单的问题今天竟然大费周章查了将近半小时才找到。在这里记下来以便以后用到。
+
+所有的`ndarray`有以下属性：
+
+	T Same as self.transpose(), except that self is returned if self.ndim < 2. 
+	data Python buffer object pointing to the start of the array’s data. 
+	dtype Data-type of the array’s elements. 
+	**flags** Information about the memory layout of the array. 
+	flat A 1-D iterator over the array. 
+	imag The imaginary part of the array. 
+	real The real part of the array. 
+	size Number of elements in the array. 
+	itemsize Length of one array element in bytes. 
+	nbytes Total bytes consumed by the elements of the array. 
+	ndim Number of array dimensions. 
+	shape Tuple of array dimensions. 
+	strides Tuple of bytes to step in each dimension when traversing an array. 
+	ctypes An object to simplify the interaction of the array with the ctypes module. 
+	base Base object if memory is from some other object. 
+
+其中`flags`就是要找的属性，[文档直接贴过来了](//docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flags.html)
+
+<blockquote>
+<dl class="attribute">
+<dt id="numpy.ndarray.flags">
+<tt class="descclassname">ndarray.</tt><tt class="descname">flags</tt><a class="headerlink" href="#numpy.ndarray.flags" title="Permalink to this definition">¶</a></dt>
+<dd><p>Information about the memory layout of the array.</p>
+<p class="rubric">Notes</p>
+<p>The <a class="reference internal" href="#numpy.ndarray.flags" title="numpy.ndarray.flags"><tt class="xref py py-obj docutils literal"><span class="pre">flags</span></tt></a> object can be accessed dictionary-like (as in <tt class="docutils literal"><span class="pre">a.flags['WRITEABLE']</span></tt>),
+or by using lowercased attribute names (as in <tt class="docutils literal"><span class="pre">a.flags.writeable</span></tt>). Short flag
+names are only supported in dictionary access.</p>
+<p>Only the UPDATEIFCOPY, WRITEABLE, and ALIGNED flags can be changed by
+the user, via direct assignment to the attribute or dictionary entry,
+or by calling <a class="reference internal" href="numpy.ndarray.setflags.html#numpy.ndarray.setflags" title="numpy.ndarray.setflags"><tt class="xref py py-obj docutils literal"><span class="pre">ndarray.setflags</span></tt></a>.</p>
+<p>The array flags cannot be set arbitrarily:</p>
+<ul class="simple">
+<li>UPDATEIFCOPY can only be set <tt class="docutils literal"><span class="pre">False</span></tt>.</li>
+<li>ALIGNED can only be set <tt class="docutils literal"><span class="pre">True</span></tt> if the data is truly aligned.</li>
+<li>WRITEABLE can only be set <tt class="docutils literal"><span class="pre">True</span></tt> if the array owns its own memory
+or the ultimate owner of the memory exposes a writeable buffer
+interface or is a string.</li>
+</ul>
+<p>Arrays can be both C-style and Fortran-style contiguous simultaneously.
+This is clear for 1-dimensional arrays, but can also be true for higher
+dimensional arrays.</p>
+<p>Even for contiguous arrays a stride for a given dimension
+<tt class="docutils literal"><span class="pre">arr.strides[dim]</span></tt> may be <em>arbitrary</em> if <tt class="docutils literal"><span class="pre">arr.shape[dim]</span> <span class="pre">==</span> <span class="pre">1</span></tt>
+or the array has no elements.
+It does <em>not</em> generally hold that <tt class="docutils literal"><span class="pre">self.strides[-1]</span> <span class="pre">==</span> <span class="pre">self.itemsize</span></tt>
+for C-style contiguous arrays or <tt class="docutils literal"><span class="pre">self.strides[0]</span> <span class="pre">==</span> <span class="pre">self.itemsize</span></tt> for
+Fortran-style contiguous arrays is true.</p>
+<p class="rubric">Attributes</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="2%">
+<col width="98%">
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>C_CONTIGUOUS (C)</td>
+<td>The data is in a single, C-style contiguous segment.</td>
+</tr>
+<tr class="row-even"><td>F_CONTIGUOUS (F)</td>
+<td>The data is in a single, Fortran-style contiguous segment.</td>
+</tr>
+<tr class="row-odd"><td>OWNDATA (O)</td>
+<td>The array owns the memory it uses or borrows it from another object.</td>
+</tr>
+<tr class="row-even"><td>WRITEABLE (W)</td>
+<td>The data area can be written to.  Setting this to False locks the data, making it read-only.  A view (slice, etc.) inherits WRITEABLE from its base array at creation time, but a view of a writeable array may be subsequently locked while the base array remains writeable. (The opposite is not true, in that a view of a locked array may not be made writeable.  However, currently, locking a base object does not lock any views that already reference it, so under that circumstance it is possible to alter the contents of a locked array via a previously created writeable view onto it.)  Attempting to change a non-writeable array raises a RuntimeError exception.</td>
+</tr>
+<tr class="row-odd"><td>ALIGNED (A)</td>
+<td>The data and all elements are aligned appropriately for the hardware.</td>
+</tr>
+<tr class="row-even"><td>UPDATEIFCOPY (U)</td>
+<td>This array is a copy of some other array. When this array is deallocated, the base array will be updated with the contents of this array.</td>
+</tr>
+<tr class="row-odd"><td>FNC</td>
+<td>F_CONTIGUOUS and not C_CONTIGUOUS.</td>
+</tr>
+<tr class="row-even"><td>FORC</td>
+<td>F_CONTIGUOUS or C_CONTIGUOUS (one-segment test).</td>
+</tr>
+<tr class="row-odd"><td>BEHAVED (B)</td>
+<td>ALIGNED and WRITEABLE.</td>
+</tr>
+<tr class="row-even"><td>CARRAY (CA)</td>
+<td>BEHAVED and C_CONTIGUOUS.</td>
+</tr>
+<tr class="row-odd"><td>FARRAY (FA)</td>
+<td>BEHAVED and F_CONTIGUOUS and not C_CONTIGUOUS.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+</blockquote>
+
+另外一个相关的`ndarray`的底层信息存储在`__array_interface__`:
+
+{% highlight python %}
+
+	__array_interface__
+	A dictionary of items (3 required and 5 optional). The optional keys in the dictionary have implied defaults if they are not provided.
+
+	The keys are:
+
+	shape (required)
+
+	Tuple whose elements are the array size in each dimension. Each entry is an integer (a Python int or long). Note that these integers could be larger than the platform “int” or “long” could hold (a Python int is a C long). It is up to the code using this attribute to handle this appropriately; either by raising an error when overflow is possible, or by using Py_LONG_LONG as the C type for the shapes.
+	typestr (required)
+
+	A string providing the basic type of the homogenous array The basic string format consists of 3 parts: a character describing the byteorder of the data (<: little-endian, >: big-endian, |: not-relevant), a character code giving the basic type of the array, and an integer providing the number of bytes the type uses.
+	The basic type character codes are:
+	t	Bit field (following integer gives the number of bits in the bit field).
+	b	Boolean (integer type where all values are only True or False)
+	i	Integer
+	u	Unsigned integer
+	f	Floating point
+	c	Complex floating point
+	O	Object (i.e. the memory contains a pointer to PyObject)
+	S	String (fixed-length sequence of char)
+	U	Unicode (fixed-length sequence of Py_UNICODE)
+	V	Other (void * – each item is a fixed-size chunk of memory)
+	descr (optional)
+
+	A list of tuples providing a more detailed description of the memory layout for each item in the homogeneous array. Each tuple in the list has two or three elements. Normally, this attribute would be used when typestr is V[0-9]+, but this is not a requirement. The only requirement is that the number of bytes represented in the typestr key is the same as the total number of bytes represented here. The idea is to support descriptions of C-like structs (records) that make up array elements. The elements of each tuple in the list are
+	A string providing a name associated with this portion of the record. This could also be a tuple of ('full name', 'basic_name') where basic name would be a valid Python variable name representing the full name of the field.
+	Either a basic-type description string as in typestr or another list (for nested records)
+	An optional shape tuple providing how many times this part of the record should be repeated. No repeats are assumed if this is not given. Very complicated structures can be described using this generic interface. Notice, however, that each element of the array is still of the same data-type. Some examples of using this interface are given below.
+	Default: [('', typestr)]
+	data (optional)
+
+	A 2-tuple whose first argument is an integer (a long integer if necessary) that points to the data-area storing the array contents. This pointer must point to the first element of data (in other words any offset is always ignored in this case). The second entry in the tuple is a read-only flag (true means the data area is read-only).
+	This attribute can also be an object exposing the buffer interface which will be used to share the data. If this key is not present (or returns None), then memory sharing will be done through the buffer interface of the object itself. In this case, the offset key can be used to indicate the start of the buffer. A reference to the object exposing the array interface must be stored by the new object if the memory area is to be secured.
+	Default: None
+	strides (optional)
+
+	Either None to indicate a C-style contiguous array or a Tuple of strides which provides the number of bytes needed to jump to the next array element in the corresponding dimension. Each entry must be an integer (a Python int or long). As with shape, the values may be larger than can be represented by a C “int” or “long”; the calling code should handle this appropiately, either by raising an error, or by using Py_LONG_LONG in C. The default is None which implies a C-style contiguous memory buffer. In this model, the last dimension of the array varies the fastest. For example, the default strides tuple for an object whose array entries are 8 bytes long and whose shape is (10,20,30) would be (4800, 240, 8)
+	Default: None (C-style contiguous)
+	mask (optional)
+
+	None or an object exposing the array interface. All elements of the mask array should be interpreted only as true or not true indicating which elements of this array are valid. The shape of this object should be “broadcastable” to the shape of the original array.
+	Default: None (All array values are valid)
+	offset (optional)
+
+	An integer offset into the array data region. This can only be used when data is None or returns a buffer object.
+	Default: 0.
+	version (required)
+
+	An integer showing the version of the interface (i.e. 3 for this version). Be careful not to use this to invalidate objects exposing future versions of the interface.
+
+
+{% endhighlight %}
