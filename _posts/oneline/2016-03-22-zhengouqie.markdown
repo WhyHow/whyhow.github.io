@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-22 07:50:50 +0800
 layout: post
 slug: Say0322gouqie
-title: Say0322苟且
+title: 苟且
 categories: [说]
 tags:
 -  点滴
