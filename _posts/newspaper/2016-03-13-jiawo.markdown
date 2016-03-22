@@ -11,6 +11,7 @@ tags:
 -  社会
 -  读书
 -  写作
+-  逻辑错误
 ---
 
 <a href="/public/images/newspaper/jiawo.jpg" data-lightbox="jiawo">
