@@ -1,0 +1,31 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-22 09:28:33 +0800
+layout: post
+slug: aoye
+title: 谁在熬夜
+categories: [听]
+tags:
+-  时事
+-  社会
+-  新浪微博
+-  新浪网
+-  头条新闻
+---
+<div class="quote"> <blockquote>
+    	<a href="http://weibo.com/1618051664/DnirLw8j6?ref=collection&type=comment#_rnd1458609173747">新浪微博 头条新闻</a>援引<a href="http://news.sina.com.cn/c/nd/2016-03-21/doc-ifxqnskh1061726.shtml">新浪网</a>的报告（人民网等多家媒体同时发布）：  
+    </blockquote>
+</div>
+
+今天 (乙回庐注：3月21日) 是“世界睡眠日”。日前，某移动社交平台发布了《中国网民熬夜报告》，通过分析凌晨0时至3时活跃用户相关数据，展示了熬夜族的地域、行业、年龄等不同维度的分布情况。根据数据，凌晨0时到3时仍未睡觉的“夜猫子”中，男性多过女性，**00后是熬夜主力军**。
+
+![](http://n.sinaimg.cn/news/transform/20160321/jyZc-fxqnskh1063517.jpg)
+
+<hr/>
+<div class="commentsonquote">
+<div class="yiyin">这个……不是啥也没查证就怀疑统计数据或新闻表述，不过确实难以相信。这00后里年纪最大的也就16岁，就算撇开小学生，中学生里45.7%的人在零点后睡觉？
+</div>
+</div>
+
+
