@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-03-22 13:02:01 +0800
+date: 2016-03-22 13:52:01 +0800
 layout: post
 slug: tujidui
 title: 精英团的名字
