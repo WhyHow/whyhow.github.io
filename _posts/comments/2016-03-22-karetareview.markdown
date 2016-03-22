@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-22 13:37:41 +0800
 layout: post
 slug: karetareview
-title: 关于Kareta的一点想法
+title: 关于kareTA的一点想法
 categories: [听]
 tags:
 -  回炉夜话
