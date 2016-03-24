@@ -1,0 +1,21 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-24 21:23:24 +0800
+layout: post
+slug: Say0324bingxue
+title: “雪”的比喻
+categories: [说]
+tags:
+-  点滴
+-  生活
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+上周六刚看到《新民晚报》头条标题转新华社消息：
+<blockquote>“廉洁办奥”<b>像冰雪一样纯洁干净</b>。</blockquote>
+<img src="/public/images/newspaper/xue.jpg"><br/>
+今天<a href="http://weibo.com/2803301701/DnGWg1kZM?ref=collection&type=comment#_rnd1458826106729">人民日报官方微博</a>以“<b>雪崩之下没有一片雪花是无辜的</b>”为题推荐今日<a href="http://paper.people.com.cn/rmrb/html/2016-03/24/nw.D110000renmrb_20160324_3-04.htm">《人民日报》04版文章</a>，并受到大量同标题<a href="http://toutiao.com/i6265506658814788098/">转载</a>：
+<blockquote>给门卫上支烟，大门立即打开；停车费30元，递上10元说不要票了，收费员开心放行；对办事员意思意思，户口两天办妥……他们明天也求人办事，开始了新一轮折磨。谁是恶性循环的第一推手呢？压垮骆驼的绝不仅仅是最后那根稻草，<b>雪崩的时候没有一片雪花是无辜的</b>。</blockquote>
+您们这是跟雪干上了？汉语言博大精深，换种比喻可好？
+</div>
