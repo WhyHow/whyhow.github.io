@@ -12,7 +12,7 @@ tags:
 -  统计
 ---
 
-###脸书调查：父母职业对子女择业的影响
+### 脸书调查：父母职业对子女择业的影响
 
 <a href="https://i.kinja-img.com/gawker-media/image/upload/bezsaqnbzv0w3b25jstc.jpg" data-lightbox="fb" datatitle="来自gizmodo.com">
 <img src="http://i.kinja-img.com/gawker-media/image/upload/s--1QlVU4ND--/c_scale,fl_progressive,q_80,w_800/bezsaqnbzv0w3b25jstc.jpg"></a>
@@ -26,7 +26,7 @@ tags:
 Filiz和Adamic同时还关注了兄弟姐妹的相互影响。如果你们被同样的父母抚养，你应该跟兄弟姐妹有着类似的童年经历，因此你们感兴趣的领域应该差不多，对吗？他们对比了双胞胎和非孪生的兄弟姐妹。结果发现兄弟姐妹之间的影响非常明显：15%的兄弟姐妹从事了同样的工作；在双胞胎中，这一数字是24.7%。对比之下，在美国，同样性别和年龄的人从事同一职业的可能性是8.6%。
 
 <div class="quote"> <blockquote>
-    	以上文字内容摘自：<a href="http://www.looooker.com/archives/25356"></a>北大新媒体</a><br/>，图片引自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a><br/>
+    	以上文字内容摘自：<a href="http://www.looooker.com/archives/25356"></a>北大新媒体</a>，图片引自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a><br/>
     	<b>乙回庐注：</b>中文翻译自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a>，原调查可参见<a href="https://research.facebook.com/blog/do-jobs-run-in-families-/">这里</a>
     </blockquote>
 </div>
