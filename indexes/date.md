@@ -2,6 +2,7 @@
 layout: default
 title: 索引
 slug: Archive
+search_omit: true
 ---
 # 时间线
 下面是按照时间归档的文章索引，方便大家查找需要的文章。

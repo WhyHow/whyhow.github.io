@@ -6,6 +6,10 @@
   <li class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></li>
  {% endif %}
  {% endfor %}
+ <li class="posttitle" >  <form method="get" action="/search" data-search-form>
+    <input type="search" name="q" id="q" placeholder="请输入要搜索的字词" data-search-input />
+    <input type="submit" value="搜索" />
+  </form></li>
  </ul>
  <p>&copy; 乙回庐 {{ site.time | date: '%Y' }}. All rights reserved.</p>
 </div>

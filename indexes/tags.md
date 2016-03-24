@@ -2,6 +2,7 @@
 layout: default
 title: 索引
 slug: Archive
+search_omit: true
 ---
 # 标签索引
 下面是按照标签归档的文章索引，可读性不强，供需要的大家参考。
