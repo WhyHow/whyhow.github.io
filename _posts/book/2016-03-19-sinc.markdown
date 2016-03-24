@@ -14,12 +14,16 @@ tags:
 </div>
 `sinc` 函数的定义是：
 
-$$\mathrm{sinc} x = \frac{\sin{\pi x}}{\pi x}$$
+\begin{equation}
+\mathrm{sinc} x = \frac{\sin{\pi x}}{\pi x}
+\end{equation}
 
 {% raw %}
 容易知道，$\|\mathrm{sinc}(x)\|\le \mathrm{sinc}(0) = 1$（根据洛必达法则），所以它属于 $\mathcal{L}^{\infty}$。但其1范数为：
 
-$$\int_{-\infty}^{\infty}|\mathrm{sinc}(x)| dx = 2 \int_{0}^{\infty} \frac{|\sin{\pi x}|}{|\pi x|} dx$$
+\begin{equation}
+\int_{-\infty}^{\infty}|\mathrm{sinc}(x)| dx = 2 \int_{0}^{\infty} \frac{|\sin{\pi x}|}{|\pi x|} dx
+\end{equation}
 {% endraw %}
 
 然而上式是发散的。可以像这样证明这一结论：
@@ -34,7 +38,9 @@ $$\int_{-\infty}^{\infty}|\mathrm{sinc}(x)| dx = 2 \int_{0}^{\infty} \frac{|\sin
 由于函数的1范数的下界为三角形面积和
 
 {% raw %}
-$$||\mathrm{sinc}||_1>2\left(\frac{1}{2}+\sum_{k=1}^{\infty}I_k\right)=1+\frac{2}{\pi}\sum_{k=1}^{\infty}\frac{1}{2k+1}$$
+\begin{equation}
+||\mathrm{sinc}||_1>2\left(\frac{1}{2}+\sum_{k=1}^{\infty}I_k\right)=1+\frac{2}{\pi}\sum_{k=1}^{\infty}\frac{1}{2k+1}
+\end{equation}
 {% endraw %}
 
 
