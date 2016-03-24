@@ -22,6 +22,3 @@ search_omit: true
 {% endfor %}
 </ul>
 
-### 这是本站的访问统计（Clicky提供的数据）
-
-<script src="//widgets.clicky.com/tally/?site_id=100929068&sitekey=ab30555daa51fb2d450385dd0a97b3c7&width=175&height=250&title=&hide_title=1&hide_branding=1" type="text/javascript"></script>
