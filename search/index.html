@@ -1,0 +1,37 @@
+---
+layout: default
+title: Search
+search_omit: true
+---
+
+  <h1>本站内的搜索结果</h1>
+  
+  <!-- Search form -->
+<!--   <form method="get" action="/search" data-search-form>
+    <label for="q">搜索内容</label>
+    <input type="search" name="q" id="q" placeholder="请输入要搜索的字词" data-search-input />
+    <input type="submit" value="Search" />
+  </form> -->
+
+  <!-- Search results placeholder -->
+  <p data-search-found>
+    共找到 <span data-search-found-count></span> 网页包含 &ldquo;<span data-search-found-term></span>&rdquo;.
+  </p>
+  <div data-search-results></div>
+
+
+
+  <!-- Search result template -->
+  <script type="text/x-template" id="search-result">
+    <div>
+      <h1><a href="##Url##">##Title##</a></h1>
+      <h2><a href="##Url##">##Date##</a></h2>
+      <a href="##Url##">查看 &ldquo;##Title##&rdquo;</a>
+    </div>
+  </script>
+
+  <!-- jQuery - required but can be moved to the <head> -->
+  <script src="/public/js/jquery.min.js"></script>
+
+  <!-- Search script - Must appear after template -->
+  <script src="/search/search.js"></script>
