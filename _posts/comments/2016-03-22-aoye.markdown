@@ -13,6 +13,7 @@ tags:
 -  新浪网
 -  头条新闻
 -  统计错误
+-  统计
 ---
 <div class="quote"> <blockquote>
     	<a href="http://weibo.com/1618051664/DnirLw8j6?ref=collection&type=comment#_rnd1458609173747">新浪微博 头条新闻</a>援引<a href="http://news.sina.com.cn/c/nd/2016-03-21/doc-ifxqnskh1061726.shtml">新浪网</a>的报告（人民网等多家媒体同时发布）：  

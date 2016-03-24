@@ -9,6 +9,7 @@ categories: [读]
 tags:
 -  新民晚报
 -  统计错误
+-  统计
 ---
 <a href="/public/images/newspaper/jiabao.jpg" data-lightbox="JiabaoXMWB" data-title="新民晚报: 家暴">
 <img src="/public/images/newspaper/preview/jiabao.jpg"></a>

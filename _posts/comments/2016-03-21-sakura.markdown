@@ -12,9 +12,10 @@ tags:
 -  新浪微博
 -  澎湃新闻
 -  逻辑错误
+-  论证逻辑
 ---
 <div class="quote"> <blockquote>
-    	来自<a href="http://www.thepaper.cn/newsDetail_forward_1446436">澎湃新闻</a>、<a href="http://weibo.com/5044281310/DnfpSBqIJ?ref=home&rid=13_0_1_2669688681367230032&type=comment#_rnd1458532409479">新浪微博</a>的消息：  
+    	来自<a href="http://www.thepaper.cn/newsDetail_forward_1446436">澎湃新闻</a>、<a href="http://weibo.com/5044281310/DnfpSBqIJ?ref=home&rid=13_0_1_2669688681367230032&type=comment#_rnd1458532409479">新浪微博</a>的消息：
     </blockquote>
 </div>
 

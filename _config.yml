@@ -3,6 +3,7 @@ markdown:         kramdown
 highlighter:        rouge
 gems: [jekyll-paginate]
 timezone: Asia/Hong_Kong
+lsi : true
 
 # Permalinks
 permalink:        /:year/:month/:day/:slug.html

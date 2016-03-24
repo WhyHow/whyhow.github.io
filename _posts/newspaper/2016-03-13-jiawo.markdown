@@ -12,8 +12,8 @@ tags:
 -  读书
 -  写作
 -  逻辑错误
+-  论证逻辑
 ---
-
 <a href="/public/images/newspaper/jiawo.jpg" data-lightbox="jiawo">
 <img src="/public/images/newspaper/preview/jiawoxiao.jpg"></a><br/>
 
