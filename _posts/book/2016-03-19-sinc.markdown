@@ -39,10 +39,9 @@ tags:
 
 {% raw %}
 \begin{equation}
-||\mathrm{sinc}||_1>2\left(\frac{1}{2}+\sum_{k=1}^{\infty}I_k\right)=1+\frac{2}{\pi}\sum_{k=1}^{\infty}\frac{1}{2k+1}
+\lVert\mathrm{sinc}\rVert_1>2\left(\frac{1}{2}+\sum_{k=1}^{\infty}I_k\right)=1+\frac{2}{\pi}\sum_{k=1}^{\infty}\frac{1}{2k+1}
 \end{equation}
 {% endraw %}
-
 
 发散，所以函数的1范数必发散。
 
