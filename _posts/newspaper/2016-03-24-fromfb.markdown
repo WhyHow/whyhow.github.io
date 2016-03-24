@@ -1,0 +1,38 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-24 10:05:06 +0800
+layout: post
+slug: ffb
+title: 来自脸书的一项调查和数据统计
+categories: [读]
+tags:
+-  Facebook
+-  北大新媒体
+-  统计
+---
+
+###脸书调查：父母职业对子女择业的影响
+
+<a href="https://i.kinja-img.com/gawker-media/image/upload/bezsaqnbzv0w3b25jstc.jpg" data-lightbox="fb" datatitle="来自gizmodo.com">
+<img src="http://i.kinja-img.com/gawker-media/image/upload/s--1QlVU4ND--/c_scale,fl_progressive,q_80,w_800/bezsaqnbzv0w3b25jstc.jpg"></a>
+
+在一篇博客中，脸书的研究人员Ismail Onur Filiz和Lada Adamic解释了他们是如何通过筛选脸书上说英语的560万对父子关系以寻找潜在规律的。通过检查对比列出的职业，两位研究者计算出子女从事的职业类型受其父母职业影响的概率。上面这幅图显示了孩子的就业领域跟他们父亲就业领域的关系，当然你可以在他们的脸书博客里看到一系列交互式的视觉化说明。
+
+举个例子，如果父亲是从事律师职业，那么儿子就比普通人高4.6倍的可能性会从事医疗工作。同时，如果母亲是护士，那么女儿就比普通人高3.75倍的可能性从事护理工作。但是值得注意的是其中一些统计方式如果放到格局较大的事物上可能意义并不大，他们解释说：即使相对而言，孩子更有可能从继承他们父母的行业，但是这个绝对百分比却是非常低的。例如，如果父亲在军队里，儿子从军的可能性比一般人要高5倍，但是实际上，在这些父亲是军人的子女中，只有四分之一会从军。再举例而言，在我们的数据中，如果父亲从事农业，渔业或者林业，他们的儿子里只有3%会子承父业，但这也是一般人可能性的7.6倍。如果母亲是职员和行政，她们的女儿中有20%会从事同样的职业，但是这仅仅是一般人可能性的2倍。
+
+如果这个结果看起来太性别化，那是因为这也许是“代际”转变的结果，越来越多的你才行在过去几十年中成为了劳动力。但是研究者同样指出，这些模式如果跟全部人口相比实际上很罕见。而且这里还有着需要注意的地方：比如军队里的人比普通人更倾向于说明自己的职业，而且既然研究仅限于脸书，说明这个结果并不能代表整个社会。
+
+Filiz和Adamic同时还关注了兄弟姐妹的相互影响。如果你们被同样的父母抚养，你应该跟兄弟姐妹有着类似的童年经历，因此你们感兴趣的领域应该差不多，对吗？他们对比了双胞胎和非孪生的兄弟姐妹。结果发现兄弟姐妹之间的影响非常明显：15%的兄弟姐妹从事了同样的工作；在双胞胎中，这一数字是24.7%。对比之下，在美国，同样性别和年龄的人从事同一职业的可能性是8.6%。
+![](/public/images/newspaper/ciyu.jpg)
+
+<div class="quote"> <blockquote>
+    	以上文字内容摘自：<a href="http://www.looooker.com/archives/25356"></a>北大新媒体</a><br/>，图片引自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a>
+    	<b>乙回庐注：</b>中文翻译自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a>，原调查可参见<a href="https://research.facebook.com/blog/do-jobs-run-in-families-/"></a>
+    </blockquote>
+</div>
+
+<div class="readreview">
+本站之前转过国内媒体制作的一些方法不规范、图表有问题的数据统计。这里再转一个正规的数据统计和分析以正视听。<br/><br/>
+从信息图上还可以得到很多其他信息。比如相比父辈，年轻一代里从事“餐饮 (restaurant)”的占比显著增高，而从事“管理 (management)”的显著降低。这种整体趋势和第二幅信息图里给出的父亲从事“计算机 (math-cs)”职业的子女辈的职业分布是基本一致的。
+</div>
