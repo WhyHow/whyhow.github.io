@@ -1,6 +1,6 @@
 <h2 class="news-title">网站最近更新</h2>
 <div class="news-wrap">
- <ul class="postlist">
+ <ul class="postlist" id="newslist">
  {% for post in site.posts limit:10 %}
  {% if post.url %}
   <li class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></li>
