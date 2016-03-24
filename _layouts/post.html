@@ -7,7 +7,7 @@ layout: default
   <span class="post-date">{{ page.date | date: "%Y年%m月%d日" }}
   &emsp;   {% assign tags = page.tags %}
   {% for tag in tags %}
-    {{ tag }}
+    <a href="/indexes/tags#{{ tag }}">{{ tag }}</a>
   {% endfor %} &emsp; <a id="catlink">{{ page.categories }}</a>&emsp; <a href="{{ page.url }}#comments"> 添加评论 </a> </span>
   <div id="catlist"></div>
   {{ content }}

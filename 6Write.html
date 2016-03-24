@@ -16,7 +16,7 @@ slug: Write
         <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}
       &emsp;   {% assign tags = post.tags %}
       {% for tag in tags %}
-      {{ tag }}
+      <a href="/indexes/tags#{{ tag }}">{{ tag }}</a>
       {% endfor %} &emsp; <a id="catlink">{{ post.categories }}</a>&emsp; <a href="{{ post.url }}#comments"> 添加评论 </a> </span>
         <div id="catlist"></div>
         {{ post.content }}
