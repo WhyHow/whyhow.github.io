@@ -21,13 +21,9 @@ tags:
 
 举个例子，如果父亲是从事律师职业，那么儿子就比普通人高4.6倍的可能性会从事医疗工作。同时，如果母亲是护士，那么女儿就比普通人高3.75倍的可能性从事护理工作。但是值得注意的是其中一些统计方式如果放到格局较大的事物上可能意义并不大，他们解释说：即使相对而言，孩子更有可能从继承他们父母的行业，但是这个绝对百分比却是非常低的。例如，如果父亲在军队里，儿子从军的可能性比一般人要高5倍，但是实际上，在这些父亲是军人的子女中，只有四分之一会从军。再举例而言，在我们的数据中，如果父亲从事农业，渔业或者林业，他们的儿子里只有3%会子承父业，但这也是一般人可能性的7.6倍。如果母亲是职员和行政，她们的女儿中有20%会从事同样的职业，但是这仅仅是一般人可能性的2倍。
 
-如果这个结果看起来太性别化，那是因为这也许是“代际”转变的结果，越来越多的你才行在过去几十年中成为了劳动力。但是研究者同样指出，这些模式如果跟全部人口相比实际上很罕见。而且这里还有着需要注意的地方：比如军队里的人比普通人更倾向于说明自己的职业，而且既然研究仅限于脸书，说明这个结果并不能代表整个社会。
-
-Filiz和Adamic同时还关注了兄弟姐妹的相互影响。如果你们被同样的父母抚养，你应该跟兄弟姐妹有着类似的童年经历，因此你们感兴趣的领域应该差不多，对吗？他们对比了双胞胎和非孪生的兄弟姐妹。结果发现兄弟姐妹之间的影响非常明显：15%的兄弟姐妹从事了同样的工作；在双胞胎中，这一数字是24.7%。对比之下，在美国，同样性别和年龄的人从事同一职业的可能性是8.6%。
-
 <div class="quote"> <blockquote>
     	以上文字内容摘自：<a href="http://www.looooker.com/archives/25356">北大新媒体</a>，图片引自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a>。<br/>
-    	<b>乙回庐注：</b>中文翻译自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a>，原调查可参见<a href="https://research.facebook.com/blog/do-jobs-run-in-families-/">这里</a>。
+    	<b>乙回庐注：</b>中文翻译自<a href="http://gizmodo.com/how-your-parents-career-choices-affect-your-own-visual-1766110573">GIZMODO</a>，原调查可参见<a href="https://research.facebook.com/blog/do-jobs-run-in-families-/">这里</a>，有更多图片和内容。
     </blockquote>
 </div>
 
