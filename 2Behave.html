@@ -13,7 +13,7 @@ slug: Behave
     {% for post in site.categories['行'] %} {% if post.url %}
     <div class="post">
         <h1 class="post-title" id="{{ post.title }}"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}
+        <span class="post-date"><a href="/indexes/date#{{ post.date | date: "%Y-%m" }}">{{ post.date | date: "%Y年%m月%d日" }}</a>
 			&emsp;   {% assign tags = post.tags %}
 			{% for tag in tags %}
 			<a href="/indexes/tags#{{ tag }}">{{ tag }}</a>
