@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-03-13 20:37:05 +0800
+date: 2016-03-25 21:04:11 +0800
 layout: post
 slug: ai0313
 title: 相当能跑的图灵
