@@ -53,7 +53,6 @@ function handleSaying() {
 }
 
 
-
 $(document).ready(function() {
 
     // hide #back-top first
@@ -91,7 +90,7 @@ $(document).ready(function() {
     // Update latest posts list
     $('#news-checkbox').on('click', function(a) {
         if (a.target.checked) {
-            $.getJSON('/search/news.json', function(rep) {
+            $.getJSON('/search/news.json?nocache=' + (new Date()).getTime(), function(rep) {
                 $('.postlist').html('');
                 $(rep.posts).each(function(i, n) {
                     $('#newslist').append('<li class="posttitle"><a href="' + n.url + '">' + n.title + "</a></li>");
