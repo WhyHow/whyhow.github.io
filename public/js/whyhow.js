@@ -95,7 +95,7 @@ $(document).ready(function() {
                 $(rep.posts).each(function(i, n) {
                     $('#newslist').append('<li class="posttitle"><a href="' + n.url + '">' + n.title + "</a></li>");
                 });
-                $('#newslist').append('<li class="posttitle">  <form method="get" action="/search" data-search-form=""><input type="search" name="q" id="q" placeholder="请输入要搜索的字词" data-search-input=""><input type="submit" value="搜索">  </form></li>');
+                $('#newslist').append('<li class="posttitle">  <form method="get" action="/search" data-search-form=""><input type="search" name="q" id="q" placeholder="请输入要搜索的字词" data-search-input=""> <input type="submit" value="搜索">  </form></li>');
             })
         }
     })
