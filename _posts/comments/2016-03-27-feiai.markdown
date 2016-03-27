@@ -4,7 +4,7 @@ comments: true
 date: 2016-03-27 12:12:12 +0800
 layout: post
 slug: feiai
-title: 肺癌发病率
+title: 最近高发的肺癌
 categories: [听]
 tags:
 -  医学
@@ -12,7 +12,7 @@ tags:
 -  新民晚报
 -  新浪网
 ---
-<div class="review">
+<div class="readreview">
 有些问题虽然没有被当做正儿八经地集中报道过，但若关注新闻或电视节目，还是可以感受到问题存在的气息。比如说，最近学界对“肺癌”问题的关注。列举最近这一周内的以下几条相关新闻：
 </div>
 
