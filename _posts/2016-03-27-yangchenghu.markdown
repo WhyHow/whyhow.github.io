@@ -12,11 +12,11 @@ tags:
 -  阳澄湖
 -  花
 ---
-春游阳澄湖<br/>
+春游阳澄湖。花痴图十三张：<br/>
 <a href="/public/images/duku/7.jpg" data-lightbox="ych"><img src="/public/images/duku/7_1.jpg"></a>
 <a href="/public/images/duku/1.jpg" data-lightbox="ych"></a>
-<a href="/public/imagesy/duku/2.jpg" data-lightbox="ych"></a>
-<a href="/public/imagesy/duku/3.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/2.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/3.jpg" data-lightbox="ych"></a>
 <a href="/public/images/duku/4.jpg" data-lightbox="ych"></a>
 <a href="/public/images/duku/5.jpg" data-lightbox="ych"></a>
 <a href="/public/images/duku/6.jpg" data-lightbox="ych"></a>
