@@ -13,16 +13,16 @@ tags:
 -  花
 ---
 春游阳澄湖<br/>
-<a href="/public/images/gallery/duku/7.jpg" data-lightbox="ych"><img src="/public/images/gallery/duku/7_1.jpg"></a>
-<a href="/public/images/gallery/duku/1.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/2.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/3.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/4.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/5.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/6.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/8.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/9.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/10.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/11.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/12.jpg" data-lightbox="ych"></a>
-<a href="/public/images/gallery/duku/13.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/7.jpg" data-lightbox="ych"><img src="/public/images/duku/7_1.jpg"></a>
+<a href="/public/images/duku/1.jpg" data-lightbox="ych"></a>
+<a href="/public/imagesy/duku/2.jpg" data-lightbox="ych"></a>
+<a href="/public/imagesy/duku/3.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/4.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/5.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/6.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/8.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/9.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/10.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/11.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/12.jpg" data-lightbox="ych"></a>
+<a href="/public/images/duku/13.jpg" data-lightbox="ych"></a>
