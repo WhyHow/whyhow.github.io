@@ -13,7 +13,7 @@ tags:
 -  花
 ---
 春游阳澄湖<br/>
-<a href="/public/images/gallery/duku/7.jpg" data-lightbox="ych"></a>
+<a href="/public/images/gallery/duku/7.jpg" data-lightbox="ych">
 <img src="/public/images/gallery/duku/7_1.jpg"></a>
 <a href="/public/images/gallery/duku/1.jpg" data-lightbox="ych"></a>
 <a href="/public/images/gallery/duku/2.jpg" data-lightbox="ych"></a>
