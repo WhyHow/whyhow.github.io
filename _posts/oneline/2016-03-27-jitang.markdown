@@ -1,0 +1,15 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-27 12:52:05 +0800
+layout: post
+slug: Say0327jitang
+title: 鸡汤文
+categories: [说]
+tags:
+-  点滴
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+“鸡汤”本身就是个伪命题吧。那些口口声声“心灵不需要鸡汤”的，本身也是鸡汤吧。
+</div>
