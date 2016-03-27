@@ -13,6 +13,6 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-今天看新闻注意到了一个说法叫“<a href="http://www.weibo.com/1814975931/Do9K1gdiA?type=comment#_rnd1459068468582">迫于警方压力投案自首</a>”。搜索了一下发现还真有大量关于犯罪的新闻都采用了这种说法。</br>
+今天看新闻注意到了一个说法叫“<a href="http://www.weibo.com/1814975931/Do9K1gdiA?type=comment#_rnd1459068468582" target="_blank">迫于警方压力投案自首</a>”。搜索了一下发现还真有大量关于犯罪的新闻都采用了这种说法。</br>
 不太明白这具体是什么意思。这种说法是有法律意义的吗？还是为了体现警方的存在感？如果没有法律上的界定，是不是单纯的自首更体现社会主义民众的道德感？
 </div>
