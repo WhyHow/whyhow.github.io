@@ -1,0 +1,39 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-27 11:35:45 +0800
+layout: post
+slug: rabies0327
+title: 新加坡被狗咬不给打疫苗？
+categories: [听]
+tags:
+-  狂犬病
+-  新加坡
+-  疫苗
+-  维基百科
+---
+<div class="quote"> <blockquote>
+    	来自 新加坡眼 的题为《网友们感慨在新加坡看病要么身心受伤，要闷钱包阵亡》的文章的评论提到：
+    </blockquote>
+</div>
+![](/public/images/rabiesingapore.jpg)
+
+<hr/>
+<div class="commentsonquote">
+<div class="yizi">因为昨天才发了一篇<a href="{% post_url 2016-03-26-rabies %}">与狂犬病相关的文章</a>，今天看到这个评论就很紧张。所以特意去查了一下新加坡的狂犬病疫情。据<a href="http://wwwnc.cdc.gov/travel/destinations/traveler/none/singapore">CDC的新加坡旅游健康信息</a>称：
+<blockquote>
+<p>Rabies is present in bats in Singapore. However, it is not a major risk to most travelers. CDC recommends rabies vaccine for only these groups:</p>
+<ul class="list-bullet">
+    <li>Travelers involved in outdoor and other activities in remote areas that put them at risk for bat bites (such as adventure travel and caving).</li>
+    <li>People who will be working with or around bats (such as wildlife professionals and researchers).</li>
+</ul>
+</blockquote>
+所以可能新加坡医生的说法是可靠的，新加坡的宠物狗可能确实已经注射过相关疫苗，并没有狂犬病的感染风险。另一方面可能的考虑应该是狂犬疫苗的副作用比例相对还是比较高。以下是一段来自 维基百科 的描述：
+
+<blockquote>
+Rabies vaccines may be safely used in all age groups. About 35 to 45 percent of people develop a brief period of redness and pain at the injection site. <strong>About 5 to 15 percent of people</strong> may have fever, headaches, or nausea. After exposure to rabies there is no contraindication to its use. Most vaccines do not contain thimerosal. Vaccines made from nerve tissue are used in a few countries, mainly in Asia and Latin America, but are <strong>less effective and have greater side effects</strong>. Their use is thus not recommended by the World Health Organization.
+</blockquote>
+由此，不能排除医生拒绝注射狂犬疫苗可能是有其考虑的。
+</div>
+</div>
+
