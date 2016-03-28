@@ -11,7 +11,7 @@ tags:
 -  自然
 -  数学
 ---
-组图：植物里的数学每。图片增加中。<br/>
+组图：植物里的数学美。图片增加中。<br/>
 <a href="\public\images\duku\15.jpg" data-lightbox="hjh" light><img src="\public\images\duku\15_1.jpg"></a>
 <a href="\public\images\duku\16.jpg" data-lightbox="hjh" light></a>
 <a href="\public\images\duku\14.jpg" data-lightbox="hjh" light></a>
