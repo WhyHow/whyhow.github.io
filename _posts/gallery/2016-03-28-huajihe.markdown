@@ -1,0 +1,17 @@
+---
+author: YiYin
+comments: true
+date: 2016-03-28 12:20:08 +0800
+layout: post
+slug: huazhongshuxue
+title: 花中数学
+categories: [写]
+tags:
+-  相片
+-  自然
+-  数学
+---
+组图：植物里的数学每。图片增加中。<br/>
+<a href="\public\images\duku\15.jpg" data-lightbox="hjh" light><img src="\public\images\duku\15_1.jpg"></a>
+<a href="\public\images\duku\16.jpg" data-lightbox="hjh" light></a>
+<a href="\public\images\duku\14.jpg" data-lightbox="hjh" light></a>
