@@ -9,6 +9,7 @@ categories: [说]
 tags:
 -  社会
 -  造词
+-  汉语
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
