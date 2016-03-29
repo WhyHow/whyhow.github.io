@@ -11,5 +11,5 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-`ggvis`和`ggplot`确实比较像，但是还是有很多本质区别啊！看来我最近不需要关心`ggvis`了，等到需要网站出图的时候再说吧！先发一个小文章介绍一下混乱的`ggvis`的一个小功能。
+<code>ggvis</code>和<code>ggplot</code>确实比较像，但是还是有很多本质区别啊！看来我最近不需要关心<code>ggvis</code>了，等到需要网站出图的时候再说吧！先发一个小文章介绍一下混乱的<code>ggvis</code>的一个小功能。
 </div>
