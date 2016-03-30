@@ -1,0 +1,329 @@
+---
+author: YiZi
+comments: true
+date: 2016-03-30 13:31:51 +0800
+layout: post
+slug: browsers0330
+title: 浏览器的数据收集问题
+categories: [听]
+tags:
+-  公民实验室
+-  隐私
+-  互联网
+-  大数据
+---
+<div class="readreview">
+本来不想提及此事了，浏览器的数据收集简直是浏览器行业的“常规”。不单单下面列举的国产浏览器有这个问题，Google的Chrome也是数据收集的行家，这个只需要大家上网随便搜索都能看到。
+</div>
+
+<div class="quote"> <blockquote>
+    	来自<a href="https://citizenlab.org/2016/02/研究发现百度浏览器存在安全与隐私问题/">公民实验室</a>的消息称：
+    </blockquote>
+</div>
+
+## 研究发现百度浏览器存在安全与隐私问题
+
+多伦多大学公民实验室的最新报告揭露了百度浏览器存在的多处隐私与安全问题。百度浏览器是基于中国的一款移动浏览器，拥有数百万的用户，而报告反映的隐私与安全问题很可能会至用户的沟通于风险中。
+
+## 主要发现
+
+百度浏览器是一款以微软视窗系统与安卓系统为平台的网页浏览器。它将用户个人数据传输至百度服务器时，**不经加密**或者**只是用非常容易被解密的加密方法**。因此用户数据面对在软件升级过程中任意代码执行的中间人攻击时会显得**非常脆弱**。
+
+安卓版本的百度浏览器以**不加密**的方式传输可辨认的个人信息，**包括用户的GPS定位，历史搜索项目，和网址浏览记录**。同时，用轻易可以被破解的加密方式传输用户的**IMEI（国际移动电话识别码）和一连串用户附近无线网络的信息**。
+
+视窗版本的百度浏览器（乙回庐注：就是大家电脑上使用的版本）同样用不加密或可轻易破解的简单加密方式传送一些列可辨认的个人信息，包括**用户的历史搜索项目，硬盘模型序列号和网络MAC地址（媒体存取控制地址），所有历史浏览页面的网址链接和标题，以及中央处理机的型号**。（乙回庐注：其中硬盘模型序列号和网络MAC地址经常被当作注册软件的注册唯一识别码，所以收集这两个信息基本可以断言可以唯一的确定使用者的计算机）
+
+不管是视窗版本还是安卓版本的百度浏览器，都**没有使用代码签名来保护**软件升级。这意味着在路径内的恶意中间人可能引起应用的下载以及执行任意的程序，从而带来**高安全风险**。
+
+视窗版本的百度浏览器拥有的一个功能是用**代理请求特定网页**，也就意味着允许其进入一些通常在中国被封锁的网站。
+
+百度浏览器国际版本的分析显示数据泄露是由**百度软件研发工具箱**的分享导致的，这会影响到**几百个**谷歌商店中由百度或第三发研发的应用，以及一个非常受欢迎的中国应用商店中的上千个其他应用。
+
+[完整的英文报告](https://citizenlab.org/2016/02/privacy-security-issues-baidu-browser/)
+
+<div class="readreview">
+这里引用一下受影响的App：
+</div>
+
+<table border="1">
+<thead>
+<tr>
+<th>Google Play Store installs</th>
+<th>Android app title and package name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100,000,000 – 500,000,000</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop"><strong>ES File Explorer File Manager</strong> [com.estrongs.android.pop]</a></td>
+</tr>
+<tr>
+<td>50,000,000 – 100,000,000</td>
+<td><a href="https://play.google.com/store/apps/details?id=cn.jingling.motu.photowonder"><strong>Photo Wonder-Collage Maker</strong> [cn.jingling.motu.photowonder]</a></td>
+</tr>
+<tr>
+<td>10,000,000 – 50,000,000</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.azarlive.android"><strong>Azar-Video Chat &amp; Call, Messenger</strong> [com.azarlive.android]</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.estrongs.android.taskmanager"><strong>ES Task Manager (Task Killer)</strong> [com.estrongs.android.taskmanager]</a><br>
+<a href="https://play.google.com/store/apps/details?id=tv.pps.mobile"><strong>愛奇藝PPS</strong> [tv.pps.mobile]</a></td>
+</tr>
+<tr>
+<td>5,000,000 – 10,000,000</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.meitu.meipaimv"><strong>Meipai</strong> [com.meitu.meipaimv]</a></td>
+</tr>
+<tr>
+<td>1,000,000 – 5,000,000</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap"><strong>百度地图</strong> [com.baidu.BaiduMap]</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.baidu.searchbox"><strong>手机百度</strong> [com.baidu.searchbox]</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.fihtdc.filemanager"><strong>Well File Manager</strong> [com.fihtdc.filemanager]</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.nexstreaming.app.singplay"><strong>SingPlay: Karaoke your MP3s</strong> [com.nexstreaming.app.singplay]</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.smile.gifmaker"><strong>Kwai, the best short video App</strong> [com.smile.gifmaker]</a><br>
+<a href="https://play.google.com/store/apps/details?id=com.wacompany.mydol"><strong>Mydol (STAR LOCKSCREEN)</strong> [com.wacompany.mydol]</a><br>
+<a href="https://play.google.com/store/apps/details?id=luo.speedometergps"><strong>Speedometer GPS</strong> [luo.speedometergps]</a></td>
+</tr>
+<tr>
+<td>500,000 – 1,000,000</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.estrongs.locker"><strong>ES App Locker</strong> [com.estrongs.locker]<br>
+</a><a href="https://play.google.com/store/apps/details?id=com.qiyi.video.pad"><strong>爱奇艺视频HD</strong> [com.qiyi.video.pad]</a></td>
+</tr>
+</tbody>
+</table>
+
+<div class="readreview">
+这是公民实验室与百度公司的沟通记录：
+</div>
+
+<table border="1">
+<tbody>
+<tr>
+<td width="167"><strong>Date</strong></td>
+<td width="457"><strong>Contact</strong></td>
+</tr>
+<tr>
+<td width="167">November 25, 2015</td>
+<td width="457">We submit a general inquiry by email to Baidu about how to submit a disclosure.</td>
+</tr>
+<tr>
+<td width="167">November 25, 2015</td>
+<td width="457">A Baidu representative responds with details on their disclosure process.</td>
+</tr>
+<tr>
+<td width="167">November 26, 2015</td>
+<td width="457">We formally emailed Baidu to notify them of the findings found in this report and indicated we would not publish sooner than 45 days (January 10) after this notification.</td>
+</tr>
+<tr>
+<td width="167">November 26, 2015</td>
+<td width="457">Baidu confirmed receipt of this notification.</td>
+</tr>
+<tr>
+<td width="167">December 3, 2015</td>
+<td width="457">Baidu responded to our notification, “confirm[ing] all the below security issues” and stating they “have taken appropriate solutions to prepare for fixing them. It will take at least three weeks to fix all the flaws in the next new version.”</td>
+</tr>
+<tr>
+<td width="167">January 4, 2016</td>
+<td width="457">We emailed Baidu inquiring as to the status of the resolution of the reported vulnerabilities and to remind them that we intend to publish January 10.</td>
+</tr>
+<tr>
+<td width="167">January 6, 2016</td>
+<td width="457">Baidu responded, stating that they intend to fix all reported vulnerabilities except for search terms being sent in the clear. They stated that the other vulnerabilities in the Android version will be fixed in version 6.4 released January 10 and the vulnerabilities in the Windows version will be fixed in a release on January 24.</td>
+</tr>
+<tr>
+<td width="167">January 9, 2015</td>
+<td width="457">Baidu representatives email us about a possible delay in resolving the issues under the initially proposed timeline. They suggested having a phone call with their security engineers to discuss the relevant issues.</td>
+</tr>
+<tr>
+<td width="167">January 12, 2015</td>
+<td width="457">We confirm to Baidu we would be interested in discussing the issues by phone.</td>
+</tr>
+<tr>
+<td width="167">January 13, 2016</td>
+<td width="457">Baidu emails us requesting to have a conversation over email or phone.</td>
+</tr>
+<tr>
+<td width="167">January 13, 2016</td>
+<td width="457">We indicate a preference for phone and say that we would like to talk as soon as possible.</td>
+</tr>
+<tr>
+<td width="167">January 14, 2016</td>
+<td width="457">A Baidu security researcher closer to China contacts us requesting a call.</td>
+</tr>
+<tr>
+<td width="167">January 14, 2016</td>
+<td width="457">We respond with a time offering to Skype.</td>
+</tr>
+<tr>
+<td width="167">January 14, 2016</td>
+<td width="457">A Baidu security researcher agrees to a Skype call to discuss the timeline for fixing the vulnerabilities.</td>
+</tr>
+<tr>
+<td width="167">January 14, 2016</td>
+<td width="457">We Skyped with a Baidu security engineer who requested delaying publication until February 14 because of the additional time required to fully fix the vulnerabilities due to them existing in multiple applications.</td>
+</tr>
+<tr>
+<td width="167">January 14, 2016</td>
+<td width="457">We emailed Baidu and agreed to delay publication until February 14.</td>
+</tr>
+<tr>
+<td width="167">February 16, 2016</td>
+<td width="457">We emailed a set of questions regarding Baidu Browser’s security and privacy practices to Baidu’s Director of International Communications.</td>
+</tr>
+<tr>
+<td width="167">February 17, 2016</td>
+<td width="457">We emailed the Baidu security team with our understanding of the status of the issues we reported in both browsers and inquired whether there would be future updates and, if so, their timeline.</td>
+</tr>
+<tr>
+<td width="167">February 22, 2016</td>
+<td width="457">Baidu sends back responses to our questions, which have have published in full <a href="/public/docs/browsers/baiduresponses.pdf">here</a> [PDF](乙回庐注：已上传到本网)</td>
+</tr>
+</tbody>
+</table>
+
+<div class="readreview">
+百度对于上述事件的回应称，其按照https://www.baidu.com/duty/yinsiquan.html的内容收集数据，符合<strong>highest standards of security and user privacy in the industry</strong>（最高级别的安全和用户隐私行业标准）。我们自然不是这方面的专家，不过真的不加密或者弱加密就是最高级别了吗？最新版的“百度隐私权保护声明”中提及他将会收集：
+</div>
+
+ 设备信息。某些产品和/或服务包含唯一应用程序编号。当您安装、激活、更新、卸载相关服务或当这些服务定期与百度通信（例如软件的更新）时，系统会将此编号以及与安装相关的信息（例如操作系统类型和应用程序版本号）发送给百度。
+
+当您使用具有定位功能的百度服务时，系统会自动处理有关设备的位置信息，以使得您不需要手动输入自身地理坐标就可获得相关服务。例如在百度地图服务中，如果您使用“当前位置”进行地理查询，百度可能会向您提供基于位置的服务。
+
+**为了提供更好的服务与改善用户体验**，百度可能会记录硬件型号、操作系统版本号、国际移动设备身份码（IMEI）、网络设备硬件地址（MAC）等信息。
+
+
+<div class="readreview">
+上面的理由反正我不信，信不信由你喽！下面是QQ浏览器的做法：
+</div>
+
+<hr/>
+<div class="quote"> <blockquote>
+    	来自<a href="https://citizenlab.org/2016/03/qq浏览器存在的隐私与安全隐患/">公民实验室</a>的消息称：
+    </blockquote>
+</div>
+
+## 研究者发现了QQ浏览器存的安全与隐私问题。
+
+多伦多大学公民实验室的最新报告揭露了QQ浏览器存在的多处隐私与安全问题。QQ浏览器是一款由中国网络巨头腾讯开发的移动浏览器，而这些问题很可能会将数以百万的用户至于严峻的风险中。
+
+## 主要发现
+
+- 以微软视窗系统与安卓系统为平台的QQ网络浏览器在将用户个人数据传输至QQ服务器时，**不经加密**或只使用**非常容易被破解的加密**方式。因此用户数据面对软件升级过程中的任意代码执行显的**异常脆弱**。
+- 安卓版本的QQ浏览器以不加密或极易被破解的加密方式传输可辨认的个人信息，包括用户的**IMEI（国际移动电话识别码）、IMSI（国际移动用户识别码）、临近的无线网络站点、历史搜索项目、网址浏览记录、以及安卓ID**。
+- 视窗版本的QQ浏览器同样以不加密或极易被破解的加密方式传输可辨认的个人信息，包括用户的**网页浏览历史、硬盘序列号、网络MAC地址（媒体存取控制地址）以及处理器主机名**。
+- 视窗版和安卓版的QQ浏览器均存在很多薄弱点，使得他们很容易收到任意执行程序的攻击。
+- 在2016年2月5日，我们向腾讯公司递交了安全泄露报告，指出了我们发现的一些问题。作为回应，腾讯公司更新了安卓版和视窗版QQ浏览器。我们的分析显示，在更新版的安卓及视窗QQ浏览器中，部分我们反应的问题已得到解决，但仍有**一些问题仍旧存在**。
+
+[完整的英文报告](https://citizenlab.org/2015/05/a-chatty-squirrel-privacy-and-security-issues-with-uc-browser/)
+
+<div class="readreview">
+可以看到，不愧是一个级别的公司，连收集数据的项目都入出一辙。不能不佩服啊！整个分析报告很长，其中AES加密的那段真得叫人哭笑不得，腾讯的密钥匙<code>245406417573740884710047745869965023463</code>看起来好长啊，这个数分解质因数会不会很难，这个数字在我的PC上分解需要0.2秒不到，最妙的是，报告里说你其实可以直接在<a href="http://www.wolframalpha.com/input/?i=factor+245406417573740884710047745869965023463">Wolfram Alpha</a>上直接获得这个128bit的RSA密钥的分解结果。这个时代了，还用128bit的RSA加密，这种选择真的是“安全专家”的作为吗？下面是公民实验室与腾讯公司的沟通记录：
+</div>
+
+<table class="tg">
+<tbody>
+<tr>
+<th class="tg-9hbo">Date</th>
+<th class="tg-9hbo">Contact</th>
+</tr>
+<tr>
+<td class="tg-yw4l">February 5, 2016</td>
+<td class="tg-yw4l">We submitted a security disclosure to Tencent via their online disclosure mechanism at: http://en.security.tencent.com/.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">February 16, 2016</td>
+<td class="tg-yw4l">Status of report changed to “confirmed,” comment is left thanking us for our report.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">February 17, 2016</td>
+<td class="tg-yw4l">We inquire what steps will be taken to resolve the reported issues and what the timeline will be for their resolution.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">February 21, 2016</td>
+<td class="tg-yw4l">They indicate that a new version fixing the vulnerabilities will be released in March.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">February 24, 2016</td>
+<td class="tg-yw4l">They indicate that a new version fixing the vulnerabilities will be released “next week.”</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 3, 2016</td>
+<td class="tg-yw4l">They ask for us to leave an address to send a bug bounty gift. (Their bug bounty is <a href="http://en.security.tencent.com/#/index">described on their security disclosure site</a> as company swag such as “Tencent dolls”).</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 8, 2016</td>
+<td class="tg-yw4l">They state that fixed versions have been released.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 10, 2016</td>
+<td class="tg-yw4l">We report our findings analyzing version 6.4.2 of the Android version. We also report that we could not find any changes in the Windows version and inquire whether we are analyzing the right version.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 14, 2016</td>
+<td class="tg-yw4l">Tencent responds providing a link to the latest Windows version saying that they have fixed a number of the issues we reported. They report that they have upgraded the update check to use HTTPS. In addition, they report that they will only send the domain of viewed pages instead of the full URL, as a means of judging if a website is malicious. They also mention that they will still send the GUID since it is not personally identifying.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 18, 2016</td>
+<td class="tg-yw4l">We respond confirming the changes in the Windows version and saying that we can still see other sensitive information in many WUP requests such as MAC addresses and hard drive serial numbers.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 20, 2016</td>
+<td class="tg-yw4l"><strong>They respond saying that they have tried their best to resolve all reported problems</strong>, and they inquire as to whether we have any new problems to report.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 22, 2016</td>
+<td class="tg-yw4l">We say that aside from the problems we have already reported we have no new issues to report. We say that we will be publishing our findings on March 28.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 22, 2016</td>
+<td class="tg-yw4l">They justify the collection of hard drive serial numbers by saying that <strong>“Hard drive serial number is use for identifying independent user, so that QQ Browser can offer personalized service.”</strong> They then inquire as to where we will be releasing our published findings.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 23, 2016</td>
+<td class="tg-yw4l">We say that we will release our findings on https://citizenlab.org/ . We also link to the letter that we sent to Tencent and ask if they know of an appropriate contact to answer the letter’s questions.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">March 24, 2016</td>
+<td class="tg-yw4l">They thank us for our feedback.</td>
+</tr>
+</tbody>
+</table>
+
+<div class="readreview">
+可以看到，QQ的反馈似乎比百度友好一些，还提供了腾讯公仔给公民实验室。不过最后关于数据收集的问题，是不是参见了百度的说法，感觉是一模一样的啊！
+</div>
+
+
+
+<hr/>
+<div class="quote"> <blockquote>
+    	来自<a href="https://citizenlab.org/2015/05/啰嗦的松鼠：uc浏览器的隐私与安全问题/">公民实验室</a>的消息称：
+    </blockquote>
+</div>
+
+## 啰嗦的松鼠：UC浏览器的隐私与安全问题
+
+## 摘要
+
+UC浏览器是一种移动浏览器，它目前拥有超过5亿的注册用户，是中国和印度最受欢迎的手机浏览器。在《啰嗦的松鼠：UC浏览器的隐私与安全问题》这一报告中，公民实验室(Citizen Lab)发现中文和英文安卓版UC浏览器中存在多个隐私及安全漏洞， 并讨论了它们的重要性。
+
+报告显示安卓版UC浏览器在保护数据方面表现欠佳。报告描述了中文版本在传输数据到其目的地的过程中，对用户的敏感数据保护不足，相关的敏感数据包括装置辨识符、临近无线网络(Wi-Fi)访问点、移动信号塔信息、以及发送给搜索引擎Shenma的搜索问题。 中文版的UC浏览器会永久记忆用户的DNS查询历史，即使是在用户使用应用自带功能删除个人信息后。
+
+英文版的应用将搜索查询以不加密的形式发送给印度版雅虎或是谷歌；除此之外英文版本并不存在中文版应用中的信息泄露问题。
+
+分析显示中文版应用中泄露的信息可以被用来实时或是事后跟踪当事人所在地。此外，使用者无法成功删除其DNS查询历史意味着，任何有能力的第三方都可以通过进入用户高速缓冲储存器来了解该用户之前的网页浏览历史。由于对搜索引擎的查询进行不加密的做法，不管是中文版还是英文版的应用，安全性都非常低。
+
+## UC浏览器的用户该怎么办？
+
+在2015年4月15日，我们将研究发现披露给了阿里巴巴（提供UC浏览器的公司）并告知对方我们不会在2015年4月29日前公布我们的发现。该公司在4月19日回应了我们，表示阿里巴巴安全工程师正在调查这一问题。4月23日我们再次联系了对方公司，表达了将于4月29日发表我们研究的意图。
+
+2015年5月19日， 我们测试了从uc.cn网站下载的10.4.1-576版中文UC浏览器。这一版本的浏览器跟报告中测试的版本（10.2.1_161版）有所区别，它并没有将定位数据在不加密的情况下传送给AMAP。然而，报告中反映的传输不加密数据至Umeng部分的问题，以及搜索功能缺乏加密保护的问题，并没有在这一版本中解决。中文版UC浏览器的用户应该升级他们的应用，确保使用的是10.4.1-576以上的版本。
+
+我们分析中文版10.2.1_161，英文版10.4.1.565。不过，我们并没有对新版本的应用进行程序分析。若是用户想进一步了解关于解决我们报告中发现的问题，阿里巴巴是否有任何新的进展，我们建议大家直接联系阿里巴巴（security@service.alibaba.com）。
+
+[完整的英文报告](https://citizenlab.org/2015/05/a-chatty-squirrel-privacy-and-security-issues-with-uc-browser/)
+
+<div class="readreview">
+关于国产浏览器的数据问题也可以参见华尔街日报有一篇<a href="http://cn.wsj.com/gb/20160329/tec104315.asp">相关报道</a>。
+</div>
+<hr/>
+<div class="commentsonquote">
+<div class="yizi">还是题头那句话，收集浏览数据<strong>绝非仅仅国产浏览器如此</strong>，唯一的区别可能是国产浏览器收集的信息数量和传输的安全性差一些。互联网的运营模式是不是就限定了你是用一个网站或者软件你就把你设备的所有信息和软硬件交给了这个软件。如此大规模持续的收集用户信息，甚至完全不顾用户信息的安全使用明文或者极弱的加密方法传输（为了节省电力？低碳环保？）真的是一条正确的道路吗？</div>
+</div>
