@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-{ "posts":[{% for post in site.tags['冯友兰'] %} 
+{ "posts":[{% for post in site.tags['世间万象'] %} 
     {% if post.url %}{"{{ post.title }}":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]}
