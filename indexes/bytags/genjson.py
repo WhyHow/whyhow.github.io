@@ -10,6 +10,6 @@ layout: null
 { "posts":[{% for post in site.tags['""")
     outfile.write(tag)
     outfile.write("""'] %} 
-    {% if post.url %}{"{{ post.title }}":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+    {% if post.url %}{"title":"{{ post.title }}","url":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]}""")
     outfile.close()

@@ -52,8 +52,15 @@ function handleSaying() {
     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }
 
+var cat2ind = new Array();
 
 $(document).ready(function() {
+    cat2ind['思'] = 1;
+    cat2ind['行'] = 2;
+    cat2ind['听'] = 3;
+    cat2ind['说'] = 4;
+    cat2ind['读'] = 5;
+    cat2ind['写'] = 6;
 
     // hide #back-top first
     $("#back-top").hide();
@@ -100,14 +107,23 @@ $(document).ready(function() {
         }
     })
 
-
+    // Update tag index list
+    $('.tag').on('click', function(e) {
+        e.preventDefault();
+        if ($('#indexcontainer').html().length > 0) {
+            $('#indexcontainer').html("");
+        } else {
+            var tag = $(this).text();
+            $.getJSON('/indexes/bytags/tags.json',function(tags){
+                $.getJSON('/indexes/bytags/'+tags[tag]+'.json', function(postlist){
+                    $('#indexcontainer').append('<ul class="postlist" id="taglist"></ul>')
+                    $(postlist.posts).each(function(i,n){
+                         $('#taglist').append('<li class="posttitle"><a href="' + n.url + '">' + n.title + "</a></li>");
+                    })
+                })
+            })
+        }
+    })
 
 });
 
-var cat2ind = new Array();
-cat2ind['思'] = 1;
-cat2ind['行'] = 2;
-cat2ind['听'] = 3;
-cat2ind['说'] = 4;
-cat2ind['读'] = 5;
-cat2ind['写'] = 6;

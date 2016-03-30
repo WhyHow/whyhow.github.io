@@ -7,9 +7,9 @@ layout: default
   <span class="post-date"><a href="/indexes/date#{{ page.date | date: "%Y-%m" }}">{{ page.date | date: "%Y年%m月%d日" }}</a>
   &emsp;   {% assign tags = page.tags %}
   {% for tag in tags %}
-    <a href="/indexes/tags#{{ tag }}">{{ tag }}</a>
+    <a class="tag" href="/indexes/tags#{{ tag }}">{{ tag }}</a>
   {% endfor %} &emsp; <a id="catlink">{{ page.categories }}</a>&emsp; <a href="{{ page.url }}#comments"> 添加评论 </a> </span>
-  <div id="catlist"></div>
+  <div id="indexcontainer"></div>
   {{ content }}
 </div>
 
@@ -26,7 +26,7 @@ layout: default
 {% include comments.html %}
 
 <h2><a id="catlink2" data-cat="{{ page.categories }}">展开本分类索引</a></h2>
- <div id="catlist2"></div>
+ <div id="indexcontainer2"></div>
 
 <div class="related">
   <h2>Jekyll推荐的相关文章</h2>
@@ -49,19 +49,19 @@ $(document).ready(function(){
   $('#catlink')[0].setAttribute('href','/indexes/bycategories/'+cat2ind[$('#catlink').text()]);
   $('#catlink').on('click', function(e) {
       e.preventDefault();
-      if ($('#catlist').html().length > 0) {
-          $('#catlist').html("");
+      if ($('#indexcontainer').html().length > 0) {
+          $('#indexcontainer').html("");
       } else {
-          $('#catlist').load($(this).attr('href'));
+          $('#indexcontainer').load($(this).attr('href'));
       }
   })
   $('#catlink2')[0].setAttribute('href','/indexes/bycategories/'+cat2ind[$('#catlink2').data('cat')]);
   $('#catlink2').on('click', function(e) {
       e.preventDefault();
-      if ($('#catlist2').html().length > 0) {
-          $('#catlist2').html("");
+      if ($('#indexcontainer2').html().length > 0) {
+          $('#indexcontainer2').html("");
       } else {
-          $('#catlist2').load($(this).attr('href'));
+          $('#indexcontainer2').load($(this).attr('href'));
       }
   })
 })
