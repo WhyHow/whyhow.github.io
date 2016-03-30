@@ -23,7 +23,7 @@ tags:
 每个社交媒体都有独特属性，推送视频和快讯应选择不同平台，Smart Paper Help总结社交媒体特点——Linkedin：3.8亿用户、商务人士最爱、79%用户35岁以上、57%公司在领英有主页；Pinterest：1亿活跃用户、80%为女性用户、66%喜欢在Pinterest上收藏；Twitter：每月3.2亿活跃用户、29%千禧一代使用Twitter、44%用户从未发过推文；Facebook：15亿全球用户、平均每位用户每日使用时间20分钟：Youtube：每月10亿活跃用户、平均使用时间40分钟；Instagram：每月活跃用户4亿、90%用户35岁以下；Snapchat：每日1亿活跃用户、71%用户34岁以下。
 
 <blockquote>本研究原标题为：</blockquote>
-### Social Media Cheat Sheet for Users and Brands
+<h3>Social Media Cheat Sheet for Users and Brands</h3>
 
 <hr/>
 <div class="commentsonquote">
