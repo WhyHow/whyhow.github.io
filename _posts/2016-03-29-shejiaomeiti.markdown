@@ -28,9 +28,9 @@ tags:
 <hr/>
 <div class="commentsonquote">
 <div class="yiyin">
-看上去细分市场挺明确呀。我在推特上的发文量竟然超越了44%的用户，真惊讶<br/><br/>
+看上去细分市场挺明确呀。我在推特上的发文量竟然超越了44%的用户，真惊讶。<br/><br/>
 关于YouTube的“平均使用时间40分钟”，原文为“Average time spent on Youtube is 40 minutes”，应指每次访问的平均时长吧。关于Google+的原文为“Average monthly time spent on Google+ is 7 minutes”，这数据初看很费解。不过想到自己别说月平均了，总共造访Google+的时间也不到七分钟，也就理解了。此外，关于Reddit的“A person spend averagely 85 minutes on Reddit”没有计时单位，或许是指每个用户访问时间的总和。<br/><br/>
-"Cheat sheet"似乎是个很流行的说法。不是cheat sheet的也能通过自称cheat sheet来提升格调的感觉。
+"Cheat sheet"似乎是个流行的说法。不是cheat sheet的也能通过自称cheat sheet来提升格调的感觉。
 </div>
 </div>
 
