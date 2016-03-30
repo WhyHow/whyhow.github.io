@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{ {% for category in site.tags %}"{{ category | first }}": {{ forloop.index }}{% unless forloop.last %},{% endunless %}{% endfor %}}

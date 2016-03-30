@@ -1,0 +1,6 @@
+---
+layout: null
+---
+{ "posts":[{% for post in site.tags['梯子'] %} 
+    {% if post.url %}{"{{ post.title }}":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+]}
