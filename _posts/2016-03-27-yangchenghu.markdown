@@ -11,6 +11,8 @@ tags:
 -  风景
 -  阳澄湖
 -  花
+-  植物
+
 ---
 春游阳澄湖。花痴图十三张：<br/>
 <a href="/public/images/duku/7.jpg" data-lightbox="ych"><img src="/public/images/duku/7_1.jpg"></a>
