@@ -108,6 +108,6 @@ tags:
 日本（2006） 
 
 <div class="readreview">
-政治真复杂。
+政治真复杂。汉语真奇妙。
 </div>
 
