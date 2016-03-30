@@ -7,7 +7,6 @@ slug: Say030401
 title: Say0304发条车
 categories: [说]
 tags:
--  点滴
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>

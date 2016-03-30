@@ -7,7 +7,6 @@ slug: Say030402
 title: Say0304汉译名著
 categories: [说]
 tags:
--  点滴
 -  读书
 ---
 <div class="saying">

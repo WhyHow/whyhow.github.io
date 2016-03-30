@@ -7,7 +7,6 @@ slug: Say0324bingxue
 title: “雪”的比喻
 categories: [说]
 tags:
--  点滴
 -  生活
 ---
 <div class="saying">

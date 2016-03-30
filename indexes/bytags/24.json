@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-{ "posts":[{% for post in site.tags['泥人张'] %} 
+{ "posts":[{% for post in site.tags['云南信息报'] %} 
     {% if post.url %}{"title":"{{ post.title }}","url":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]}

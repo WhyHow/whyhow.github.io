@@ -7,7 +7,6 @@ slug: Say0318Weiqi
 title: 传说中巨大的围棋变化数目
 categories: [说]
 tags:
--  点滴
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>

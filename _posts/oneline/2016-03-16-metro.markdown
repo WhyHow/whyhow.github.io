@@ -7,7 +7,6 @@ slug: Say0316metro
 title: 地铁进站倒计时
 categories: [说]
 tags:
--  点滴
 -  生活
 ---
 <div class="saying">

@@ -7,7 +7,6 @@ slug: Say0323caicai
 title: 在陋巷
 categories: [说]
 tags:
--  点滴
 -  生活
 ---
 <div class="saying">

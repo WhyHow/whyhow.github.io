@@ -7,7 +7,6 @@ slug: Say0328cishu
 title: 花开一身
 categories: [说]
 tags:
--  点滴
 -  自然
 ---
 <div class="saying">

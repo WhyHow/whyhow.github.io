@@ -7,7 +7,6 @@ slug: Say0315renleixingzou
 title: Say0315人类的平衡感
 categories: [说]
 tags:
--  点滴
 -  科学
 ---
 <div class="saying">

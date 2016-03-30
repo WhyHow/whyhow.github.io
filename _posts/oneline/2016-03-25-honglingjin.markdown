@@ -7,7 +7,6 @@ slug: Say0325honglingjin
 title: 红领巾
 categories: [说]
 tags:
--  点滴
 -  疑问
 ---
 <div class="saying">

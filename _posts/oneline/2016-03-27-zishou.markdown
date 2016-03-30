@@ -7,7 +7,6 @@ slug: Say0327zishou
 title: 自首的一种方式？
 categories: [说]
 tags:
--  点滴
 -  社会
 -  汉语
 ---

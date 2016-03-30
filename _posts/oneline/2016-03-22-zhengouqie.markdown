@@ -7,7 +7,6 @@ slug: Say0322gouqie
 title: 苟且
 categories: [说]
 tags:
--  点滴
 -  生活
 ---
 <div class="saying">
