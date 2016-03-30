@@ -14,7 +14,7 @@ tags:
 -  世界
 
 ---
-<div class="readreview">今日新华社头条为主席访捷成果：<b>中捷关系提升为战略伙伴关系。</b>由此孤陋寡闻的我第一次知道“战略伙伴关系”并不是只是一个形容词，而是一种实实在在的等级。
+<div class="readreview">今日新华社头条为主席访捷成果：<b>中捷关系提升为战略伙伴关系。</b>由此孤陋寡闻的我第一次知道“战略伙伴关系”并不只是一个形容词，而是一种实实在在的等级。
 </div>
 <img src="/public/images/newspaper/zhanluehuoban.jpg">
 <div class="quote"> <blockquote>
@@ -102,7 +102,7 @@ tags:
 中日韩三国（2008）
 
 <div class="readreview">
-然后，不是“伙伴”也可以是有“关系”的：
+然后，不是“伙伴”也可以是有“关系”的，而且这种关系还可以是“战略”的：
 </div>
 
 ### 构建新型大国关系：
