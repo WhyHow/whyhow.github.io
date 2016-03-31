@@ -19,4 +19,4 @@ tags:
 
 关于Logo的小记，请戳[这里](http://whyhow.github.io/2016/03/10/logo.html)。
 
-![](/public/images/draft.png)
+![](/public/images/logodraft.svg)
