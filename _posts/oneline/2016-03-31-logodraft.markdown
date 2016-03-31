@@ -1,10 +1,10 @@
 ---
 author: YiYin
 comments: true
-date: 2016-03-31 21:06:04
+date: 2016-03-31 21:06:04 +0800
 layout: post
 slug: logodraft
-title: 网站logo草图
+title: 网站Logo草图
 categories: [行]
 tags:
 - 网站相关
