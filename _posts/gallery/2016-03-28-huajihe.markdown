@@ -15,3 +15,4 @@ tags:
 <a href="\public\images\duku\15.jpg" data-lightbox="hjh" light><img src="\public\images\duku\15_1.jpg"></a>
 <a href="\public\images\duku\16.jpg" data-lightbox="hjh" light></a>
 <a href="\public\images\duku\14.jpg" data-lightbox="hjh" light></a>
+<a href="\public\images\duku\17.jpg" data-lightbox="hjh" light></a>
