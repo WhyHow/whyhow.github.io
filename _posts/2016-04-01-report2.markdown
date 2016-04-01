@@ -91,8 +91,3 @@ Workers Not Classifiable By Occupation</p>
 <p>下面各个年龄段的死亡人员的职业统计。可以看到无业才是大部分年龄段人员的主要杀手，所以要长寿先工作？但是年轻人需要注意，20~39岁的群体里，制造业的死亡人数并不比无业人员少多少。</p>
 <p><img src="/public/images/death/occu/unnamed-chunk-8-1.png" alt="" /><!-- --></p>
 </div>
-
-
-
-
-</div>
