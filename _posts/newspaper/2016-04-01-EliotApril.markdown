@@ -86,7 +86,6 @@ A little life with dried tubers.</blockquote>
 记忆和欲望，鼓动着
 
 呆钝的根须，以春天的雨丝　
-
 <br/>
 
 <blockquote>赵毅衡译:</blockquote>
