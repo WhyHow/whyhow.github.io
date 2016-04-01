@@ -7,7 +7,7 @@ slug: bythebay1
 title: 看，那树上的灯
 categories: [写]
 tags:
--  相片
+- 摄影
 -  GardenByTheBay
 ---
 ![](/public/images/gallery/bythebay/1.jpg)

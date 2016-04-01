@@ -8,6 +8,6 @@ title: 攀登
 categories: [写]
 tags:
 -  梯子
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/Climb.jpg)

@@ -7,7 +7,7 @@ slug: skyway1
 title: 哟，那个摩天轮
 categories: [写]
 tags:
--  相片
+- 摄影
 -  Skyway
 ---
 <a href="/public/images/gallery/skyway/1.jpg" data-lightbox="MTL" data-title="摩天轮">

@@ -7,7 +7,7 @@ slug: huazhongshuxue
 title: 花中数学
 categories: [写]
 tags:
--  相片
+- 摄影
 -  自然
 -  数学
 ---

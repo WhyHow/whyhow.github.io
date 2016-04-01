@@ -7,7 +7,7 @@ slug: skyway3
 title: Skyway上看帆船酒店
 categories: [写]
 tags:
--  相片
+- 摄影
 -  Skyway
 ---
 <a href="/public/images/gallery/skyway/7.jpg" data-lightbox="FanChuan" data-title="虚化帆船">

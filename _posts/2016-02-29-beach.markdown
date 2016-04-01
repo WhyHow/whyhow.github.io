@@ -8,6 +8,6 @@ title: 沙滩
 categories: [写]
 tags:
 -  圣淘沙
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/Beach.jpg)

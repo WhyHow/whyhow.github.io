@@ -10,6 +10,7 @@ tags:
 -  新加坡
 -  统计
 -  社会
+-  可视化
 ---
 <p>昨天我们分析了<a href="{% post_url 2016-03-31-Report %}">一组新加坡的死亡人口统计数据</a>，今天我们分析下另外一组新加坡的<a href="https://data.gov.sg/dataset/deaths-by-age-group-occupation-and-sex">死亡人口数据</a>：死亡人数与职业的数据。下面是数据表中对于职业的分类：</p>
 <div id="occupation" class="section level2">

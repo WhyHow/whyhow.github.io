@@ -8,6 +8,6 @@ title: 蜡像馆
 categories: [写]
 tags:
 -  圣淘沙
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/sentosa/2.jpg)

@@ -7,7 +7,7 @@ slug: yangchenghu
 title: 阳澄湖畔
 categories: [写]
 tags:
--  相片
+- 摄影
 -  风景
 -  阳澄湖
 -  花

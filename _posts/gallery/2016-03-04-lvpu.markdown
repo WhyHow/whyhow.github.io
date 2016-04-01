@@ -8,7 +8,7 @@ title: 绿瀑@同里
 categories: [写]
 tags:
 -  旅行
--  相片
+- 摄影
 -  风景
 ---
 ![](/public/images/gallery/lvpu.jpg)

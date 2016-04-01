@@ -7,7 +7,7 @@ slug: skyway2
 title: Skyway上看建筑物
 categories: [写]
 tags:
--  相片
+- 摄影
 -  Skyway
 ---
 ![](/public/images/gallery/skyway/3.jpg)

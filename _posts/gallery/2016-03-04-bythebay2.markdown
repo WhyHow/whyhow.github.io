@@ -7,7 +7,7 @@ slug: bythebay2
 title: 看，那个有灯的树
 categories: [写]
 tags:
--  相片
+- 摄影
 -  GardenByTheBay
 ---
 <a href="/public/images/gallery/bythebay/8.jpg" data-lightbox="LightTree" data-title="紫色的树">

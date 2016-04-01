@@ -8,6 +8,6 @@ title: 你听，我给你讲个故事
 categories: [写]
 tags:
 -  泥人张
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/doll/6.jpg)

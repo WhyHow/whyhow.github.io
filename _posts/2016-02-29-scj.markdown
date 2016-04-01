@@ -8,6 +8,6 @@ title:  三叉戟
 categories: [写]
 tags:
 -  花
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/SanChaJi.jpg)

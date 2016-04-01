@@ -8,6 +8,6 @@ title: 锁
 categories: [写]
 tags:
 -  锁
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/Lock.jpg)

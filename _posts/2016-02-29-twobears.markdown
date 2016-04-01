@@ -8,6 +8,6 @@ title: 两只熊
 categories: [写]
 tags:
 -  婚礼
--  相片
+- 摄影
 ---
 ![](/public/images/gallery/TwoBears.jpg)

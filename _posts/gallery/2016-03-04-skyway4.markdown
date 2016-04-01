@@ -7,7 +7,7 @@ slug: skyway4
 title: 刚刚上来Skyway
 categories: [写]
 tags:
--  相片
+- 摄影
 -  Skyway
 ---
 ![](/public/images/gallery/skyway/6.jpg)

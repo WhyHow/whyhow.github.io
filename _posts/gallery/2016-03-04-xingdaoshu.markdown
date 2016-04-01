@@ -7,7 +7,7 @@ slug: xingdaoshu
 title: 路边风景如画
 categories: [写]
 tags:
--  相片
+- 摄影
 -  风景
 ---
 ![](/public/images/gallery/xingdaoshu.jpg)

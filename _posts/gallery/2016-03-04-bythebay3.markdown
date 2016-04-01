@@ -7,7 +7,7 @@ slug: bythebay3
 title: SkyWay
 categories: [写]
 tags:
--  相片
+- 摄影
 -  GardenByTheBay
 ---
 ![](/public/images/gallery/bythebay/6.jpg)

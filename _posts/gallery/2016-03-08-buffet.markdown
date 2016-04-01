@@ -8,7 +8,7 @@ title: 自助餐
 categories: [写]
 tags:
 -  校庆
--  相片
+- 摄影
 ---
 <a href="/public/images/gallery/buffet.jpg" data-lightbox="bf0308" data-title="自助餐">
 <img src="/public/images/gallery/buffet.pv.jpg"></a>
