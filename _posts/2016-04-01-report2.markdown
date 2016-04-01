@@ -1,7 +1,7 @@
 ---
 author: YiZi
 comments: true
-date: 2016-03-31 21:35:32 +0800
+date: 2016-04-01 14:09:15 +0800
 layout: post
 slug: report0401
 title: 新加坡死亡数据分析（二）
