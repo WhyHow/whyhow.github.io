@@ -15,19 +15,20 @@ tags:
 -  四月
 
 ---
-<div class="readreview">今天是四月一日。每年一到四月，就会想到艾略特。四月，这真是一个残忍的季节。艾略特的《荒原》（The Waste Land）第一部分的开篇（可能也是全诗甚至艾略特所有作品里最有名的部分）英文原文如下:
+<div class="readreview">今天是四月一日。每年一到四月，就会想到艾略特。四月的确是一个残忍的季节。<br/>
+艾略特的《荒原》（The Waste Land）第一部分的开篇（可能也是全诗甚至艾略特所有作品里最有名的部分）英文原文如下:
 
-<blockquote>APRIL is the cruellest month, breeding
+<blockquote>APRIL is the cruellest month, breeding<br/>
 
-Lilacs out of the dead land, mixing
+Lilacs out of the dead land, mixing<br/>
 
-Memory and desire, stirring
+Memory and desire, stirring<br/>
 
-Dull roots with spring rain.
+Dull roots with spring rain.<br/>
 
-Winter kept us warm, covering
+Winter kept us warm, covering<br/>
 
-Earth in forgetful snow, feeding
+Earth in forgetful snow, feeding<br/>
 
 A little life with dried tubers.</blockquote>
 
