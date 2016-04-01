@@ -1,0 +1,51 @@
+<body>
+    <h2 id="valid-time"></h2>
+    <table id="weather-table"></table>
+    <script type="text/javascript" src="/public/js/jquery.min.js"></script>
+    <script type="text/javascript">
+    var weather = {
+        "BR":"Mist",
+"CL":"Cloudy",
+"DR":"Drizzle",
+"FA":"Fair (Day)",
+"FG":"Fog",
+"FN":"Fair (Night)",
+"FW":"Fair & Warm",
+"HG":"Heavy Thundery Showers with Gusty Winds",
+"HR":"Heavy Rain",
+"HS":"Heavy Showers",
+"HT":"Heavy Thundery Showers",
+"HZ":"Hazy",
+"LH":"Slightly Hazy",
+"LR":"Light Rain",
+"LS":"Light Showers",
+"OC":"Overcast",
+"PC":"Partly Cloudy (Day)",
+"PN":"Partly Cloudy (Night)",
+"PS":"Passing Showers",
+"RA":"Moderate Rain",
+"SH":"Showers",
+"SK":"Strong Winds, Showers",
+"SN":"Snow",
+"SR":"Strong Winds, Rain",
+"SS":"Snow Showers",
+"SU":"Sunny",
+"SW":"Strong Winds",
+"TL":"Thundery Showers",
+"WC":"Windy, Cloudy",
+"WD":"Windy",
+"WF":"Windy, Fair",
+"WR":"Windy, Rain",
+"WS":"Windy, Showers"
+    }
+    var d;
+    $.get("http://www.nea.gov.sg/api/WebAPI/?dataset=2hr_nowcast&keyref=781CF461BB6606AD62B1E1CAA87ECA61FA2148C17ED92041", function(data) {
+        $('#valid-time').text($(data).find('validTime').text());
+        $(data).find('area').each(function(i, d) {
+            $('#weather-table').append('<tr><td>' + $(d).attr('name') + '</td><td>' +
+                weather[$(d).attr('forecast')] + '</td></tr>');
+        });
+        d = data;
+    })
+    </script>
+</body>
