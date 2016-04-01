@@ -1,0 +1,26 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-01 08:45:00 +0800
+layout: post
+slug: shouming
+title: 来自WHO的寿命期望数据
+categories: [行]
+tags:
+-  世界
+-  统计
+-  WHO
+-  ggplot
+-  可视化
+
+---
+
+昨天本站有一篇新加坡的死亡数据可视化，今天绘制一个数据来自WHO的世界各地寿命期望可视化:
+
+![](\public\images\Rplot.png)
+
+数据源：<a href="http://apps.who.int/gho/data/node.main.688?lang=en">WHO Data</a>
+
+其中LE@0为Life expectancy at birth，HALE@0为Helathy life expectancy at birth，LE@60为Life expectancy at age 60。
+
+不同地域间差别还是很显著的。统计数据越新，寿命期望越高。另外，女性也比男性长寿一些。
