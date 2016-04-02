@@ -32,7 +32,7 @@ Earth in forgetful snow, feeding<br/>
 
 A little life with dried tubers.</blockquote>
 
-诗作的中文翻译版本至少有十一种。网络常见七种，列于此处，以供赏评。
+诗作的中文翻译版本至少有十二种。网络常见七种，列于此处，以供赏评。
 </div>
 
 <blockquote>许渊冲译:</blockquote>
