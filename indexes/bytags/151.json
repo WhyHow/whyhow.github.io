@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-{ "posts":[{% for post in site.tags['公民实验室'] %} 
-    {% if post.url %}{"{{ post.title }}":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+{ "posts":[{% for post in site.tags['翻译'] %} 
+    {% if post.url %}{"title":"{{ post.title }}","url":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]}
