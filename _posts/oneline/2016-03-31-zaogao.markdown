@@ -13,6 +13,6 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-听<a href="http://weibo.com/1974808274/DoOKDEmSp?ref=collection target="_blank">网易</a>说继网易之后，五道口的又一地标枣糕王也要搬离了。虽然我一直没明白枣糕好吃在哪里，也不懂为啥大家宁排这么久队也要买枣糕，但要论人群密度，这小小的枣糕店堪称五道口宇宙中心的中心了。<br/>
+听<a href="http://weibo.com/1974808274/DoOKDEmSp?ref=collection" target="_blank">网易</a>说继网易之后，五道口的又一地标枣糕王也要搬离了。虽然我一直没明白枣糕好吃在哪里，也不懂为啥大家宁排这么久队也要买枣糕，但要论人群密度，这小小的枣糕店堪称五道口宇宙中心的中心了。<br/>
 看搬迁告示说是因为“拆迁”，不知这五道口又要搞啥动作。
 </div>
