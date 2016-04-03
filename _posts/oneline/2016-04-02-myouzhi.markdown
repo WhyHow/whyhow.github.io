@@ -9,6 +9,7 @@ categories: [说]
 tags:
 -  世界
 -  新标日
+-  维基百科
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
