@@ -3,7 +3,7 @@ author: YiYin
 comments: true
 date: 2016-04-04 13:13:13 +0800
 layout: post
-slug: dengezhifu
+slug: kenlaomubiao
 title: 让孩子放心地啃老的目标
 categories: [行]
 tags:
