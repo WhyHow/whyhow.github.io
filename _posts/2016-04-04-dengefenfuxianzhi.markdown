@@ -7,7 +7,9 @@ slug: dengezhifu
 title: 让孩子放心地啃老的目标
 categories: [行]
 tags:
-- 计算
+- 数学
+- 就业
+- 社会
 - 新民晚报
 
 ---
