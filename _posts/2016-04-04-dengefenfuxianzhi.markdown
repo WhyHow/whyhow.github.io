@@ -43,7 +43,7 @@ P=A\frac{(1+i)^N-1}{\left( (1+i)^{\frac{1}{12}}-1\right )(1+i)^N}
 
 把临界情况画出来看一下：
 
-![](/public/images/gongzilinjie_1.jpg)
+![](/public/images/gongzilinjie.jpg)
 
 各位父母，你们希望给子女发多少月工资呢？来看看自己需要准备多少储备金，投资收益达到多少吧！这是让孩子成为“二代”的努力目标哦。
 
