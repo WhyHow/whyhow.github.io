@@ -23,15 +23,15 @@ tags:
 
 {% highlight python %}
 {'2hr': '2hr_nowcast',
-              '2hr': '2hr_nowcast',
-              '24hr': '24hrs_forecast',
-              '24h': '24hrs_forecast',
-              '4d': '4days_outlook',
-              'hvr': 'heavy_rain_warning',
-              'uv': 'uvi',
-              'dz': 'earthquake',
-              'psi': 'psi_update',
-              'pm25': 'pm2.5_update'}
+	'2hr': '2hr_nowcast',
+	'24hr': '24hrs_forecast',
+	'24h': '24hrs_forecast',
+	'4d': '4days_outlook',
+	'hvr': 'heavy_rain_warning',
+	'uv': 'uvi',
+	'dz': 'earthquake',
+	'psi': 'psi_update',
+	'pm25': 'pm2.5_update'}
 {% endhighlight %}
 
 例如：
