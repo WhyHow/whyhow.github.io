@@ -4,13 +4,14 @@ comments: true
 date: 2016-04-05 20:21:45 +0800
 layout: post
 slug: ltaapi
-title: 新加坡LTA的JSON Api
+title: 新加坡LTA的JSON API
 categories: [行]
 tags:
 -  新加坡
 -  数据
 -  社会
 -  公共交通
+-  API
 ---
 
 新加坡的公交数据当然由LTA公布，官方有接口，对于网站来说很方便。如果直接做网页的话，有些时候还是json的api比较好用，所以我就山寨了一个，把LTA的公交到站数据直接转换成了JSON格式（感觉其他一些数据咱穷人也不关心）。项目托管在GAE上，有兴趣使用的读者可以测试一下，不过可能受到GAE每天的额度的限制不一定好使哦。

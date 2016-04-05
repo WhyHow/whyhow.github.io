@@ -4,13 +4,14 @@ comments: true
 date: 2016-04-05 20:06:38 +0800
 layout: post
 slug: neaapi
-title: 新加坡NEA的JSON Api
+title: 新加坡NEA的JSON API
 categories: [行]
 tags:
 -  新加坡
 -  数据
 -  社会
 -  天气
+-  API
 ---
 
 新加坡的天气数据由气象局公布，官方有XML的接口，做得其实很好了。如果直接做网页的话，有些时候希望是json的api，所以我就山寨了一个，把NEA的XML数据直接转换成了JSON格式。项目托管在GAE上，有兴趣使用的读者可以测试一下，不过可能受到GAE每天的额度的限制不一定好使哦。
