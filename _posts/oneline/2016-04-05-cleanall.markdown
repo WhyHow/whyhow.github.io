@@ -12,8 +12,8 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-写Matlab的脚本的时候习惯了一上来先clc; clear;。用R的时候也很纠结有没有这么简单直接的方法清屏幕和清变量。发现R里好像还真没，似乎只能这样搞：
-清屏幕： ```Ctrl+L```
-清所有变量：```remove(list = ls(all = TRUE))```
+写Matlab的脚本的时候习惯了一上来先clc; clear;。用R的时候也很纠结有没有这么简单直接的方法清屏幕和清变量。发现R里好像还真没，似乎只能这样搞：<br/>
+清屏幕： <code>Ctrl+L</code><br/>
+清所有变量：<code>remove(list = ls(all = TRUE))</code><br/>
 
 </div>
