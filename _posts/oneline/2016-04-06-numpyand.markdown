@@ -1,0 +1,66 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-06 17:08:52 +0800
+layout: post
+slug: numpyand0406
+title: Numpy里奇怪的优先级
+categories: [说]
+tags:
+-  numpy
+-  Python
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+开启吐槽模式，已经被整过很多次了，numpy和pandas的boolean index里如果要使用逻辑操作符，必须用括号括起来。好蛋疼，好蛋疼！
+<code>The operators are: | for or, & for and, and ~ for not. These must be grouped by using parentheses.</code>
+<code lang="python">
+In [1]: a = 1
+
+In [2]: b = 2
+
+In [3]: a > 0 and b < 2
+Out[3]: False
+
+In [4]: (a > 0) and (b < 2)
+Out[4]: False
+
+In [5]: import numpy as np
+
+In [6]: a = np.arange(4)
+
+In [7]: b = a**2
+
+In [8]: a > 2 and b < 5
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-8-c666cea3c62e> in <module>()
+----> 1 a > 2 and b < 5
+
+ValueError: The truth value of an array with more than one element is ambiguous.
+ Use a.any() or a.all()
+
+In [9]: (a > 2) and (b < 5)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-9-d98accd41447> in <module>()
+----> 1 (a > 2) and (b < 5)
+
+ValueError: The truth value of an array with more than one element is ambiguous.
+ Use a.any() or a.all()
+
+In [10]: a > 2 & b < 5
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-10-5e1b04fdc935> in <module>()
+----> 1 a > 2 & b < 5
+
+ValueError: The truth value of an array with more than one element is ambiguous.
+ Use a.any() or a.all()
+
+In [11]: (a > 2) & (b < 5)
+Out[11]: array([False, False, False, False], dtype=bool)
+</code>
+只有最后一种方式才是`numpy`的正确打开方式！
+</div>
+
