@@ -11,4 +11,7 @@ tags:
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
 测试一下，看看GPG签名的Commit是啥样的。
+<br/>
+结果就是这样的：
+<img src="/public/images/gpg.png">
 </div>
