@@ -12,8 +12,8 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-开启吐槽模式，已经被整过很多次了，numpy和pandas的boolean index里如果要使用逻辑操作符，必须用括号括起来。好蛋疼，好蛋疼！
-<code>The operators are: | for or, & for and, and ~ for not. These must be grouped by using parentheses.</code>
+开启吐槽模式，已经被整过很多次了，numpy和pandas的boolean index里如果要使用逻辑操作符，必须用括号括起来。好蛋疼，好蛋疼！<br/>
+<code>The operators are: | for or, & for and, and ~ for not. These must be grouped by using parentheses.</code><br/>
 <code lang="python"><pre>
 In [1]: a = 1
 
