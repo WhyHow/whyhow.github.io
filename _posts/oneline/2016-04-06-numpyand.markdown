@@ -34,7 +34,6 @@ In [7]: b = a**2
 In [8]: a > 2 and b < 5
 ---------------------------------------------------------------------------
 ValueError                                Traceback (most recent call last)
-<ipython-input-8-c666cea3c62e> in <module>()
 ----> 1 a > 2 and b < 5
 
 ValueError: The truth value of an array with more than one element is ambiguous.
@@ -43,7 +42,6 @@ ValueError: The truth value of an array with more than one element is ambiguous.
 In [9]: (a > 2) and (b < 5)
 ---------------------------------------------------------------------------
 ValueError                                Traceback (most recent call last)
-<ipython-input-9-d98accd41447> in <module>()
 ----> 1 (a > 2) and (b < 5)
 
 ValueError: The truth value of an array with more than one element is ambiguous.
@@ -52,7 +50,6 @@ ValueError: The truth value of an array with more than one element is ambiguous.
 In [10]: a > 2 & b < 5
 ---------------------------------------------------------------------------
 ValueError                                Traceback (most recent call last)
-<ipython-input-10-5e1b04fdc935> in <module>()
 ----> 1 a > 2 & b < 5
 
 ValueError: The truth value of an array with more than one element is ambiguous.
