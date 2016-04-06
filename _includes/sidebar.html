@@ -5,25 +5,13 @@
       <h2 class="mobiletitle"><a href="/">{{ site.tagline }}</a></h2>
       <p class="lead mobilehidden">{{ site.description }}</p>
     </div>
-
     <ul class="sidebar-nav mobilehidden">
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
       {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
+      {% for node in pages_list %}{% if node.title != null %}{% if node.layout == "page" %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
               <a href="{{ node.url }}">{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+            </li>{% endif %}{% endif %}{% endfor %}
     </ul>
-
     <p class="mobilehidden">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
