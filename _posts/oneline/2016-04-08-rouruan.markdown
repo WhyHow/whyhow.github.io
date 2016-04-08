@@ -1,0 +1,18 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-08 12:12:12  +0800
+layout: post
+slug: Say0408rouruan
+title: “柔软”？
+categories: [说]
+tags:
+-  生活
+-  汉语
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+从上周末开始，上海地铁徐家汇站多了个这样的小亭子，看上去是一个公益宣传站，标语叫“<b>柔软改变中国</b>”，此外并没有其他内容。<br/>
+<img src="/public/images/rouruan.jpg">
+第一眼看到完全没明白这标语啥意思，后来一想可能是指“宽厚、有同情心、柔情、温和”之类的意思吧。然而整句话还是感觉很奇怪，看了几天了都没能习惯。<br/>
+</div>
