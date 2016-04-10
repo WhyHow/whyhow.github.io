@@ -31,7 +31,7 @@ scipy.interpolate.interp1d(x, y, kind='linear', axis=-1, copy=True, bounds_error
 
 注意到，二次三次的插值是样条插值，不是拟合。
 
-另一个有用的参数是`assume_sorted`，如果你的x坐标是没有排序的务必不要去改成`True`，其实除非你的x坐标确实很大，增加一次排序也并没有太多损失。
+另一个有用的参数是`assume_sorted`，如果你的x坐标是没有排序的务必不要去改成`True`，其实除非你的x坐标的数据确实很大，增加一次排序也并没有太多损失。排序用的是快速排序，不要问我为啥知道，因为源码里是那么写的。
 
 
 注： `y`可以是一个矩阵，这样可以一次进行多组数据的插值，这个时候`axis`参数可能就是你需要的。
@@ -153,7 +153,7 @@ scipy.interpolate.SmoothBivariateSpline(x, y, z, w=None, bbox=[None, None, None,
 
 `scipy.interpolate.approximate_taylor_polynomial` 泰勒展开的数值逼近
 
-`scipy.misc.pade(an, m)` 函数的Pade逼近，这个必须在有一帖，不过不是Scipy的了。
+`scipy.misc.pade(an, m)` 函数的Pade逼近，这个必须再有一帖，不过不是Scipy的了。
 
 ## 结束语
 由此可见，这又是一个坑里再挖坑的文章，看看啥时候能够填满吧！
