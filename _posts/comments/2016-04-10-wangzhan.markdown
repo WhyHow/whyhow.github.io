@@ -1,0 +1,38 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-10 19:55:54 +0800
+layout: post
+slug: wangzhan
+title: Eight Plugins for a Strongly Built Website
+categories: [听]
+tags:
+-  科技
+-  网站
+-  北大新媒体
+
+---
+
+<div class="quote"> <blockquote>
+    	<a href="http://www.looooker.com/archives/26311">北大新媒体</a>援引<a href="http://www.socialmediatoday.com/technology-data/back-basics-eight-plugins-strongly-built-website-0">socialmediatoday</a>的报道：
+    </blockquote>
+</div>
+
+### 返璞归真：网站的基本素养
+
+请根据如下原则强化你的网站，令其稳固高效:<br/>      
+1）网页加载速度快（适应任何终端），可读性高<br/>       
+2）备份数据并能自动安全升级<br/>
+3）确保没有死链，功能完备<br/>
+4）网站内容重点突出，便于搜索<br/>
+5）图文并茂，生动形象<br/>
+6）允许内容被分享到其它社交媒体<br/>
+7）确保网上交易顺利进行
+
+<hr/>
+<div class="commentsonquote">
+<div class="yiyin">
+原文标题：“Back to Basics: Eight Plugins for a Strongly Built Website”。英文原文比较长和完备，建议阅读原文。
+</div>
+</div>
+
