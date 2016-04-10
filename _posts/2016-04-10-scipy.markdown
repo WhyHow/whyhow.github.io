@@ -1,0 +1,159 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-10 20:39:20 +0800
+layout: post
+slug: scipydoc
+title: 又来挖大坑了：Scipy数值分析
+categories: [行]
+tags:
+- 数学
+- 数值分析
+- Python
+- 教程
+---
+前面已经挖了很多坑了，坑多填不上，今天又来挖坑了。每次设计一个新的算法都会需要一些老的基础算法作为其中的基本操作，而每次都会发现之前读的很熟练的Numpy和Scipy的各种功能就跟没看过一样。所以很是郁闷，因此就准备按照数值分析的内容把Numpy和Scipy的内容整理一下。不过需要提一句，很多很基础的功能Numpy和Scipy并没有实现，不要太理所当然地认为这两个那么成熟的库可以涵盖你的所有需求。
+
+## 第一坑：插值算法
+
+最重要的函数：`interp1d`和`interp2d`，这两个函数集成了很多功能，通过调整参数可以调用不同的函数。强烈推荐使用，
+
+
+### interp1d
+
+{% highlight python %}
+scipy.interpolate.interp1d(x, y, kind='linear', axis=-1, copy=True, bounds_error=True, fill_value=np.nan, assume_sorted=False)
+{% endhighlight %}
+
+其中，关键的参数是`kind`，用来设置插值方法：
+
+> Specifies the kind of interpolation as a string (‘linear’, ‘nearest’, ‘zero’, ‘slinear’, ‘quadratic, ‘cubic’ where ‘slinear’, ‘quadratic’ and ‘cubic’ refer to a spline interpolation of first, second or third order) or as an integer specifying the order of the spline interpolator to use. Default is ‘linear’.
+
+注意到，二次三次的插值是样条插值，不是拟合。
+
+另一个有用的参数是`assume_sorted`，如果你的x坐标是没有排序的务必不要去改成`True`，其实除非你的x坐标确实很大，增加一次排序也并没有太多损失。
+
+
+注： `y`可以是一个矩阵，这样可以一次进行多组数据的插值，这个时候`axis`参数可能就是你需要的。
+
+### interp2d
+
+{% highlight python %}
+scipy.interpolate.interp2d(x, y, z, kind='linear', copy=True, bounds_error=False, fill_value=nan)
+{% endhighlight %}
+
+这个函数功能比`interp1d`弱非常多，首先它只能针对网格数据，如果不是的话去后面看`griddata`。
+
+参数中比较关键的一样是`kind`
+
+> kind : {‘linear’, ‘cubic’, ‘quintic’}, optional
+The kind of spline interpolation to use. Default is ‘linear’.
+
+这次所有的都是样条插值啦！
+
+
+### griddata
+
+{% highlight python %}
+scipy.interpolate.griddata(points, values, xi, method='linear', fill_value=nan, rescale=False)
+{% endhighlight %}
+
+前面说了，如果不是网格数据就可以用这个函数进行插值。其中重要的参数当然是`method`
+
+> method : {‘linear’, ‘nearest’, ‘cubic’}, optional
+Method of interpolation. One of
+nearest
+return the value at the data point closest to the point of interpolation. See NearestNDInterpolator for more details.
+linear
+tesselate the input point set to n-dimensional simplices, and interpolate linearly on each simplex. See LinearNDInterpolator for more details.
+cubic (1-D)
+return the value determined from a cubic spline.
+cubic (2-D)
+return the value determined from a piecewise cubic, continuously differentiable (C1), and approximately curvature-minimizing polynomial surface. See CloughTocher2DInterpolator for more details.
+
+这个函数前面两个方法是可以用到任意维度的，最后`cubic`只能用于二维以下数据，一维就是三次样条插值，这个时候正确的打开方式是`interp1d`，所以其实就是二维，这个时候用的是Clough Tocher 2D样条，大部分时候这个就是你想要的啦！
+
+### 其他函数
+那么快就其他函数了，因为确实其他就意思不大了。
+
+#### interpnd
+看起来很酷炫，其实已经没有太多功能了。
+
+{% highlight python %}
+scipy.interpolate.interpn(points, values, xi, method='linear', bounds_error=True, fill_value=nan)
+{% endhighlight %}
+
+方法仅有“Supported are “linear” and “nearest”, and “splinef2d”. “splinef2d” is only supported for 2-dimensional data.”其实，就是只有前两个，如果你要第三个你应该用`interp2d`。
+
+#### 众多的单变量样条
+假设你对样条很熟悉，下面内容可能对你有用，一维样条Scipy支持三种。
+
+1. 五次以内的UnivariateSpline（这个一般不会经过所有点，根据s来定）：
+
+{% highlight python %}
+ scipy.interpolate.UnivariateSpline(x, y, w=None, bbox=[None, None], k=3, s=None, ext=0)
+{% endhighlight %}
+
+2. 五次以内的InterpolatedUnivariateSpline，这个你一般不会用到，因为相当于UnivariateSpline在s=0的情况
+
+{% highlight python %}
+scipy.interpolate.InterpolatedUnivariateSpline(x, y, w=None, bbox=[None, None], k=3, ext=0)
+{% endhighlight %}
+
+3. 五次以内的LSQUnivariateSpline，这个当你需要操作knot的时候你会考虑用到
+
+{% highlight python %}
+scipy.interpolate.LSQUnivariateSpline(x, y, t, w=None, bbox=[None, None], k=3, ext=0)
+{% endhighlight %}
+
+
+这三个类型的样条都是Python类，返回的对象都具有以下函数：
+
+	__call__(x[, nu, ext])	Evaluate spline (or its nu-th derivative) at positions x.
+	antiderivative([n])	Construct a new spline representing the antiderivative of this spline.
+	derivative([n])	Construct a new spline representing the derivative of this spline.
+	derivatives(x)	Return all derivatives of the spline at the point x.
+	get_coeffs()	Return spline coefficients.
+	get_knots()	Return positions of (boundary and interior) knots of the spline.
+	get_residual()	Return weighted sum of squared residuals of the spline approximation: sum((w[i] * (y[i]-spl(x[i])))**2, axis=0).
+	integral(a, b)	Return definite integral of the spline between two given points.
+	roots()	Return the zeros of the spline.
+	set_smoothing_factor(s)	Continue spline computation with the given smoothing factor s and with the knots found at the last call.
+
+也就是返回的对象是可以返回积分和为微分的，这也是一种获得数值微分和积分的方法。
+
+#### 众多的二维样条
+网格数据的二维样条有：scipy.interpolate.RectBivariateSpline和scipy.interpolate.RectSphereBivariateSpline，两个都可以做拟合和插值。这个其实就一个版本，参数是这样的：
+
+{% highlight python %}
+scipy.interpolate.RectBivariateSpline(x, y, z, bbox=[None, None, None, None], kx=3, ky=3, s=0)
+{% endhighlight %}
+
+其中，s是光滑系数。
+
+非网格数据的二次样条有：scipy.interpolate.SmoothBivariateSpline和scipy.interpolate.LSQBivariateSpline，以及他们的球坐标下的版本scipy.interpolate.SmoothSphereBivariateSpline和scipy.interpolate.LSQSphereBivariateSpline。
+
+如果你不想操作knot，大部分时候SmoothBivariateSpline是你想找的函数：
+
+{% highlight python %}
+scipy.interpolate.SmoothBivariateSpline(x, y, z, w=None, bbox=[None, None, None, None], kx=3, ky=3, s=None, eps=None)
+{% endhighlight %}
+
+其中，s是光滑系数。
+
+#### 应该提及的函数
+
+`scipy.interpolate.Rbf(*args)` 用过SVM的不会不知道这个东东。
+
+`scipy.signal.resample`  用来重采样，可以看做一种逼近 
+
+`scipy.signal.bspline`  返回贝塞尔样条的基函数，以后会专门提及这个
+
+`scipy.interpolate.lagrange` 著名的但是并不常用的拉格朗日插值
+
+`scipy.interpolate.approximate_taylor_polynomial` 泰勒展开的数值逼近
+
+`scipy.misc.pade(an, m)` 函数的Pade逼近，这个必须在有一帖，不过不是Scipy的了。
+
+## 结束语
+由此可见，这又是一个坑里再挖坑的文章，看看啥时候能够填满吧！
