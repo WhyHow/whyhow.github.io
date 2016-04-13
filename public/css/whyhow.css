@@ -372,8 +372,8 @@ div.floatimg > a > img{
     font-size: 0.9rem;
 }
 
-.figure .caption::first-letter {
+.figure .caption .fignum {
   font-weight:bold;
-  font-size:1.1em;
+  padding-right:0.6rem;
 }
 
