@@ -33,10 +33,10 @@ tags:
 
 <hr/>
 <div class="commentsonquote">
-<div class="yiyin">国外机构能拿到中国人口普查数据？<br/><br/>
-	不知道受过“高中”教育是怎么定义的。是否在这非官方的“专业”研究里，中职教育不算高中教育呢？否则25-34岁的城市人口中受过高中教育的只有52%的结论，怎么也和直观感受不符。若真如此，没受过“高中”教育又怎样呢？能说明劳动力素质问题吗？<br/>
+<div class="yiyin">中国的人口普查数据还真是公开的，可见国家统计局官网。大家可以自己验算验算。<br/><br/>
+	不知道各种研究中，受过“高中”教育是怎么定义的。中职教育不算高中教育呢？<br/><br/>
 	“高中”的定义奇怪，“上过”的定义更奇怪。去读过几天高中，没毕业，没拿到高中文凭，算不算“上过高中”？<br/><br/>
-因为这个新闻，发现了网易有个做数据可视化的子网站——“网易数读”，口号是“用数据说话，提供轻量化的阅读体验”。点<a href="http://img2.cache.netease.com/cnews/2016/4/5/20160405101003c5182.jpg" data-lightbox="wysd" light>这里</a><a href="http://img3.cache.netease.com/cnews/2016/3/17/20160317183444edfd6.jpg" data-lightbox="wysd" light></a><a href="http://img2.cache.netease.com/cnews/2016/3/15/20160315032341bf5da.jpg" data-lightbox="wysd" light></a>可以查看其更多作品。大概这种样子的就是目前中国大部分读者喜闻乐见的数据可视化方式。
+	因为这个新闻，发现了网易有个做数据可视化的子网站——“网易数读”，口号是“用数据说话，提供轻量化的阅读体验”。点<a href="http://img2.cache.netease.com/cnews/2016/4/5/20160405101003c5182.jpg" data-lightbox="wysd" light>这里</a><a href="http://img3.cache.netease.com/cnews/2016/3/17/20160317183444edfd6.jpg" data-lightbox="wysd" light></a><a href="http://img2.cache.netease.com/cnews/2016/3/15/20160315032341bf5da.jpg" data-lightbox="wysd" light></a>可以查看其更多作品。大概这种样子的就是目前中国大部分读者喜闻乐见的数据可视化方式。
 </div>
 </div>
 
