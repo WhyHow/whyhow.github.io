@@ -1,0 +1,16 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-13 22:11:22  +0800
+layout: post
+slug: Say0413aitan
+title: 光阴虚度，年华辜负
+categories: [说]
+tags:
+-  牢骚
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+一晚上，一整个晚上啊，大好光阴就用来做加法和除法了！就写了这个<a href="http://whyhow.github.io/2016/04/08/laodonglijiaoyu.html">文章</a>的评论。让我去哭一会儿。
+</div>
