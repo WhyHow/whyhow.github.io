@@ -48,7 +48,7 @@ tags:
 
 需要指出的是，细胞骨架在进化中是高度保守的。基因序列分析表明酵母的肌动蛋白和微管蛋白与人类的基本相同；而在原核细胞中也存在真核细胞肌动蛋白与微管蛋白的同系物：细菌的细胞骨架控制着细菌的长、宽以及细胞分裂的位置，其组成物FtsZ蛋白和MreB蛋白分别是微管蛋白和肌动蛋白的同系物。而在细菌和单细胞真核生物中并没有发现类似中间丝的蛋白，说明中间丝在细胞骨架的进化中出现的较晚。细胞骨架成分的这种进化保守性使得我们可以选择便于实验研究的低等生物作为生物模型，来探究细胞骨架的性质与行为，揭示人体的奥秘 <a href="#r3">(3)</a>。
 
-参考文献：
+参考文献：<br/>
 <a name="r1"></a>(1) Fletcher, D. A., and Mullins, D. (2010) Cell mechanics and the cytoskeleton, *Nature* 463, 485-492.<br/>
 <a name="r2"></a>(2) Berk, A., Matsudaira, P., Kaiser, C. A., Krieger, M., Scott, M. P., Zipursky, L., and Darnell, J. (2003) *Molecular cell biology*, 5th ed., W. H. Freeman.<br/>
 <a name="r3"></a>(3) Ainsworth, C. (2007) Cilia - Tails of the unexpected, *Nature* 448, 638-641.<br/>
