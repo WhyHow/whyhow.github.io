@@ -35,7 +35,7 @@ tags:
 <div class="commentsonquote">
 <div class="yiyin">
 咦咦咦？咦咦咦？当年你吹捧主席同款的庆丰包子铺的时候可不是这么说的呀。让我们来看看百度搜索“主席同款”的结果:
-<img src="/public/images/zhuxitongkuan.jpg">
+<img src="/public/images/zhuxitongkuan.JPG">
 呵呵呵。呵呵呵。<br/>
 “这种盲目和空虚从何而来？一方面，年轻人固然应当反省；另一方面，社会尤其是文化工作者在当前对年轻人文化供养和哺育方面的欠缺也应引起重视。”说得好！<br/>
 </div>
