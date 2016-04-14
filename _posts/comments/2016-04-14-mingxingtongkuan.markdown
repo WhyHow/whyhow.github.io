@@ -4,9 +4,9 @@ comments: true
 date: 2016-04-14 19:08:08 +0800
 layout: post
 slug: mingxingtongkuan
-title: 
+title: 同款也有双重标准
 categories: [听]
-tags: 同款也有双重标准
+tags: 
 -  社会
 -  人民网
 -  人民日报
