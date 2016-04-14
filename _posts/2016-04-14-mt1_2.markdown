@@ -1,0 +1,60 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-14 12:29:29 +0800
+layout: post
+slug: MT1_2
+title: 系列综述——微管生长动力学及其数值模拟 Day 2
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+
+---
+
+上接[Day 1](http://whyhow.github.io/2016/04/13/mt1-1.html)。<br/>
+本系列章节、图表、引文均连续编号。
+
+### 1.2. 微管的基本结构、行为与功能
+
+微管是最坚硬的一类细胞骨架纤维，同时也具有最复杂的动力学特性。图3所示为微管的基本组成与结构。微管为中空圆管状结构，细胞中的微管一般外径为$25 ~ {\rm nm}$，内径为$17 ~ {\rm nm}$，长度可达整个细胞的尺寸。构成微管的基本单位（亚基）是由$\alpha$-微管蛋白和$\beta$-微管蛋白构成的微管蛋白二聚体，二聚体长$8 ~ {\rm nm}$，而$\alpha$和$\beta$单体是近似球形的。在完整的微管结构中，二聚体纵向间首尾相连形成原丝，横向间则成环，故而微管具有极性：$\alpha$-微管蛋白暴露的一端称为负端，$\beta$-微管蛋白暴露的一端为正端。微管纵向间的主要相互作用是疏水作用，而横向间是静电力作用，这些相互作用将亚基牢牢束缚，造就了强度高刚度大的微管，而亚基的添入和移除一般只能发生在端部 (<a href="#r4">4</a>)。一般来说，对多肽纳米线的组装，横向间由静电力结合，纵向间由疏水作用组装，是一条基本规则 (<a href="#r5">5</a>, <a href="#r6">6</a>)。
+
+<div class="figure"><img src="/public/images/microtubule/image017.png" align="middle"><div class="caption"><span class="fignum">图3</span>微管的基本组成与结构：a. 微管的亚基 (<a href="#r2">2</a>)；b. 微管的尺寸和基本结构 (<a href="#r7">7</a>)</div></div>
+
+$\alpha$-微管蛋白和$\beta$-微管蛋白单体的质量类似，都为约$55 ~ {\rm kD}$，含约$450$个氨基酸残基。真核细胞中存在着几种基因表达和转译后修饰不同的$\alpha$-与$\beta$-微管蛋白，也存在其他一些品种的微管蛋白，如与微管形核和稳定相关的$\gamma$-微管蛋白，与中心粒复制相关的$\delta$-、$\varepsilon$-、$\eta$-、$\zeta$-微管蛋白等 (<a href="#r8">8</a>, <a href="#r9">9</a>)。微管中的$\alpha$-和$\beta$-单体各连接着一个鸟嘌呤核苷酸，由于微管以二聚体为基本建筑单元，$\alpha$-微管蛋白上GTP（三磷酸鸟苷）恰好埋在$\alpha$-与$\beta$-单体的界面上，不会发生变化；而$\beta$-微管蛋白上的GTP却暴露在外，在加聚到微管端部后会被微管上的GTP酶水解为GDP（二磷酸鸟苷）（见图3a (<a href="#r2">2</a>)）。水解后的GDP-微管蛋白处于微管壁中，很难再发生变化，故而微管的绝大部分组成是GDP-微管蛋白 (<a href="#r10">10</a>, <a href="#r11">11</a>)，而在发生加聚的端部则有部分还未水解的GTP-微管蛋白。微管正是利用GTP水解的能量对外做功，行使自身在细胞内部肩负的功能；而GTP-微管蛋白与GDP-微管蛋白不同的几何形态，也决定着微管加聚和解聚的动态行为。可能正是由于鸟嘌呤核苷酸状态对于微管的生长起着至关重要的作用，微管正端（能结合GTP或GDP的$\beta$-单体端）较之负端（只能结合GTP的$\alpha$-单体端）动态性更为明显，能更频繁地结合与脱落亚基，生长也更快速 (<a href="#r12">12</a>)。当微管解聚后，脱落下的$\beta$-单体上结合的GDP可重新替换为GTP，再次参与加聚 (<a href="#r13">13</a>)。
+
+微管蛋白二聚体横纵相连，却并非排列成了方方正正的晶格结构。事实上，微管原丝在横向连接时沿轴向有一定错位，最终构成了左手螺旋结构。电镜观察分析揭示了微管存在两种不同的晶格，如图4 (<a href="#r14">14</a>) 所示：A晶格结构相邻原丝间错位$4.9 ~ {\rm nm}$，沿同一螺旋横向连接为$\alpha$-$\beta$；B晶格结构相邻原丝间错位$0.9 ~ {\rm nm}$，沿同一螺旋横向链接主要为$\alpha$-$\alpha$、$\beta$-$\beta$，只是对于单数单体头数的螺旋结构，会产生一道$\alpha$-$\beta$连接，称为“缝”。体外实验中合成的微管可以有不同的原丝数和螺旋头数（按单体数目计），一般最常见的是$13-3$结构，也即原丝数目为$13$，螺旋头数为$3$个单体。此种结构的微管其原丝恰好沿微管轴向，而其他原丝数目组成的微管则会造成原丝扭转，见图5 (<a href="#r15">15</a>)。实验中合成的微管原丝数在8至19之间，螺旋头数为2到5个单体 (<a href="#r7">7</a>, <a href="#r15">15</a>)。对于活体细胞内的微管，还没有足够的实验证据来揭示其结构，一般认为属于A晶格型的可能性很大。
+
+<div class="figure"><img src="\public\images\microtubule\image038.png" align="middle"><div class="caption"><span class="fignum">图4</span>两种微管晶格结构：a. B晶格结构；b. A晶格结构 <a href="#r14">(14)</a></div></div>
+
+<div class="figure"><img src="\public\images\microtubule\image040.png" align="middle"><div class="caption"><span class="fignum">图5</span>微管原丝的扭转：左：13-3微管原丝恰好沿微管轴向；中：14原丝微管无法保证原丝沿轴向同时螺旋完整；右：14原丝微管要保证螺旋完整原丝必须扭转 <a href="#r15">(15)</a></div></div>
+
+由此我们知道：尽管微管的整体外形为简单圆柱，但结构中却暗含了许多种对称性破缺：微管的两端极性（A晶格型可能在宏观上削弱极性）、微管晶格的左手螺旋手性、B晶格微管的缝、以及非13原丝微管的原丝扭转。微管结构的这种简单中的不平凡与微管本身作为进化中保守的、低级的细胞元件却具备分毫无差地完成诸如有丝分裂这种精密工作的能力是精神上一致的。
+
+微管在细胞中承担的职责主要包括：
+
+- 维持细胞外形。一般认为微管在细胞中主要受压，对细胞起支撑作用。
+- 维持细胞内部形态，给细胞器定位。
+- 作为细胞内货物输运的轨道。动力蛋白和驱动蛋白借由微管，可以完成一系列对囊泡、核酸等物质的胞内搬运；此项功能对于神经元细胞而言尤为重要，因为轴突可长达1 ，光靠扩散无法将蛋白质等从胞体运送到轴突末端。
+- 参与有丝分裂和减数分裂。在有丝分裂中，微管构成了有丝分裂的纺锤体与星状体，帮助准确捕获染色体，拉长细胞，完成分裂。
+- 构成纤毛、鞭毛。纤毛轴丝的成分是微管，一般可动纤毛由外围的九根双联微管和一对中心微管组成，在动力蛋白臂的帮助下可以发生弯曲。不动纤毛仅含外围的九根双联管，微管间不能发生相对运动。
+
+
+参考文献：
+<a name="r2"></a>(2) Berk, A., Matsudaira, P., Kaiser, C. A., Krieger, M., Scott, M. P., Zipursky, L., and Darnell, J. (2003) *Molecular cell biology*, 5th ed., W. H. Freeman.c<br/>
+<a name="r4"></a>(4) Downing, K. H. (2008) Tubulin and the dynamic, multifunctional microtubules it forms In *Fibrous proteins* (Scheibel, T., Ed.) 1st ed., pp 92-103, Landes Bioscience, Inc. .<br/>
+<a name="r5"></a>(5) Pampaloni, F., and Florin, E.-L. (2008) Microtubule architecture: inspiration for novel carbon nanotube-based biomimetic materials, *Trends in Biotechnology* 26, 302-310.<br/>
+<a name="r6"></a>(6) Wagner, D., Phillips, C., Ali, W., Nybakken, G., Crawford, E., Schwab, A., Smith, W., and Fairman, R. (2005) Toward the development of peptide nanofilaments and nanoropes as smart materials, *Proceedings of the National Academy of Sciences of the United States of America* 102, 12656.<br/>
+<a name="r7"></a>(7) Hawkins, T., Mirigian, M., Yasar, M. S., and Ross, J. L. (2010) Mechanics of microtubules, *Journal of Biomechanics* 43, 23-30.<br/>
+<a name="r8"></a>(8) Nogales, E., Downing, K. H., Amos, L. A., and Lowe, J. (1998) Tubulin and FtsZ form a distinct family of GTPases, *Nature Structural Biology* 5, 451-458.<br/>
+<a name="r9"></a>(9) Nogales, E. (2001) Structural insights into microtubule function, *Annual Review of Biophysics and Biomolecular Structure* 30, 397-420.<br/>
+<a name="r10"></a>(10) Melki, R., Carlier, M. F., and Pantaloni, D. (1990) Direct evidence for gtp and gdp-pi intermediates in microtubule assembly, *Biochemistry* 29, 8921-8932.<br/>
+<a name="r11"></a>(11) Carlier, M., and Pantaloni, D. (1981) Kinetic analysis of guanosine 5'-triphosphate hydrolysis associated with tubulin polymerization, *Biochemistry* 20, 1918-1924.<br/>
+<a name="r12"></a>(12) Morgan, D. O. (2006) *The cell cycle*, 1st ed., New Science Press, Ltd.<br/>
+<a name="r13"></a>(13) Tran, P. T., Walker, R. A., and Salmon, E. D. (1997) A metastable intermediate state of microtubule dynamic instability that differs significantly between plus and minus ends, *Journal of Cell Biology* 138, 105-117.<br/>
+<a name="r14"></a>(14) des Georges, A., Katsuki, M., Drummond, D. R., Osei, M., Cross, R. A., and Amos, L. A. (2008) Mal3, the Schizosaccharomyces pombe homolog of EB1, changes the microtubule lattice, *Nature Structural & Molecular Biology* 15, 1102-1108.<br/>
+<a name="r15"></a>(15) Kasas, S., and Dietler, G. (2007) Techniques for measuring microtubule stiffness, *Current Nanoscience* 3, 85-96.<br/>
+
+ 
+
