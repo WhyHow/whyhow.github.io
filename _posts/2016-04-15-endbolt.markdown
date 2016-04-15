@@ -1,0 +1,56 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-15 20:41:26 +0800
+layout: post
+slug: steeldesign0415
+title: Notes about end bolts and edge bolts
+categories: [思]
+tags:
+- Steel Design
+- Tutorial
+---
+This is a short article I wrote to clarify the end bolt and edge bolt in EC 1993-1-8-2005. I wish this article could help others who happen to have similar problem. If I have any mistake, please point it out in the comment area.
+
+## Basic idea about the classification of bolts
+
+The basic idea of classify the bolts into end bolts and inner bolts, or edge bolts and inner bolts are to consider the bearing on the plate and bolt. Considering following case:
+
+The bolt compress the upper part of the bearing plate, and thus the plate may has failure on the upper side of the bolt hole. All the bearing resistance calculations are trying to check whether the bearing plate can bear the load transfered from bolt.
+
+<img src="/public/images/sd/1.svg" width="400px" style="margin:1em auto;">
+
+## End bolts and inner bolts
+
+End bolts and inner bolts are looking in the direction **parallel to the loading direction.**
+
+Considering following case,
+
+<img src="/public/images/sd/2.svg" width="800px" style="margin:2.5em auto;">
+
+
+For the upper plate, the right side of the holes are compressed. Thus, the rightmost of the upper plate is under compression. If any failure happens on the edge of the plate, the failure will most likely happen on the rightmost part of the plate. Therefore, **for the upper plate**, the rightmost bolt is the end bolt and the according distance to the free edge is $e_1$. The other bolts are the inner bolts.
+
+For the lower plate, the stress distribution is opposite, and thus, the left side of the bolt hole is under compression. Therefore, **for the lower plate**, the leftmost bolt is the end bolt and the others are the inner bolts.
+
+## Edge bolts and inner bolts
+
+Edge bolts and inner bolts are looking in the direction **perpendicular to the loading direction.**
+
+Determining edge bolts is a little easier. Because edge bolts are bolts near the free edge(s). The idea is the same. If the plate failure happens on the non-free edge the plate and the member attached on must fail at the same time. Therefore, the bolts near the free edge(s) should be considered specially.
+
+One thing that should be mentioned here is that the latest standard makes a reasonable adjust to $k_1$ for edge bolts, which can guarantee $k_1$ is always smaller or equal to $k_1$ determined for inner bolts. The equation is a little different from the equation listed in the lecture notes.
+
+## Notes for Example 3
+
+The load draws on the figure is the reaction force, **not load applied on the plate**. Therefore, the compression part is the upper part of the holes. This can also be seen from the block tearing area drawing in the figure. If the load is applied on the plate, the block tearing region should be the lower part, but not the part shown in the figure. Therefore ,the end bolts for the problem are the two bolts in the first row (upper most row). The other four bolts are the inner bolts.
+
+## Examples
+
+All the loads drawing are reaction forces, not loads applied on the plate.
+
+
+<img src="/public/images/sd/3.svg" width="800px" style="margin:1em auto;">
+
+
+

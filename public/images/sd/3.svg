@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="401.35147mm"
+   height="425.08255mm"
+   viewBox="0 0 1422.1115 1506.198"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="steeldesign.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6466"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path6468"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5060"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5062"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5012"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path5014"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4830"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4832"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker4604"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4606"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4199"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="201.34941"
+     inkscape:cy="612.74289"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:object-nodes="true"
+     inkscape:window-width="1846"
+     inkscape:window-height="1181"
+     inkscape:window-x="66"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-75.882858,-195.39918)">
+    <rect
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="rect4136"
+       width="270.54965"
+       height="284.28571"
+       x="78.097153"
+       y="385.16861"
+       rx="0"
+       ry="0" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02942;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="path4138"
+       cx="149.16856"
+       cy="459.81146"
+       r="14.642858"
+       inkscape:tile-cx="253.21428"
+       inkscape:tile-cy="464.86221"
+       inkscape:tile-w="33.285715"
+       inkscape:tile-h="33.285715"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="526.38287"
+       cx="149.16856"
+       id="use4166"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="592.95428"
+       cx="149.16856"
+       id="use4168"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="459.81146"
+       cx="215.73999"
+       id="use4170"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02942;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="526.38287"
+       cx="215.73999"
+       id="use4172"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="592.95428"
+       cx="215.73999"
+       id="use4174"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="459.81146"
+       cx="282.31143"
+       id="use4176"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02942;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="526.38287"
+       cx="282.31143"
+       id="use4178"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="592.95428"
+       cx="282.31143"
+       id="use4180"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 77.382858,208.02573 0,582.14286"
+       id="path4182"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5012)"
+       d="m 218.09715,381.59716 0,-98.57143"
+       id="path4184"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02942;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4482"
+       cx="444.3999"
+       cy="212.04204"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="495.1138"
+       y="230.0112"
+       id="text4484"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4486"
+         x="495.1138"
+         y="230.0112">End Bolt</tspan></text>
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4488"
+       cx="440.90536"
+       cy="294.95932"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.03571"
+       y="309.90009"
+       id="text4490"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4492"
+         x="501.03571"
+         y="309.90009">Inner Bolt</tspan></text>
+    <rect
+       ry="0"
+       rx="0"
+       y="385.16861"
+       x="880.95428"
+       height="284.28571"
+       width="270.54965"
+       id="rect4494"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-h="33.285715"
+       inkscape:tile-w="33.285715"
+       inkscape:tile-cy="464.86221"
+       inkscape:tile-cx="253.21428"
+       r="14.642858"
+       cy="459.81146"
+       cx="952.0257"
+       id="circle4496"
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#506687;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4498"
+       cx="952.0257"
+       cy="526.38287"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4500"
+       cx="952.0257"
+       cy="592.95428"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#506687;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569"
+       id="circle4502"
+       cx="1018.5971"
+       cy="459.81146"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4504"
+       cx="1018.5971"
+       cy="526.38287"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4506"
+       cx="1018.5971"
+       cy="592.95428"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569"
+       id="circle4508"
+       cx="1085.1686"
+       cy="459.81146"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4510"
+       cx="1085.1686"
+       cy="526.38287"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4512"
+       cx="1085.1686"
+       cy="592.95428"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4514"
+       d="m 880.24,208.02573 0,582.14286"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4516"
+       d="m 1020.9543,381.59716 0,-98.57143"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4520"
+       y="231.02135"
+       x="1306.0521"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="231.02135"
+         x="1306.0521"
+         id="tspan4522"
+         sodipodi:role="line">Edge Bolt</tspan></text>
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="294.95932"
+       cx="1243.7625"
+       id="circle4524"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4526"
+       y="309.90009"
+       x="1303.8928"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="309.90009"
+         x="1303.8928"
+         id="tspan4528"
+         sodipodi:role="line">Inner Bolt</tspan></text>
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="219.39304"
+       cx="1244.6782"
+       id="circle4530"
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <rect
+       ry="0"
+       rx="0"
+       y="1296.5972"
+       x="78.097153"
+       height="284.28571"
+       width="270.54965"
+       id="rect4532"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-h="33.285715"
+       inkscape:tile-w="33.285715"
+       inkscape:tile-cy="464.86221"
+       inkscape:tile-cx="253.21428"
+       r="14.642858"
+       cy="1371.24"
+       cx="149.16856"
+       id="circle4534"
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#506687;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4536"
+       cx="149.16856"
+       cy="1437.8114"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4538"
+       cx="149.16856"
+       cy="1504.3828"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#506687;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569"
+       id="circle4540"
+       cx="215.73999"
+       cy="1371.24"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4542"
+       cx="215.73999"
+       cy="1437.8114"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4544"
+       cx="215.73999"
+       cy="1504.3828"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#ce6477;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569"
+       id="circle4546"
+       cx="282.31143"
+       cy="1371.24"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02a43;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4548"
+       cx="282.31143"
+       cy="1437.8114"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02a43;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4550"
+       cx="282.31143"
+       cy="1504.3828"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4552"
+       d="m 77.382858,1119.4543 0,582.1429"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4554"
+       d="m 348.81145,1443.74 98.5714,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4604)" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1123.4706"
+       cx="444.3999"
+       id="circle4556"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#c02942;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4558"
+       y="1141.4398"
+       x="495.1138"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1141.4398"
+         x="495.1138"
+         id="tspan4560"
+         sodipodi:role="line">End Bolt</tspan></text>
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1206.3879"
+       cx="440.90536"
+       id="circle4562"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4564"
+       y="1221.3286"
+       x="501.03571"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1221.3286"
+         x="501.03571"
+         id="tspan4566"
+         sodipodi:role="line">Inner Bolt</tspan></text>
+    <rect
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="rect4568"
+       width="270.54965"
+       height="284.28571"
+       x="880.95428"
+       y="1282.3115"
+       rx="0"
+       ry="0" />
+    <circle
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569"
+       id="circle4570"
+       cx="952.0257"
+       cy="1356.9543"
+       r="14.642858"
+       inkscape:tile-cx="253.21428"
+       inkscape:tile-cy="464.86221"
+       inkscape:tile-w="33.285715"
+       inkscape:tile-h="33.285715"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1423.5258"
+       cx="952.0257"
+       id="circle4572"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1490.0972"
+       cx="952.0257"
+       id="circle4574"
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1356.9543"
+       cx="1018.5971"
+       id="circle4576"
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1423.5258"
+       cx="1018.5971"
+       id="circle4578"
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1490.0972"
+       cx="1018.5971"
+       id="circle4580"
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1356.9543"
+       cx="1085.1686"
+       id="circle4582"
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1423.5258"
+       cx="1085.1686"
+       id="circle4584"
+       style="opacity:0.6;fill:#000000;fill-opacity:0;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1" />
+    <circle
+       inkscape:tile-y0="448.21936"
+       inkscape:tile-x0="236.57142"
+       r="14.642858"
+       cy="1490.0972"
+       cx="1085.1686"
+       id="circle4586"
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 880.24,1105.1686 0,582.1428"
+       id="path4588"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4830)"
+       d="m 1148.8115,1423.74 98.5714,0"
+       id="path4590"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1302.9709"
+       y="1128.5826"
+       id="text4592"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4594"
+         x="1302.9709"
+         y="1128.5826">Edge Bolt</tspan></text>
+    <circle
+       style="opacity:0.6;fill:#f4f6f8;fill-opacity:1;stroke:#0f2d59;stroke-width:4;stroke-linejoin:round;stroke-opacity:1"
+       id="circle4596"
+       cx="1243.7625"
+       cy="1192.1022"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1303.8928"
+       y="1207.043"
+       id="text4598"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4600"
+         x="1303.8928"
+         y="1207.043">Inner Bolt</tspan></text>
+    <circle
+       style="opacity:1;fill:#f4f6f8;fill-opacity:1;stroke:#f07818;stroke-width:4;stroke-linejoin:round;stroke-opacity:0.83921569"
+       id="circle4602"
+       cx="1243.7399"
+       cy="1115.5258"
+       r="14.642858"
+       inkscape:tile-x0="236.57142"
+       inkscape:tile-y0="448.21936" />
+  </g>
+</svg>
