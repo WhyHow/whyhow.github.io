@@ -39,7 +39,7 @@ Edge bolts and inner bolts are looking in the direction **perpendicular to the l
 
 Determining edge bolts is a little easier. Because edge bolts are bolts near the free edge(s). The idea is the same. If the plate failure happens on the non-free edge the plate and the member attached on must fail at the same time. Therefore, the bolts near the free edge(s) should be considered specially.
 
-One thing that should be mentioned here is that the latest standard makes a reasonable adjust to $k_1$ for edge bolts, which can guarantee $k_1$ is always smaller or equal to $k_1$ determined for inner bolts. The equation is a little different from the equation listed in the lecture notes.
+One thing that should be mentioned here is that the latest standard makes a reasonable adjustment to $k_1$ for edge bolts, which can guarantee $k_1$ is always smaller or equal to $k_1$ determined for inner bolts. The equation is a little different from the equation listed in the lecture notes.
 
 ## Notes for Example 3
 
