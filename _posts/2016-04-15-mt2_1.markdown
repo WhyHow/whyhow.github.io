@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-04-5 12:36:36 +0800
+date: 2016-04-15 12:36:36 +0800
 layout: post
 slug: MT2_1
 title: 系列综述——微管生长动力学及其数值模拟 Day 3
