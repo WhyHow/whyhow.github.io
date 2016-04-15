@@ -1,0 +1,72 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-16 12:00:00 +0800
+layout: post
+slug: MT2_2_1
+title: 系列综述——微管生长动力学及其数值模拟 Day 4
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+
+---
+
+上接[Day 3](http://whyhow.github.io/2016/04/15/mt2-1.html)。<br/>
+本系列章节、图表、引文均连续编号。
+
+### 2.2. 微管的静力学性质
+
+性质与结构是密切关联的。由于微管在横纵方向的相互作用不同，其力学性质表现为明显的各向异性；又由于原丝间相互作用的主要基序是非常柔软、类似于铰链的M-环，微管的整体变形经常伴随着原丝间的剪切与扭转 (<a href="#r5">5</a>)。以上两点是微管静力学的两个本征特性，但是，一则由于微管的力学性质受多种外在因素（核苷酸的状态、微管的长度与加聚速率 (<a href="#r37">37</a>-<a href="#r39">39</a>)、其他蛋白的结合 (<a href="#r40">40</a>-<a href="#r43">43</a>) 等）的影响 (<a href="#r7">7</a>)，二则由于无论是实验还是理论研究，都缺乏由原子的行为演绎出微管宏观性质的能力，微管整体力学参数的确定和力学行为的刻画一直未得到完满的解决；单以杨氏模量而言，不同研究者所得数据的跨度从$1 ~ \rm MPa$ (<a href="#r44">44</a>) 到$7 ~ \rm GPa$ (<a href="#r45">45</a>)。Hawkins对微管力学参数的测定结果作了整理，对数据的分散性作了说明 (<a href="#r7">7</a>)。
+
+#### 2.2.1 微管力学性质的实验研究
+
+在微管力学性质的实验研究方面，通行的做法是将微管处理为弹性体，根据微管受力后的变形，基于弹性理论来预测其等效力学性质。随着实验设备的不断更新，目前可施加的外力范围已达$\rm pN$到$\rm \mu N$量级，可观测的变形范围达$\rm Å$到$\rm \mu m$量级 (<a href="#r15">15</a>)。但是，尽管可测量的精度在不断提高，对于微管变形和外力的关系却没有理论上严格的说法；此外，实验中的影响因素众多，很难获得真正反映微管內秉性质的数据。这就导致了对微管力学性质的推断一直众说纷纭。
+
+当前测定微管力学性质的实验方法主要有：直接施力 (<a href="#r46">46</a>, <a href="#r47">47</a>)、流场法 (<a href="#r48">48</a>, <a href="#r49">49</a>)、磷脂泡法 (<a href="#r50">50</a>-<a href="#r53">53</a>)、热涨落法 (<a href="#r43">43</a>, <a href="#r49">49</a>, <a href="#r54">54</a>-<a href="#r56">56</a>)、光镊法 (<a href="#r37">37</a>, <a href="#r42">42</a>, <a href="#r45">45</a>, <a href="#r57">57</a>)、原子力显微镜（AFM）方法 (<a href="#r44">44</a>, <a href="#r58">58</a>, <a href="#r59">59</a>)等 (<a href="#r60">60</a>)。直接施力法一般以鞭毛作为测量对象，用玻璃纤维直接对鞭毛施横向力使其弯曲。此种方法的实验装置最为简单，但测算结果也较为粗糙，其最大的限制来源于微管性质与鞭毛性质间的关系未知。流场法是将微管置于横向冲刷的流场中，由流体的拖曳力使其弯曲，根据流速测算出变形。这种方法牵涉的实验细节相当多，系统误差很大。磷脂泡法的思路非常巧妙，Hotani首先发现了微管蛋白可以被磷脂泡包裹，并在其中聚合 (<a href="#r50">50</a>)，随着微管的生长，囊泡开始发生各种变形 （图7 (<a href="#r53">53</a>)），Elbaum和Fygenson等人随即通过控制囊泡膜的张力使其内微管发生屈曲，由屈曲公式推算出微管的力学性质 (<a href="#r51">51</a>, <a href="#r52">52</a>)，同时根据弹性膜的自由能理论计算了磷脂泡形状的演化 (<a href="#r53">53</a>)。不过，由于没有办法获知磷脂泡中究竟存在着几根微管，这个“漂亮”的方法在获得微管力学性质上依然粗糙。热激励下微管会产生振动，热涨落法是即是根据振动的模态和频率来推测微管的力学性质。这种方法无需直接施加外力，但模态的分析却较为困难。
+
+<div class="figure"><img src="/public/images/microtubule/image064.png" align="middle"><div class="caption"><span class="fignum">图7</span>微管在磷脂泡中的弯曲过程（图中比例尺：$5 ~ \rm \mu m$）(<a href="#r53">53</a>)</div></div>
+
+光镊和原子力显微镜（AFM）是二十世纪九十年代以后才被逐步应用于微管研究的实验手段。光镊是一束高度汇聚的激光形成的三维势阱，由于光的力学效应，它可产生典型量级在$\rm pN$的力，捕获进而操控微小粒子 (<a href="#r61">61</a>-<a href="#r63">63</a>)。由于捕获是非接触的和远距离遥控的，光镊不会影响粒子的周围环境，更不会产生机械损伤。Kurachi首次运用光镊测量了微管的弯曲刚度 (<a href="#r45">45</a>)。他通过光镊来捕获结合在微管端部的聚苯乙烯微珠，使微管受力变形，得到微管屈曲的临界载荷，利用材料力学处理屈曲的经典欧拉公式获得了微管的弯曲刚度。之后，Felgner采用了两种不同的实验设计，同样运用光镊测得了微管的力学性质 (<a href="#r42">42</a>)。其一为“松弛法”：微管一端固定于载玻片上，另一端在光镊作用下发生横向弯曲，在激光关闭后，微管会回复到初始平衡构型，通过分析这一松弛运动的速度可获知微管的刚度；其二为“摇动法”：用光镊抓取微管的中部，使微管端部反复来回摆动，根据变形来推算弹性性质。在光镊技术的帮助下，研究者设计出了许多种类的微管变形方式，又根据不同的理论演绎，获得了分布极为广泛的微管刚度数据。
+
+Vinckier率先将原子力显微镜用到了微管力学性质的测定中 (<a href="#r44">44</a>)。通过AFM探针对微管施以横向压痕，记录力--位移曲线，由接触力学的Hertz假设算出了杨氏模量。De Pablo也用类似的SFM探针横向压痕技术测定了微管线性段力学响应的最大压深和弹簧系数，通过薄壳理论推测出了微管的杨氏模量 (<a href="#r58">58</a>)。采用相同实验方法的还有Schaap (<a href="#r40">40</a>, <a href="#r59">59</a>)，他们测定了探针压力作用下微管横向变形的线性与非线性区域，并对横向压痕的情况作了有限元模拟；Donhauster (<a href="#r64">64</a>) 则用类似技术测定了紫杉醇对微管弹性性质的影响。图8所示是AFM探针横向压痕的实验示意图 (<a href="#r59">59</a>)。Kis则采用了一种不同的实验设计 (<a href="#r65">65</a>)。他们将微管置于由电子束蚀刻而成的带孔的铝膜表面，用AFM探针做三点弯实验，图9左侧为实验装置的示意图 (<a href="#r15">15</a>)，右侧为微管变形后的示意图 (<a href="#r65">65</a>)。微管悬荡部分的最大位移被认为是弯曲与剪切变形之和。基于Timoshenko梁理论，研究者判断微管的剪切模量约比杨氏模量小两个量级。
+
+<div class="figure"><img src="/public/images/microtubule/image067.png" align="middle"><div class="caption"><span class="fignum">图8</span>AFM探针横向压痕实验示意图（AFM探针与微管未按比例绘制）(<a href="#r59">59</a>)</div></div>
+
+<div class="figure"><img src="/public/images/microtubule/image069.png" align="middle"><div class="caption"><span class="fignum">图9</span>AFM探针三点弯实验示意图：左：实验装置示意：1. 微管；2. AFM探针针尖；3. 电子束蚀刻的基底 (<a href="#r15">15</a>)；右：处于基底上的受力后变形的微管 (<a href="#r65">65</a>)</div></div>
+
+参考文献：
+
+<a name="r5"></a>(5) Pampaloni, F., and Florin, E.-L. (2008) Microtubule architecture: inspiration for novel carbon nanotube-based biomimetic materials, *Trends in Biotechnology* 26, 302-310.<br/>
+<a name="r7"></a>(7) Hawkins, T., Mirigian, M., Yasar, M. S., and Ross, J. L. (2010) Mechanics of microtubules, *Journal of Biomechanics* 43, 23-30.<br/>
+<a name="r15"></a>(15) Kasas, S., and Dietler, G. (2007) Techniques for measuring microtubule stiffness, *Current Nanoscience* 3, 85-96.<br/>
+<a name="r37"></a>(37) Takasone, T., Juodkazis, S., Kawagishi, Y., Yamaguchi, A., Matsuo, S., Sakakibara, H., Nakayama, H., and Misawa, H. (2002) Flexural rigidity of a single microtubule, *Japanese Journal of Applied Physics Part 1-Regular Papers Short Notes & Review Papers* 41, 3015-3019.<br/>
+<a name="r38"></a>(38) Pampaloni, F., Lattanzi, G., Jonoáš, A., Surrey, T., Frey, E., and Florin, E. (2006) Thermal fluctuations of grafted microtubules provide evidence of a length-dependent persistence length, *Proceedings of the National Academy of Sciences* 103, 10248.<br/>
+<a name="r39"></a>(39) Taute, K. M., Pampaloni, F., Frey, E., and Florin, E. L. (2008) Microtubule dynamics depart from the wormlike chain model, *Physical Review Letters* 100.<br/>
+<a name="r40"></a>(40) Schaap, I. A. T., Hoffmann, B., Carrasco, C., Merkel, R., and Schmidt, C. F. (2007) Tau protein binding forms a 1 nm thick layer along protofilaments without affecting the radial elasticity of microtubules, *Journal of Structural Biology* 158, 282-292.<br/>
+<a name="r41"></a>(41) Sept, D., and MacKintosh, F. C. (2010) Microtubule Elasticity: Connecting All-Atom Simulations with Continuum Mechanics, *Physical Review Letters* 104.<br/>
+<a name="r42"></a>(42) Felgner, H., Frank, R., and Schliwa, M. (1996) Flexural rigidity of microtubules measured with the use of optical tweezers, *Journal of Cell Science* 109, 509-516.<br/>
+<a name="r43"></a>(43) Mickey, B., and Howard, J. (1995) Rigidity of microtubules is increased by stabilizing agents, *Journal of Cell Biology* 130, 909-917.<br/>
+<a name="r44"></a>(44) Vinckier, A., Dumortier, C., Engelborghs, Y., and Hellemans, L. (1996) Dynamical and mechanical study of immobilized microtubules with atomic force microscopy, *Journal of Vacuum Science & Technology B: Microelectronics and Nanometer Structures* 14, 1427.<br/>
+<a name="r45"></a>(45) Kurachi, M., Hoshi, M., and Tashiro, H. (1995) Buckling of a single microtubule by optical trapping forces - direct measurement of microtubule rigidity, *Cell Motility and the Cytoskeleton* 30, 221-228.<br/>
+<a name="r46"></a>(46) Okuno, M., and Hiramoto, Y. (1979) Direct Measurements of the Stiffness of Echinoderm Sperm Flagella, *Journal of Experimental Biology* 79, 235-243.<br/>
+<a name="r47"></a>(47) Tolomeo, J., and Holley, M. (1997) Mechanics of microtubule bundles in pillar cells from the inner ear, *Biophysical Journal* 73, 2241-2247.<br/>
+<a name="r48"></a>(48) Venier, P., Maggs, A. C., Carlier, M. F., and Pantaloni, D. (1994) Analysis of microtubule rigidity using hydrodynamic flow and thermal fluctuations, *Journal of Biological Chemistry* 269, 13353-13360.<br/>
+<a name="r49"></a>(49) Kurz, J. C., and Williams, R. C. (1995) Microtubule-Associated Proteins and the Flexibility of Microtubules, *Biochemistry* 34, 13374-13380.<br/>
+<a name="r50"></a>(50) Hotani, H., and Miyamoto, H. (1990) Dynamic features of microtubules as visualized by dark-field microscopy, *Advances in Biophysics* 26, 135-156.<br/>
+<a name="r51"></a>(51) Elbaum, M., Kuchnir Fygenson, D., and Libchaber, A. (1996) Buckling Microtubules in Vesicles, *Physical Review Letters* 76, 4078.<br/>
+<a name="r52"></a>(52) Fygenson, D. K., Elbaum, M., Shraiman, B., and Libchaber, A. (1997) Microtubules and vesicles under controlled tension, *Physical Review E* 55, 850.<br/>
+<a name="r53"></a>(53) Fygenson, D. K., Marko, J. F., and Libchaber, A. (1997) Mechanics of Microtubule-Based Membrane Extension, *Physical Review Letters* 79, 4497.<br/>
+<a name="r54"></a>(54) Gittes, F., Mickey, B., Nettleton, J., and Howard, J. (1993) Flexural rigidity of microtubules and actin filaments measured from thermal fluctuations in shape, *The Journal of Cell Biology* 120, 923-934.<br/>
+<a name="r55"></a>(55) Cassimeris, L., Gard, D., Tran, P. T., and Erickson, H. P. (2001) XMAP215 is a long thin molecule that does not increase microtubule stiffness, *Journal of Cell Science* 114, 3025-3033.<br/>
+<a name="r56"></a>(56) Janson, M. E., and Dogterom, M. (2004) A bending mode analysis for growing microtubules: Evidence for a velocity-dependent rigidity, *Biophysical Journal* 87, 2723-2736.<br/>
+<a name="r57"></a>(57) Felgner, H., Frank, R., Biernat, J., Mandelkow, E., Mandelkow, E., Ludin, B., Matus, A., and Schliwa, M. (1997) Domains of neuronal microtubule-associated proteins and flexural rigidity of microtubules, *The Journal of Cell Biology* 138, 1067.<br/>
+<a name="r58"></a>(58) de Pablo, P. J., Schaap, I. A. T., MacKintosh, F. C., and Schmidt, C. F. (2003) Deformation and collapse of microtubules on the nanometer scale, *Physical Review Letters* 91.<br/>
+<a name="r59"></a>(59) Schaap, I., Carrasco, C., De Pablo, P., MacKintosh, F., and Schmidt, C. (2006) Elastic response, buckling, and instability of microtubules under radial indentation, *Biophysical Journal* 91, 1521-1531.<br/>
+<a name="r60"></a>(60) Kikumoto, M., Kurachi, M., Tosa, V., and Tashiro, H. (2006) Flexural rigidity of individual Microtubules measured by a buckling force with optical traps, *Biophysical Journal* 90, 1687-1696.<br/>
+<a name="r61"></a>(61) Ashkin, A., Dziedzic, J. M., Bjorkholm, J. E., and Chu, S. (1986) Observation of a single-beam gradient force optical trap for dielectric particles, *Optics Letters* 11, 288-290.<br/>
+<a name="r62"></a>(62) Moffitt, J. R., Chemla, Y. R., Smith, S. B., and Bustamante, C. (2008) Recent advances in optical tweezers, *Annual Review of Biochemistry* 77, 205-228.<br/>
+<a name="r63"></a>(63) Molloy, J. E., and Padgett, M. J. (2002) Lights, action: optical tweezers, *Contemporary Physics* 43, 241 - 258.<br/>
+<a name="r64"></a>(64) Donhauser, Z. J., Jobs, W. B., and Binka, E. C. (2010) Mechanics of Microtubules: Effects of Protofilament Orientation, *Biophysical Journal* 99, 1668-1675.<br/>
+<a name="r65"></a>(65) Kis, A., Kasas, S., Babicacute, B., Kulik, A. J., Beno, icirc, t, W., Briggs, G. A. D., Sch, ouml, nenberger, C., Catsicas, S., Forr, oacute, and L. (2002) Nanomechanics of Microtubules, *Physical Review Letters* 89, 248101.<br/>
