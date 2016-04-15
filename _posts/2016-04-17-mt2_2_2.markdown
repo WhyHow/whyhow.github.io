@@ -1,0 +1,55 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-17 12:00:00 +0800
+layout: post
+slug: MT2_2_2
+title: 系列综述——微管生长动力学及其数值模拟 Day 5
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+
+---
+
+上接[Day 4](http://whyhow.github.io/2016/04/16/mt2-2-1.html)。<br/>
+本系列章节、图表、引文均连续编号。
+
+
+#### 2.2.2 微管力学性质的理论研究
+
+为更好地揭示微管变形的物理机制，同时阐释或验证实验结果，研究者们也在各个尺度上做了大量的理论与模拟工作。在分子尺度上，单个蛋白的弹性性质及蛋白间的相互作用是研究的重点。分子动力学是一种常用的手段 (<a href="#r66">66</a>)。Deriu借助Gromacs软件对$\alpha$、$\beta$两种单体的四种排列方式（横向$\alpha-\alpha$、$\alpha-\beta$；纵向$\alpha-\beta$（亚基间）、$\beta-\alpha$（亚基内））作了拉伸，得到了两个单体间的弹簧系数，同时也通过拉伸单个单体得到了$\alpha$、$\beta$单体的弹簧系数——$k_\alpha = 15.5 ~ \rm {N/m}$、$k_\beta = 11.9 ~ \rm {N/m}$，(<a href="#r67">67</a>)。进而可以估算出，若将微管视作由单体中心到单体中心的弹簧连成的网络（图10），则等效纵向弹簧的系数为$k_{\alpha \beta} = 10.01 ~ \rm {N/m}$、$k_{ \beta \alpha} = 7.57 ~ \rm {N/m}$；等效横向弹簧的系数为$k_{\alpha \alpha} = 15.5 ~ \rm {N/m}$、$k_{ \beta \beta} = 11.9 ~ \rm {N/m}$。采用几乎同样的方法，Enemark却得到了不一致的单体弹簧系数：$k_\alpha = 3.8-3.9 ~ \rm {N/m}$、$k_\beta = 3.3-3.6 ~ \rm {N/m}$ (<a href="#r68">68</a>)，同时也发现，随着拉伸速度的增大，微管蛋白的刚性增大，拉压不等的现象也越发明显。Dima则基于自组装聚合物（SOP）模型对单个微管蛋白的拉伸解折叠过程作了布朗动力学模拟，得到破坏二聚体界面的力约在$300-400 ~ \rm pN$(<a href="#r69">69</a>)。基于这些单体力学性质的信息，通过对亚基及微管整体的几何构型进行合理假设，可以推测出微管的的等效模量 (<a href="#r41">41</a>, <a href="#r67">67</a>, <a href="#r68">68</a>)。分子动力学能够处理的规模相当有限，要得到原丝间相互作用的细节，必须结合其他全原子模拟的手段做后继的处理。Sept用Poisson–Boltzmann静电相互作用计算软件包计算了相邻原丝在不同纵向错位下的结合能 (<a href="#r67">70</a>)，其结果显示B晶格结构对应的横向结合能最强，A晶格结构次之；纵向相互作用比横向约强$7 ~ \rm kcal/mol$。Drabik则根据分子流体与溶液的积分方程理论，通过三维参考作用点模型（3D-RISM）计算了原丝间平均相互作用势随原丝横、纵向间距的变化 (<a href="#r71">71</a>)。
+
+<div class="figure"><img src="/public/images/microtubule/image094.png" align="middle"><div class="caption"><span class="fignum">图10</span>微管等效弹簧网络 (<a href="#r67">67</a>)</div></div>
+
+在连续介质尺度上，相比于实验学家常常借用的简单Euler-Bernoulli梁理论，理论力学家更加青睐一个能够考虑微管的剪切特性和由此引发的弯曲刚度的长度依赖性的模型。故而，一维Timoshenko梁模型被用于计算微管的振动频率和屈曲载荷 (<a href="#r72">72</a>)；二维正交各向异性弹性壳模型被用于计算微管的振动 (<a href="#r73">73</a>, <a href="#r74">74</a>)，屈曲 (<a href="#r74">74</a>, <a href="#r75">75</a>)，波的传播 (<a href="#r76">76</a>)；其他的，Li将微管周围的细丝网络和胞质溶胶用牛顿流体近似，通过Euler梁理论模拟了微管在活细胞中的屈曲 (<a href="#r77">77</a>)；Gao将非局部理论引入Euler梁模型，考察了小尺度效应对微管弯曲刚度的长度依赖性的贡献 (<a href="#r78">78</a>)；Chełminiak则基于微分几何与弹性理论，建立了螺旋标架下的微管扭转变形理论 (<a href="#r79">79</a>)。
+
+在连续介质的数值模拟方面，Jánosi基于弹性壳理论写出了带內秉曲率的微管壁的能量，为便于数值求解，又将壳表面离散为三角形网格，通过能量极小求出了微管的构型 (<a href="#r80">80</a>)。这套计算框架之后被用于一系列微管构型和能量的计算中，如微管端部结构的影响 (<a href="#r81">81</a>)，微管径向曲率的变化、原丝的扭转、亚基内部界面上的剪切等变形的影响 (<a href="#r82">82</a>)，微管的弯折变形 (<a href="#r83">83</a>)，等。也可直接应用有限元软件对简化后的结构进行计算。Kasas (<a href="#r84">84</a>) 通过ANSYS软件验证了Kis关于用AFM探针对微管进行三点弯曲的实验结果 (<a href="#r65">65</a>)；Schaap则用FEMLAB软件模拟了微管受AFM探针横向压痕的效果 (<a href="#r59">59</a>)，并考察了tau蛋白与微管壁结合的影响 (<a href="#r40">40</a>)。
+
+
+参考文献：
+
+<a name="r40"></a>(40) Schaap, I. A. T., Hoffmann, B., Carrasco, C., Merkel, R., and Schmidt, C. F. (2007) Tau protein binding forms a 1 nm thick layer along protofilaments without affecting the radial elasticity of microtubules, *Journal of Structural Biology* 158, 282-292.<br/>
+<a name="r41"></a>(41) Sept, D., and MacKintosh, F. C. (2010) Microtubule Elasticity: Connecting All-Atom Simulations with Continuum Mechanics, *Physical Review Letters* 104.<br/>
+<a name="r59"></a>(59) Schaap, I., Carrasco, C., De Pablo, P., MacKintosh, F., and Schmidt, C. (2006) Elastic response, buckling, and instability of microtubules under radial indentation, *Biophysical Journal* 91, 1521-1531.<br/>
+<a name="r65"></a>(65) Kis, A., Kasas, S., Babicacute, B., Kulik, A. J., Beno, icirc, t, W., Briggs, G. A. D., Sch, ouml, nenberger, C., Catsicas, S., Forr, oacute, and L. (2002) Nanomechanics of Microtubules, *Physical Review Letters* 89, 248101.<br/>
+<a name="r66"></a>(66) Mitra, A., and Sept, D. (2008) Taxol allosterically alters the dynamics of the tubulin dimer and increases the flexibility of microtubules, Biophysical Journal 95, 3252-3258.<br/>
+<a name="r67"></a>(67) Deriu, M., Enemark, S., Soncini, M., Montevecchi, F., and Redaelli, A. (2007) Tubulin: from atomistic structure to supramolecular mechanical properties, Journal of Materials Science 42, 8864-8872.<br/>
+<a name="r68"></a>(68) Enemark, S., Deriu, M. A., Soncini, M., and Redaelli, A. (2008) Mechanical model of the tubulin dimer based on molecular dynamics simulations, Journal of Biomechanical Engineering-Transactions of the Asme 130.<br/>
+<a name="r69"></a>(69) Dima, R. I., and Joshi, H. (2008) Probing the origin of tubulin rigidity with molecular simulations, Proceedings of the National Academy of Sciences of the United States of America 105, 15743-15748.<br/>
+<a name="r70"></a>(70) Sept, D., Baker, N., and McCammon, J. (2003) The physical basis of microtubule structure and stability, Protein Science 12, 2257-2261.<br/>
+<a name="r71"></a>(71) Drabik, P., Gusarov, S., and Kovalenko, A. (2007) Microtubule stability studied by three-dimensional molecular theory of solvation, Biophysical journal 92, 394-403.<br/>
+<a name="r72"></a>(72) Shi, Y. J., Guo, W. L., and Ru, C. Q. (2008) Relevance of Timoshenko-beam model to microtubules of low shear modulus, Physica E-Low-Dimensional Systems & Nanostructures 41, 213-219.<br/>
+<a name="r73"></a>(73) Wang, C. Y., Ru, C. Q., and Mioduchowski, A. (2006) Vibration of microtubules as orthotropic elastic shells, Physica E-Low-Dimensional Systems & Nanostructures 35, 48-56.<br/>
+<a name="r74"></a>(74) Li, C., Ru, C. Q., and Mioduchowski, A. (2006) Length-dependence of flexural rigidity as a result of anisotropic elastic properties of microtubules, Biochemical and Biophysical Research Communications 349, 1145-1150.<br/>
+<a name="r75"></a>(75) Wang, C. Y., Ru, C. Q., and Mioduchowski, A. (2006) Orthotropic elastic shell model for buckling of microtubules, Physical Review E 74.<br/>
+<a name="r76"></a>(76) Qian, X. S., Zhang, J. Q., and Ru, C. Q. (2007) Wave propagation in orthotropic microtubules, Journal of Applied Physics 101.<br/>
+<a name="r77"></a>(77) Li, T. (2008) A mechanics model of microtubule buckling in living cells, Journal of Biomechanics 41, 1722-1729.<br/>
+<a name="r78"></a>(78) Gao, Y. W., and Lei, F. M. (2009) Small scale effects on the mechanical behaviors of protein microtubules based on the nonlocal elasticity theory, Biochemical and Biophysical Research Communications 387, 467-471.<br/>
+<a name="r79"></a>(79) Chełminiak, P., Dixon, J. M., and Tuszynski, J. A. (2010) Torsional elastic deformations of microtubules within continuous sheet model, European Physical Journal E 31, 215-227.<br/>
+<a name="r80"></a>(80) Janosi, I. M., Chretien, D., and Flyvbjerg, H. (1998) Modeling elastic properties of microtubule tips and walls, European Biophysics Journal with Biophysics Letters 27, 501-513.<br/>
+<a name="r81"></a>(81) Jánosi, I., Chrétien, D., and Flyvbjerg, H. (2002) Structural Microtubule Cap: Stability, Catastrophe, Rescue, andThird State, Biophysical journal 83, 1317-1330.<br/>
+<a name="r82"></a>(82) Hunyadi, V., Chretien, D., and Jánosi, I. (2005) Mechanical stress induced mechanism of microtubule catastrophes, Journal of molecular biology 348, 927-938.<br/>
+<a name="r83"></a>(83) Hunyadi, V., Chrétien, D., Flyvbjerg, H., and Jánosi, I. (2007) Why is the microtubule lattice helical?, Biology of the Cell 99, 117-128.<br/>
+<a name="r84S"></a>(84) Kasas, S., Kis, A., Riederer, B., Forró, L., Dietler, G., and Catsicas, S. (2004) Mechanical properties of microtubules explored using the finite elements method, ChemPhysChem 5, 252-257.<br/>
