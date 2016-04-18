@@ -52,4 +52,4 @@ tags:
 <a name="r81"></a>(81) Jánosi, I., Chrétien, D., and Flyvbjerg, H. (2002) Structural Microtubule Cap: Stability, Catastrophe, Rescue, andThird State, Biophysical journal 83, 1317-1330.<br/>
 <a name="r82"></a>(82) Hunyadi, V., Chretien, D., and Jánosi, I. (2005) Mechanical stress induced mechanism of microtubule catastrophes, Journal of molecular biology 348, 927-938.<br/>
 <a name="r83"></a>(83) Hunyadi, V., Chrétien, D., Flyvbjerg, H., and Jánosi, I. (2007) Why is the microtubule lattice helical?, Biology of the Cell 99, 117-128.<br/>
-<a name="r84S"></a>(84) Kasas, S., Kis, A., Riederer, B., Forró, L., Dietler, G., and Catsicas, S. (2004) Mechanical properties of microtubules explored using the finite elements method, ChemPhysChem 5, 252-257.<br/>
+<a name="r84"></a>(84) Kasas, S., Kis, A., Riederer, B., Forró, L., Dietler, G., and Catsicas, S. (2004) Mechanical properties of microtubules explored using the finite elements method, ChemPhysChem 5, 252-257.<br/>
