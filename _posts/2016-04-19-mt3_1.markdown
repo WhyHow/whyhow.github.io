@@ -1,0 +1,105 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-19 12:00:00 +0800
+layout: post
+slug: MT3_1
+title: 系列综述——微管生长动力学及其数值模拟 Day 7 & 8
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+
+---
+
+上接[Day 6](http://whyhow.github.io/2016/04/16/mt3.html)。<br/>
+本系列章节、图表、引文均连续编号。 
+
+<div style="color:#008000"><ins>注：此节分量较重，算作两日（Day 7 & 8）的量。明日停更，后日再开。</ins></div>
+
+### 3.1. 端部结构、核苷酸状态与微管生长的关联
+
+公认地，微管在加聚和解聚时呈现不同的构型 (<a href="#r33">33</a>, <a href="#r98">98</a>-<a href="#r101">101</a>)。由于GTP-t比GDP-t直的多，宏观上看，不断有GTP-t加聚的微管生长端与微管主体一样笔直。加聚后，GTP转为GDP，蛋白构型虽然发生弯曲，但在微管整体结构的约束下，原丝并不会弯曲，水解的能量也被储存在微管壁中 (<a href="#r102">102</a>, <a href="#r103">103</a>)。而解聚发生时，GDP-t间并没有有效的横向相互作用，所有原丝沿各自的径向散开，并因为GDP-t的曲率而发生明显的弯曲，形成类似羊角的端部结构；最终剥落下的原丝则常成环状 (<a href="#r104">104</a>-<a href="#r106">106</a>)（图12 (<a href="#r107">107</a>)）。原本储存在微管中的能量也在解聚时得到了释放 (<a href="#r43">43</a>)，这些能量被用来做功：解聚时剥落的原丝可以产生力 (<a href="#r108">108</a>, <a href="#r109">109</a>)。加聚与解聚时截然不同的构型意味着这些过程远非正逆反应那样简单。而这种能量储存与释放的机制对于细胞生理起着关键的作用，一个例子是在有丝分裂中，纺锤体微管的端部通过着丝点捕获染色体，着丝点与微管正端的连接非常复杂 (<a href="#r110">110</a>, <a href="#r111">111</a>)，一种叫做DAM1环的结构可能起着重要作用 (<a href="#r112">112</a>-<a href="#r115">115</a>)。DAM1环可以跟踪微管端部，促进加聚，抑制解聚 (<a href="#r116">116</a>, <a href="#r117">117</a>)，对其机制的一种解释即是认为解聚时剥落的弯曲原丝推动着DAM1环沿微管滑行 (<a href="#r118">118</a>-<a href="#r120">120</a>)。
+ 
+<div class="figure"><img src="/public/images/microtubule/image098.png" align="middle"><div class="caption"><span class="fignum">图12</span>微管原丝在解聚过程中的形态变化：a：解聚触发阶段，之前原丝保持较直的构型；b：原丝剥落，弯曲成羊角形状；c：剥落下的原丝成环状 (<a href="#r107">107</a>)</div></div>
+
+核苷酸状态与微管的加、解聚密切相关 (<a href="#r121">121</a>-<a href="#r124">124</a>)。GMPCPP不会发生水解，37℃下，GMPCPP-t会很快聚合成为微管，并且此微管不会再发生解聚 (<a href="#r102">102</a>, <a href="#r125">125</a>, <a href="#r126">126</a>)，这意味着微管的加聚不需要GTP水解，而对于解聚，水解则是必须的。
+
+GTP水解将导致原丝剥落和微管解聚，而在蛋白加聚后，其上结合的GTP又极易水解为GDP，那么微管依靠何种机制来保证其稳定地生长？一个被广泛接收但依然缺乏实验支持的微管稳定机制为“GTP加帽”模型 (<a href="#r94">94</a>, <a href="#r127">127</a>)。根据该模型，当端部蛋白加聚的速率大于管壁中蛋白水解的速率时，端部将积压一部分没有来得及水解的蛋白，正是这部分GTP-t保证了微管端部不会散开和发生解聚；而当加聚速率小于水解速率时，GTP“帽子”消失，解聚开始。这一模型考虑进了不同核苷酸状态微管蛋白的不同构型与横向相互作用，能够解释加聚和解聚的装换，并反映速率的影响，虽无直接的实验验证 (<a href="#r128">128</a>)，却不失为相当成功的推测。但是围绕“GTP加帽”，也存在不少悬而未决的争论。争议一来自GTP帽子的长度。一些模型结果显示，仅最顶端一圈GTP-t就足以模拟出微管的动态不稳定性 (<a href="#r129">129</a>, <a href="#r130">130</a>)，这一结论也得到了一些实验的支持 (<a href="#r126">126</a>, <a href="#r131">131</a>)；Molodtsov建立在亚基尺度上的模拟则支持GTP帽子的厚度是二层；但一些跟踪记录微管动态性的实验却揭示，微管在缩短较长一段距离（几十 ）后仍能恢复生长，这种缩短可能是热扰动引起的，后继的生长则意味着GTP-t可能有较深的分布 (<a href="#r132">132</a>, <a href="#r133">133</a>)，Schek猜测GTP-t随深度可能有近似指数的分布，GTP帽子的厚度则在3个亚基左右 (<a href="#r134">134</a>)。争议二则围绕GTP存在的位置。一般认为微管主体的蛋白均已水解，GTP-t只能存在于端部附近；Dimitrov合成了一种可能能够识别GTP-t的抗体，此种抗体不单聚集于微管端部，也零星分布在整个微管晶格中 (<a href="#r135">135</a>)，这说明微管主体也可能含GTP-t，当解聚至这些位点时，解聚不能进行下去，加聚可以再次发生。晶格中GTP可能是水解未完全而残留的 (<a href="#r135">135</a>)，也可能是因为亚基的加入和移除不仅局限在微管端部，在微管壁上也可以进行少量亚基的交换 (<a href="#r128">128</a>, <a href="#r136">136</a>)，即管壁的“呼吸机制”（亦无实验证明），这种呼吸机制亦可以解释一些蛋白（如紫杉醇）与微管壁的结合（见3.3节），以及微管中原丝数目的变化（见2.1节） (<a href="#r137">137</a>)。
+
+如前所述，微管端部构型与加、解聚状态也是紧密联系着的。将端部构型分为直和弯两类是非常粗率的，通过电镜显微和断层分析，Zovko确定了九种宏观的端部形态，如图13 (<a href="#r138">138</a>)；在原丝层面上，由于其长短和曲率各不相同，端部构型将更为复杂多变。一类非常有意义的端部构型是由Chrétien在1995年观察到的，那就是摊开的片状构型，如图14所示 (<a href="#r139">139</a>)，图中带柄箭头所指即为此结构，摊开的端部恰好位于照相平面内，特殊的角度要求使得这类构型在电镜照片中非常罕见；而黑箭头所指的单侧外翻结构很可能是这种片状结构的侧影。作者认为这种片状结构是微管生长的中间态，微管加聚过程中，端部外翻的片会逐渐翻转、闭合。这也恰好能够解释为何微管会具有缝这一看似破坏结构完美性的特征。此种微管生长机制得到了越来越广泛的认可 (<a href="#r5">5</a>, <a href="#r87">87</a>, <a href="#r140">140</a>-<a href="#r143">143</a>)。图15示意了此种生长机制 (<a href="#r87">87</a>)。图16显示了更为清晰的片状端部结构 (<a href="#r144">144</a>)。
+
+<div class="figure"><img src="/public/images/microtubule/image101.png" align="middle"><div class="caption"><span class="fignum">图13</span>不同的端部构型 (<a href="#r138">138</a>)</div></div>
+
+<div class="figure"><img src="/public/images/microtubule/image103.png" align="middle"><div class="caption"><span class="fignum">图14</span>不同的端部构型 (<a href="#r139">139</a>)</div></div>
+
+<div class="figure"><img src="/public/images/microtubule/image105.png" align="middle"><div class="caption"><span class="fignum">图15</span>微管的闭合生长过程 (<a href="#r87">87</a>)</div></div>
+
+<div class="figure"><img src="/public/images/microtubule/image107.png" align="middle"><div class="caption"><span class="fignum">图16</span>端部的片状结构 （负染色电镜照片） (<a href="#r144">144</a>)</div></div>
+
+Nogales等人的实验为“片”是微管加聚的中间状态提供了更进一步的证据，同时阐述了“片”转为“管”这一加聚过程的细节 (<a href="#r32">32</a>, <a href="#r34">34</a>, <a href="#r107">107</a>, <a href="#r145">145</a>)。对GMPCPP自组装的研究发现，低温下（4℃）GMPCPP微管蛋白可以组装为带状结构，这种结构中的原丝排列有着与微管中原丝相同的横向错位，并且在温度升高时（25℃）可以自发卷起转变为管状结构，这证明了片直接闭合为管的可能性，微管加聚时端部的片也许就是类似的GMPCPP蛋白带状结构。具体的分析显示GMPCPP蛋白带中包含两类横向相互作用，其中一类与微管中的相同，因而可对微管的聚合过程做出如下推断：GTP状态保证了蛋白能形成横向连接，组成微弯的蛋白片，继而，在片闭合转为管的过程中发生了横向键的转变。如2.1中所述，片中的亚基构型是微弯的，但曲率明显小于GDP亚基。Wu对蛋白片中横向键的转换做了数值模拟，对其热力学过程做了分析 (<a href="#r146">146</a>)。
+
+片闭合为管的微管生长过程也为微管的稳定提供了另一种可能机制，即所谓“构形加帽”模型 (<a href="#r13">13</a>, <a href="#r87">87</a>)：相对于微管主体，端部结构更为稳定 (<a href="#r147">147</a>)，只有片状结构消失，解聚才能开始，钝头的状态既允许发生加聚，也允许发生解聚，是一个亚稳态 (<a href="#r141">141</a>)；端部片越长，微管生长越稳定，闭合具有随机性 (<a href="#r33">33</a>)；片闭合为管的构型转换过程将弹性能储存在了微管壁中 (<a href="#r147">147</a>)。“构型加帽”与“GTP加帽”是不互斥的，事实上，迄今没有足够证据说明微管端部的片是闭合后才会发生水解，还是在闭合前已经水解；水解和构型转变之间是否有彼此的触发关系也依旧成谜 (<a href="#r32">32</a>)。一种观点认为可能是闭合触发了水解，如果闭合的速率快于亚基添加，端部将完全合拢，GTP帽子也随之消失 (<a href="#r43">43</a>, <a href="#r139">139</a>)；只有GTP-t才能形成满足微管构型要求的横向连接的观点 (<a href="#r32">32</a>, <a href="#r148">148</a>) 也支持闭合先于水解，但这并不要求水解直接与闭合相关；另一方面，若是全由GDP-t组成的纯构型帽子也能对微管起到很好的稳定作用 (<a href="#r147">147</a>)，无疑也是令人欣喜的：这意味着微管的稳定能够仅仅依赖于纯机械的因素。尽管存在不少悬而未决的问题，“构型加帽”机制至少为微管的稳定上了双保险，使得对微管动态性的解释更为辩证和完整。据此模型，微管的聚合状态不仅仅取决于亚基添入的速率，也受到构型的调控。同时，该模型也为微管中贮存的能量提供了新的来源。
+
+
+参考文献：
+
+<a name="r5"></a>(5) Pampaloni, F., and Florin, E.-L. (2008) Microtubule architecture: inspiration for novel carbon nanotube-based biomimetic materials, *Trends in Biotechnology* 26, 302-310.<br/>
+<a name="r13"></a>(13) Tran, P. T., Walker, R. A., and Salmon, E. D. (1997) A metastable intermediate state of microtubule dynamic instability that differs significantly between plus and minus ends, *Journal of Cell Biology* 138, 105-117.<br/>
+<a name="r32"></a>(32) Wang, H. W., and Nogales, E. (2005) Nucleotide-dependent bending flexibility of tubulin regulates microtubule assembly, *Nature* 435, 911-915.<br/>
+<a name="r33"></a>(33) Hyman, A. A., Chretien, D., Arnal, I., and Wade, R. H. (1995) Structural-changes accompanying gtp hydrolysis in microtubules - Information from a slowly hydrolyzable analog guanylyl-(alpha,beta)-methylene-diphosphonate, *Journal of Cell Biology* 128, 117-125.<br/>
+<a name="r34"></a>(34) Nogales, E., and Wang, H. W. (2006) Structural mechanisms underlying nucleotide-dependent self-assembly of tubulin and its relatives, *Current Opinion in Structural Biology* 16, 221-229.<br/>
+<a name="r43"></a>(43) Mickey, B., and Howard, J. (1995) Rigidity of microtubules is increased by stabilizing agents, *Journal of Cell Biology* 130, 909-917.<br/>
+<a name="r87"></a>(87) Hyman, A. A., and Karsenti, E. (1996) Morphogenetic properties of microtubules and mitotic spindle assembly, Cell 84, 401-410.<br/>
+<a name="r98"></a>(98) Erickson, H. P. (1974) Microtubule surface lattice and subunit structure and observations on reassembly, Journal of Cell Biology 60, 153-167.<br/>
+<a name="r99"></a>(99) Kirschner, M. W., Honig, L. S., and Williams, R. C. (1975) Quantitative electron-microscopy of microtubule assembly in vitro, Journal of Molecular Biology 99, 263-276.<br/>
+<a name="r100"></a>(100) Simon, J. R., and Salmon, E. D. (1990) The structure of microtubule ends during the elongation and shortening phases of dynamic instability examined by negative-stain electron-microscopy, Journal of Cell Science 96, 571-582.<br/>
+<a name="r101"></a>(101) Mandelkow, E. M., Mandelkow, E., and Milligan, R. A. (1991) Microtubule dynamics and microtubule caps - a time-resolved cryoelectron microscopy study, Journal of Cell Biology 114, 977-991.<br/>
+<a name="r102"></a>(102) Caplow, M., Ruhlen, R. L., and Shanks, J. (1994) The free-energy for hydrolysis of a microtubule-bound nucleotide triphosphate is near zero - all of the free-energy for hydrolysis is stored in the microtubule lattice, Journal of Cell Biology 127, 779-788.<br/>
+<a name="r103"></a>(103) Elie-Caille, C., Severin, F., Helenius, J., Howard, J., Muller, D. J., and Hyman, A. A. (2007) Straight GDP-Tubulin Protofilaments Form in the Presence of Taxol, Current Biology 17, 1765-1770.<br/>
+<a name="r104"></a>(104) Melki, R., Carlier, M. F., Pantaloni, D., and Timasheff, S. N. (1989) Cold depolymerization of microtubules to double rings - geometric stabilization of assemblies, Biochemistry 28, 9143-9152.<br/>
+<a name="r105"></a>(105) Howard, W. D., and Timasheff, S. N. (1986) GDP state of tubulin - stabilization of double rings, Biochemistry 25, 8292-8300.<br/>
+<a name="r106"></a>(106) Kirschner, M. W., Williams, R. C., Weingart, M., and Gerhart, J. C. (1974) Microtubules from mammalian brain - some properties of their depolymerization products and a proposed mechanism of assembly and disassembly, Proceedings of the National Academy of Sciences of the United States of America 71, 1159-1163.<br/>
+<a name="r107"></a>(107) Nogales, E., and Wang, H. W. (2006) Structural intermediates in microtubule assembly and disassembly: how and why?, Current opinion in cell biology 18, 179-184.<br/>
+<a name="r108"></a>(108) Laan, L., Husson, J., Munteanu, E. L., Kerssemakers, J. W. J., and Dogterom, M. (2008) Force-generation and dynamic instability of microtubule bundles, Proceedings of the National Academy of Sciences of the United States of America 105, 8920-8925.<br/>
+<a name="r109"></a>(109) Grishchuk, E. L., Molodtsov, M. I., Ataullakhanov, F. I., and McIntosh, J. R. (2005) Force production by disassembling microtubules, Nature 438, 384-388.<br/>
+<a name="r110"></a>(110) Bloom, K., and Joglekar, A. (2010) Towards building a chromosome segregation machine, Nature 463, 446-456.<br/>
+<a name="r111"></a>(111) Joglekar, A. P., Bloom, K. S., and Salmon, E. D. (2010) Mechanisms of force generation by end-on kinetochore-microtubule attachments, Current opinion in cell biology 22, 57-67.<br/>
+<a name="r112"></a>(112) Miranda, J. J. L., De Wulf, P., Sorger, P. K., and Harrison, S. C. (2005) The yeast DASH complex forms closed rings on microtubules, Nature Structural & Molecular Biology 12, 138-143.<br/>
+<a name="r113"></a>(113) Miranda, J. J. L., King, D. S., and Harrison, S. C. (2007) Protein arms in the kinetochore-microtubule interface of the yeast DASH complex, Molecular Biology of the Cell 18, 2503-2510.<br/>
+<a name="r114"></a>(114) Westermann, S., Avila-Sakar, A., Wang, H. W., Niederstrasser, H., Wong, J., Drubin, D. G., Nogales, E., and Barnes, G. (2005) Formation of a dynamic kinetochore-microtubule interface through assembly of the Dam1 ring complex, Molecular Cell 17, 277-290.<br/>
+<a name="r115"></a>(115) Wang, H. W., Ramey, V. H., Westermann, S., Leschziner, A. E., Welburn, J. P. I., Nakajima, Y., Drubin, D. G., Barnes, G., and Nogales, E. (2007) Architecture of the Dam1 kinetochore ring complex and implications for microtubule-driven assembly and force-coupling mechanisms, Nature Structural & Molecular Biology 14, 721-726.<br/>
+<a name="r116"></a>(116) Sandall, S., and Desai, A. (2007) When it comes to couple(r)s, do opposites attract?, Nature Structural & Molecular Biology 14, 790-792.<br/>
+<a name="r117"></a>(117) Salmon, E. D. (2005) Microtubules: A ring for the depolymerization motor, Current Biology 15, R299-R302.<br/>
+<a name="r118"></a>(118) Westermann, S., Wang, H. W., Avila-Sakar, A., Drubin, D. G., Nogales, E., and Barnes, G. (2006) The Dam1 kinetochore ring complex moves processively on depolymerizing microtubule ends, Nature 440, 565-569.<br/>
+<a name="r119"></a>(119) Koshland, D. E., Mitchison, T. J., and Kirschner, M. W. (1988) Polewards chromosome movement driven by microtubule depolymerization in vitro, Nature 331, 499-504.<br/>
+<a name="r120"></a>(120) Mitchison, T. J. (1988) Microtubule dynamics and kinetochore function in mitosis, Annual Review of Cell Biology 4, 527-549.<br/>
+<a name="r121"></a>(121) Carlier, M. F. (1989) Role of nucleotide hydrolysis in the dynamics of actin-filaments and microtubules, International Review of Cytology 115, 139-170.<br/>
+<a name="r122"></a>(122) Erickson, H. P., and Stoffler, D. (1996) Protofilaments and rings, two conformations of the tubulin family conserved from bacterial FtsZ to alpha/beta and gamma tubulin, Journal of Cell Biology 135, 5.<br/>
+<a name="r123"></a>(123) Howard, J., and Hyman, A. A. (2003) Dynamics and mechanics of the microtubule plus end, Nature 422, 753-758.<br/>
+<a name="r124"></a>(124) Weisenberg, R. C., Deery, W. J., and Dickinson, P. J. (1976) Tubulin-nucleotide interactions during polymerization and depolymerization of microtubules, Biochemistry 15, 4248-4254.<br/>
+<a name="r125"></a>(125) Hyman, A. A., Salser, S., Drechsel, D. N., Unwin, N., and Mitchison, T. J. (1992) Role of gtp hydrolysis in microtubule dynamics - information from a slowly hydrolyzable analog, GMPCPP, Molecular Biology of the Cell 3, 1155-1167.<br/>
+<a name="r126"></a>(126) Caplow, M., and Shanks, J. (1996) Evidence that a single monolayer tubulin-GTP cap is both necessary and sufficient to stabilize microtubules, Molecular Biology of the Cell 7, 663-675.<br/>
+<a name="r127"></a>(127) Erickson, H. P., and O'Brien, E. T. (1992) Microtubule dynamic instability and GTP hydrolysis, Annual Review of Biophysics and Biomolecular Structure 21, 145-166.<br/>
+<a name="r128"></a>(128) Cassimeris, L. (2009) Microtubule Assembly: Lattice GTP to the Rescue, Current Biology 19, R174-R176.<br/>
+<a name="r129"></a>(129) Bayley, P., Schilstra, M., and Martin, S. (1989) A lateral cap model of microtubule dynamic instability, FEBS Letters 259, 181-184.<br/>
+<a name="r130"></a>(130) Martin, S. R., Schilstra, M. J., and Bayley, P. M. (1993) Dynamic instability of microtubules - monte-carlo simulation and application to different types of microtubule lattice, Biophysical Journal 65, 578-596.<br/>
+<a name="r131"></a>(131) Drechsel, D. N., and Kirschner, M. W. (1994) The minimum GTP cap required to stabilize microtubules, Current Biology 4, 1053-1061.<br/>
+<a name="r132"></a>(132) Sept, D. (2007) Microtubule polymerization: One step at a time, Current Biology 17, R764-R766.<br/>
+<a name="r133"></a>(133) Gardner, M. K., Hunt, A. J., Goodson, H. V., and Odde, D. J. (2008) Microtubule assembly dynamics: new insights at the nanoscale, Current Opinion in Cell Biology 20, 64-70.<br/>
+<a name="r134"></a>(134) Schek, H. T., Gardner, M. K., Cheng, J., Odde, D. J., and Hunt, A. J. (2007) Microtubule assembly dynamics at the nanoscale, Current Biology 17, 1445-1455.<br/>
+<a name="r135"></a>(135) Dimitrov, A., Quesnoit, M., Moutel, S., Cantaloube, I., Pous, C., and Perez, F. (2008) Detection of GTP-Tubulin Conformation in Vivo Reveals a Role for GTP Remnants in Microtubule Rescues, Science 322, 1353-1356.<br/>
+<a name="r136"></a>(136) Inoue, S. (1981) Cell-division and the mitotic spindle, Journal of Cell Biology 91, S131-S147.<br/>
+<a name="r137"></a>(137) Dı́az, J. F., Valpuesta, J. M., Chacón, P., Diakun, G., and Andreu, J. M. (1998) Changes in Microtubule Protofilament Number Induced by Taxol Binding to an Easily Accessible Site, Journal of Biological Chemistry 273, 33803-33810.<br/>
+<a name="r138"></a>(138) Zovko, S., Abrahams, J. P., Koster, A. J., Galjart, N., and Mommaas, A. M. (2008) Microtubule plus-end conformations and dynamics in the periphery of interphase mouse fibroblasts, Molecular Biology of the Cell 19, 3138-3146.<br/>
+<a name="r139"></a>(139) Chretien, D., Fuller, S. D., and Karsenti, E. (1995) Structure of growing microtubule ends - 2-dimensional sheets close into tubes at variable rates, Journal of Cell Biology 129, 1311-1328.<br/>
+<a name="r140"></a>(140) Amos, L. A. (1995) The microtubule lattice - 20 years on, Trends in Cell Biology 5, 48-51.<br/>
+<a name="r141"></a>(141) Arnal, I., Karsenti, E., and Hyman, A. A. (2000) Structural transitions at microtubule ends correlate with their dynamic properties in Xenopus egg extracts, Journal of Cell Biology 149, 767-774.<br/>
+<a name="r142"></a>(142) Vitre, B., Coquelle, F. M., Heichette, C., Garnier, C., Chretien, D., and Arnal, I. (2008) EB1 regulates microtubule dynamics and tubulin sheet closure in vitro, Nature Cell Biology 10, 415-421.<br/>
+<a name="r143"></a>(143) Coquelle, F. M., Vitre, B., and Arnal, I. (2009) Structural basis of EB1 effects on microtubule dynamics, Biochemical Society Transactions 37, 997-1001.<br/>
+<a name="r144"></a>(144) Mozziconacci, J., Sandblad, L., Wachsmuth, M., Brunner, D., and Karsenti, E. (2008) Tubulin Dimers Oligomerize before Their Incorporation into Microtubules, Plos One 3, e3821.<br/>
+<a name="r145"></a>(145) Wang, H. W., Long, S., Finley, K. R., and Nogales, E. (2005) Assembly of GMPCPP-bound tubulin into helical ribbons and tubes and effect of colchicine, Cell Cycle 4, 1157-1160.<br/>
+<a name="r146"></a>(146) Wu, Z. H., Wang, H. W., Mu, W. H., Ouyang, Z. C., Nogales, E., and Xing, J. H. (2009) Simulations of Tubulin Sheet Polymers as Possible Structural Intermediates in Microtubule Assembly, Plos One 4, e7291.<br/>
+<a name="r147"></a>(147) Chretien, D., Janosi, I., Taveau, J. C., and Flyvbjerg, H. (1999) Microtubule's conformational cap, Cell Structure and Function 24, 299-303.<br/>
+<a name="r148"></a>(148) Carlier, M. F., Didry, D., and Pantaloni, D. (1997) Hydrolysis of GTP associated with the formation of tubulin oligomers is involved in microtubule nucleation, Biophysical journal 73, 418-427.<br/>
