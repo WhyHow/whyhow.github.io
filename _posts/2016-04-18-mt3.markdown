@@ -41,11 +41,11 @@ tags:
 <a name="r88"></a>(88) Heald, R., and Nogales, E. (2002) Microtubule dynamics, Journal of Cell Science 115, 3-4.<br/>
 <a name="r89"></a>(89) Galjart, N. (2005) Clips and clasps and cellular dynamics, Nature Reviews Molecular Cell Biology 6, 487-498.<br/>
 <a name="r90"></a>(90) Margolis, R. L., and Wilson, L. (1978) Opposite end assembly and disassembly of microtubules at steady state in vitro, Cell 13, 1-8.<br/>
-<a name="r90"></a>(91) Margolis, R. L., and Wilson, L. (1998) Microtubule treadmilling: what goes around comes around, BioEssays 20, 830-836.<br/>
-<a name="r90"></a>(92) Panda, D., Miller, H. P., and Wilson, L. (1999) Rapid treadmilling of brain microtubules free of microtubule-associated proteins in vitro and its suppression by tau, Proceedings of the National Academy of Sciences of the United States of America 96, 12459-12464.<br/>
-<a name="r90"></a>(93) Rodionov, V. I., and Borisy, G. G. (1997) Microtubule Treadmilling in Vivo, Science 275, 215-218.<br/>
-<a name="r90"></a>(94) Mitchison, T., and Kirschner, M. (1984) Dynamic instability of microtubule growth, Nature 312, 237-242.<br/>
-<a name="r90"></a>(95) Belmont, L. D., Hyman, A. A., Sawin, K. E., and Mitchison, T. J. (1990) Real-time visualization of cell-cycle dependent changes in microtubule dynamics in cytoplasmic extracts, Cell 62, 579-589.<br/>
-<a name="r90"></a>(96) Walker, R. A., Obrien, E. T., Pryer, N. K., Soboeiro, M. F., Voter, W. A., Erickson, H. P., and Salmon, E. D. (1988) Dynamic instability of individual microtubules analyzed by video light-microscopy - rate constants and transition frequencies, Journal of Cell Biology 107, 1437-1448.<br/>
-<a name="r90"></a>(97) Goodwin, S. S., and Vale, R. D. (2010) Patronin Regulates the Microtubule Network by Protecting Microtubule Minus Ends, Cell 143, 263-274.<br/>
+<a name="r91"></a>(91) Margolis, R. L., and Wilson, L. (1998) Microtubule treadmilling: what goes around comes around, BioEssays 20, 830-836.<br/>
+<a name="r92"></a>(92) Panda, D., Miller, H. P., and Wilson, L. (1999) Rapid treadmilling of brain microtubules free of microtubule-associated proteins in vitro and its suppression by tau, Proceedings of the National Academy of Sciences of the United States of America 96, 12459-12464.<br/>
+<a name="r93"></a>(93) Rodionov, V. I., and Borisy, G. G. (1997) Microtubule Treadmilling in Vivo, Science 275, 215-218.<br/>
+<a name="r94"></a>(94) Mitchison, T., and Kirschner, M. (1984) Dynamic instability of microtubule growth, Nature 312, 237-242.<br/>
+<a name="r95"></a>(95) Belmont, L. D., Hyman, A. A., Sawin, K. E., and Mitchison, T. J. (1990) Real-time visualization of cell-cycle dependent changes in microtubule dynamics in cytoplasmic extracts, Cell 62, 579-589.<br/>
+<a name="r96"></a>(96) Walker, R. A., Obrien, E. T., Pryer, N. K., Soboeiro, M. F., Voter, W. A., Erickson, H. P., and Salmon, E. D. (1988) Dynamic instability of individual microtubules analyzed by video light-microscopy - rate constants and transition frequencies, Journal of Cell Biology 107, 1437-1448.<br/>
+<a name="r97"></a>(97) Goodwin, S. S., and Vale, R. D. (2010) Patronin Regulates the Microtubule Network by Protecting Microtubule Minus Ends, Cell 143, 263-274.<br/>
 
