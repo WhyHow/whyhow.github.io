@@ -27,7 +27,7 @@ tags:
 连鼓励阅读都需要有条例呀。难道是要促进大家阅读条例？<br/><br/>
 
 我们来看看<a href="http://info.beifabook.com/bjnewbook.aspx?kind=%E7%BB%BC%E5%90%88&storename=%E5%8C%97%E4%BA%AC%E5%9C%B0%E5%8C%BA%E6%96%B0%E4%B9%A6" target="_blank" >北发图书网</a>给出的2016年第13周北京地区的新书销售排行榜（综合）：<br/>
-<img src="/public/images/newspaper/zonghe.jpg">
+<img src="/public/images/newspaper/zonghe.JPG">
 该说什么呢？非学习讲话不足以促进阅读？
 
 话说这条例那方针的还真多，通读一遍绝对是杠杠的阅读量。比如今天还有一则新闻：
