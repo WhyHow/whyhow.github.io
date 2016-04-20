@@ -4,7 +4,7 @@ comments: true
 date: 2016-04-20 21:08:08 +0800
 layout: post
 slug: tiaoliduo
-title:  当促进怎样的阅读？应当如何促进阅读？
+title: 促进阅读与如何促进阅读
 categories: [听]
 tags: 
 -  社会
