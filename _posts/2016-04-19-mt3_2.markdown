@@ -1,0 +1,52 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-20 12:00:00 +0800
+layout: post
+slug: MT3_2
+title: 系列综述——微管生长动力学及其数值模拟 Day 9
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+
+---
+
+上接[Day 7 & 8](http://whyhow.github.io/2016/04/16/mt3-1.html)。<br/>
+本系列章节、图表、引文均连续编号。 
+
+### 3.2. 微管形核与生长的方式
+
+在细胞体内，微管的形核生长需要 -微管蛋白的辅助， -蛋白复合物是微管生长的核心 (<a href="#r149">149</a>, <a href="#r150">150</a>)；在体外，亚基自身先组装成一个稳定的核心，微管在此基础上生长。核心的形态决定着微管的后继生长，但关于微管形核与生长的机制，一直存在有不同的观点。通过系统的理论计算，Flyvejerg判断微管的形核大约需要15-18个亚基 (<a href="#r151">151</a>, <a href="#r152">152</a>)，Fygenson则由实验确定了临界核心的亚基数目在10-14 (<a href="#r153">153</a>)，由于核心的亚基数与微管的原丝数大致吻合，一些研究者认为微管的核心是亚基横向作用所形成的环，微管蛋白以此环为模板逐一加聚，整个微管的生长体现为“螺旋式”（图17a）。另一种观点则认为，亚基间首先纵向连接形成短原丝，这些短原丝即是微管的模板，它们横向连接组成蛋白片，在适当大小时翻转闭合成为微管 (<a href="#r147">147</a>) （图17b）。Mozziconacci在体外微管组装实验中观测到了存在于聚合早期的类似片状结构 (<a href="#r144">144</a>) （图18），为原丝是微管的核心提供了有力的证据。先成片再成管的形核方式与微管端部由片闭合为管的生长方式是吻合的，正如Chrétien所言，微管的形核、聚合、和拯救有着相同的机制 (<a href="#r147">147</a>)。图19示意了这种形核、生长和解聚的过程 (<a href="#r142">142</a>)。
+
+以上两种形核生长机制也并非完全互斥，微管可能存在多种形核路径。此外，Amos猜测，在体外，微管以先成片再闭合为管的方式生长，故体外组装所得微管以带缝的B晶格为主，且原丝数目不定；而在体内，环境中存在许多种类的蛋白，可能对微管的形核和生长方式施以约束；而螺旋式的组装方式能尽可能降低结构的缺陷，故更易被细胞所采纳；这也与细胞内微管多数为A晶格的论断相合 (<a href="#r140">140</a>)。
+ 
+<div class="figure"><img src="/public/images/microtubule/image112.png" align="middle"><div class="caption"><span class="fignum">图17</span>细胞内微管形核的两种机制：a. 环形模板：$\gamma$-微管蛋白横向连接成环，$\alpha$、$\beta$-蛋白亚基纵向加聚到此环形核心上，核心中的蛋白数目即决定了微管的原丝数目；b. 原丝模板：$\gamma$-微管蛋白纵向连接形成弯曲的短原丝，$\alpha$、$\beta$-蛋白亚基以此为核心横向或纵向相连，然后闭合为管 (<a href="#r147">147</a>)</div></div>
+
+<div class="figure"><img src="/public/images/microtubule/image116.png" align="middle"><div class="caption"><span class="fignum">图18</span>微管聚合早期的片状结构（负染色电镜照片）(<a href="#r144">144</a>)</div></div>
+
+<div class="figure"><img src="/public/images/microtubule/image118.png" align="middle"><div class="caption"><span class="fignum">图19</span>微管的形核、生长和解聚：a. 微管蛋白首先组装为微弯的蛋白片；b. 蛋白片一端闭合为管；c. 亚基加聚，端部片状结构生长；d. 片状结构逐渐闭合；e. 灾变发生，解聚开始；f. 拯救发生，恢复生长 (<a href="#r142">142</a>)</div></div>
+
+
+争议也存在于微管蛋白的具体加聚形式中。长期以来，对微管动态不稳定性的直接观测都依赖于光学显微，空间分辨率约在$200 ~\rm nm$，时间分辨率则约为$30 ~\rm Hz$(<a href="#r133">133</a>, <a href="#r134">134</a>)；电镜技术虽然提供了纳米尺度上微管结构的重要细节，但由于其样品是固定的，在揭示微管动态性上缺乏足够的说服力。近年来，光镊的运用使得在单分子尺度上刻画微管的动态特征成为可能，这种技术的核心框架是在一个人工制造的微腔中，通过光镊捕捉结合在微管端部的微粒，在微粒上施加可控的力，并控制微管的方向和微粒的位置使微管端部触碰腔壁。通过此种方法，不仅能获得微管长度随时间变化的历程，还可以确定外力对微管聚合的影响以及解聚微管所能产生的力的大小 (<a href="#r132">132</a>-<a href="#r134">134</a>, <a href="#r154">154</a>-<a href="#r156">156</a>)。采用此方法，Kerssemakers获得了时间和空间分辨率分别为$5-10 ~\rm nm$和$25 ~\rm Hz$的微管动态性的实验数据 (<a href="#r154">154</a>)，而Schek则将时间分辨率提高到了$\rm 5k ~ Hz$，将空间分辨率提高至$3.5 ~\rm nm$同时仍保证了$10 ~\rm Hz$的时间分辨率 (<a href="#r134">134</a>)。不过，尽管实验装置类似，两者的结论却并不相同。Kerssemakers对实验数据的处理显示，对由纯净的微管蛋白组装的微管，其长度按$20-30 ~ \rm nm$的步长逐步增加，这意味着微管加聚可能是以寡聚物的形式进行的，即若干个亚基先纵向寡聚为短原丝，再加聚到端部。Schek却认为，加聚的单位是单个亚基；由于亚基的添加非常迅速，在分辨率不足够高的实验中不能被逐一辨认。尽管如此，由于纳米尺度的实验结果对热涨落比较敏感，并且所得结论不仅与实验操作，也与数据处理的算法密切相关，依然很难断言微管的加聚单位究竟是亚基还是寡聚物。当然，对于此问题，同样可有折中的观点，即微管蛋白二聚体既能逐一添加，也能聚合为一定长度后再添加，具体方式取决于溶液环境 (<a href="#r27">27</a>, <a href="#r144">144</a>)。
+
+
+参考文献：
+
+<a name="r27"></a>(27) Sosa, H., and Milligan, R. A. (1996) Three-dimensional structure of ncd-decorated microtubules obtained by a back-projection method, Journal of Molecular Biology 260, 743-755.<br/>
+<a name="r132"></a>(132) Sept, D. (2007) Microtubule polymerization: One step at a time, Current Biology 17, R764-R766.<br/>
+<a name="r133"></a>(133) Gardner, M. K., Hunt, A. J., Goodson, H. V., and Odde, D. J. (2008) Microtubule assembly dynamics: new insights at the nanoscale, Current Opinion in Cell Biology 20, 64-70.<br/>
+<a name="r134"></a>(134) Schek, H. T., Gardner, M. K., Cheng, J., Odde, D. J., and Hunt, A. J. (2007) Microtubule assembly dynamics at the nanoscale, Current Biology 17, 1445-1455.<br/>
+<a name="r140"></a>(140) Amos, L. A. (1995) The microtubule lattice - 20 years on, Trends in Cell Biology 5, 48-51.<br/>
+<a name="r142"></a>(142) Vitre, B., Coquelle, F. M., Heichette, C., Garnier, C., Chretien, D., and Arnal, I. (2008) EB1 regulates microtubule dynamics and tubulin sheet closure in vitro, Nature Cell Biology 10, 415-421.<br/>
+<a name="r144"></a>(144) Mozziconacci, J., Sandblad, L., Wachsmuth, M., Brunner, D., and Karsenti, E. (2008) Tubulin Dimers Oligomerize before Their Incorporation into Microtubules, Plos One 3, e3821.<br/>
+<a name="r147"></a>(147) Chretien, D., Janosi, I., Taveau, J. C., and Flyvbjerg, H. (1999) Microtubule's conformational cap, Cell Structure and Function 24, 299-303.<br/>
+<a name="r149"></a>(149) Bouissou, A., Verollet, C., Sousa, A., Sampaio, P., Wright, M., Sunkel, C. E., Merdes, A., and Raynaud-Messina, B. (2009) gamma-Tubulin ring complexes regulate microtubule plus end dynamics, Journal of Cell Biology 187, 327-334.<br/>
+<a name="r150"></a>(150) Raynaud-Messina, B., and Merdes, A. (2007) gamma-tubulin complexes and microtubule organization, Current Opinion in Cell Biology 19, 24-30.<br/>
+<a name="r151"></a>(151) Flyvbjerg, H., and Jobs, E. (1997) Microtubule dynamics. II. Kinetics of self-assembly, Physical Review E 56, 7083.<br/>
+<a name="r152"></a>(152) Flyvbjerg, H., Jobs, E., and Leibler, S. (1996) Kinetics of self-assembling microtubules: an "inverse problem" in biochemistry, Proceedings of the National Academy of Sciences of the United States of America 93, 5975-5979.<br/>
+<a name="r153"></a>(153) Fygenson, D. K., Flyvbjerg, H., Sneppen, K., Libchaber, A., and Leibler, S. (1995) Spontaneous nucleation of microtubules, Physical Review E 51, 5058-5063.<br/>
+<a name="r154"></a>(154) Kerssemakers, J. W. J., Munteanu, E. L., Laan, L., Noetzel, T. L., Janson, M. E., and Dogterom, M. (2006) Assembly dynamics of microtubules at molecular resolution, Nature 442, 709-712.<br/>
+<a name="r155"></a>(155) Grishchuk, E., Molodtsov, M., Ataullakhanov, F., and McIntosh, J. (2005) Force production by disassembling microtubules, Nature 438, 384-388.<br/>
+<a name="r156"></a>(156) Franck, A. D., Powers, A. F., Gestaut, D. R., Gonen, T., Davis, T. N., and Asbury, C. L. (2007) Tension applied through the Dam1 complex promotes microtubule elongation providing a direct mechanism for length control in mitosis, Nature Cell Biology 9, 832-U171.<br/>
