@@ -1,0 +1,17 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-21 19:41:21  +0800
+layout: post
+slug: Say0421EMS
+title: 无题
+categories: [说]
+tags:
+-  生活
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+EMS中国邮政速递物流你真的不是故意的吗？
+<img src="/public/images/EMS.jpg">
+</div>
