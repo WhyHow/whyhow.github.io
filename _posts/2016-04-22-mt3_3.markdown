@@ -1,0 +1,93 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-21 12:00:00 +0800
+layout: post
+slug: MT3_3
+title: 系列综述——微管生长动力学及其数值模拟 Day 10
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+
+---
+
+上接[Day 9](http://whyhow.github.io/2016/04/16/mt3-2.html)。<br/>
+本系列章节、图表、引文均连续编号。 
+
+### 3.3. 动态不稳定性的调控因素
+
+虽然动态不稳定是微管的本征属性，却可以被许多因素所调控。通常的抗肿瘤药物就是利用了这些化合物分子对微管动态行为的抑制作用 (<a href="#r157">157</a>, <a href="#r158">158</a>)。癌细胞与正常细胞在对细胞生长和分裂的控制上存在明显差异，对癌细胞，其细胞复制和凋亡间的平衡遭到破坏，因而过度繁殖。微管构成有丝分裂的纺锤体，其快速的加、解聚在细胞复制中起着关键作用，如若能通过抑制微管的动态性来将肿瘤细胞滞止在有丝分裂过程中，则细胞走向凋亡 (<a href="#r159">159</a>, <a href="#r160">160</a>)，肿瘤不能生长。通过天然提取与人工合成，已发现一系列此类微管蛋白结合药剂，它们有着各不相同的与微管蛋白的结合位点、亲和度、结合可逆性，以及对微管行为的调控机制 (<a href="#r161">161</a>, <a href="#r162">162</a>)。根据其在高浓度下对微管加聚的作用，通常分为两类：促进加聚的称微管稳定剂，如结合于紫杉烷结合位点的紫杉醇、泰索帝、埃坡霉素、盘皮海绵内酯等，以及其他位点的伊沙匹隆等；抑制加聚的则称去稳剂，如结合于长春花结构域的长春碱类、隐藻素、软海绵素、海兔毒素等，秋水仙碱结构域的秋水仙碱、风车子抑素等，以及其他结合域的雌二醇氮芥等 (<a href="#r161">161</a>, <a href="#r163">163</a>)。但在临床应用的浓度下，这两大类药剂都有抑制微管动态性的功效，帮助稳定微管而不改变其聚合质量，从而阻塞有丝分裂。除了做临床治疗之用，在微管静态性质的各类实验中也经常需要加入这类微管稳定剂来稳定微管，方便观测。微管药物对微管上特定位点的特异性识别也是相当有意思的话题。
+
+内源性物质对微管的动态性也有着显著的调节作用。实验发现：有丝分裂中微管的加解聚速率迅速提升 (<a href="#r161">161</a>)；微管负端的动态性在体外与正端差别不大，但在活体内明显稳定 (<a href="#r93">93</a>, <a href="#r97">97</a>, <a href="#r164">164</a>-<a href="#r166">166</a>)……这些现象都源于微管结合蛋白（MAPs）对微管动态性的调控（图20 所示是各类MAPs对微管动态不稳定性四参数的影响 (<a href="#r161">161</a>)）；微管与微管之间，与细胞膜、细胞器、其他细胞骨架纤维、囊泡、染色体等其他细胞内物质的连接也都需要结合蛋白的辅助 (<a href="#r168">168</a>, <a href="#r169">169</a>)。根据对微管的不同功效，MAPs也可分为“稳定剂”与“去稳定剂”两类 (<a href="#r170">170</a>, <a href="#r171">171</a>)。前者如MAP1、MAP2、MAP4，tau等，其微管结合域中含高度保守的、带正电的氨基酸序列，与带负电的微管C端结合后能中和微管亚基间的电荷斥力，起到稳定微管的作用。稳定剂使微管的解聚变得困难，但对加聚的影响却不单纯，比如tau和MAP4能促进加聚，而XMAP215却同时促进加聚和解聚，增强微管的动态不稳定性 (<a href="#r55">55</a>, <a href="#r172">172</a>, <a href="#r173">173</a>)。稳定剂的作用可以通过磷酸化修正，磷酸化后的蛋白不能再与微管结合，轴突中tau蛋白的磷酸化会导致一系列的神经变性疾病，如阿兹海默症。微管去稳定剂则可分为切割蛋白和解聚蛋白两类。切割蛋白包括Katanin，Spastin，Fidgetin三类，能将微管一切为二，对调整细胞分裂中微管的数量和长度、调控神经元分化等意义重大 (<a href="#r174">174</a>-<a href="#r176">176</a>)；典型的解聚蛋白则是op18/Stathmin (<a href="#r177">177</a>, <a href="#r178">178</a>) 和一种靠扩散行走的驱动蛋白Kinesin 13。目前，对微管结合蛋白的具体结合位点，作用机制等的认知还比较模糊。
+ 
+<div class="figure"><img src="/public/images/microtubule/image125.png" align="middle"><div class="caption"><span class="fignum">图20</span>MAPs对微管动态不稳定性的调控 （绿色框中：对加聚起正面作用；红色框中：对加聚起反面作用；斜体：能在体外纯净微管蛋白溶液中起作用；正体：能在细胞中或提取物中起作用；斜体及下划线：同时能在体外和体内起作用；括号中：仅当额外添加到提取物中才能起作用）(<a href="#r167">167</a>)</div></div>
+
+正端跟踪蛋白（+TIPs）是一类特殊的微管结合蛋白，它们能够在微管加、解聚的过程中保持与微管正端的结合 (<a href="#r179">179</a>-<a href="#r190">190</a>)，不仅能够调控微管的动态变化，对于确定微管的生长机制也具有重大的意义。表I中列出了一些出芽与裂殖酵母中主要的+TIPs以及它们在脊椎动物体内的同系物 (<a href="#r191">191</a>)，其中，对EB1及其同系物Mal3p、CLIP-170、p150Glued、XMAP215、CLASP的研究较多 (<a href="#r192">192</a>)。+TIPs跟踪微管正端的机制有两种：一为“踏车”，即依靠与微管蛋白共聚或识别特殊的微管端部结构，在微管伸长或缩短的过程中始终保持与正端的结合；另一为“搭车”，即依靠与马达蛋白结合，由马达蛋白的定向步进完成对正端的跟踪 (<a href="#r89">89</a>, <a href="#r181">181</a>, <a href="#r193">193</a>)。
+
+<div class="figure"><img src="/public/images/microtubule/image127.png" align="middle"><div class="caption"><span class="fignum">表I</span>酵母中几种主要的+TIPs及其在脊椎动物体内的同系物 (<a href="#r191">191</a>)</div></div>
+
+虽然对微管解聚的影响不确定，+TIPs一般对微管的加聚具有促进作用 (<a href="#r154">154</a>, <a href="#r188">188</a>, <a href="#r192">192</a>, <a href="#r194">194</a>-<a href="#r196">196</a>)。不同+TIP的促进机制不同，但是对于具体的机制还只停留在猜测阶段并缺乏细节，可能主要有：促进微管蛋白与正端的结合，提高聚合速度；帮助微管蛋白先寡聚为短原丝，再组装到微管；帮助拉直微管蛋白寡聚物，使其更易组装入微管。
+
+脊椎动物体中的EB1及其在裂殖酵母中的同系物Mal3p更有其特殊性。相关研究主要集中于以下几个问题：首先，EB1靠“踏车”跟踪端部，但具体方式是对端部结构的识别还是与微管蛋白的共聚 (<a href="#r197">197</a>)？若为与端部结构的特殊作用将更能凸显端部片状结构的意义。其次，EB1可以促进“拯救”，但对于“灾变”是抑制还是促进 (<a href="#r180">180</a>, <a href="#r198">198</a>)？已发现这与具体的细胞种类相关。此外，EB1能否独立于其他TIPs而起作用？EB1与CLIP-170、p150Glued、CLASP间的交互作用受到关注 (<a href="#r187">187</a>, <a href="#r199">199</a>-<a href="#r201">201</a>)。更为特殊的是，Sandbald的实验间接显示了Mal3p可以作用在缝上，拉拢张开的原丝，促进端部片状结构闭合成管 (<a href="#r202">202</a>)。des Georges也发现，Mal3p存在下的体外组装中获得的A晶格管显著增多 (<a href="#r14">14</a>)， 这增强了Mal3p具有与缝结合的倾向的可能性。研究者认为，Mal3p与端部的亲和度高，在端部分布密集，但是脱落迅速；与晶格主体的亲和度低，在晶格分布稀疏，却能起到增强原丝间（尤其是A型排列的）横向相互作用，稳定晶格的功用 (<a href="#r187">187</a>, <a href="#r195">195</a>, <a href="#r198">198</a>)。如是，EB1对微管加聚的促进就有两大类机制 (<a href="#r143">143</a>, <a href="#r203">203</a>)：其一，帮助片状结构闭合成管。具体途径可能是EB1与缝边缘结合，像拉链般拉拢片状结构；亦可以是EB1聚集在片状结构上边缘，“号召”亚基加聚到微管。其二，依靠作用在晶格（主要是端部和 连接）上来束缚和稳定晶格结构。
+
+可以看到，关于+TIPs对于微管加聚的可能作用的描述——帮助蛋白寡聚后再加聚以及帮助缝的闭合，与前述对微管聚合方式的讨论是符合的。此二者互为验证，使微管“片状结构生长—翻转闭合—微管生长”的聚合模式更具有可信度； TIPs对微管动态特性的调控也可纳入此框架中一并考虑。事实上，MAPs对微管聚合的调控本身也不仅体现在对加、解聚速率的调控，而是能影响微管蛋白最终的组装产物 (<a href="#r204">204</a>)。
+
+参考文献：
+
+<a name="r14"></a>(14) des Georges, A., Katsuki, M., Drummond, D. R., Osei, M., Cross, R. A., and Amos, L. A. (2008) Mal3, the Schizosaccharomyces pombe homolog of EB1, changes the microtubule lattice, Nature Structural & Molecular Biology 15, 1102-1108.<br/>
+<a name="r55"></a>(55) Cassimeris, L., Gard, D., Tran, P. T., and Erickson, H. P. (2001) XMAP215 is a long thin molecule that does not increase microtubule stiffness, Journal of Cell Science 114, 3025-3033.<br/>
+<a name="r89"></a>(89) Galjart, N. (2005) Clips and clasps and cellular dynamics, Nature Reviews Molecular Cell Biology 6, 487-498.<br/>
+<a name="r93"></a>(93) Rodionov, V. I., and Borisy, G. G. (1997) Microtubule Treadmilling in Vivo, Science 275, 215-218.<br/>
+<a name="r97"></a>(97) Goodwin, S. S., and Vale, R. D. (2010) Patronin Regulates the Microtubule Network by Protecting Microtubule Minus Ends, Cell 143, 263-274.<br/>
+<a name="r143"></a>(143) Coquelle, F. M., Vitre, B., and Arnal, I. (2009) Structural basis of EB1 effects on microtubule dynamics, Biochemical Society Transactions 37, 997-1001.<br/>
+<a name="r154"></a>(154) Kerssemakers, J. W. J., Munteanu, E. L., Laan, L., Noetzel, T. L., Janson, M. E., and Dogterom, M. (2006) Assembly dynamics of microtubules at molecular resolution, Nature 442, 709-712.<br/>
+<a name="r157"></a>(157) Jordan, A., Hadfield, J. A., Lawrence, N. J., and McGown, A. T. (1998) Tubulin as a target for anticancer drugs: Agents which interact with the mitotic spindle, Medicinal Research Reviews 18, 259-296.<br/>
+<a name="r158"></a>(158) Cragg, G. M., and Newman, D. J. (2003) A Tale of Two Tumor Targets:  Topoisomerase I and Tubulin. The Wall and Wani Contribution to Cancer Chemotherapy†, Journal of Natural Products 67, 232-244.<br/>
+<a name="r159"></a>(159) Jordan, M. A., Wendell, K., Gardiner, S., Brent Derry, W., Copp, H., and Wilson, L. (1996) Mitotic Block Induced in HeLa Cells by Low Concentrations of Paclitaxel (Taxol) Results in Abnormal Mitotic Exit and Apoptotic Cell Death, Cancer Research 56, 816-825.<br/>
+<a name="r160"></a>(160) Weaver, B. A. A., and Cleveland, D. W. (2005) Decoding the links between mitosis, cancer, and chemotherapy: The mitotic checkpoint, adaptation, and cell death, Cancer Cell 8, 7-12.<br/>
+<a name="r161"></a>(161) Jordan, M. A., and Kamath, K. (2007) How do microtubule-targeted drugs work? An overview, Current Cancer Drug Targets 7, 730-742.<br/>
+<a name="r162"></a>(162) Calligaris, D., Verdier-Pinard, P., Devred, F., Villard, C., Braguer, D., and Lafitte, D. (2010) Microtubule targeting agents: from biophysics to proteomics, Cellular and Molecular Life Sciences 67, 1089-1104.<br/>
+<a name="r163"></a>(163) Jordan, M. A., and Wilson, L. (2004) Microtubules as a target for anticancer drugs, Nat Rev Cancer 4, 253-265.<br/>
+<a name="r164"></a>(164) WatermanStorer, C. M., and Salmon, E. D. (1997) Microtubule dynamics: Treadmilling comes around again, Current Biology 7, R369-R372.<br/>
+<a name="r165"></a>(165) Yvon, A., and Wadsworth, P. (1997) Non-centrosomal microtubule formation and measurement of minus end microtubule dynamics in A498 cells, Journal of Cell Science 110, 2391-2402.<br/>
+<a name="r166"></a>(166) Keating, T. J., Peloquin, J. G., Rodionov, V. I., Momcilovic, D., and Borisy, G. G. (1997) Microtubule release from the centrosome, Proceedings of the National Academy of Sciences of the United States of America 94, 5078-5083.<br/>
+<a name="r167"></a>(167) van der Vaart, B., Akhmanova, A., and Straube, A. (2009) Regulation of microtubule dynamic instability, Biochemical Society Transactions 37, 1007-1013.<br/>
+<a name="r168"></a>(168) Wasteneys, G. O., and Ambrose, J. C. (2009) Spatial organization of plant cortical microtubules: close encounters of the 2D kind, Trends in Cell Biology 19, 62-71.<br/>
+<a name="r169"></a>(169) Andersen, S. S. L. (2000) Spindle assembly and the art of regulating microtubule dynamics by MAPs and Stathmin/Op18, Trends in Cell Biology 10, 261-267.<br/>
+<a name="r170"></a>(170) Cassimeris, L. (1999) Accessory protein regulation of microtubule dynamics throughout the cell cycle, Current Opinion in Cell Biology 11, 134-141.<br/>
+<a name="r171"></a>(171) Howard, J., and Hyman, A. A. (2007) Microtubule polymerases and depolymerases, Current Opinion in Cell Biology 19, 31-35.<br/>
+<a name="r172"></a>(172) Brouhard, G. J., Stear, J. H., Noetzel, T. L., Al-Bassam, J., Kinoshita, K., Harrison, S. C., Howard, J., and Hyman, A. A. (2008) XMAP215 is a processive microtubule polymerase, Cell 132, 79-88.<br/>
+<a name="r173"></a>(173) Hamada, T., Itoh, T., Hashimoto, T., Shimmen, T., and Sonobe, S. (2009) GTP is required for the microtubule catastrophe-inducing activity of MAP200, a tobacco homolog of XMAP215, Plant Physiology 151, 1823.<br/>
+<a name="r174"></a>(174) McNally, F. J., and Vale, R. D. (1993) Identification of katanin, an ATPase that severs and disassembles stable microtubules, Cell 75, 419-429.<br/>
+<a name="r175"></a>(175) Hartman, J., Mahr, J., McNally, K., Okawa, K., Iwamatsu, A., Thomas, S., Cheesman, S., Heuser, J., Vale, R., and McNally, F. (1998) Katanin, a microtubule-severing protein, is a novel AAA ATPase that targets to the centrosome using a WD40-containing subunit, Cell 93, 277-287.<br/>
+<a name="r176"></a>(176) Sharma, N., Bryant, J., Wloga, D., Donaldson, R., Davis, R. C., Jerka-Dziadosz, M., and Gaertig, J. (2007) Katanin regulates dynamics of microtubules and biogenesis of motile cilia, Journal of Cell Biology 178, 1065-1079.<br/>
+<a name="r177"></a>(177) Howell, B., Larsson, N., Gullberg, M., and Cassimeris, L. (1999) Dissociation of the tubulin-sequestering and microtubule catastrophe-promoting activities of oncoprotein 18 stathmin, Molecular Biology of the Cell 10, 105-118.<br/>
+<a name="r178"></a>(178) Larsson, N., Segerman, B., Howell, B., Fridell, K., Cassimeris, L., and Gullberg, M. (1999) Op18/stathmin mediates multiple region-specific tubulin and microtubule-regulating activities, Journal of Cell Biology 146, 1289-1302.<br/>
+<a name="r179"></a>(179) Akhmanova, A., and Hoogenraad, C. C. (2005) Microtubule plus-end-tracking proteins: mechanisms and functions, Current Opinion in Cell Biology 17, 47-54.<br/>
+<a name="r180"></a>(180) Bieling, P., Laan, L., Schek, H., Munteanu, E. L., Sandblad, L., Dogterom, M., Brunner, D., and Surrey, T. (2007) Reconstitution of a microtubule plus-end tracking system in vitro, Nature 450, 1100-1105.<br/>
+<a name="r181"></a>(181) Carvalho, P., Tirnauer, J. S., and Pellman, D. (2003) Surfing on microtubule ends, Trends in Cell Biology 13, 229-237.<br/>
+<a name="r182"></a>(182) Honnappa, S., Okhrimenko, O., Jaussi, R., Jawhari, H., Jelesarov, I., Winkler, F. K., and Steinmetz, M. O. (2006) Key interaction modes of dynamic plus TIP networks, Molecular Cell 23, 663-671.<br/>
+<a name="r183"></a>(183) Komarova, Y., De Groot, C. O., Grigoriev, I., Gouveia, S. M., Munteanu, E. L., Schober, J. M., Honnappa, S., Buey, R. M., Hoogenraad, C. C., Dogterom, M., Borisy, G. G., Steinmetz, M. O., and Akhmanova, A. (2009) Mammalian end binding proteins control persistent microtubule growth, Journal of Cell Biology 184, 691-706.<br/>
+<a name="r184"></a>(184) Morrison, E. E. (2007) Action and interactions at microtubule ends, Cellular and Molecular Life Sciences 64, 307-317.<br/>
+<a name="r185"></a>(185) Perez, F., Diamantopoulos, G. S., Stalder, R., and Kreis, T. E. (1999) CLIP-170 highlights growing microtubule ends in vivo, Cell 96, 517-527.<br/>
+<a name="r186"></a>(186) Schuyler, S. C., and Pellman, D. (2001) Microtubule "plus-end-tracking proteins": The end is just the beginning, Cell 105, 421-424.<br/>
+<a name="r187"></a>(187) Slep, K. C. (2010) Structural and mechanistic insights into microtubule end-binding proteins, Current Opinion in Cell Biology 22, 88-95.<br/>
+<a name="r188"></a>(188) Wittmann, T., and Desai, A. (2005) Microtubulle cytoskeleton: A new twist at the end, Current Biology 15, R126-R129.<br/>
+<a name="r189"></a>(189) Xiang, X. (2006) A plus TIP for a smooth trip, Journal of Cell Biology 172, 651-654.<br/>
+<a name="r190"></a>(190) Galjart, N. (2010) Plus-End-Tracking Proteins and Their Interactions at Microtubule Ends, Current Biology 20, R528-R537.<br/>
+<a name="r191"></a>(191) Lansbergen, G., and Akhmanova, A. (2006) Microtubule plus end: A hub of cellular activities, Traffic 7, 499-507.<br/>
+<a name="r192"></a>(192) Slep, K. C., and Vale, R. D. (2007) Structural basis of microtubule plus end tracking by XMAP215, CLIP-170, and EB1, Molecular Cell 27, 976-991.<br/>
+<a name="r193"></a>(193) Cassimeris, L. (2007) Tubulin delivery: Polymerization chaperones for microtubule assembly?, Developmental Cell 13, 455-456.<br/>
+<a name="r194"></a>(194) Arnal, I., Heichette, C., Diamantopoulos, G. S., and Chretien, D. (2004) CLIP-170/tubulin-curved oligomers coassemble at microtubule ends and promote rescues, Current Biology 14, 2086-2095.<br/>
+<a name="r195"></a>(195) Bieling, P., Kandels-Lewis, S., Telley, I. A., van Dijk, J., Janke, C., and Surrey, T. (2008) CLIP-170 tracks growing microtubule ends by dynamically recognizing composite EB1/tubulin-binding sites, Journal of Cell Biology 183, 1223-1233.<br/>
+<a name="r196"></a>(196) Ligon, L. A., Shelly, S. S., Tokito, M. K., and Holzbaur, E. L. F. (2006) Microtubule binding proteins CLIP-170, EB1, and p150(Glued) form distinct plus-end complexes, FEBS Letters 580, 1327-1332.<br/>
+<a name="r197"></a>(197) Tirnauer, J. S., Grego, S., Salmon, E. D., and Mitchison, T. J. (2002) EB1-microtubule interactions in Xenopus egg extracts: Role of EB1 in microtubule stabilization and mechanisms of targeting to microtubules, Molecular Biology of the Cell 13, 3614-3626.<br/>
+<a name="r198"></a>(198) Katsuki, M., Drummond, D. R., Osei, M., and Cross, R. A. (2009) Mal3 Masks Catastrophe Events in Schizosaccharomyces pombe Microtubules by Inhibiting Shrinkage and Promoting Rescue, Journal of Biological Chemistry 284, 29246-29250.<br/>
+<a name="r199"></a>(199) Hayashi, I., Wilde, A., Mal, T. K., and Ikura, M. (2005) Structural basis for the activation of microtubule assembly by the EB1 and p150(Glued) complex, Molecular Cell 19, 449-460.<br/>
+<a name="r200"></a>(200) Al-Bassam, J., van Breugel, M., Harrison, S. C., and Hyman, A. (2006) Stu2p binds tubulin and undergoes an open-to-closed conformational change, Journal of Cell Biology 172, 1009-1022.<br/>
+<a name="r201"></a>(201) Dixit, R., Barnett, B., Lazarus, J. E., Tokito, M., Goldman, Y. E., and Holzbaur, E. L. F. (2009) Microtubule plus-end tracking by CLIP-170 requires EB1, Proceedings of the National Academy of Sciences of the United States of America 106, 492-497.<br/>
+<a name="r202"></a>(202) Sandblad, L., Busch, K. E., Tittmann, P., Gross, H., Brunner, D., and Hoenger, A. (2006) The Schizosaccharomyces pombe EB1 homolog Mal3p binds and stabilizes the microtubule lattice seam, Cell 127, 1415-1424.<br/>
+<a name="r203"></a>(203) Kikkawa, M., and Metlagel, Z. (2006) A molecular "Zipper" for Microtubules, Cell 127, 1302-1304.<br/>
+<a name="r204"></a>(204) Unger, E., Böhm, K. J., and Vater, W. (1990) Structural diversity and dynamics of microtubules and polymorphic tubulin assemblies, Electron Microscopy Reviews 3, 355-395.<br/>
