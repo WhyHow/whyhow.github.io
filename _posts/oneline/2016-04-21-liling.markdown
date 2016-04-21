@@ -1,0 +1,18 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-21 09:00:01  +0800
+layout: post
+slug: Say0421liling
+title: 一则贺电
+categories: [说]
+tags:
+-  文化
+-  学术
+-  李零
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+昨夜今晨学术圈的一则大消息是李零教授当选了美国艺术与科学院的外籍院士。他的《中国方术考》和《花间一壶酒》，我是在读研究生时的组会上偷偷摸摸陆陆续续读完的，所以印象很深。不过对乙子来说，难忘的似乎是他的译著。
+</div>
