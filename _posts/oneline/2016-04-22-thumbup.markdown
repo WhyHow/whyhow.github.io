@@ -1,0 +1,16 @@
+---
+author: YiZi
+comments: true
+date: 2016-04-22 22:46:50 +0800
+layout: post
+slug: ThumbUp0422
+title: 点赞表情的左右手
+categories: [说]
+tags:
+-  表情
+-  牢骚
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+好像不同软件的点赞图标的手并不一样，微信自带的表情是右手手背，百度输入法的左手手心，Telegram是左手手心，Mac的自带表情也是左手手心，安卓的标志在网页显示的字符是右手手心。这些标志有什么故事吗？
+</div>
