@@ -27,7 +27,7 @@ tags:
 
 正端跟踪蛋白（+TIPs）是一类特殊的微管结合蛋白，它们能够在微管加、解聚的过程中保持与微管正端的结合 (<a href="#r179">179</a>-<a href="#r190">190</a>)，不仅能够调控微管的动态变化，对于确定微管的生长机制也具有重大的意义。表I中列出了一些出芽与裂殖酵母中主要的+TIPs以及它们在脊椎动物体内的同系物 (<a href="#r191">191</a>)，其中，对EB1及其同系物Mal3p、CLIP-170、p150Glued、XMAP215、CLASP的研究较多 (<a href="#r192">192</a>)。+TIPs跟踪微管正端的机制有两种：一为“踏车”，即依靠与微管蛋白共聚或识别特殊的微管端部结构，在微管伸长或缩短的过程中始终保持与正端的结合；另一为“搭车”，即依靠与马达蛋白结合，由马达蛋白的定向步进完成对正端的跟踪 (<a href="#r89">89</a>, <a href="#r181">181</a>, <a href="#r193">193</a>)。
 
-<div class="figure"><img src="/public/images/microtubule/image127.png" align="middle"><div class="caption"><span class="fignum">表I</span>酵母中几种主要的+TIPs及其在脊椎动物体内的同系物 (<a href="#r191">191</a>)</div></div>
+<div class="figure"><div class="caption"><span class="fignum">表I</span>酵母中几种主要的+TIPs及其在脊椎动物体内的同系物 (<a href="#r191">191</a>)<img src="/public/images/microtubule/image127.png" align="middle"></div></div>
 
 虽然对微管解聚的影响不确定，+TIPs一般对微管的加聚具有促进作用 (<a href="#r154">154</a>, <a href="#r188">188</a>, <a href="#r192">192</a>, <a href="#r194">194</a>-<a href="#r196">196</a>)。不同+TIP的促进机制不同，但是对于具体的机制还只停留在猜测阶段并缺乏细节，可能主要有：促进微管蛋白与正端的结合，提高聚合速度；帮助微管蛋白先寡聚为短原丝，再组装到微管；帮助拉直微管蛋白寡聚物，使其更易组装入微管。
 
