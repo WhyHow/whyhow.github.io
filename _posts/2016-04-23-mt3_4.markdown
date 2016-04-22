@@ -1,0 +1,52 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-23 12:00:00 +0800
+layout: post
+slug: MT3_4
+title: 系列综述——微管生长动力学及其数值模拟 Day 11
+categories: [思]
+tags:
+-  微管
+-  综述
+-  科学
+-  学术
+
+---
+
+上接[Day 10](http://whyhow.github.io/2016/04/16/mt3-3.html)。<br/>
+本系列章节、图表、引文均连续编号。 
+
+### 3.4. 动态不稳定性的模型研究
+
+模型研究也一直是微管动态不稳定性研究的一个重点。动态不稳定性的模型可以分为连续的和离散的两大类。早期的模型集中于微管伸长和缩短的一维描述。在连续的模型中，微管长度与生长率、收缩率、灾变和拯救频率的关系通过微分方程被定量描写 (<a href="#r205">205</a>-<a href="#r210">210</a>)；非连续模型则将单个亚基的变化与这些宏观的率参数联系起来 (<a href="#r211">211</a>)。若是考虑微管的片状中间结构，则微管有三种状态，四个转换频率 (<a href="#r13">13</a>)；微管的形核率、GTP的水解率等可被一一纳入框架 (<a href="#r210">210</a>-<a href="#r212">212</a>)；能量的影响也可通过Arrhenius关系引入 (<a href="#r209">209</a>, <a href="#r213">213</a>) 。尽管在不断地精细化，这类数学描写对于微管加、解聚过程中的构型变化，能量变化，从而具体机制始终是失察的。
+
+为了更好地考察微管动态过程中由力、化学因素引起的能量变化，必须借助于更为精细的三维模型。VanBuren和Molodtsov各自提出了基于蛋白单体和亚基的粗粒化模型，能够反映微管的晶格变形能与化学键合，描述单个亚基尺度上的微管加、解聚行为 (<a href="#r214">214</a>-<a href="#r216">216</a>)，考察微管的端部构型和GTP帽子状态。对于这些粗粒化的模型，晶粒间横、纵向相互作用的表达是一个关键问题，这直接决定了模型在发生变形后的能量。特别要指出的是，这些相互作用应是微管整体力学性质的一个等效反映，而不仅是微管的键能或者蛋白单体的弹性性质。VanBuren考虑了横、纵向拉伸及纵向弯曲的能量，均用线性拉伸弹簧和转角弹簧描述，并且不允许压缩；Molodsov则没有允许纵向的拉伸，对纵向弯曲用线转角弹簧描述，而对横向间拉压的势能$\upsilon$则采用包含可调参数的形式：$\upsilon = A \xi^2 \rm{exp}(-\xi/r_0)$，以模拟断键的过称。这一双阱型的势能函数后来被Efremov在处理有丝分裂中Dam1环对微管与着丝点的连接的作用时所沿用 (<a href="#r217">217</a>)。其他可唯象借用的相互作用势还有Lennard-Jones势、Morse势等 (<a href="#r218">218</a>)。横、纵向结合的标准自由能也是粗粒化模型必须要面对的问题。两亚基间的标准结合能包括了亚基表面相互作用的能量以及将亚基固定在晶格结构中所需的能量（主要来自亚基被固定时丢失的平动和转动的熵） (<a href="#r219">219</a>-<a href="#r224">224</a>)。不仅相互作用能不好确定 (<a href="#r70">70</a>, <a href="#r144">144</a>, <a href="#r215">215</a>, <a href="#r219">219</a>, <a href="#r225">225</a>)，如何将熵分配到横、纵的作用能中也是问题，这导致了文献中对标准自由能的取值并不一致 (<a href="#r146">146</a>, <a href="#r214">214</a>-<a href="#r217">217</a>)。
+
+参考文献：
+
+<a name="r13"></a>(13) Tran, P. T., Walker, R. A., and Salmon, E. D. (1997) A metastable intermediate state of microtubule dynamic instability that differs significantly between plus and minus ends, Journal of Cell Biology 138, 105-117.<br/>
+<a name="r70"></a>(70) Sept, D., Baker, N., and McCammon, J. (2003) The physical basis of microtubule structure and stability, Protein Science 12, 2257-2261.<br/>
+<a name="r144"></a>(144) Mozziconacci, J., Sandblad, L., Wachsmuth, M., Brunner, D., and Karsenti, E. (2008) Tubulin Dimers Oligomerize before Their Incorporation into Microtubules, Plos One 3, e3821.<br/>
+<a name="r146"></a>(146) Wu, Z. H., Wang, H. W., Mu, W. H., Ouyang, Z. C., Nogales, E., and Xing, J. H. (2009) Simulations of Tubulin Sheet Polymers as Possible Structural Intermediates in Microtubule Assembly, Plos One 4, e7291.<br/><br/>
+<a name="r205"></a>(205) Bayley, P. M., Schilstra, M. J., and Martin, S. R. (1989) A  simple formulation of microtubule dynamics - quantitative implications of the dynamic instability of microtubule populations in vivo and in vitro, Journal of Cell Science 93, 241-254.<br/>
+<a name="r206"></a>(206) Bolterauer, H., Limbach, H. J., and Tuszynski, J. A. (1999) Microtubules: strange polymers inside the cell, Bioelectrochemistry and Bioenergetics 48, 285-295.<br/>
+<a name="r207"></a>(207) Bolterauer, H., Limbach, H. J., and Tuszynski, J. A. (1999) Models of assembly and disassembly of individual microtubules: Stochastic and averaged equations, Journal of Biological Physics 25, 1-22.<br/>
+<a name="r208"></a>(208) Chen, Y. D., and Hill, T. L. (1987) Theoretical-studies on oscillations in microtubule polymerization, Proceedings of the National Academy of Sciences of the United States of America 84, 8419-8423.<br/>
+<a name="r209"></a>(209) Sept, D., Limbach, H. J., Bolterauer, H., and Tuszynski, J. A. (1999) A chemical kinetics model for microtubule oscillations, Journal of Theoretical Biology 197, 77-88.<br/>
+<a name="r210"></a>(210) Marx, A., and Mandelkow, E. (1994) A model of microtubule oscillations, European Biophysics Journal with Biophysics Letters 22, 405-421.<br/>
+<a name="r211"></a>(211) Margolin, G., Gregoretti, I. V., Goodson, H. V., and Alber, M. S. (2006) Analysis of a mesoscopic stochastic model of microtubule dynamic instability, Physical Review E 74, 041920.<br/>
+<a name="r212"></a>(212) Hinow, P., Rezania, V., and Tuszynski, J. A. (2009) Continuous model for microtubule dynamics with catastrophe, rescue, and nucleation processes, Physical Review E 80, 031904.<br/>
+<a name="r213"></a>(213) Rezania, V., Azarenko, O., Jordan, M. A., Bolterauer, H., Luduena, R. F., Huzil, J. T., and Tuszynski, J. A. (2008) Microtubule assembly of isotypically purified tubulin and its mixtures, Biophysical Journal 95, 1993-2008.<br/>
+<a name="r214"></a>(214) VanBuren, V., Cassimeris, L., and Odde, D. J. (2005) Mechanochemical model of microtubule structure and self-assembly kinetics, Biophysical Journal 89, 2911-2926.<br/>
+<a name="r215"></a>(215) VanBuren, V., Odde, D. J., and Cassimeris, L. (2002) Estimates of lateral and longitudinal bond energies within the microtubule lattice, Proceedings of the National Academy of Sciences of the United States of America 99, 6035-6040.<br/>
+<a name="r216"></a>(216) Molodtsov, M., Ermakova, E., Shnol, E., Grishchuk, E., McIntosh, J., and Ataullakhanov, F. (2005) A molecular-mechanical model of the microtubule, Biophysical Journal 88, 3167-3179.<br/>
+<a name="r217"></a>(217) Efremov, A., Grishchuk, E. L., McIntosh, J. R., and Ataullakhanov, F. I. (2007) In search of an optimal ring to couple microtubule depolymerization to processive chromosome motions, Proceedings of the National Academy of Sciences of the United States of America 104, 19017-19022.<br/>
+<a name="r218"></a>(218) Hunyadi, V., and Jánosi, I. (2007) Metastability of microtubules induced by competing internal forces, Biophysical journal 92, 3092-3097.<br/>
+<a name="r219"></a>(219) Erickson, H. P., and Pantaloni, D. (1981) The role of subunit entropy in cooperative assembly - nucleation of microtubules and other two-dimensional polymers, Biophysical journal 34, 293-309.<br/>
+<a name="r220"></a>(220) Erickson, H. P. (1989) Co-operativity in protein-protein association - the structure and stability of the actin filament, Journal of molecular biology 206, 465-474.<br/>
+<a name="r221"></a>(221) Doty, P., and Myers, G. E. (1953) Low molecular weight proteins .2. thermodynamics of the association of insulin molecules, Discussions of the Faraday Society, 51-58.<br/>
+<a name="r222"></a>(222) Steinberg, I. Z., and Scheraga, H. A. (1963) Entropy Changes Accompanying Association Reactions of Proteins, Journal of Biological Chemistry 238, 172-181.<br/>
+<a name="r223"></a>(223) Page, M. I., and Jencks, W. P. (1971) Entropic Contributions to Rate Accelerations in Enzymic and Intramolecular Reactions and the Chelate Effect, Proceedings of the National Academy of Sciences of the United States of America 68, 1678-1683.<br/>
+<a name="r224"></a>(224) Chothia, C., and Janin, J. (1975) Principles of protein-protein recognition, Nature 256, 705-708.<br/>
+<a name="r225"></a>(225) Frigon, R. P., and Timasheff, S. N. (1975) Magnesium-induced self-association of calf brain tubulin. II. Thermodynamics, Biochemistry 14, 4567-4573.<br/>
