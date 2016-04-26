@@ -9,6 +9,8 @@ categories: [说]
 tags:
 -  自然
 -  生活
+-  上海
+-  天气
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
