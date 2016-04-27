@@ -1,0 +1,31 @@
+---
+author: YiYin
+comments: true
+date: 2016-04-27 19:47:07 +0800
+layout: post
+slug: youjia
+title: 写新闻稿是纯技术活
+categories: [读]
+tags:
+-  解放日报
+-  文汇报
+-  油价
+-  新闻
+-  汉语
+
+---
+<div class="readreview">读报时在社会新闻版面看到这样一个关于油价调整的豆腐块新闻：<div>
+
+![](/public/images/newspaper/youjiawh.jpg)
+
+<blockquote>上图翻拍自4月27日《文汇报》。</blockquote>
+
+<div class="readreview">相信绝大部分读者都跟我一样，认为这个新闻尤其是这个标题，传达的信息是：近期油价的总体趋势一直是跌的，这次调整还是首次上涨。<br/>关于国内油价的调整幅度和国际原油价格的变化是多么不合拍，本站就不论述了；国内油价有多贵，本站也不讨论了。新闻也只不过是告知大家一个既成事实。于是我又继续读报，翻到另一份报纸，同样也有这条新闻。标题类似，但正文稍长了点：
+<div>
+
+![](/public/images/newspaper/youjiajf.jpg)
+
+<blockquote>上图翻拍自4月27日《解放日报》。</blockquote>
+
+<div class="readreview">从这稍长些的正文的最后一段里，我们知道，原来今年连这次总共就调整了两次，上次跌，这次涨。好吧，确实是年内首次上涨。心服口服。写新闻真是技术活。
+<div>
