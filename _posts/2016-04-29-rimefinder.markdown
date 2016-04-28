@@ -14,26 +14,31 @@ tags:
 ---
 RIME可以在一些制定的程序中切换为英文输入，这个功能还不错。不过我发现好像即便是按照各种说明里的设置了
 
+{% highlight yaml %}
 {% raw %}
   app_options:
     com.apple.Finder:
       ascii_mode: true
       no_inline: true
 {% endraw %}
+{% endhighlight %}
 
 你一样会在Finder里看到输入框，我先怀疑是我装了XtraFinder的原因，所以把XtraFinder也加入到了配置文件当中，但是并没有什么用。
 
 最后，发现新版的Mac系统中的Finder的识别名字已经不是`com.apple.Finder`了，而是`com.apple.finder`，把这个名字输入进去之后好像一切就正常了。当然对于大多数程序可能更多的需要默认是英文输入，所以就在默认输入法的位置直接将默认的输入法状态改成了英文：
 
+{% highlight yaml %}
 {% raw %}
   switches:
     - name: ascii_mode
       reset: 1
       states: ["中文", "西文"]
 {% endraw %}
+{% endhighlight %}
 
 昨天说的中英混输的问题部分上也算解决了，不过还是很不好用，大概做法是在输入法的transtlator底部加上你的英文字典，同时把英文字典载入进来：
 
+{% highlight yaml %}
 {% raw %}
   engine:
     translators:
@@ -41,6 +46,7 @@ RIME可以在一些制定的程序中切换为英文输入，这个功能还不�
   easy_en:
     dictionary: easy_en
 {% endraw %}
+{% endhighlight %}
 
 emoji的问题基本上可以类似的解决。
 
