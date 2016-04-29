@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-{ "posts":[{% for post in site.tags['输入法'] %} 
+{ "posts":[{% for post in site.tags['个人观点'] %} 
     {% if post.url %}{"title":"{{ post.title }}","url":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]}

@@ -1,6 +1,6 @@
 ---
 layout: null
 ---
-{ "posts":[{% for post in site.tags['推荐'] %} 
+{ "posts":[{% for post in site.tags['广告'] %} 
     {% if post.url %}{"title":"{{ post.title }}","url":"{{ post.url }}"}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
 ]}

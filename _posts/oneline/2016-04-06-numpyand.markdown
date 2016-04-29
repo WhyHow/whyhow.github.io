@@ -7,7 +7,7 @@ slug: numpyand0406
 title: Numpy里奇怪的优先级
 categories: [说]
 tags:
--  numpy
+-  Numpy
 -  Python
 ---
 <div class="saying">
