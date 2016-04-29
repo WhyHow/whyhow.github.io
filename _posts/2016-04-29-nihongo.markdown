@@ -3,8 +3,8 @@ author: YiYin
 comments: true
 date: 2016-04-29 16:31:09 +0800
 layout: post
-slug: 从樱花之“樱”与樱桃之“樱”不是同一个“樱”说起：关于日语的一些随手记
-title: 关于日语汉字读音的
+slug: nihongo
+title: 从樱花之“樱”与樱桃之“樱”不是同一个“樱”说起：关于日语的一些随手记
 categories: [思]
 tags:
 -  日语
