@@ -16,7 +16,7 @@ tags:
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
 真没想到，韩寒竟然也被称为是“传统作家”了。是按年龄算的么？
 
-<img src="/public/images/传统作家.jpg">
+<img src="/public/images/chuantongzuojia.jpg">
 
 <blockquote>图片翻拍自4月29日《新民晚报》</blockquote> 
 
