@@ -14,7 +14,7 @@ tags:
 ---
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
-真没想到，韩寒竟然也被称为是“传统作家”了。是按年龄算的么？
+真没想到，韩寒竟然也被称为是“传统作家”了。是按年龄算的么？还“领军”，Excuse me?
 
 <img src="/public/images/chuantongzuojia.jpg">
 
