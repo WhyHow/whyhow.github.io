@@ -31,4 +31,4 @@ tags:
 
 ![](/public/images/globalcitizen/BBC.png)
 
-<div class="readreview">或许中文下的“国际公民”的含义有些不一样，又或许还想着“莫非王土”，又或许不管现状如何总抱着“兼济天下”的愿景？</div>
+<div class="readreview">或许中文下的“国际公民”的含义有些不一样，又或许还想着“莫非王土”，又或许不管现状如何总抱着“兼济天下”的愿景？还是说笼子就是全世界？</div>
