@@ -1,0 +1,18 @@
+---
+author: YiYin
+comments: true
+date: 2016-05-03 12:35:07  +0800
+layout: post
+slug: Say0503guanggao
+title: 没有选择的广告
+categories: [说]
+tags:
+-  广告
+-  牢骚
+-  生活
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+不知道给用户选择权算不算广告业的共识。至少据说在在线广告界的确如此（根据Google AdWords广告政策）。免费而接受广告，付费而去除广告，似乎也是许多领域共行的策略。所以就有点搞不懂电影和电视剧中的台词或场景式植入广告了。即使您是视频网站甚至制作公司（如果可以的话）的钻石会员，喝咖啡还得咽下咖啡渣。这算是哪门子逻辑的广告呢？
+</div>
