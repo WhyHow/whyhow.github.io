@@ -1,0 +1,33 @@
+---
+author: YiYin
+comments: true
+date: 2016-05-04 12:35:07  +0800
+layout: post
+slug: Say0504youth
+title: 青年的标准
+categories: [说]
+tags:
+-  笔记
+-  世界
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+今天是五四青年节。上班路上在车上听广播，节目主持人正在跟听众普及“青年”的定义，说世卫组织最新的青年标准的上限是65岁。当时我就一愣。
+<br/><br/>
+一搜索，这“65岁仍是青年”的消息传播还是挺广的：
+<img src="/public/images/youth/65years.jpg">
+<br/>
+此外，还有很多消息说青年的上限是44岁（貌似很多认为“四十多仍是青年”是官方定义。中国的青年科技奖获奖人的年龄上限是40岁；国家自然科学基金委杰出青年基金的申请人的年龄上限是45岁）：
+<img src="/public/images/youth/44years.jpg">
+<br/>
+这每条都煞有介事的，许多还来自专业媒体。但是，似乎仍然都是假消息呢！
+<blockquote>来自<a href="http://www.un.org/chinese/esa/social/youth/iyouthday.htm">联合国青年议题</a></blockquote>：
+<img src="/public/images/youth/qnyt.jpg">
+<br/>
+<blockquote>来自<a href="http://www.undp.org/content/dam/undp/library/Democratic%20Governance/Youth/UNDP-Youth-Strategy-2014-2017-CH.pdf">2014-2017联合国开发计划署青年战略</a></blockquote>：
+<img src="/public/images/youth/qndy.jpg">
+<img src="/public/images/youth/qnfl.jpg">
+
+要得到真实的信息，光会google还不够的。
+</div>
