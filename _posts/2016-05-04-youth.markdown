@@ -22,12 +22,14 @@ tags:
 <img src="/public/images/youth/44years.jpg">
 <br/>
 这每条都煞有介事的，许多还来自专业媒体。但是，似乎仍然都是假消息呢！
-<blockquote>来自<a href="http://www.un.org/chinese/esa/social/youth/iyouthday.htm">联合国青年议题</a></blockquote>：
+<blockquote>来自<a href="http://www.un.org/chinese/esa/social/youth/iyouthday.htm">联合国青年议题</a>：</blockquote>
 <img src="/public/images/youth/qnyt.jpg">
 <br/>
-<blockquote>来自<a href="http://www.undp.org/content/dam/undp/library/Democratic%20Governance/Youth/UNDP-Youth-Strategy-2014-2017-CH.pdf">2014-2017联合国开发计划署青年战略</a></blockquote>：
+<blockquote>来自<a href="http://www.undp.org/content/dam/undp/library/Democratic%20Governance/Youth/UNDP-Youth-Strategy-2014-2017-CH.pdf">2014-2017联合国开发计划署青年战略</a>：</blockquote>
 <img src="/public/images/youth/qndy.jpg">
 <img src="/public/images/youth/qnfl.jpg">
 
-要得到真实的信息，光会google还不够的。
+要得到真实的信息，光会上google还不够的。
+<br/><br/>
+多说一句，貌似有人还不知道中国青年节的法定假适用人群。是14-28周岁哦！另外，共青团超龄离团的年龄也是28周岁。
 </div>
