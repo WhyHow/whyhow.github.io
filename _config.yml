@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:        rouge
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
 timezone: Asia/Hong_Kong
 #lsi : true
 
