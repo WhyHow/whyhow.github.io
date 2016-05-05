@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 索引
-slug: Archive
+slug: tags
 search_omit: true
 ---
 # 标签索引
