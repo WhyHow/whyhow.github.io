@@ -1,0 +1,28 @@
+---
+author: YiYin
+comments: true
+date: 2016-05-06 15:16:12  +0800
+layout: post
+slug: skin
+title: 皮肤和衣服
+categories: [说]
+tags:
+-  无聊的事
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+忽然想到个问题。软件界面的“主题”（颜色、涂装之类）经常被成为“skin”，中文也直译为“皮肤”。但不少软件喜欢对“皮肤”使用一个“衣服”的图标：
+
+<img src="\public\images\skin_netease.png" alt="">
+
+<img src="\public\images\skin_chubao.png" alt="">
+
+另外也有些使用调色盘、油漆桶或者画笔之类的图标：
+
+<img src="\public\images\skin_vivalid.jpg" alt="">
+
+<img src="\public\images\skin_sougou.jpg" alt="">
+
+叫“皮肤”什么的太吓人了。叫“主题”有点太宽泛，叫“外观”又不够酷炫。叫“披风”何如？
+</div>
