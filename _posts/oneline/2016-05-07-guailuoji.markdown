@@ -4,7 +4,7 @@ comments: true
 date: 2016-05-07 13:05:12  +0800
 layout: post
 slug: guailuoji
-title: 空城一计传千古
+title: 空城妙计传千古
 categories: [说]
 tags:
 -  无聊的事
