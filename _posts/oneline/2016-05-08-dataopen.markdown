@@ -1,0 +1,15 @@
+---
+author: YiZi
+comments: true
+date: 2016-05-08 22:37:10 +0800
+layout: post
+slug: dataopen
+title: 政府数据应该公开
+categories: [说]
+tags:
+- 数据
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+现在的时代，重要的不是数据，而是能从数据中获取有效的信息。所以，对于政府采集的数据，我主张应该尽可能开放获取，这样可以让有能力的人去分析这些数据，虽然不一定比“专业的人士”强，但是尺有所短，寸还有所长呢，是吧！
+</div>
