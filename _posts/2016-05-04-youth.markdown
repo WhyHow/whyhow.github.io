@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-05-04 12:35:07  +0800
+date: 2016-05-04 11:35:07  +0800
 layout: post
 slug: Say0504youth
 title: 青年的标准

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 索引
-slug: Archive
+slug: date
 search_omit: true
 ---
 # 时间线

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 索引
-slug: Archive
+slug: categories
 search_omit: true
 ---
 ### 这是网站上现有的文章列表
