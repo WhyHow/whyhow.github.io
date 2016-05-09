@@ -1,0 +1,15 @@
+---
+author: YiZi
+comments: true
+date: 2016-05-09 11:24:01 +0800
+layout: post
+slug: studyage
+title: 年龄限制是为谁
+categories: [说]
+tags:
+-  社会
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+年龄限制的事情还真不少，结婚要限制年龄也就算了，太早结婚<strong>可能</strong>不好吧，这上个小学也要限制年龄，我个人觉得有些小孩5岁上小学完全没问题，为什么非要等到7岁上？义务教育也要限制年限，现在义务教育那点内容真的需要九年吗？感觉简直就是提供足够多的时间让大家去参加各种培训班吧！
+</div>
