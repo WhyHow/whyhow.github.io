@@ -1,0 +1,40 @@
+---
+author: YiZi
+comments: true
+date: 2016-05-09 10:48:47 +0800
+layout: post
+slug: bigdata0509
+title: 这样也叫“大数据”？
+categories: [读]
+tags:
+-  大数据
+-  社会
+-  隐私
+-  新京报
+---
+把手机消费情况作为贫困生资格再认定的第一步，对那些话费较高的学生进行再调查。日前，江苏大学学生工作处正式公布了对4463名贫困生话费调查的大数据处理结果，或降级或取消，有21人被“摘帽行动”取消了贫困生资格，还有32人从家庭经济特殊困难降级为一般困难。
+
+　　此前，南京理工大学也利用大数据，根据贫困学生在学校食堂里的消费情况，对贫困学生进行“主动”识别。相对来说，江苏大学把大数据用到筛选非贫困学生上，引起更多争议也在情理之中，诸如大学不应干涉学生的消费支出，手机话费并不具备参考标准等。
+<div class="quote"> <blockquote>
+        以上内容摘自：新京报 2016年5月6日 题为<a href="http://bjnews.com.cn/opinion/2016/05/09/402633.html">《该怎样用大数据认定贫困生》</a>的文章
+    </blockquote>
+</div>
+<div class="readreview">
+下面是维基百科非官方的关于大数据的解释：
+<blockquote>
+    大數據（英语：Big data[1][2] 或 Megadata），或稱巨量資料、海量資料、大资料，指的是所涉及的資料量規模巨大到無法透過人工或者計算機，在合理時間內達到擷取、管理、處理、並整理成為人類所能解讀的形式的資訊[3][4]。在總資料量相同的情況下，與個別分析獨立的小型資料集（Data set）相比，將各個小型資料集合併後進行分析可得出許多額外的資訊和資料關聯性，可用來察覺商業趨勢、判定研究品質、避免疾病擴散、打擊犯罪或測定即時交通路況等；這樣的用途正是大型資料集盛行的原因[5][6][7]。
+</blockquote>
+
+看看韦氏词典的定义吧：
+<blockquote><p>
+Definition of big data</p><p>
+:  an accumulation of data that is too large and complex for processing by traditional database management tools
+</p><p>
+Did You Know?</p><p>
+Big data is a new addition to our language, but exactly how new is not an easy matter to determine. A 1980 paper by Charles Tilly provides an early documented use of big data, but Tilly wasn't using the word in the exact same way we use it today; rather, he used the phrase "big-data people" to refer to historians engaged in data-rich fields such as cliometrics. Today, big data can refer to large data sets or to systems and solutions developed to manage such large accumulations of data, as well as for the branch of computing devoted to this development. Francis X. Diebold, a University of Pennsylvania economist, who has written a paper exploring the origin of big data as a term, a phenomenon, and a field of study, believes the term "probably originated in lunch-table conversations at Silicon Graphics Inc. (SGI) in the mid 1990s…."</p>
+</blockquote>
+
+<p>所以不管怎么讲，大数据总是需要**大量的复杂数据**，不是说对一个几万个条目的单特征数据的分析结果。这点数据就算在十五年前也不算做大数据吧，一个手机都能够轻松处理的数据你跟我说这是大数据？不要因为大数据很火就觉得用了点数据就是**大数据**了，文中分析的不管是饭卡数据，还是充值话费数据，根本就不能够算做**大**数据。</p><p>
+其二，这种一个简单的阈值就搞定的分析方法也完全不能说是大数据分析方法，更何况这个阈值是不是拍脑袋出来的还值得怀疑，如果不是的话那怎么获得这个阈值的，到可能是一个真正需要大数据算法解决的问题。</p><p>
+大数据虽然最近很好，似乎只要能够沾点边就能显得很高级一样。其实大数据也并不神奇，大数据正是为了解决那些用一般数据难以表征的问题而诞生的学科，如果一般的数据就能很好的判决的问题，又何必使用大数据的途径呢，更多的信息往往只会带来更差的结果，而不是更准得判断。
+</div>
