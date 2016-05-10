@@ -59,7 +59,6 @@ q.dataset.get_html   q.dataset.get_tsv
 >>> q.export?
 Signature: q.export(format, **kwargs)
 Docstring: Export the RecordCollection to a given format (courtesy of Tablib).
-File:      ~/anaconda/lib/python2.7/site-packages/records.py
 Type:      instancemethod
 
 # 比如CSV
