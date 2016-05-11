@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-05-11 20:11:09 +0800
+date: 2016-05-12 23:11:09 +0800
 layout: post
 slug: joypolis1
 title: 上海Joypolis漫记——第一部分：场馆简介与出入须知
