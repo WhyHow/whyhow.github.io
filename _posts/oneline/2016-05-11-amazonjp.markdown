@@ -1,0 +1,17 @@
+---
+author: YiYin
+comments: true
+date: 2016-05-11 20:53:15 +0800
+layout: post
+slug: amazonjp
+title: 盒子的差距
+categories: [说]
+tags:
+- 生活
+- 消费
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+日亚的盒子已经进化成这样了。中国的盒子还依然是练力气的好道具。
+<img src="/public/images/amazonjp.jpg" alt="">
+</div>
