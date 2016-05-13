@@ -1,7 +1,7 @@
 ---
 author: YiYin
 comments: true
-date: 2016-05-13 09:11:09 +0800
+date: 2016-05-13 08:34:09 +0800
 layout: post
 slug: joypolis2
 title: 上海Joypolis漫记——第二部分：公共领域利用
