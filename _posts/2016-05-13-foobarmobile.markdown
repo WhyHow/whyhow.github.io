@@ -11,22 +11,22 @@ tags:
 -  APP
 -  软件
 ---
-![](/public/images/foobar/0.jpg)
+<img src="/public/images/foobar/0.jpg" style="width:300px">
 这周Foobar2000出手机版了，大部分介绍用得竟然是“界面一如既往的简陋”。固然，Foobar2000在Windows的表现确实是功能强大、界面简陋，但是这样评价手机版的Foobar就显得并不贴切了。试用Foobar2000手机版以后我对它的评价是“它是一个知道它在干什么的APP”。
 
 现在的手机播放器没有一个联网功能，不可以下载封面，没有动态的各种提醒似乎就不正常。没有彩色的，闪动的播放按钮似乎就不是个播放器。Foobar2000的主界面是这样的：
 
-![](/public/images/foobar/1.jpg)
+<img src="/public/images/foobar/1.jpg" style="width:300px">
 
 没有播放按键，没有一点彩色的提示，但是一瞬间就给你一种这是个播放器的感觉，因为各种类型的分类整理方案供你去查看手机的媒体库。
 
 由于界面那么简单，很多功能是不能够设定的，可以设定的功能放在了那个扳手按钮里：
 
-![](/public/images/foobar/2.jpg)
+<img src="/public/images/foobar/2.jpg" style="width:300px">
 
 重要的功能当然是DSP和ReplayGain：
 
-![](/public/images/foobar/3.jpg)
+<img src="/public/images/foobar/3.jpg" style="width:300px">
 
 目前Foobar2000的配置能力还很差，完全不是PC版的Foobar2000，所以我不认为这是一款定制性很强的播放器，不过大部分预设功能都比较体贴：
 
