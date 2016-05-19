@@ -45,7 +45,7 @@ tags:
 <div class="readreview">
 国内主流新闻媒体大多没有放出原始链接的习惯。我找了一下，美国科学院报告的链接<a href="http://www.nap.edu/read/23395/chapter/1">在此</a>。<br><br>
 这真是一份详尽的报道。想对转基因有大致了解的话可以看<a href="http://www.nap.edu/read/23395/chapter/2">Summary部分</a>。只想知道转基因食品对健康的影响的话可以直接读<a href="http://www.nap.edu/read/23395/chapter/2#8">这里</a>。<br><br>
-鉴于多家媒体在报道此事时都突出了“美国科学院认证：转基因食品‘无害’、‘安全’”等有可能矫枉过正的字眼或说法，本站也要高亮一下报告里的这句话：<br>
-<img src="/public/images/newspaper/zhuanjiyin.jpg" alt=""><br>
+鉴于多家媒体在报道此事时都突出了“美国科学院认证：转基因食品‘无害’、‘安全’”等有可能矫枉过正的字眼或说法，本站也要高亮一下报告里的这句话：<br><br>
+<img src="/public/images/newspaper/zhuanjiyin.jpg" alt="">
 科学本来就是不断自我修正的。如果哪一天有证据证明转基因食品存在某种风险或危害，也并不值得丝毫的惊讶。另外，相比转基因，我倒是认为大家普遍喜爱的“天然”一词，意味着更多的未知、不受控和更高的风险。
 </div>
