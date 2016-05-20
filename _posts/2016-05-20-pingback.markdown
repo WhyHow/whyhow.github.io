@@ -15,28 +15,23 @@ Pingback是Wordpress的标准功能，然而基于静态网页的Jekyll后端无
 
 Pingback实际上是发送了这样一个xml到Pingback的服务器。
 
-{% raw %}
-{% highlight html %}
-<pre>
-<?xml version="1.0" encoding="utf-8"?>
-<methodCall>
-<methodName>pingback.ping</methodName>
-<params>
-    <param>
-        <value>
-        <string>{source}</string>
-        </value>
-    </param>
-    <param>
-        <value>
-        <string>{target}</string>
-        </value>
-    </param>
-</params>
-</methodCall>
-</pre>
-{% endhighlight %}
-{% endraw %}
+
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;methodCall&gt;
+&lt;methodName&gt;pingback.ping&lt;/methodName&gt;
+&lt;params&gt;
+&lt;param&gt;
+&lt;value&gt;
+&lt;string&gt;{source}&lt;/string&gt;
+&lt;/value&gt;
+&lt;/param&gt;
+&lt;param&gt;
+&lt;value&gt;
+&lt;string&gt;{target}&lt;/string&gt;
+&lt;/value&gt;
+&lt;/param&gt;
+&lt;/params&gt;
+&lt;/methodCall&gt;
 
 其中，{source}是自己博客的页面地址，{target}是想Pingback的网页网址。Wordpress一般的Pingback响应地址是`domainname/xmlrpc`。
 
