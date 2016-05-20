@@ -35,7 +35,7 @@ Pingback实际上是发送了这样一个xml到Pingback的服务器。
 </methodCall>
 {% endhighlight %}
 
-其中，{source}是自己博客的页面地址，{target}是想Pingback的网页网址。Wordpress一般的Pingback响应地址是`domainname/xmlrpc`。
+其中，`{source}`是自己博客的页面地址，`{target}`是想Pingback的网页网址。Wordpress一般的Pingback响应地址是`domainname/xmlrpc`。
 
 所以需要手动Pingback的话可以直接手动发送这个数据文件给Pingback网址就可以完成Pingback了。下面是一个基于requests的实现：
 
