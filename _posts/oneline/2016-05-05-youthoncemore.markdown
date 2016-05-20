@@ -9,6 +9,8 @@ categories: [说]
 tags:
 -  牢骚
 -  世界
+-  国际
+-  联合国
 
 ---
 <div class="saying">
