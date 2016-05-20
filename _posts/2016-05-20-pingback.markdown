@@ -97,8 +97,8 @@ else:
 {% endhighlight %}
 
 使用方法如下：
-
-1. 准备一个需要Pingback的json文件，内容可以是这样的一个json
+<ol>
+<li>准备一个需要Pingback的json文件，内容可以是这样的一个json
     {% highlight json %}
     {
         "source":"网址",
@@ -107,8 +107,8 @@ else:
     }
     {% endhighlight %}
 
-或者这样的json形成的列表。
-
-2. 执行上面的文件，将上述json文件的文件名作为参数传入。
+或者这样的json形成的列表。</li>
+<li>执行上面的文件，将上述json文件的文件名作为参数传入。</li>
+</ol>
 
 网上也有一个基于curl的实现，有兴趣的读者可以自行Google。
