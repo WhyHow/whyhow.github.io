@@ -1,0 +1,113 @@
+---
+author: YiZi
+comments: true
+date: 2016-05-20 21:54:06 +0800
+layout: post
+slug: pingback
+title: Jekyll如何使用Pingback
+categories: [行]
+tags:
+-  教程
+-  网站相关
+-  Python
+---
+Pingback是Wordpress的标准功能，然而基于静态网页的Jekyll后端无法使用Pingback，所以如果要使用Pingback可能唯一的办法是手动Pingback。
+
+Pingback实际上是发送了这样一个xml到Pingback的服务器。
+
+{% raw %}
+{% highlight html %}
+<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+<methodName>pingback.ping</methodName>
+<params>
+    <param>
+        <value>
+        <string>{source}</string>
+        </value>
+    </param>
+    <param>
+        <value>
+        <string>{target}</string>
+        </value>
+    </param>
+</params>
+</methodCall>
+{% endhighlight %}
+{% endraw %}
+
+其中，{source}是自己博客的页面地址，{target}是想Pingback的网页网址。Wordpress一般的Pingback响应地址是`domainname/xmlrpc`。
+
+所以需要手动Pingback的话可以直接手动发送这个数据文件给Pingback网址就可以完成Pingback了。下面是一个基于requests的实现：
+
+{% highlight python %}
+#! encoding=utf-8
+import requests
+import json
+import sys
+info = json.load(open(sys.argv[1]))
+if isinstance(info, list):
+    req = []
+    for item in info:
+        data = u'''<?xml version="1.0" encoding="utf-8"?>
+        <methodCall>
+        <methodName>pingback.ping</methodName>
+        <params>
+         <param>
+          <value>
+           <string>{source}</string>
+          </value>
+         </param>
+         <param>
+          <value>
+           <string>{target}</string>
+          </value>
+         </param>
+        </params>
+        </methodCall>
+        '''.format(source=item['source'], target=item['target'])
+
+        req.append(requests.post(
+            item['url'] if item['url'][-7:] == '/xmlrpc'
+            else item['url']+'/xmlrpc', data=data.encode('utf-8')))
+        print req[-1].content.decode('utf-8')
+else:
+    data = u'''<?xml version="1.0" encoding="utf-8"?>
+    <methodCall>
+    <methodName>pingback.ping</methodName>
+    <params>
+     <param>
+      <value>
+       <string>{source}</string>
+      </value>
+     </param>
+     <param>
+      <value>
+       <string>{target}</string>
+      </value>
+     </param>
+    </params>
+    </methodCall>
+    '''.format(source=info['source'], target=info['target'])
+
+    req = requests.post(
+        info['url'] if info['url'][-7:] == '/xmlrpc'
+        else info['url']+'/xmlrpc', data=data.encode('utf-8'))
+    print req.content.decode('utf-8')
+
+{% endhighlight %}
+
+使用方法如下：
+
+1. 准备一个需要Pingback的json文件，内容可以是这样的一个json
+    {% highlight json %}
+    {
+        "source":"网址",
+        "target":"网址",
+        "url":"网址"
+    }
+    {% endhighlight %}
+    或者这样的json形成的列表。
+2. 执行上面的文件，将上述json文件的文件名作为参数传入。
+
+网上也有一个基于curl的实现，有兴趣的读者可以自行Google。
