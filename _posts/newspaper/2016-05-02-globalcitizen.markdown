@@ -10,6 +10,7 @@ tags:
 -  BBC
 -  社会
 -  世界
+-  国际
 
 ---
 <div class="readreview">BBC最近又发布了一个关于身份认同（identity）的调查，这次的内容是关于“是否自认为是国际公民（global citizen）”。调查对象是18个国家中的逾两万人。</div>
