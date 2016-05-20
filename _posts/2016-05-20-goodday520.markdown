@@ -1,0 +1,23 @@
+---
+author: YiZi
+comments: true
+date: 2016-05-20 20:06:46 +0800
+layout: post
+slug: goodday520
+title: 今天是个好日子
+categories: [说]
+tags:
+-  笔记
+---
+![](/public/images/laugh.jpg)
+今天是个好日子，试验设备到位了，虽然不完美，不过能用，不错不错！算例也算完了，还收到了清晰版的地铁照片，不错不错！马克一下。
+
+做这个网站花了不少心力呀，发现最近写类似的程序的功力有所长进，虽然并没有什么用，不过总算还又学会了一点东西。
+
+今天发现之前写了不少程序呀，现在完成一个比较复杂的功能竟然可以直接用以前写的模块，竟然可以不需要调整直接使用，当时怎么会考虑到现在这些运用，不可理解不可理解！
+
+Anyway，今天是个好日子！
+
+最后，最后，今天大王同志当爹了，恭喜恭喜！
+
+<small style="color:gray">文头图片来自Telegram表情包<a href="https://telegram.me/addstickers/Parampaa">Parampaa</a>。</small>
