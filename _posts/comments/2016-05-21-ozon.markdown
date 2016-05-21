@@ -17,7 +17,7 @@ tags:
 
 ---
 <div class="quote"> <blockquote>
-    	来自<a href="http://shanghai.xinmin.cn/msrx/2016/05/20/30047811.html" target=“_blank”>新民网</a>的消息：
+    	来自<a href="http://shanghai.xinmin.cn/msrx/2016/05/20/30047811.html" target="_blank">新民网</a>的消息：
     </blockquote>
 </div>
 
@@ -37,12 +37,12 @@ tags:
 <div class="yiyin">
 首先，第一眼看到这个新闻是惊讶的。各大天气网站里都没有提及这个问题，若不是看到这条不起眼的社会新闻，还真不知道现在高发的污染物并不是许多人一直以为的PM2.5或PM10，而是“臭氧”。我们的天气预报，啥时候可以更全面和透明一点呢。<br><br>
 
-其次，我们的天气预报里都有个“空气质量指数（AQI）”的指标，这个指标到底在反应啥呢？我也上了上海市环境保护局和上海市环境监测中心主办的<a href="http://www.semc.com.cn/aqi/home/Index.aspx" target=“_blank”>上海市空气质量实时发布系统</a>看了看，下图是五月至今上海市空气质量指数的统计表：<br>
+其次，我们的天气预报里都有个“空气质量指数（AQI）”的指标，这个指标到底在反应啥呢？我也上了上海市环境保护局和上海市环境监测中心主办的<a href="http://www.semc.com.cn/aqi/home/Index.aspx" target="_blank">上海市空气质量实时发布系统</a>看了看，下图是五月至今上海市空气质量指数的统计表：<br>
 
 <img src="/public/images/aqi.JPG" alt="">
 
-发现了吗？最后的这个指标是各项指标的最大值而已。各项污染物指数和AQI的统计是有国家标准的，作为外行人不经了解随意置喙固然不谨慎，不过倒是可以给大家提个醒：这个AQI只是各项污染物指数的最大值。<br><br>
+发现了吗？最后的这个指标是各项指标的最大值而已。各项污染物指数和AQI的统计是有<a href="http://kjs.mep.gov.cn/hjbhbz/bzwb/dqhjbh/jcgfffbz/201203/W020120410332725219541.pdf" target="_blank">国家标准</a>的，作为外行人不经了解随意置喙固然不谨慎，不过倒是可以给大家提个醒：这个AQI只是各项污染物指数的最大值。<br><br>
 
-最后，每次有啥事专家就号召大家不要紧张、不要焦虑（比如近期恰值幼儿园和小学入学报名，又有各路大神呼吁（hu you）<a href="http://district.ce.cn/newarea/roll/201605/11/t20160511_11477916.shtml" target=“_blank”>家长不要让焦虑影响孩子</a>家长不要让焦虑影响孩子）。真的，大家都是按要求交保护费的，大哥不能老让大家自救呀。
+最后，每次有啥事专家就号召大家不要紧张、不要焦虑（比如近期恰值幼儿园和小学入学报名，又有各路大神呼吁（hu you）<a href="http://district.ce.cn/newarea/roll/201605/11/t20160511_11477916.shtml" target="_blank">家长不要让焦虑影响孩子</a>家长不要让焦虑影响孩子）。真的，大家都是按要求上供保护费的，当大哥的不能老喊大家自救呀。
 </div>
 </div>
