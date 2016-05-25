@@ -1,0 +1,28 @@
+---
+author: YiYin
+comments: true
+date: 2016-05-25 08:52:10 +0800
+layout: post
+slug: kudamono
+title: 何为“过高”之“过”
+categories: [听]
+tags:
+-  科技
+-  新浪微博
+-  上海新闻播报
+---
+
+<div class="quote"> <blockquote>
+    	来自<a href="http://weibo.com/1814975931/Dx3tA5yYU" target="_blank">上海新闻播报 新浪微博</a>5月18日的消息：
+    </blockquote>
+</div>
+
+### 库克承认iPhone售价过高 未来或适当下调
+
+日前，苹果CEO@TimCook 在接受印度媒体专访时回应：我承认目前产品售价偏高，会随着时间推移适当下调价格。此前，库克也暗示过：iPhone销量下滑原因之一是苹果所奉行的定价策略。据了解，中国内地iPhone售价较美国售价高16%。
+
+<hr>
+<div class="commentsonquote">
+	<div class="yiyin">果机的相对高价难道不是其在中国市场的核心竞争力？</div>
+</div>
+
