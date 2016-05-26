@@ -1,0 +1,23 @@
+---
+author: YiYin
+comments: true
+date: 2016-05-26 19:24:12  +0800
+layout: post
+slug: yinxiao
+title: 逼真的背景音
+categories: [说]
+tags:
+-  新标日
+-  生活
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+《新标日》的会话课文一直都配有真实的场景音效。不过中级下册这篇课文的背景音也太真了。对话场景是在江南水乡，谈论的话题里有乌篷船，然后，整片课文里除了水流声，还充斥着摇橹的吱吱声。啊，我最受不了的就是这种类似于“指甲挠黑板”的声音。这篇课文真是太挠心了。<br>
+截了十秒左右的一小段大家听听看。应该不算盗版？
+
+<audio controls="controls">
+  <source src="/public/images/a.mp3" type="audio/mp3" />
+您的浏览器不支持本音频播放。
+</audio>
+
+</div>
