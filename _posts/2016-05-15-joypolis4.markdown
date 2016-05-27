@@ -3,7 +3,7 @@ author: YiYin
 comments: true
 date: 2016-05-14 23:11:09 +0800
 layout: post
-slug: joypolis3
+slug: joypolis4
 title: 上海Joypolis漫记——第四部分：小型游艺项目
 categories: [行]
 tags:
@@ -39,4 +39,4 @@ tags:
 
 <img src="/public/images/sega/kl2.jpg" alt="">
 
-这些小游戏都没啥难度，轻松愉快地去享受就。
+这些小游戏都没啥难度，轻松愉快地去享受就好。
