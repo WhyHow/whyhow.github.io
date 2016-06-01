@@ -1,0 +1,19 @@
+---
+author: YiYin
+comments: true
+date: 2016-06-01 16:06:01  +0800
+layout: post
+slug: baobao
+title: 支付宝就可以“宝宝”别人吗
+categories: [说]
+tags:
+-  社会
+-  科技
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+还“宝宝”呢，咋不给每个用户头像上挂个红领巾？！<br><br>
+
+还是决定出门带现金，趁还有选择。
+</div>
