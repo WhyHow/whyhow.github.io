@@ -50,6 +50,8 @@ tags:
 
 ![](/public/images/May/kabi.jpg)
 
+![](/public/images/May/mogu.jpg)
+
 日出日落的时间没啥可说的。天行健，一如往常：
 
 ![](/public/images/May/taiyo.png)
@@ -60,9 +62,9 @@ tags:
 
 最后是天气预警。六次警报，数量上与上月基本持平，品种单调了不少：一次大风蓝色，五次雷电黄色。
 
-![](/public/images/Apr/alert.png)
+![](/public/images/May/alert.png)
 
-![](/public/images/Apr/alert1.png)
+![](/public/images/May/alert1.png)
 
 发大风警报的日子的风力自然不能是0&#8211;3级；发雷电警报的日子也肯定有着非凡的湿度。风向和警报没关系。
 
