@@ -1,0 +1,17 @@
+---
+author: YiYin
+comments: true
+date: 2016-06-07 11:02:02  +0800
+layout: post
+slug: xiguazhi
+title: 关于果汁的一个问题
+categories: [说]
+tags:
+-  吃喝
+-  生活
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+市面上的瓶装果汁，基本都是苹果汁、葡萄汁、橙汁、西柚汁、胡萝卜汁……我就想问问，原材料便宜出汁量又高的西瓜汁和甘蔗汁为啥没有？
+</div>
