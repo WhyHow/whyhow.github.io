@@ -5,7 +5,7 @@ date: 2016-06-15 18:19:23  +0800
 layout: post
 slug: tuininatuda
 title: 终于入夏
-categories: [听]
+categories: [说]
 tags:
 -  生活
 -  天气
