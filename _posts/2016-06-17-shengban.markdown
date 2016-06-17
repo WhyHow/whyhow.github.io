@@ -1,0 +1,21 @@
+---
+author: YiYin
+comments: true
+date: 2016-06-17 13:03:46  +0800
+layout: post
+slug: shengban
+title: 国家的版本升级
+categories: [说]
+tags:
+-  胡思乱想
+-  无聊的事
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+node.js"从0.01到4.0.0"（现在是6.2.1了）算是名梗。技术和商业互相推进，就算没有类似node的复杂背景，PHP等语言也都行驶版本升级的高速公路上。<br><br>
+
+今天看到俄罗斯足球流氓在法国闹事的新闻，忽然想到，法国也是个神奇的国家：从1792年法兰西第一共和国到1959年法兰西第五共和国，当中还夹着两次帝国，这国家的版本升级也是牛。
+
+</div>
