@@ -1,0 +1,46 @@
+---
+author: YiYin
+comments: true
+date: 2016-06-22 09:48:39 +0800
+layout: post
+slug: sunrise
+title: 日出犹未起
+categories: [思]
+tags:
+-  科学
+-  生活
+-  天文
+-  天气
+---
+
+我又一次来暴露自己的无知了。
+
+近几个月来每天会记录天气预报以完成自己的天气统计，但是记着记着就发现问题了：这日出日落的时间变化并不同步呀，每天的偏移量也没想象中那么简单。而自己一直都很**想当然地以为***日出早一分则日落减一分；夏至那天太阳直射北回归线，全年白昼最长，也同时是全年日出最早，日落最晚。*
+
+怕普通天气预报的日出日落时间不够精准，我专门找到了中国科学院国家授时中心的<a href="http://www.time.ac.cn/serve/sunriseset/" target="_blank">日出日没时刻查询</a>。这个网站本身的质量就不提了，但其给出的查询功能也很是简陋，也不提供时刻变化列表或者曲线。国内一些便民查询网站上也能查得某日的日出日落时刻，但同样不好使。
+
+国内是否存在专业靠谱好用的日出日落查询网站呢，我不知道，总之是没能一眼发现。下面提供几个其他国家的同样提供我国各地日出日落信息的网站，直接给出上海的查询结果吧：
+
+<a href="http://www.motohasi.net/SunriseSunset/WorldSun2.php?Date=2016-06-21&Lat=31.217499&Lng=121.475830&TimeZone=Asia/Shanghai&CityName=上海" target="_blank">motohasi.net</a>：一个专门查询日出日落的日文网站，提供<a href="http://www.motohasi.net/SunriseSunset/" target="_blank">多种</a>查询模式，有的也有英文版本。覆盖日本各地和世界主要城市的日出日落情报。时间精确到秒，实为难得。
+
+<a href="http://www.timeanddate.com/sun/china/shanghai" target="_blank">timeanddate.com</a>：英文站点，服务全面，不止查日出日落，也不止有网页版。
+
+通过查看上述两个站点，又进一步发现了自己的无知：原来不只有一个日出（Sunrise，日の出）日落（Sunset，日の入り）和白昼长度（Daylength，昼間の時間），还有另外三套反应昼与夜的时刻指标：Astronomical Twilight Start and End（天文薄明開始/天文薄明終了），Nautical Twilight Start and End（航海薄明開始/航海薄明終了），Civil Twilight Start and End（市民薄明開始/市民薄明終了）。中文的专业术语，应该分别叫天文晨昏蒙影、航海晨昏蒙影和民用晨昏蒙影。维基百科也翻译成天文曙暮光、航海曙暮光和民用曙暮光。
+
+<img src="/public/images/motohasi" alt="">
+<img src="/public/images/timeanddate" alt="">
+
+关于这三套晨昏蒙影（曙暮光），<a href="https://zh.wikipedia.org/zh-hant/曙暮光" target="_blank">维基百科</a>解释得挺清楚，概念本身也不复杂，我就不赘述了。总而言之就是一句话：**日落并不是天黑**，这在大家的日常生活里也是有体会的。
+
+和我们的生活最有关系的要数“民用晨昏蒙影”了，这个时间段内即使尚未日出或是已经日落，仍有足够的阳光可以从事户外作业。民用晨昏蒙影的开始比日出约早半小时，比日落约晚半小时。据说法律上界定汽车必须打灯行驶、户外作业必须人工照明、抢劫等行为发生的时段等等都是使用“民用晨昏蒙影”而非“日出日落”。我一面深叹自己的无知，一面又感慨天气预报或者便民网站难道不应该提供“民用晨昏蒙影”而非“日出日落”才更为民服务么？不过既然连国家授时中心和国家天文台都不提供“晨昏蒙影”的垂询，也自然不能苛求民间网站了。（顺便一说，我倒是找到了<a href="http://people.chu.edu.tw/~t09403006/information(3).htm" target="_blank">香港地区的晨昏蒙影表</a>，尽管不是详细至每一天的完整记录。这还是一个台湾大学所提供的（却没提供台湾本地的）。）
+
+还是要回到本文开头那个话题。**日出最早的一天并不是日落最晚的一天。夏至确实白昼最长，但既不是日出最早也不是日落最晚。**
+
+计算日出日落时刻可以查看<a href="https://en.wikipedia.org/wiki/Sunrise_equation" target="_blank">日出方程式</a>，<a href="http://pansci.asia" target="_blank">泛科学</a>上有个似乎更好懂一点的<a href="http://pansci.asia/archives/10940" target="_blank">解释版本</a>。作为一个地理和天文白痴，我是不会手算的。几个感觉感觉蛮好使的在线计算器：
+
+<a href="http://www1.kaiho.mlit.go.jp/KOHO/automail/sun_form3.html" target="_blank">日本海上保安厅 海洋情报部 日月出没計算服务</a>
+
+<a href="http://suncalc.net" target="_blank">SunCalc.net</a>
+
+
+
