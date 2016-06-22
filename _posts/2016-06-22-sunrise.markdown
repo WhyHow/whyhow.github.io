@@ -36,12 +36,14 @@ tags:
 
 还是要回到本文开头那个话题。**日出最早的一天并不是日落最晚的一天。夏至确实白昼最长，但既不是日出最早也不是日落最晚。**
 
-计算日出日落时刻可以查看<a href="https://en.wikipedia.org/wiki/Sunrise_equation" target="_blank">日出方程式</a>，<a href="http://pansci.asia" target="_blank">泛科学</a>上有个似乎更好懂一点的<a href="http://pansci.asia/archives/10940" target="_blank">解释版本</a>。作为一个地理和天文白痴，我是不会手算的。几个感觉感觉蛮好使的在线计算器：
+计算日出日落时刻可以查看<a href="https://en.wikipedia.org/wiki/Sunrise_equation" target="_blank">日出方程式</a>，<a href="http://pansci.asia" target="_blank">泛科学</a>上有个似乎更好懂一点的<a href="http://pansci.asia/archives/10940" target="_blank">解释版本</a>。作为一个地理和天文白痴，我是不会手算的。几个感觉感觉蛮好使的通用在线计算器：
 
 <a href="http://www1.kaiho.mlit.go.jp/KOHO/automail/sun_form3.html" target="_blank">日本海上保安厅 海洋情报部 日月出没計算服务</a>
 
 <a href="http://suncalc.net" target="_blank">SunCalc.net</a>
 
-最后，对我来讲，应该再多一套“睡眠晨昏蒙影”，日上三竿并不能唤醒我。O(∩_∩)O
+<a href="http://www.hoshi-lab.info/env/solar-j.html" target="_blank">近畿大学 星岳彦 著 日出日落计算</a>
+
+最后，对我来讲，应该再多一套“睡眠晨昏蒙影”，日上三竿也不能唤醒我。O(∩_∩)O
 
 
