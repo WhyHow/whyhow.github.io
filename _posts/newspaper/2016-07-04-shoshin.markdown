@@ -20,10 +20,10 @@ tags:
 </div>
 
 <img src="/public/images/newspaper/chuxin1.jpg" alt="">
-<blockquote>上图翻拍自《新民晚报》7月3日。</blockquote>
+<blockquote>上图翻拍自《新民晚报》7月2日。</blockquote>
 
 <img src="/public/images/newspaper/chuxin2.jpg" alt="">
-<blockquote>上图翻拍自《解放日报》7月3日。</blockquote>
+<blockquote>上图翻拍自《解放日报》7月2日。</blockquote>
 
 <div class="readreview">
 第一眼看到这样的标题不禁一愣。“初心”在现代汉语中已经很少被正式使用了，一般出现也只在网络小圈子。以至于七一讲话一发表，不少人在网络上发问“什么是初心”。<br><br>
@@ -47,7 +47,7 @@ tags:
 	例句：《景德传灯录·弘教大师》：“初心后学，近入丛林；方便门中，乞师指示。”
 </blockquote>
 
-维基字典（<a href="https://en.wiktionary.org/wiki/初心">Wiktionary</a>）同时给出了对“初心”的中文解释和日文解释：
+维基字典（<a href="https://en.wiktionary.org/wiki/初心">Wiktionary</a>）同时给出了对“初心”最为中文的英语解释和作为日文的英语解释：
 
 <blockquote>
 	中文里的“初心”：one’s initial intention <br><br>
