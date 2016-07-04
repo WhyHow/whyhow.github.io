@@ -4,7 +4,7 @@ comments: true
 date: 2016-07-04 12:58:42 +0800
 layout: post
 slug: shoshin
-title: 初心
+title: “初心”究竟是啥心
 categories: [读]
 tags:
 -  汉语
