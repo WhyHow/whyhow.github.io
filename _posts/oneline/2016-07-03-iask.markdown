@@ -1,0 +1,21 @@
+---
+author: YiZi
+comments: true
+date: 2016-07-03 21:32:42 +0800
+layout: post
+slug: iask0703
+title: 爱问分享又上线了
+categories: [说]
+tags:
+-  书籍
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+<a href="http://ishare.iask.sina.com.cn">新浪爱问分享</a>很低调地上线了，这个时间真的把握地很好呀：
+
+<img src="/public/images/iask1.png">
+
+<img src="/public/images/iask2.png">
+</div>

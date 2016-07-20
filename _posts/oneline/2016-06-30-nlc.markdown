@@ -1,0 +1,19 @@
+---
+author: YiYin
+comments: true
+date: 2016-06-30 12:57:23  +0800
+layout: post
+slug: nlc
+title: 我想“检索相关信息”
+categories: [说]
+tags:
+-  书籍
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+有没有觉得中国数字图书馆的文献索取服务页面有点搞笑。
+
+<img src="/public/images/nlgoogle.jpg" alt="">
+</div>
