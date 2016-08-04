@@ -14,9 +14,7 @@ tags:
 
 <div class="commentsonquote">
         <div class="yiyin">
-        <a href="http://weibo.com/cnrzgzs" target="_blank">中国之声 新浪微博</a>特别喜欢在播送的社会新闻后跟一句“你怎么看”。也不知是从哪里继承的脾性。<br><br>
-
-        举两个最近的栗子：
+        <a href="http://weibo.com/cnrzgzs" target="_blank">中国之声 新浪微博</a>特别喜欢在播送的社会新闻后跟一句“你怎么看”。也不知是从哪里继承的脾性。举两个最近的栗子：
         </div>
 </div>
 
