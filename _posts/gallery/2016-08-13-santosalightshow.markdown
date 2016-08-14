@@ -11,7 +11,7 @@ tags:
 -  庆典
 -  圣淘沙
 ---
-<a href="/public/images/SantosaL.jpg" data-lightbox="Sentosa" data-title="圣淘沙魔法灯光表演">
+<a href="/public/images/SantosaL.jpg" data-lightbox="SentosaLight" data-title="圣淘沙魔法灯光表演">
 <img src="/public/images/SantosaLth.jpg"></a>
 
 完整灯光表演可以到<a href="https://youtu.be/bunj-EqjkUI">https://youtu.be/bunj-EqjkUI</a>查看。
