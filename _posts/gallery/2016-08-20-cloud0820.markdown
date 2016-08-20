@@ -1,0 +1,14 @@
+---
+author: YiZi
+comments: true
+date: 2016-08-20 19:54:09 +0800
+layout: post
+slug: cloud0820
+title: 山间薄雾暗起，云下彩霞渐浓
+categories: [写]
+tags:
+- 摄影
+- NTU
+---
+<a href="/public/images/08201.jpg" data-lightbox="cloud0820" data-title="山间薄雾暗起，云下彩霞渐浓">
+<img src="/public/images/08201.jpg"></a>
