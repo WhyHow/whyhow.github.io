@@ -1,0 +1,14 @@
+---
+author: YiZi
+comments: true
+date: 2016-08-20 20:01:40 +0800
+layout: post
+slug: cloud0820
+title: 一道残阳，一抹微云，是红是蓝还是黑
+categories: [写]
+tags:
+- 摄影
+- NTU
+---
+<a href="/public/images/08202.jpg" data-lightbox="cloud0820" data-title="一道残阳，一抹微云，是红是蓝还是黑">
+<img src="/public/images/08202.jpg"></a>
