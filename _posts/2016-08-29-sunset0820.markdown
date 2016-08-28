@@ -1,0 +1,84 @@
+---
+author: YiZi
+comments: true
+date: 2016-08-29 01:05:05 +0800
+layout: post
+slug: lostbeauty
+title: 遇见，遇不见，不遇见，遇见不见
+categories: [思]
+tags:
+-  感悟
+-  摄影
+---
+
+![](/public/images/sunset/0.jpg)
+
+若不是饭后的遇见，怎会瞥见这壮丽的夕阳。
+
+![](/public/images/sunset/2.jpg)
+
+若不是曾试过捕捉落日的光影，怎会知道近黄昏的短暂。
+
+![](/public/images/sunset/3.jpg)
+
+在这里，落日只会埋没在树梢的阴影
+
+![](/public/images/sunset/4.jpg)
+
+只有登高才能睹见你的全貌
+
+![](/public/images/sunset/5.jpg)
+
+正因为短暂，所以才变幻莫测。
+
+![](/public/images/sunset/6.jpg)
+
+这是一段难以捕捉，但更难错过的盛宴。
+
+![](/public/images/sunset/1.jpg)
+
+![](/public/images/sunset/7.jpg)
+
+这是一分钟光影的突变
+
+![](/public/images/sunset/8.jpg)
+
+这是落日最后的霞光
+
+![](/public/images/sunset/9.jpg)
+
+后几日，烧芭烟起，总以为能看见更美之落日，然三日均不得晴日，终未得见。
+
+想起总不知是应该遇见，还是应该遇见不见；是不遇见更好，还是遇不见更好？
+
+
+**谨以此纪念那些美好地遇见。**
+
+
+以下是同样内容的Lightbox版本，可能更方便查看。
+
+<a href="/public/images/sunset/0.jpg" data-lightbox="lostbeauty" data-title="若不是饭后的遇见，怎会瞥见这壮丽的夕阳。"><img src="/public/images/sunset/0.jpg" /></a>
+
+<a href="/public/images/sunset/2.jpg" data-lightbox="lostbeauty" data-title="若不是曾试过捕捉落日的光影，怎会知道近黄昏的短暂。"></a>
+
+<a href="/public/images/sunset/3.jpg" data-lightbox="lostbeauty" data-title="在这里，落日只会埋没在树梢的阴影"></a>
+
+<a href="/public/images/sunset/4.jpg" data-lightbox="lostbeauty" data-title="只有登高才能睹见你的全貌"></a>
+
+<a href="/public/images/sunset/5.jpg" data-lightbox="lostbeauty" data-title="正因为短暂，所以才变幻莫测。"></a>
+
+<a href="/public/images/sunset/6.jpg" data-lightbox="lostbeauty" data-title="这是一段难以捕捉，但更难错过的盛宴。"></a>
+
+<a href="/public/images/sunset/1.jpg" data-lightbox="lostbeauty" data-title="这是一分钟光影的突变（一）"></a>
+<a href="/public/images/sunset/7.jpg" data-lightbox="lostbeauty" data-title="这是一分钟光影的突变（二）"></a>
+
+<a href="/public/images/sunset/8.jpg" data-lightbox="lostbeauty" data-title="这是落日最后的霞光"></a>
+
+<a href="/public/images/sunset/9.jpg" data-lightbox="lostbeauty" data-title="后几日，烧芭烟起，总以为能看见更美之落日，然三日均不得晴日，终未得见。<br>想起总不知是应该遇见，还是应该遇见不见；是不遇见更好，还是遇不见更好？"></a>
+
+<a href="/public/images/sunset/10.png" data-lightbox="lostbeauty" data-title="END"></a>
+
+
+
+
+
