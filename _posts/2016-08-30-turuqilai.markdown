@@ -15,7 +15,7 @@ tags:
 
 怪事的发生总是出其不意又顺理成章。昨天上海也发生了一桩看似突如其来、难以置信、叫人哭笑不得的“大”事。不妨记录一二，以待后考。
 
-2016年8月26日，上海各区的民政局离婚登记处遭挤爆。
+2016年8月29日，上海各区的民政局离婚登记处遭挤爆。
 
 微博消息一向快。根据上海本地提供二手房屋买卖公益平台的“互助卖方”<a href="http://weibo.com/5329614983/E5OHyhTWX" target="_blank">微博</a>中发布的<a href="http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/mmbiz_qlogo_cn/6916a3c57756b76376a312bcc1abb91c.jpg" data-lightbox="jiaohao" light>一张图片</a>：8月29日下午15:39分，闵行区民政局的离婚手续叫号单上显示，“您办理的离婚登记有182人在等候”。
 
