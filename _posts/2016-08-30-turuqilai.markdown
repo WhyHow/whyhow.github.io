@@ -28,7 +28,7 @@ tags:
 	市民反映，本该16∶30下班的徐汇区民政局离婚登记处昨日临时采取“封闭”措施，紧闭的大门上贴出了通知：鉴于今天办理离婚登记人数众多，已超出我中心业务接待能力，为确保服务质量、保障婚姻登记窗口正常的工作秩序，同时为了避免当事人长时间的无谓等待，请需办理离婚登记的当事人改日再到我中心取号办理相关事务。记者了解到，其实并非不再办理离婚事宜，而是因为人数“爆满”当日不再接受新的离婚登记。
 </blockquote>
 
-这张通知的<a href="http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/mmbiz_qlogo_cn/6515d9f3aa3ef0d1bc9d0e8bf07459ac.jpg" data-lightbox="tongzhi"light>现场照片版</a>网上也是有的。
+这张通知的<a href="http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/mmbiz_qlogo_cn/6515d9f3aa3ef0d1bc9d0e8bf07459ac.jpg" data-lightbox="tongzhi" light>现场照片版</a>网上也是有的。
 
 <a href="http://china.huanqiu.com/article/2016-08/9375036.html" target="_blank">环球网</a>的报道则有**十足画面感**，**推荐大家一读**：
 
@@ -61,7 +61,7 @@ tags:
 	<h4>市住建委回应“购房信贷新政传言”：未研究过词类政策</h4>
 	近期本市房地产市场交易量虽有上升，但交易秩序正常，总体保持平稳。关于近期社会上有关购房信贷新政的传言，住建委明确表示，没有研究过此类政策，将继续严格执行3月25日发布的《关于进一步完善本市住房市场体系和保障体系促进房地产市场平稳健康发展若干意见》，保持上海房地产市场平稳健康发展。
 </blockquote>
-<img src="http://imgnews.gmw.cn/attachement/jpg/site2/20160830/8075711990686858933.jpg" title=“笑看光明网的截图本领” alt="">
+<img src="http://imgnews.gmw.cn/attachement/jpg/site2/20160830/8075711990686858933.jpg" title="笑看光明网的截图本领" alt="">
 
 辟谣是辟了，可人民群众就因此不离了吗？有一种说法叫：“住建委咋能管信贷的事！”
 
