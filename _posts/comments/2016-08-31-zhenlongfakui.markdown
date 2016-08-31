@@ -20,7 +20,7 @@ tags:
 
 <div class="commentsonquote">
         <div class="yiyin">
-       最近离婚买房之势汹涌澎湃。昨日本站也对此有所<a href="http://www.whyhow.tk/2016/08/30/turuqilai.html">记录</a>。有才的网民也纷纷发表了各种具备现实意义的“科幻”作品（<a href="/public/images/12fang.jpg" data-lightbox="fangzigushi" light>点我查看</a><a href="/public/images/fanggushi.jpg" data-lightbox="fangzigushi" light></a>。分别来自新浪微博账号<a href="http://weibo.com/6013313355/E63MnhNzO">猴子讲故事</a>和<a href="http://weibo.com/2171180172/DnlmatJnk">飞面教-Zatuichiii</a>。）<br><br>
+       最近离婚买房之势汹涌澎湃。昨日本站也对此有所<a href="http://www.whyhow.tk/2016/08/30/turuqilai.html">记录</a>。有才的网民也纷纷发表了各种具备现实意义的“科幻”作品（<a href="/public/images/12fang.jpg" data-lightbox="fangzigushi" light>点我查看</a><a href="/public/images/fanggushi.jpg" data-lightbox="fangzigushi" light></a>。分别来自新浪微博账号<a href="http://weibo.com/6013313355/E63MnhNzO" target="_blank">猴子讲故事</a>和<a href="http://weibo.com/2171180172/DnlmatJnk" target="_blank">飞面教-Zatuichiii</a>。）<br><br>
 
        然而没想到，主流媒体的态度比网络上的创作还要魔幻。纵览这篇博客，意思就是“离婚是因为感情好”。这可真是振聋发聩。要知道民政局的离婚登记处还在为离婚双方宣读“男方与女方感情破裂，即日起两人正式离婚”呢！<br><br>
 
