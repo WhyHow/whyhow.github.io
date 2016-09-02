@@ -4,14 +4,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
-        <loc>https://whyhow.github.io{{ post.url | remove: 'index.html' }}</loc>
+        <loc>https://www.whyhow.tk{{ post.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
 
     {% for page in site.pages %}
     {% if page.layout != nil %}
     <url>
-        <loc>https://whyhow.github.io{{ page.url | remove: 'index.html' }}</loc>
+        <loc>https://www.whyhow.tk{{ page.url | remove: 'index.html' }}</loc>
     </url>
     {% endif %}
     {% endfor %}
