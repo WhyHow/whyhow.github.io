@@ -1,0 +1,23 @@
+---
+author: YiYin
+comments: true
+date: 2016-09-06 11:06:38  +0800
+layout: post
+slug: chilesha
+title: 餐具食品展销会
+categories: [说]
+tags:
+-  感慨
+-  时事
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+G20算是八月末九月初的国内国际大事。今天是峰会第二天，然而纵览会议开幕后的新闻，大部分都是各国领导人“吃了啥”、“喝了啥”、“看了啥表演”、“闲暇时间逛了啥”。G20的菜单、G20的开幕演出，乃至G20的餐具、G20的女保镖……都成了网红。<br><br>
+
+喂，你们把杭州变成空城，不是为了腾出地方好让人民观摩你们吃吃喝喝的吧！<br><br>
+
+再讲一句题外话：大家觉得这次的<a href="http://n.sinaimg.cn/translate/20160904/1uu2-fxvqcts9426854.jpg" data-lightbox="g20canju" light>餐具</a><a href="http://n.sinaimg.cn/translate/20160904/AxQJ-fxvqctu6173942.jpg" data-lightbox="g20canju" light></a><a href="http://n.sinaimg.cn/translate/20160904/7cs--fxvqctu6173940.jpg" data-lightbox="g20canju" light></a>真的好看吗？
+
+</div>
