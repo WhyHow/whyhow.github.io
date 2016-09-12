@@ -27,13 +27,13 @@ tags:
 	其次是七月份的“赵薇 戴立忍”事件中戴立忍的微博长文。这是不便多言的敏感话题，但文章本身的优劣自有公判。鉴于本人早已删去此篇文字，各大可见网站又是不顾原文只管批判，眼看原文的踪迹渐灭，也就截图存于此处，也算是给一篇好文字立碑了。
 </div>
 
-<img src="/public/images/haowenzhang/dlrwb1.jpg" alt="">
+<img src="/public/images/haowenzhang/dlrwb1.JPG" alt="">
 
-<img src="/public/images/haowenzhang/dlrwb2.jpg" alt="">
+<img src="/public/images/haowenzhang/dlrwb2.JPG" alt="">
 
-<img src="/public/images/haowenzhang/dlrwb3.jpg" alt="">
+<img src="/public/images/haowenzhang/dlrwb3.JPG" alt="">
 
-<img src="/public/images/haowenzhang/dlrwb4.jpg" alt="">
+<img src="/public/images/haowenzhang/dlrwb4.JPG" alt="">
 
 <div class="readreview">
 	然后就是曹云金回应郭德纲对其“欺师灭祖”的指控的长文。这事本来滑稽（中国曲艺界的门户概念竟然能成为黑社会的样子）而我对相声、对演艺界毫无兴趣，但说回文章本身，倒也算得是篇范文作文。截图自<a href="http://weibo.com/1284664183/E6QVGs0eX" target="_blank">曹云金微博</a>：
