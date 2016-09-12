@@ -45,6 +45,4 @@ tags:
 	最后加一篇访谈：白银连环凶杀岸嫌犯之子接受采访。学习了怎样叫作“冷静理智地答记者问”。图片来自微信工号<a href="http://mp.weixin.qq.com/s?__biz=MzA5NTExODU1OQ==&mid=2655961406&idx=1&sn=fa2c584bffad16b76224f31ac7682af7&scene=2&srcid=0828Jf1V0QJq1NGVcLb5EBz4&from=timeline&isappinstalled=0#wechat_redirect">每日人物</a>。
 </div>
 
-<img src="/public/images/haowenzhang/byzz1.jpg" alt="">
-
-<img src="/public/images/haowenzhang/byzz2.jpg" alt="">
+<img src="/public/images/haowenzhang/byzz.jpg" alt="">
