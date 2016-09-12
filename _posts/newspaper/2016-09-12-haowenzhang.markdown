@@ -39,7 +39,7 @@ tags:
 	然后就是曹云金回应郭德纲对其“欺师灭祖”的指控的长文。这事本来滑稽（中国曲艺界的门户概念竟然能成为黑社会的样子）而我对相声、对演艺界毫无兴趣，但说回文章本身，倒也算得是篇范文作文。截图自<a href="http://weibo.com/1284664183/E6QVGs0eX" target="_blank">曹云金微博</a>：
 </div>
 
-<img src="/public/images/haowenzhang/cyj.jpg" alt="">
+<img src="/public/images/haowenzhang/cyj.png" alt="">
 
 <div class="readreview">
 	最后加一篇访谈：白银连环凶杀岸嫌犯之子接受采访。学习了怎样叫作“冷静理智地答记者问”。
