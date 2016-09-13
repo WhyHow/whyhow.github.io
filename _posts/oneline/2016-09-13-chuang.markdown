@@ -1,0 +1,17 @@
+---
+author: YiYin
+comments: true
+date: 2016-09-13 19:11:01  +0800
+layout: post
+slug: chuang
+title: 无题
+categories: [说]
+tags:
+-  生活
+-  感慨
+
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+中药治痔疮的效果就和治痤疮差不多。
+</div>
