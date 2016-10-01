@@ -12,11 +12,11 @@ permalink:        /:year/:month/:day/:slug.html
 title:            Why &amp; How
 tagline:          '回炉夜话'
 description:      '以生之有涯随知之无涯，殆矣，然何为，为何为。'
-url:              http://www.whyhow.tk
+url:              https://whyhow.github.io
 
 author:
   name:           'YiZi &amp; YiYin'
-  url:            http://www.whyhow.tk
+  url:            https://whyhow.github.io
 
 # paginate:         10
 
