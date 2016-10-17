@@ -26,4 +26,4 @@ tags:
 
 右上角框框内是全天无雨的日子，共计91天，接近但不到总天数的一半。
 
-![](/public/images/tianqi200-1.png)
+![](/public/images/tianqi200-1.jpg)
