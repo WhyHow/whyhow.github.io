@@ -1,0 +1,29 @@
+---
+author: YiYin
+comments: true
+date: 2016-10-17 12:00:01 +0800
+layout: post
+slug: tianqi200
+title: 双百日纪念
+categories: [行]
+tags:
+-  上海
+-  生活
+-  天气
+-  数据
+-  可视化
+-  统计
+
+---
+
+今天是我开始人肉记录上海天气的第200天，纪念！撒花！
+
+本次记录是从四月一日开始的：<a href="http://whyhow.github.io/2016/05/01/aprtq.html">四月</a>、<a href="http://www.whyhow.io/2016/06/01/maytq.html">五月</a>、<a href="http://www.whyhow.io/2016/07/01/juntq.html">六月</a>、<a href="http://www.whyhow.io/2016/08/01/jultq.html">七月</a>、<a href="http://www.whyhow.io/2016/09/01/augtq.html">八月</a>、<a href="http://www.whyhow.io/2016/10/01/septq.html">九月</a>。
+
+其实记录的最初动机还是想知道上海究竟算不算个连年阴雨的城市。这两百天里的白天和晚间气象状态汇总如下：
+
+![](/public/images/tianqi200.jpg)
+
+右上角框框内是全天无雨的日子，共计91天，接近但不到总天数的一半。
+
+![](/public/images/tianqi200-1.png)
