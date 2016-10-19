@@ -13,6 +13,6 @@ tags:
 <div class="saying">
 <div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
 
-<img src="/public/images/meichengyi.jpg" alt="" title="图片为农行短信截图">
+<img src="/public/images/meichengyi.png" alt="" title="图片为农行短信截图">
 
 </div>
