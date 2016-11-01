@@ -1,0 +1,14 @@
+---
+author: YiZi
+comments: true
+date: 2016-11-01 19:46:18 +0800
+layout: post
+slug: sunset1031
+title: 日落全景
+categories: [写]
+tags:
+- 摄影
+- NTU
+---
+<a href="/public/images/sunset/sunset.jpg" data-lightbox="sunset1031" data-title="日落">
+<img src="/public/images/sunset/sunset.jpg"></a>
