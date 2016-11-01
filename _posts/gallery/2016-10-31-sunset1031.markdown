@@ -12,3 +12,5 @@ tags:
 ---
 <a href="/public/images/sunset/sunset.jpg" data-lightbox="sunset1031" data-title="日落">
 <img src="/public/images/sunset/sunset.jpg"></a>
+
+貌似各种放不下呀，这是一张4334*1000的预览全景照，可以<a href="/public/images/sunset/sunset.jpg">下载</a>之后浏览。
