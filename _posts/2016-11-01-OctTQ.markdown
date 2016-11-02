@@ -1,0 +1,63 @@
+---
+author: YiYin
+comments: true
+date: 2016-11-01 23:55:59 +0800
+layout: post
+slug: OctTQ
+title: 全年里最后的惬意——十月上海天气
+categories: [行]
+tags:
+-  上海
+-  生活
+-  十月
+-  天气
+-  ggplot
+-  数据
+-  可视化
+-  统计
+
+---
+
+固定开场白：又到了一月一度的月度天气回顾时间了（<a href="http://whyhow.github.io/2016/05/01/aprtq.html">四月</a>、<a href="http://www.whyhow.io/2016/06/01/maytq.html">五月</a>、<a href="http://www.whyhow.io/2016/07/01/juntq.html">六月</a>、<a href="http://www.whyhow.io/2016/08/01/jultq.html">七月</a>、<a href="http://www.whyhow.io/2016/09/01/augtq.html">八月</a>、<a href="http://www.whyhow.io/2016/09/01/septq.html">九月</a>）。
+
+本月工作异常忙碌，然而竟然还能坚持人肉记录天气数据，自己都有些崇敬自己了。
+
+<hr/>
+
+十月是全年里最后的惬意。按照惯例，十一黄金周一过，上海的气温就是坐上了斜坡滑车，再没有回头的可能。
+
+![](/public/images/Oct/ondo.png)
+
+个人感觉，全天的最高温度在二十摄氏度以上，三十摄氏度以下才是体感上可以接受的（像本周这样十多度的气温，着实是略冷了）。如此一算，从9月6日开始，一直到10月21日，大概有一个半月的美好时光。
+
+俗话说，一场秋雨一场寒。上海的秋天从来都少不了雨水。
+
+![](/public/images/Oct/tenkou.png)
+
+![](/public/images/Oct/tenkou2.png)
+
+如果一日里下过雨就算这天是雨天；日夜都是多云或者阴天就算多云；全天晴或半天晴天半天多云都算晴天；半天晴半天阴折中一下算多云。我们有如下粗略的天气统计。这个十月，竟然没有晴天！就算不下雨，也是阴天为主。
+
+![](/public/images/Oct/tenkouall.png)
+
+上图里还画出了“有天气预警”的日子。相比温和的九月，十月略添了点秋天的凌厉，预警数量远超九月。
+
+天气始终阴沉沉，空气湿度自然也低不了。不过，在少数一些不下雨的日子，还不算太潮湿。
+
+![](/public/images/Oct/humi.png)
+
+而今白日之短，已经令人无比心寒。
+
+![](/public/images/Oct/taiyo.png)
+
+天气渐凉，大风和北风的日子也越来越多。冬日之萧瑟，初露端倪。
+
+![](/public/images/Oct/wind.png)
+
+十月里有五天出现了预警，不算频发，但是这五天里两天是双预警，两天是仨预警，可见恶劣的天是越来越恶劣了呀。
+
+![](/public/images/Aug/alert.png)
+
+![](/public/images/Aug/alert2.png)
+
+温度虽然急剧下降，目前还没有到落叶纷纷的日子。倒是十月中旬桂花香满城，印象尤深。
