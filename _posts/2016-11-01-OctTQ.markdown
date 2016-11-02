@@ -56,7 +56,7 @@ tags:
 
 十月里有五天出现了预警，不算频发，但是这五天里两天是双预警，两天是仨预警，可见恶劣的天是越来越恶劣了呀。
 
-![](/public/images/Aug/alert.png)
+![](/public/images/Oct/alert.png)
 
 ![](/public/images/Aug/alert2.png)
 
