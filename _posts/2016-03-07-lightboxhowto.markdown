@@ -38,7 +38,7 @@ tags:
 <a href="images/image-4.jpg" data-lightbox="roadtrip">Image #4</a>
 {% endhighlight %}
 
-中间的文字可以用预览图替换，诸如 [这篇文章]({% post_url  2016-03-03-productphoto %})，点击任何一个图片都是开始Lightbox的循环播放。当然，还有一种方案是只显示第一张缩略图，点开之后显示整个序列，诸如 [这篇文章]({% post_url  2016-03-04-bythebay2 %})，点击图片之后就会开始掩饰整个序列。这个效果的实现是这样的：
+中间的文字可以用预览图替换，诸如 [这篇文章]({% post_url  2016-03-03-productphoto %})，点击任何一个图片都是开始Lightbox的循环播放。当然，还有一种方案是只显示第一张缩略图，点开之后显示整个序列，诸如 [这篇文章]({% post_url  gallery/2016-03-04-bythebay2 %})，点击图片之后就会开始掩饰整个序列。这个效果的实现是这样的：
 
 {% highlight xml %}
 <a href="/public/images/gallery/bythebay/8.jpg" data-lightbox="LightTree" data-title="紫色的树">
