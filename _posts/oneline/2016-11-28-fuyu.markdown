@@ -1,0 +1,23 @@
+---
+author: YiYin
+comments: true
+date: 2016-12-28 10:03:13  +0800
+layout: post
+slug: fuyu
+title: 冬天已经来了
+categories: [说]
+tags:
+-  生活
+-  天气
+-  季节
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+11月23日，上海在气象意义上入冬（标准为：立冬以后，出现连续五日日平均气温小于10 &nbsp;C，则为入冬，其首日为冬季首日）.这个时间比往年早了十来天。<br>
+
+顺便的，这个秋天只有短短46天。往年平均水平在六十天以上。<br>
+
+如此气候变化带来的问题是：秋天的衣服太多了，根本穿不完哪！
+
+</div>
