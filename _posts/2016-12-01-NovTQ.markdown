@@ -1,0 +1,61 @@
+---
+author: YiYin
+comments: true
+date: 2016-12-01 23:55:59 +0800
+layout: post
+slug: NovTQ
+title: 秋天都去哪了—十一月上海天气
+categories: [行]
+tags:
+-  上海
+-  生活
+-  十一月
+-  天气
+-  ggplot
+-  数据
+-  可视化
+-  统计
+
+---
+
+固定开场白：又到了一月一度的月度天气回顾时间了（<a href="http://whyhow.github.io/2016/05/01/aprtq.html">四月</a>、<a href="http://www.whyhow.io/2016/06/01/maytq.html">五月</a>、<a href="http://www.whyhow.io/2016/07/01/juntq.html">六月</a>、<a href="http://www.whyhow.io/2016/08/01/jultq.html">七月</a>、<a href="http://www.whyhow.io/2016/09/01/augtq.html">八月</a>、<a href="http://www.whyhow.io/2016/09/01/septq.html">九月</a>、<a href="http://www.whyhow.io/2016/10/01/octtq.html">十月</a>）。
+
+11月23日，是今年上海正式入冬的日子；这个时间比往年常规早了十余日。而今年入秋的日子是10月8日，又较常年晚了近一周。由此，本次秋季时长46天，据说历年平均线在六十日以上。
+
+秋天都去哪儿了？
+
+入冬的要求是连续五天日平均气温小于10&nsbp;&deg;C，由此可知本月中下旬的气温之低。
+
+![](/public/images/Nov/ondo.png)
+
+从气温曲线上，本月前三分之二的日子属于秋季的常规波动，之后则是一夜换天。之后虽然有一波小反弹，然而大局已定，无力回天。
+
+气象上，反正仍然是雨雨雨不断。我11日旅游回来的鞋子，到27日才刷掉，因为这之间太阳一直没有露过面。
+
+![](/public/images/Nov/tenkou.png)
+
+![](/public/images/Nov/tenkou2.png)
+
+如果一日里下过雨就算这天是雨天；日夜都是多云或者阴天就算多云；全天晴或半天晴天半天多云都算晴天；半天晴半天阴折中一下算多云。我们有如下粗略的天气统计。也就只有月头月尾可以见见太阳公公了。
+
+![](/public/images/Nov/tenkouall.png)
+
+上图里还画出了“有天气预警”的日子。随着天气愈来愈凛冽，预警也将逐渐增多，并由夏天的“暴雨”、“雷电”、“高温”转向“大风”、“大雾”等。
+
+![](/public/images/Nov/alert.png)
+
+![](/public/images/Nov/alert2.png)
+
+空气湿度也是一如既往的鬼畜。
+
+![](/public/images/Nov/humi.png)
+
+五点不到太阳就下班了。说好的日落而息呢？
+
+![](/public/images/Nov/taiyo.png)
+
+偏北风向逐渐成为主宰，并且有了从我记录天气以来的第一个4到5级风。
+
+![](/public/images/Nov/wind.png)
+
+冬天已经到来，但愿春天不会远!
