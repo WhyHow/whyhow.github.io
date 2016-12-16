@@ -3,7 +3,7 @@ author: YiYin
 comments: true
 date: 2016-12-06 12:01:31 +0800
 layout: post
-slug: 
+slug: inuhainudakeda
 title: 如此标题
 categories: [读]
 tags:
