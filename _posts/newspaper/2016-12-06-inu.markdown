@@ -1,0 +1,23 @@
+---
+author: YiYin
+comments: true
+date: 2016-12-06 12:01:31 +0800
+layout: post
+slug: 
+title: 如此标题
+categories: [读]
+tags:
+-  新民晚报
+-  新闻
+-  世界
+-  时事
+
+---
+
+<blockquote>2016年12月15日《新民晚报》<b>头版</b>：</blockquote>
+
+<img src="/public/images/newspaper/inu.jpg" alt="">
+
+<div class="readreview">
+	很少会不阐述理由地直抒胸臆，但这次不得不说，如此标题是非常无聊和没品的。出现在头版，可谓是视觉和精神污染。
+</div>
