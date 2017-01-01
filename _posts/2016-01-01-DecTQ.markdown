@@ -17,7 +17,7 @@ tags:
 -  统计
 ---
 
-固定开场白：又到了一月一度的月度天气回顾时间了（<a href="http://whyhow.github.io/2016/05/01/aprtq.html">四月</a>、<a href="http://www.whyhow.io/2016/06/01/maytq.html">五月</a>、<a href="http://www.whyhow.io/2016/07/01/juntq.html">六月</a>、<a href="http://www.whyhow.io/2016/08/01/jultq.html">七月</a>、<a href="http://www.whyhow.io/2016/09/01/augtq.html">八月</a>、<a href="http://www.whyhow.io/2016/09/01/septq.html">九月</a>、<a href="http://www.whyhow.io/2016/10/01/octtq.html">十月</a>、<a href="http://www.whyhow.io/2016/11/01/novtq.html">十一月</a>）。
+固定开场白：又到了一月一度的月度天气回顾时间了（<a href="http://whyhow.github.io/2016/05/01/aprtq.html">四月</a>、<a href="http://whyhow.github.io/2016/06/01/maytq.html">五月</a>、<a href="http://whyhow.github.io/2016/07/01/juntq.html">六月</a>、<a href="http:/whyhow.github.io/2016/08/01/jultq.html">七月</a>、<a href="http://whyhow.github.io/2016/09/01/augtq.html">八月</a>、<a href="http://whyhow.github.io/2016/10/01/septq.html">九月</a>、<a href="http://whyhow.github.io/2016/11/01/octtq.html">十月</a>、<a href="http://whyhow.github.io/2016/12/01/novtq.html">十一月</a>）。
 
 今天是新年第一天。各种意义上都很糟糕的2016年终于落下了帷幕：首都的2016在雾霾围城中落下了帷幕，上海的2016在一波寒潮中落下了帷幕。
 
