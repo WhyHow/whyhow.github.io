@@ -1,0 +1,58 @@
+---
+author: YiYin
+comments: true
+date: 2017-01-01 08:00:00 +0800
+layout: post
+slug: DecTQ
+title: 秋天都去哪了—十二月上海天气
+categories: [行]
+tags:
+-  上海
+-  生活
+-  十二月
+-  天气
+-  ggplot
+-  数据
+-  可视化
+-  统计
+---
+
+固定开场白：又到了一月一度的月度天气回顾时间了（<a href="http://whyhow.github.io/2016/05/01/aprtq.html">四月</a>、<a href="http://www.whyhow.io/2016/06/01/maytq.html">五月</a>、<a href="http://www.whyhow.io/2016/07/01/juntq.html">六月</a>、<a href="http://www.whyhow.io/2016/08/01/jultq.html">七月</a>、<a href="http://www.whyhow.io/2016/09/01/augtq.html">八月</a>、<a href="http://www.whyhow.io/2016/09/01/septq.html">九月</a>、<a href="http://www.whyhow.io/2016/10/01/octtq.html">十月</a>、<a href="http://www.whyhow.io/2016/11/01/novtq.html">十一月</a>）。
+
+今天是新年第一天。各种意义上都很糟糕的2016年终于落下了帷幕：首都的2016在雾霾围城中落下了帷幕，上海的2016在一波寒潮中落下了帷幕。
+
+听说今年的冬天是个严冬。十二月的温度究竟咋样哩？
+
+![](/public/images/Dec/ondo.png)
+
+和去年一样，今冬的气温变化也很大。十二月里的两拨寒潮都跌破了十度，而最高时候又能接近二十。
+
+气象上，十二月大概是这半年里最“晴”的一个月了。可见上海虽然终年阴雨，冬日的降水量还确实是相对少的。
+
+![](/public/images/Dec/tenkou.png)
+
+![](/public/images/Dec/tenkou2.png)
+
+如果一日里下过雨就算这天是雨天；日夜都是多云或者阴天就算多云；全天晴或半天晴天半天多云都算晴天；半天晴半天阴折中一下算多云。我们有如下粗略的天气统计。有雨的日子只有八天，对上海而言算是“旱季”了。不过后半月几乎没有晴天，加之天气阴冷，确实非常不适。
+
+![](/public/images/Dec/tenkouall.png)
+
+上图里还画出了“有天气预警”的日子。夏冬二季的各类预警本就比秋冬多，十二月更是出现了首次的“霾预警”，整月里有预警的日子占了三分之一。
+
+![](/public/images/Dec/alert.png)
+
+![](/public/images/Dec/alert2.png)
+
+空气湿度看着比前几月好一些，75%以下的日子还不罕见。但是本月出现了个100%，是在12月21日的早晨：那前后几天里雾与霾纠缠整个申城，能见度极低。
+
+![](/public/images/Dec/humi.png)
+
+本月的日出日落时刻颇有意思，两者都是随日期单调上升的，这也是本月在全年的独特之处。马上就要迎来全年日出最晚的日子啦，之后或许每日的起床会稍稍少些痛苦。
+
+![](/public/images/Dec/taiyo.png)
+
+十二月里北风并不像想象中的那么压倒性，偏南风向倒也不少。本月也有一次4到5级风。
+
+![](/public/images/Dec/wind.png)
+
+2017，但愿不太差。
