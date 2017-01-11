@@ -17,5 +17,5 @@ tags:
 
 上海移动网上营业厅手机APP首页的这个“热门精选”，这字体用的，是想让人看的么？
 
-<img src="./public/images/mobile.jpg" alt="">
+<img src="/public/images/mobile.jpg" alt="">
 </div>
