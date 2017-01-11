@@ -1,0 +1,20 @@
+---
+author: YiYin
+comments: true
+date: 2017-01-11 14:59:51  +0800
+layout: post
+slug: feixin
+title: 你还记得“飞信”吗
+categories: [说]
+tags:
+-  软件
+-  历史
+-  中国移动
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+输入“中国移动”的时候，发现候选词里有“中国移动飞信”，如下图。输入法是“必应”，我开始使用这个输入的时候，已经不用飞信很多年了，也淡忘飞信很多年了，所以这个词不是我教会输入法的。不知必应自身的词库里怎么还留存着这个“古老”的词语，也算是这个当年火热却死得悄没声息的软件的一块墓碑吧。
+
+<img src="/public/images/feixin.jpg" alt="">
+</div>
