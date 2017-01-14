@@ -1,3 +1,9 @@
+---
+layout: default
+title: Readme for github
+slug: readme
+search_omit: true
+---
 # Why&How 回炉夜话
 
 这是乙回庐网站的源码库，我们欢迎大家提供高质量的稿件。如果您的稿件得到采纳，我们会把您加入到作者列表，欢迎大家投稿哦！
