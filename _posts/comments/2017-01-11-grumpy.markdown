@@ -1,0 +1,52 @@
+---
+author: YiZi
+comments: true
+date: 2017-01-11 10:33:12 +0800
+layout: post
+slug: grumpy
+title: 能把Python撸成Go的Grumpy
+categories: [听]
+tags:
+-  Python
+-  福布斯
+-  胡言乱语
+---
+
+CPython的全局解释锁（Global Interpreter Lock）一直被认为是并发性能的主要瓶颈。面对着大量的Python代码，Google终于搞出了一个<a href="http://www.forbes.com/sites/adrianbridgwater/2017/01/09/google-happy-about-grumpy-youtube-performance-software/">玩意Grumpy</a>，项目开源在Github上<a href="https://github.com/google/grumpy">https://github.com/google/grumpy</a>。其官网对此项目的介绍是：
+
+<blockquote>
+    Grumpy is a Python to Go source code transcompiler and runtime that is intended to be a near drop in replacement for CPython 2.7. The key difference is that it compiles Python source code to Go source code which is then compiled to native code, rather than to bytecode. This means that Grumpy has no VM. The compiled Go source code is a series of calls to the Grumpy runtime, a Go library serving a similar purpose to the Python C API (although the C API is not directly supported).
+</blockquote>
+
+大意是Grumpy是一个将Python代码撸成Go（一个Google家自己搞的语言）的转换器。这货首先将Python代码转换到相应的Go源代码，然后在将Go代码编译成可执行代码。不啦不啦就是这么个东东。
+
+有兴趣的读者可以去关注下了，不过像我们这种初级用户根本就不担心这些问题，还是让大佬们去折腾吧。
+
+
+可能对我们重要的是Grumpy不大可能成为Python的替代，它自己陈述的局限有：
+
+<blockquote>
+    Things that will probably never be supported by Grumpy
+
+    1. exec, eval and compile: These dynamic features of CPython are not supported by Grumpy because Grumpy modules consist of statically compiled Go code. Supporting dynamic execution would require bundling Grumpy programs with the compilation toolchain which would be unwieldy and impractically slow.
+
+    2. C extension modules: Grumpy has a different API and object layout than CPython and so supporting C extensions would be difficult. In principle it's possible to support them via an API bridge layer like the one that JyNI provides for Jython but it would be hard to maintain and would add significant overhead when calling into and out of extension modules.
+</blockquote>
+
+大意是说下面这些玩意咱不支持：
+
+`exec`，`eval`这种Python的动态特性；C语言扩展，理由解释了一堆，意思是俺不想搞，这些和俺世界观不一样。
+
+还有一些目前没支持的东西，比如
+
+<blockquote>
+1. Language features: Most language features are implemented with the notable exception of decorators. There are also a handful of operators that aren't yet supported.
+
+2. Builtin functions and types: There are a number of missing functions and types in __builtins__ that have not been implemented. There are also a lot of methods on builtin types that are missing.
+
+3. Standard library: The Python standard library is very large and much of it is pure Python, so as the language features and builtins get filled out, many modules will just work. But there are also a number of libraries in CPython that are C extension modules that need to be rewritten. This includes re, itertools and others.
+</blockquote>
+
+内容是啥不重要，意思就是说俺还有很长的开发路径，目前你要是用起来就不要指望啥功能都有。
+
+总之呢，就有那么一个玩意，现在还不能用，可能并发会好点，Google传说在用，句号了。
