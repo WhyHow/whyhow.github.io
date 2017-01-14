@@ -1,0 +1,51 @@
+---
+layout: page
+title: 思：学而不思则罔
+slug: Think
+---
+<div class="prelude">
+我思故我在。点滴思考勾勒出生命的迹线，期待与您的相交。
+</div>
+<a id="getlist" href="/indexes/bycategories/1">载入本类文章列表</a>
+<div id="indexcontainer"></div><hr/>
+<div class="posts">
+<div class="load">
+    {% for post in site.categories['思'] %} {% if post.url %}
+    <div class="post">
+        <h1 class="post-title" id="{{ post.title }}"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <span class="post-date"><a href="/indexes/date#{{ post.date | date: "%Y-%m" }}">{{ post.date | date: "%Y年%m月%d日" }}</a>
+			&emsp;   {% assign tags = post.tags %}
+			{% for tag in tags %}
+			<a href="/indexes/tags#{{ tag }}">{{ tag }}</a>
+			{% endfor %} &emsp; <a id="catlink">{{ post.categories }}</a>&emsp; <a href="{{ post.url }}#comments"> 添加评论 </a> </span>
+        <div id="catlist"></div>
+        {{ post.content }}
+    </div>
+    <div class="writecomments"><a href="{{ post.url }}#comments">不吐不快？添加评论吧！</a></div>
+    {% break %} {% endif %} {% endfor %}
+</div>
+<div class="load">
+</div>
+</div>
+
+<a id="next">加载更多内容中，请稍候……</a>
+
+
+<script>
+var urls=new Array();
+{% for post in site.categories['思']  %} {% if post.url %}urls[urls.length]="{{ post.url }}"; {% endif %}
+{% endfor %}
+var index = 1;
+if(urls.length>0){
+	$('#next').attr('href',urls[0]);
+}else{
+	$('#next').html('未发现更多内容');
+}
+   fetchingContent = false;
+   window.onscroll = yHandler;
+   $(document).ready(function(){
+    yHandler();
+   });
+</script>
+
+
