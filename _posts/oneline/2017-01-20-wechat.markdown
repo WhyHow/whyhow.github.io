@@ -1,0 +1,21 @@
+---
+author: YiYin
+comments: true
+date: 2017-01-20 14:22:22  +0800
+layout: post
+slug: wechat
+title: 微信吞字
+categories: [说]
+tags:
+-  牢骚
+-  软件
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+偶然发现微信竟然会吞字，属饕餮的么？（下图中错别字不是重点）<br>
+
+<img src="/public/images/ou.png" alt="" title="请忽略错别字">
+
+<img src="/public/images/fuku.png" alt="" title="请忽略错别字">
+</div>
