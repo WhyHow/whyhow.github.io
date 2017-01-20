@@ -1,0 +1,17 @@
+---
+author: YiZi
+comments: true
+date: 2017-01-20 10:39:35 +0800
+layout: post
+slug: xiaonian
+title: 你那有小年吗？
+categories: [说]
+tags:
+-  牢骚
+-  文化
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+今天Google提醒我是“北方小年”，那在这里祝北方人今天小年快乐；然后Goolge又提醒我明天是“南方小年”，那在这里预祝南方人小年快乐。Anyway，好像我一直不过小年，那预祝不过小年的大年快乐！
+</div>
