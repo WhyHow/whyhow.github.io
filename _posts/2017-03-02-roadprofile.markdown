@@ -21,7 +21,7 @@ tags:
 
 算出来的结果和标准是可以吻合的：
 
-![PSD](https://github.com/wanglongqi/RoadProfile/blob/master/example/example1.png)
+![PSD](https://github.com/wanglongqi/RoadProfile/blob/master/example/example1.png?raw=true)
 
 有相关需求的读者欢迎围观，欢迎指正。
 
