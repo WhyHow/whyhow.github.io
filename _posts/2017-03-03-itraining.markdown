@@ -4,7 +4,7 @@ comments: true
 date: 2017-03-03 15:56:58 +0800
 layout: post
 slug: itisraining
-title: 
+title: 下午下雨真的多
 categories: [行]
 tags:
 -  R
@@ -14,7 +14,6 @@ tags:
 
 <script src="/public/js/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="/public/js/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="/public/js/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="/public/js/bootstrap-3.3.5/shim/respond.min.js"></script>
