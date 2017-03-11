@@ -1,0 +1,25 @@
+---
+author: YiYin
+comments: true
+date: 2017-03-11 20:06:59  +0800
+layout: post
+slug: bargraph
+title: 超牛柱状图
+categories: [说]
+tags:
+-  吐槽
+-  生活
+-  数据
+-  可视化
+-  统计
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+今天在一本广告册上见到了一张超牛的关于“市场占有率”柱状图。<br>
+
+<img src="/public/images/bargraph.jpg" alt="" title="">
+
+顺便这还是一家在香港联交所上市的企业。<br>
+
+</div>
