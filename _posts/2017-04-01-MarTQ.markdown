@@ -1,0 +1,55 @@
+---
+author: YiYin
+comments: true
+date: 2017-04-01 08:28:43 +0800
+layout: post
+slug: MarTQ
+title: 在春的入口徘徊—三月上海天气
+categories: [行]
+tags:
+-  上海
+-  生活
+-  三月
+-  天气
+-  ggplot
+-  数据
+-  可视化
+-  统计
+
+---
+
+又到了月度天气回顾时间了。至此，本站已经坚持了一年的天气记录了。然而四时一圈轮回，人却空老，不甚难受。
+
+<a href="https://www.whyhow.tk/2017/03/30/springcoming.html">前文</a>已述：今年冬天虽然整体不冷，但入春特别艰难（入春的标准是连续五天日平均气温不低于10 &deg;C）。整个三月，就在一次次失败的入春冲刺中消耗完毕。
+
+![](//whyhow.cf/images/Mar/ondo.png)
+
+只有3月25号的那段爬坡才成功冲破春的大门。
+
+气象上也确实是冬的特征，延续前三个月的相对少雨，淫雨霏霏的日子还未到来。
+
+![](//whyhow.cf/images/Mar/tenkou.png)
+
+![](//whyhow.cf/images/Mar/tenkou2.png)
+
+如果一日里下过雨就算这天是雨天；日夜都是多云或者阴天就算多云；全天晴或半天晴天半天多云都算晴天；半天晴半天阴折中一下算多云。我们有如下粗略的天气统计。本月里的雨日也只是略超过十天，总体还是干爽的。
+
+![](//whyhow.cf/images/Mar/tenkouall.png)
+
+上图里还画出了“有天气预警”的日子。本月预警数量只有月头第一天的一个，就不单独画图了。那是一个大风蓝色预警。
+
+<!-- ![](//whyhow.cf/images/Mar/alert.png)
+
+![](//whyhow.cf/images/Mar/alert2.png) -->
+
+因为相对少雨，湿度也相对适宜。
+
+![](//whyhow.cf/images/Mar/humi.png)
+
+天行健，现在太阳公公已经比我勤快很多了。
+
+![](//whyhow.cf/images/Mar/taiyo.png)
+
+风向和上月类似，八方来风俱全；风力也比较生猛。顺便说一下，这两个月里的空气质量十分的糟糕！
+
+![](//whyhow.cf/images/Mar/wind.png)
