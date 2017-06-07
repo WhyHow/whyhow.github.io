@@ -18,6 +18,6 @@ google map在中国大陆的偏移问题一直不是秘密。<a href="https://zh
 
 这个问题我是相当不专业的。我只是感到沮丧：即使是在自己最熟悉的地方，这点偏移已经对我这个路痴造成认知干扰了。
 
-<a href="//whyhow.cf/images/googlesatellite.jpg"></a>
+<img src="//whyhow.cf/images/googlesatellite.jpg" alt="">
 
 </div>
