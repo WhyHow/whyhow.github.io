@@ -1,10 +1,10 @@
 ---
 author: YiYin
 comments: true
-date: 2016-07-01 09:34:11 +0800
+date: 2016-07-01 11:35:11 +0800
 layout: post
 slug: JunTQ
-title: 梅子黄时日日“雨”——六月上海天气
+title: 梅子黄时日日“雨”———六月上海天气
 categories: [行]
 tags:
 -  上海
@@ -28,17 +28,17 @@ tags:
 
 从冬天开始，温度落差就一直急剧。这点就算到了夏天仍未改变。从34摄氏度一下子能跌到23，又能从26瞬间反上34。要是中国股市在一泻千里后也能有如此强劲速效的反弹，股民们可就美了。
 
-![](/public/images/June/ondo.png)
+![](/public/images/Jun/ondo.png)
 
 六月的气象比前几月多了一种：雷阵雨。果然是夏天了吧。
 
-![](/public/images/June/tenkou.png)
+![](/public/images/Jun/tenkou.png)
 
-![](/public/images/June/tenkou2.png)
+![](/public/images/Jun/tenkou2.png)
 
 其实按半天半天来看，多云天阴天的数目要比前几月丰富一些。但是，如果一日里下过雨就算这天是雨天，六月的雨天高达四分之三。下图中的天气标记规则：一天里无论日夜，只要下过雨就算这日有雨；日夜都是多云或者阴天，这天就算多云；全天晴当然是晴天，半天是晴天半天是多云也算是晴天；半天晴半天阴折中一下算多云。
 
-![](/public/images/June/tenkouall.png)
+![](/public/images/Jun/tenkouall.png)
 
 自6月19日入梅后，确实是没法洗晒衣物了。
 
@@ -46,21 +46,21 @@ tags:
 
 六月的湿度又冲上了全年新高度：一半时间都活在85%以上的湿度里，时不时就进入准饱和状态。
 
-![](/public/images/June/humi.png)
+![](/public/images/Jun/humi.png)
 
 日出日落的时间在六月迎来了转折，也让我学到了一个新知识。具体可以看本站<a href="http://www.whyhow.io/2016/06/22/sunrise.html">日出日落小调查</a>。本文采用的时间数据只是到分，曲线有些奇怪。
 
-![](/public/images/June/taiyo.png)
+![](/public/images/Jun/taiyo.png)
 
 六月里没有吹过北风；基本都是0&#8211;3级的微风。
 
-![](/public/images/June/wind.png)
+![](/public/images/Jun/wind.png)
 
 六月的天气预警频度也打开了新局面。前文我们已看到，全月共有九天发过预警，总预警数目则达到了十四次。品种上也有突破：出现暴雨预警了，而且蓝、黄、橙三色全出齐。
 
-![](/public/images/June/alert2.png)
+![](/public/images/Jun/alert2.png)
 
-![](/public/images/June/alert.png)
+![](/public/images/Jun/alert.png)
 
 本月所有预警均发生在雨天。前两个月的文章里把雷电预警称为“Thunder”，这次按照官方说法，改为“Lightening”。
 
