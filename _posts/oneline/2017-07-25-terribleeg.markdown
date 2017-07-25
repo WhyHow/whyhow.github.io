@@ -23,7 +23,7 @@ tags:
 <br>
 <img src="//whyhow.cf/images/eg2.jpg" alt="">
 <br>
-之后一个例子，描述哈马斯对以色列的军事行动中死亡的人数。
+之后一个例子，描述哈马斯对以色列的军事行动中死亡的人数。<br>
 <br>
 <img src="//whyhow.cf/images/eg3.jpg" alt="">
 </div>
