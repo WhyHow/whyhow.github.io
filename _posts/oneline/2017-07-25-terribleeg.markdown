@@ -26,4 +26,8 @@ tags:
 之后一个例子，描述哈马斯对以色列的军事行动中死亡的人数。<br>
 <br>
 <img src="//whyhow.cf/images/eg3.jpg" alt="">
+<br>
+恐怖分子还在继续活动：情报网说某个时间段内巴格达会有自杀性爆炸者，那么这段时间内的某个时刻上发生爆炸的概率分布是连续哒。<br>
+<br>
+<img src="//whyhow.cf/images/eg4.jpg" alt="">
 </div>
