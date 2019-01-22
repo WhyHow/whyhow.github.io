@@ -1,0 +1,31 @@
+---
+author: YiYin
+comments: true
+date: 2019-01-22 17:09:59  +0800
+layout: post
+slug: realdouban
+title: “逗”瓣
+categories: [说]
+tags:
+-  吐槽
+-  奇葩
+---
+<div class="saying">
+<div class="timestamp">{{ page.date | date: "%Y年%m月%d日 %H:%M:%S" }}</div>
+
+近日看一本叫《秦迷》的闲书，作者乃日本某大学教授李开元（真是一个雄壮的名字）。说起来此人也算是比上不足比下有余的通俗历史读物作家，出版了一系列秦汉历史通俗读物：《秦迷》，《秦崩》，《楚亡》……<br><br>
+
+然而豆瓣上的作者页（就是从书籍页面点击作者姓名出现的作者页面）是这么介绍作者的：<br>
+<br>
+<img src="//whyhow.cf/images/likaiyuan.png" alt="">
+<br>
+是不是一股浓浓的百度百科风？然而百度现在也不是这样的排序了：<br>
+<br>
+<img src="//whyhow.cf/images/likaiyuan-bd.png" alt="">
+<br>
+百度百科的“李开元”词条里，这个搞历史的李开元排在第一个：<br>
+<br>
+<img src="//whyhow.cf/images/likaiyuan-bd2.png" alt="">
+<br>
+豆瓣真“逗”瓣！
+</div>
